@@ -1,1077 +1,1244 @@
 [
-  {
-    "cod": "ACF02",
-    "trecho": "Avenida D",
-    "cidade": "Abreu e Lima"
-  },
-  {
-    "cod": "ACV03",
-    "trecho": "Avenida D",
-    "cidade": "Abreu e Lima"
-  },
-  {
-    "cod": "ACR04",
-    "trecho": "Avenida D",
-    "cidade": "Abreu e Lima"
-  },
-  {
-    "cod": "CCV05",
-    "trecho": "Calçadão da Vila Social",
-    "cidade": "Cabo de Santo Agostinho"
-  },
-  {
-    "cod": "CCV06",
-    "trecho": "Ciclovia do Paiva",
-    "cidade": "Cabo de Santo Agostinho"
-  },
-  {
-    "cod": "CCV07",
-    "trecho": "Ciclovia Praça de Gaibu",
-    "cidade": "Cabo de Santo Agostinho"
-  },
-  {
-    "cod": "CCF08",
-    "trecho": "Ciclovia Praça de Gaibu",
-    "cidade": "Cabo de Santo Agostinho"
-  },
-  {
-    "cod": "CCV09",
-    "trecho": "PE-060",
-    "cidade": "Cabo de Santo Agostinho"
-  },
-  {
-    "cod": "CCF10",
-    "trecho": "PE-060",
-    "cidade": "Cabo de Santo Agostinho"
-  },
-  {
-    "cod": "CCF11",
-    "trecho": "Ponte do Paiva",
-    "cidade": "Cabo de Santo Agostinho"
-  },
-  {
-    "cod": "CCV12",
-    "trecho": "Ponte do Paiva",
-    "cidade": "Cabo de Santo Agostinho"
-  },
-  {
-    "cod": "CCV13",
-    "trecho": "Ramal Arena Pernambuco",
-    "cidade": "Camaragibe"
-  },
-  {
-    "cod": "CCV14",
-    "trecho": "Ramal da Copa",
-    "cidade": "Camaragibe"
-  },
-  {
-    "cod": "CCF15",
-    "trecho": "Rua Manoel Honorato da Costa",
-    "cidade": "Camaragibe"
-  },
-  {
-    "cod": "CCV16",
-    "trecho": "Rua Padre Ozeas Cavalcante",
-    "cidade": "Camaragibe"
-  },
-  {
-    "cod": "ICR17",
-    "trecho": "Ciclovia da PE-09",
-    "cidade": "Ipojuca"
-  },
-  {
-    "cod": "ICV18",
-    "trecho": "Ciclovia da PE-09",
-    "cidade": "Ipojuca"
-  },
-  {
-    "cod": "ICV19",
-    "trecho": "Ciclovia de Porto de Galinhas",
-    "cidade": "Ipojuca"
-  },
-  {
-    "cod": "ICV20",
-    "trecho": "Ciclovia de Porto de Galinhas",
-    "cidade": "Ipojuca"
-  },
-  {
-    "cod": "ICV21",
-    "trecho": "Rua Beijupirá",
-    "cidade": "Ipojuca"
-  },
-  {
-    "cod": "ICV22",
-    "trecho": "Rua da Esperança",
-    "cidade": "Ipojuca"
-  },
-  {
-    "cod": "ICV23",
-    "trecho": "Ciclovia de Maracaípe",
-    "cidade": "Ipojuca"
-  },
-  {
-    "cod": "JCV24",
-    "trecho": "Avenida Ayrton Senna da Silva",
-    "cidade": "Jaboatão dos Guararapes"
-  },
-  {
-    "cod": "JCF25",
-    "trecho": "Avenida Ayrton Senna da Silva",
-    "cidade": "Jaboatão dos Guararapes"
-  },
-  {
-    "cod": "JCV26",
-    "trecho": "Avenida Beira Mar",
-    "cidade": "Jaboatão dos Guararapes"
-  },
-  {
-    "cod": "JCF27",
-    "trecho": "Avenida Júlio César",
-    "cidade": "Jaboatão dos Guararapes"
-  },
-  {
-    "cod": "JCF28",
-    "trecho": "Avenida Presidente Castelo Branco",
-    "cidade": "Jaboatão dos Guararapes"
-  },
-  {
-    "cod": "JCV29",
-    "trecho": "Avenida Presidente Castelo Branco",
-    "cidade": "Jaboatão dos Guararapes"
-  },
-  {
-    "cod": "JCR30",
-    "trecho": "Avenida Presidente Castelo Branco",
-    "cidade": "Jaboatão dos Guararapes"
-  },
-  {
-    "cod": "JCV31",
-    "trecho": "Calçadão",
-    "cidade": "Jaboatão dos Guararapes"
-  },
-  {
-    "cod": "JCD32",
-    "trecho": "Calçadão",
-    "cidade": "Jaboatão dos Guararapes"
-  },
-  {
-    "cod": "JCV33",
-    "trecho": "Ciclorrota - Piedade/Paiva",
-    "cidade": "Jaboatão dos Guararapes"
-  },
-  {
-    "cod": "JCV34",
-    "trecho": "Ciclovia Beira Mar",
-    "cidade": "Jaboatão dos Guararapes"
-  },
-  {
-    "cod": "JCV35",
-    "trecho": "Ciclovia do Canal",
-    "cidade": "Jaboatão dos Guararapes"
-  },
-  {
-    "cod": "JCV36",
-    "trecho": "Rua do Canal",
-    "cidade": "Jaboatão dos Guararapes"
-  },
-  {
-    "cod": "JCV37",
-    "trecho": "Rua Nossa Senhora de Fátima",
-    "cidade": "Jaboatão dos Guararapes"
-  },
-  {
-    "cod": "JCV38",
-    "trecho": "Rua Padre Nestor de Alencar",
-    "cidade": "Jaboatão dos Guararapes"
-  },
-  {
-    "cod": "JCV39",
-    "trecho": "Rua Santa Mônica",
-    "cidade": "Jaboatão dos Guararapes"
-  },
-  {
-    "cod": "JCV40",
-    "trecho": "Ponte do Paiva",
-    "cidade": "Jaboatão dos Guararapes"
-  },
-  {
-    "cod": "OCV41",
-    "trecho": "Avenida Beira Mar",
-    "cidade": "Olinda"
-  },
-  {
-    "cod": "OCR42",
-    "trecho": "Avenida Beira Mar",
-    "cidade": "Olinda"
-  },
-  {
-    "cod": "OCV43",
-    "trecho": "Avenida Marginal",
-    "cidade": "Olinda"
-  },
-  {
-    "cod": "OCV44",
-    "trecho": "Ciclovia Av. Beira-Mar",
-    "cidade": "Olinda"
-  },
-  {
-    "cod": "OCV45",
-    "trecho": "Ciclovia Camilo Simões",
-    "cidade": "Olinda"
-  },
-  {
-    "cod": "OCF46",
-    "trecho": "Primeira Travessa Doutor Luiz Ramos Leal",
-    "cidade": "Olinda"
-  },
-  {
-    "cod": "OCF47",
-    "trecho": "Rua Compositor Vinícius de Morais",
-    "cidade": "Olinda"
-  },
-  {
-    "cod": "OCF48",
-    "trecho": "Rua General Labatut",
-    "cidade": "Olinda"
-  },
-  {
-    "cod": "OCR49",
-    "trecho": "Rua Recanto do Rio",
-    "cidade": "Olinda"
-  },
-  {
-    "cod": "OCF50",
-    "trecho": "Rua Rio Beberibe",
-    "cidade": "Olinda"
-  },
-  {
-    "cod": "OCV51",
-    "trecho": "Rua Rio Beberibe",
-    "cidade": "Olinda"
-  },
-  {
-    "cod": "OCV52",
-    "trecho": "PE-060",
-    "cidade": "Olinda"
-  },
-  {
-    "cod": "PCV53",
-    "trecho": "Avenida Antônio Cabral de Souza",
-    "cidade": "Paulista"
-  },
-  {
-    "cod": "PCV54",
-    "trecho": "Ciclovia da PE-15",
-    "cidade": "Paulista"
-  },
-  {
-    "cod": "PCV55",
-    "trecho": "PE-060",
-    "cidade": "Paulista"
-  },
-  {
-    "cod": "SCV56",
-    "trecho": "Avenida Deus é Fiel",
-    "cidade": "São Lourenço da Mata"
-  },
-  {
-    "cod": "SCF57",
-    "trecho": "Ciclofaixa Arena",
-    "cidade": "São Lourenço da Mata"
-  },
-  {
-    "cod": "SCV58",
-    "trecho": "Ciclovia da Arena de Pernambuco",
-    "cidade": "São Lourenço da Mata"
-  },
-  {
-    "cod": "SCV59",
-    "trecho": "Residencial São Lourenço",
-    "cidade": "São Lourenço da Mata"
-  },
-  {
-    "cod": "CV001",
-    "trecho": "Ciclovia Norte",
-    "cidade": "Recife"
-  },
-  {
-    "cod": "CF033",
-    "trecho": "Ciclovia Jornalista Graça Araújo (2a etapa)",
-    "cidade": "Recife"
-  },
-  {
-    "cod": "CR033",
-    "trecho": "Ciclovia Jornalista Graça Araújo (2a etapa)",
-    "cidade": "Recife"
-  },
-  {
-    "cod": "CF053",
-    "trecho": "Ciclofaixa Hospício",
-    "cidade": "Recife"
-  },
-  {
-    "cod": "CF062",
-    "trecho": "Rota Josias de Albuquerque (2a etapa)",
-    "cidade": "Recife"
-  },
-  {
-    "cod": "CR062",
-    "trecho": "Rota Josias de Albuquerque (2a etapa)",
-    "cidade": "Recife"
-  },
-  {
-    "cod": "CF028",
-    "trecho": "Rota Ilha do Leite",
-    "cidade": "Recife"
-  },
-  {
-    "cod": "CR028",
-    "trecho": "Rota Ilha do Leite",
-    "cidade": "Recife"
-  },
-  {
-    "cod": "CF036",
-    "trecho": "Ciclofaixa Boa Vista (3a etapa)",
-    "cidade": "Recife"
-  },
-  {
-    "cod": "AC036",
-    "trecho": "Ciclofaixa Boa Vista (3a etapa)",
-    "cidade": "Recife"
-  },
-  {
-    "cod": "CF049",
-    "trecho": "Ciclofaixa Boa Vista (4a etapa)",
-    "cidade": "Recife"
-  },
-  {
-    "cod": "CF063",
-    "trecho": "Ciclofaixa Nunes Machado",
-    "cidade": "Recife"
-  },
-  {
-    "cod": "CF074",
-    "trecho": "Ciclofaixa Padre Inglês",
-    "cidade": "Recife"
-  },
-  {
-    "cod": "CF075",
-    "trecho": "Ciclofaixa Paissandu",
-    "cidade": "Recife"
-  },
-  {
-    "cod": "CR075",
-    "trecho": "Ciclofaixa Paissandu",
-    "cidade": "Recife"
-  },
-  {
-    "cod": "CF008",
-    "trecho": "Ciclofaixa Arquiteto Luiz Nunes",
-    "cidade": "Recife"
-  },
-  {
-    "cod": "CR008",
-    "trecho": "Ciclofaixa Arquiteto Luiz Nunes",
-    "cidade": "Recife"
-  },
-  {
-    "cod": "CF016",
-    "trecho": "Ciclofaixa Jardim São Paulo",
-    "cidade": "Recife"
-  },
-  {
-    "cod": "CR016",
-    "trecho": "Ciclofaixa Jardim São Paulo",
-    "cidade": "Recife"
-  },
-  {
-    "cod": "CF077",
-    "trecho": "Ciclofaixa Jardim São Paulo (2a etapa)",
-    "cidade": "Recife"
-  },
-  {
-    "cod": "CR077",
-    "trecho": "Ciclofaixa Jardim São Paulo (2a etapa)",
-    "cidade": "Recife"
-  },
-  {
-    "cod": "CF004",
-    "trecho": "Ciclofaixa Brasília Teimosa",
-    "cidade": "Recife"
-  },
-  {
-    "cod": "CR004",
-    "trecho": "Ciclofaixa Brasília Teimosa",
-    "cidade": "Recife"
-  },
-  {
-    "cod": "CV050",
-    "trecho": "Rota Joana Bezerra",
-    "cidade": "Recife"
-  },
-  {
-    "cod": "CF020",
-    "trecho": "Ciclofaixa Ponto de Parada",
-    "cidade": "Recife"
-  },
-  {
-    "cod": "CF022",
-    "trecho": "Rota Othon Paraíso",
-    "cidade": "Recife"
-  },
-  {
-    "cod": "CR022",
-    "trecho": "Rota Othon Paraíso",
-    "cidade": "Recife"
-  },
-  {
-    "cod": "CF046",
-    "trecho": "Ciclofaixa Rosarinho",
-    "cidade": "Recife"
-  },
-  {
-    "cod": "CR046",
-    "trecho": "Ciclofaixa Rosarinho",
-    "cidade": "Recife"
-  },
-  {
-    "cod": "CF051",
-    "trecho": "Ciclofaixa Correia de Brito",
-    "cidade": "Recife"
-  },
-  {
-    "cod": "CF059",
-    "trecho": "Ciclofaixa Hipódromo",
-    "cidade": "Recife"
-  },
-  {
-    "cod": "CR059",
-    "trecho": "Ciclofaixa Hipódromo",
-    "cidade": "Recife"
-  },
-  {
-    "cod": "CF072",
-    "trecho": "Ciclofaixa Francisco Trindade",
-    "cidade": "Recife"
-  },
-  {
-    "cod": "CF038",
-    "trecho": "Rota Sebastião Salazar",
-    "cidade": "Recife"
-  },
-  {
-    "cod": "CR038",
-    "trecho": "Rota Sebastião Salazar",
-    "cidade": "Recife"
-  },
-  {
-    "cod": "CF043",
-    "trecho": "Ciclofaixa Beberibe",
-    "cidade": "Recife"
-  },
-  {
-    "cod": "CF026",
-    "trecho": "Rota Afonso Olindense",
-    "cidade": "Recife"
-  },
-  {
-    "cod": "CR026",
-    "trecho": "Rota Afonso Olindense",
-    "cidade": "Recife"
-  },
-  {
-    "cod": "AC026",
-    "trecho": "Rota Afonso Olindense",
-    "cidade": "Recife"
-  },
-  {
-    "cod": "CF070",
-    "trecho": "Ciclofaixa Lindolfo Collor",
-    "cidade": "Recife"
-  },
-  {
-    "cod": "CR070",
-    "trecho": "Ciclofaixa Lindolfo Collor",
-    "cidade": "Recife"
-  },
-  {
-    "cod": "CV003",
-    "trecho": "Ciclovia Orla",
-    "cidade": "Recife"
-  },
-  {
-    "cod": "CF032",
-    "trecho": "Rota Josias de Albuquerque (1a etapa)",
-    "cidade": "Recife"
-  },
-  {
-    "cod": "CR032",
-    "trecho": "Rota Josias de Albuquerque (1a etapa)",
-    "cidade": "Recife"
-  },
-  {
-    "cod": "CF009",
-    "trecho": "Rota Marquês de Abrantes",
-    "cidade": "Recife"
-  },
-  {
-    "cod": "CR009",
-    "trecho": "Rota Marquês de Abrantes",
-    "cidade": "Recife"
-  },
-  {
-    "cod": "CF007",
-    "trecho": "Ciclofaixa Binário de Casa Amarela Arraial x Encanamento",
-    "cidade": "Recife"
-  },
-  {
-    "cod": "CF042",
-    "trecho": "Rota Parque Macaxeira",
-    "cidade": "Recife"
-  },
-  {
-    "cod": "CR042",
-    "trecho": "Rota Parque Macaxeira",
-    "cidade": "Recife"
-  },
-  {
-    "cod": "AC042",
-    "trecho": "Rota Parque Macaxeira",
-    "cidade": "Recife"
-  },
-  {
-    "cod": "CF045",
-    "trecho": "Ciclofaixa Ferreira Lopes e Paula Batista",
-    "cidade": "Recife"
-  },
-  {
-    "cod": "CF076",
-    "trecho": "Ciclofaixa Marquês do Paraná",
-    "cidade": "Recife"
-  },
-  {
-    "cod": "CR076",
-    "trecho": "Ciclofaixa Marquês do Paraná",
-    "cidade": "Recife"
-  },
-  {
-    "cod": "CF078",
-    "trecho": "Ciclofaixa Harmonia",
-    "cidade": "Recife"
-  },
-  {
-    "cod": "CR078",
-    "trecho": "Ciclofaixa Harmonia",
-    "cidade": "Recife"
-  },
-  {
-    "cod": "CF079",
-    "trecho": "Ciclofaixa Padre Lemos",
-    "cidade": "Recife"
-  },
-  {
-    "cod": "CR079",
-    "trecho": "Ciclofaixa Padre Lemos",
-    "cidade": "Recife"
-  },
-  {
-    "cod": "CV080",
-    "trecho": "Ciclovia Agamenon Magalhães",
-    "cidade": "Recife"
-  },
-  {
-    "cod": "AC080",
-    "trecho": "Ciclovia Agamenon Magalhães",
-    "cidade": "Recife"
-  },
-  {
-    "cod": "CV021",
-    "trecho": "Ciclovia Professor José dos Anjos",
-    "cidade": "Recife"
-  },
-  {
-    "cod": "CF021",
-    "trecho": "Ciclofaixa Professor José dos Anjos",
-    "cidade": "Recife"
-  },
-  {
-    "cod": "CV015",
-    "trecho": "Rota Eixo Estruturador Cicloviário Camilo Simões",
-    "cidade": "Recife"
-  },
-  {
-    "cod": "CF015",
-    "trecho": "Rota Eixo Estruturador Cicloviário Camilo Simões",
-    "cidade": "Recife"
-  },
-  {
-    "cod": "AC015",
-    "trecho": "Rota Eixo Estruturador Cicloviário Camilo Simões",
-    "cidade": "Recife"
-  },
-  {
-    "cod": "CV027",
-    "trecho": "Ciclovia Jornalista Graça Araújo (1a etapa)",
-    "cidade": "Recife"
-  },
-  {
-    "cod": "CF027",
-    "trecho": "Ciclofaixa Jornalista Graça Araújo (1a etapa)",
-    "cidade": "Recife"
-  },
-  {
-    "cod": "AC027",
-    "trecho": "Ciclofaixa Jornalista Graça Araújo (1a etapa)",
-    "cidade": "Recife"
-  },
-  {
-    "cod": "CF047",
-    "trecho": "Rota Othon Paraíso (2a etapa)",
-    "cidade": "Recife"
-  },
-  {
-    "cod": "CR047",
-    "trecho": "Rota Othon Paraíso (2a etapa)",
-    "cidade": "Recife"
-  },
-  {
-    "cod": "AC047",
-    "trecho": "Rota Othon Paraíso (2a etapa)",
-    "cidade": "Recife"
-  },
-  {
-    "cod": "CF064",
-    "trecho": "Ciclofaixa João de Barros",
-    "cidade": "Recife"
-  },
-  {
-    "cod": "CF031",
-    "trecho": "Ciclofaixa Boa Vista (1a etapa)",
-    "cidade": "Recife"
-  },
-  {
-    "cod": "CR031",
-    "trecho": "Ciclofaixa Boa Vista (1a etapa)",
-    "cidade": "Recife"
-  },
-  {
-    "cod": "CF034",
-    "trecho": "Ciclofaixa Boa Vista (2a etapa)",
-    "cidade": "Recife"
-  },
-  {
-    "cod": "CR034",
-    "trecho": "Ciclofaixa Boa Vista (2a etapa)",
-    "cidade": "Recife"
-  },
-  {
-    "cod": "CF057",
-    "trecho": "Ciclofaixa Santo Antônio",
-    "cidade": "Recife"
-  },
-  {
-    "cod": "AC057",
-    "trecho": "Ciclofaixa Santo Antônio",
-    "cidade": "Recife"
-  },
-  {
-    "cod": "CF068",
-    "trecho": "Ciclofaixa Pista Local da Agamenon",
-    "cidade": "Recife"
-  },
-  {
-    "cod": "CR068",
-    "trecho": "Ciclofaixa Pista Local da Agamenon",
-    "cidade": "Recife"
-  },
-  {
-    "cod": "CF069",
-    "trecho": "Ciclofaixa Rua da Saudade",
-    "cidade": "Recife"
-  },
-  {
-    "cod": "CR069",
-    "trecho": "Ciclofaixa Rua da Saudade",
-    "cidade": "Recife"
-  },
-  {
-    "cod": "CF002",
-    "trecho": "Ciclofaixa do Cavouco",
-    "cidade": "Recife"
-  },
-  {
-    "cod": "CR002",
-    "trecho": "Ciclofaixa do Cavouco",
-    "cidade": "Recife"
-  },
-  {
-    "cod": "CF005",
-    "trecho": "Rota Tiradentes",
-    "cidade": "Recife"
-  },
-  {
-    "cod": "CR005",
-    "trecho": "Rota Tiradentes",
-    "cidade": "Recife"
-  },
-  {
-    "cod": "CF010",
-    "trecho": "Ciclofaixa Antônio Curado",
-    "cidade": "Recife"
-  },
-  {
-    "cod": "CR010",
-    "trecho": "Ciclofaixa Antônio Curado",
-    "cidade": "Recife"
-  },
-  {
-    "cod": "CF011",
-    "trecho": "Ciclofaixa Inácio Monteiro",
-    "cidade": "Recife"
-  },
-  {
-    "cod": "CR011",
-    "trecho": "Ciclofaixa Inácio Monteiro",
-    "cidade": "Recife"
-  },
-  {
-    "cod": "CR017",
-    "trecho": "Rota Compaz Ariano Suassuna",
-    "cidade": "Recife"
-  },
-  {
-    "cod": "CF018",
-    "trecho": "Ciclofaixa Estrada do Bongi",
-    "cidade": "Recife"
-  },
-  {
-    "cod": "CR018",
-    "trecho": "Ciclofaixa Estrada do Bongi",
-    "cidade": "Recife"
-  },
-  {
-    "cod": "CF025",
-    "trecho": "Ciclofaixa Maurício de Nassau",
-    "cidade": "Recife"
-  },
-  {
-    "cod": "CR025",
-    "trecho": "Ciclofaixa Maurício de Nassau",
-    "cidade": "Recife"
-  },
-  {
-    "cod": "CF041",
-    "trecho": "Ciclofaixa Historiador Jordão Emerenciano",
-    "cidade": "Recife"
-  },
-  {
-    "cod": "CR041",
-    "trecho": "Ciclofaixa Historiador Jordão Emerenciano",
-    "cidade": "Recife"
-  },
-  {
-    "cod": "CF044",
-    "trecho": "Rota Parque Caiara",
-    "cidade": "Recife"
-  },
-  {
-    "cod": "CR044",
-    "trecho": "Rota Parque Caiara",
-    "cidade": "Recife"
-  },
-  {
-    "cod": "CF065",
-    "trecho": "Ciclofaixa Torre",
-    "cidade": "Recife"
-  },
-  {
-    "cod": "CR065",
-    "trecho": "Ciclofaixa Torre",
-    "cidade": "Recife"
-  },
-  {
-    "cod": "CF071",
-    "trecho": "Ciclofaixa Emiliano Braga",
-    "cidade": "Recife"
-  },
-  {
-    "cod": "CR071",
-    "trecho": "Ciclofaixa Emiliano Braga",
-    "cidade": "Recife"
-  },
-  {
-    "cod": "CR073",
-    "trecho": "Ciclofaixa Torre (2a etapa)",
-    "cidade": "Recife"
-  },
-  {
-    "cod": "AC073",
-    "trecho": "Ciclofaixa Torre (2a etapa)",
-    "cidade": "Recife"
-  },
-  {
-    "cod": "CR081",
-    "trecho": "Ciclorrota Gomes Taborda",
-    "cidade": "Recife"
-  },
-  {
-    "cod": "CF060",
-    "trecho": "Ciclofaixa CDU/UFPE",
-    "cidade": "Recife"
-  },
-  {
-    "cod": "CR060",
-    "trecho": "Ciclofaixa CDU/UFPE",
-    "cidade": "Recife"
-  },
-  {
-    "cod": "AC060",
-    "trecho": "Ciclofaixa CDU/UFPE",
-    "cidade": "Recife"
-  },
-  {
-    "cod": "CF054",
-    "trecho": "Ciclofaixa Padre Roma",
-    "cidade": "Recife"
-  },
-  {
-    "cod": "AC054",
-    "trecho": "Ciclofaixa Padre Roma",
-    "cidade": "Recife"
-  },
-  {
-    "cod": "CF056",
-    "trecho": "Ciclofaixa Rua Amélia",
-    "cidade": "Recife"
-  },
-  {
-    "cod": "CR056",
-    "trecho": "Ciclofaixa Rua Amélia",
-    "cidade": "Recife"
-  },
-  {
-    "cod": "CF061",
-    "trecho": "Ciclofaixa Rua do Futuro",
-    "cidade": "Recife"
-  },
-  {
-    "cod": "CR061",
-    "trecho": "Ciclofaixa Rua do Futuro",
-    "cidade": "Recife"
-  },
-  {
-    "cod": "CR067",
-    "trecho": "Rota Parque das Graças",
-    "cidade": "Recife"
-  },
-  {
-    "cod": "AC067",
-    "trecho": "Rota Parque das Graças",
-    "cidade": "Recife"
-  },
-  {
-    "cod": "CV006",
-    "trecho": "Ciclovia Shopping",
-    "cidade": "Recife"
-  },
-  {
-    "cod": "CF012",
-    "trecho": "Ciclofaixa Antônio Falcão",
-    "cidade": "Recife"
-  },
-  {
-    "cod": "CR012",
-    "trecho": "Ciclofaixa Antônio Falcão",
-    "cidade": "Recife"
-  },
-  {
-    "cod": "CV013",
-    "trecho": "Ciclovia Via Mangue",
-    "cidade": "Recife"
-  },
-  {
-    "cod": "CF013",
-    "trecho": "Ciclofaixa Via Mangue",
-    "cidade": "Recife"
-  },
-  {
-    "cod": "CR013",
-    "trecho": "Ciclofaixa Via Mangue",
-    "cidade": "Recife"
-  },
-  {
-    "cod": "CF014",
-    "trecho": "Ciclofaixa Jardim Beira Rio",
-    "cidade": "Recife"
-  },
-  {
-    "cod": "CR014",
-    "trecho": "Ciclofaixa Jardim Beira Rio",
-    "cidade": "Recife"
-  },
-  {
-    "cod": "CF019",
-    "trecho": "Rota Setúbal (1a etapa)",
-    "cidade": "Recife"
-  },
-  {
-    "cod": "CR019",
-    "trecho": "Rota Setúbal (1a etapa)",
-    "cidade": "Recife"
-  },
-  {
-    "cod": "CF023",
-    "trecho": "Ciclofaixa Visconde de Jequitinhonha (1a etapa)",
-    "cidade": "Recife"
-  },
-  {
-    "cod": "CR023",
-    "trecho": "Ciclofaixa Visconde de Jequitinhonha (1a etapa)",
-    "cidade": "Recife"
-  },
-  {
-    "cod": "CF024",
-    "trecho": "Rota Professor João Medeiros",
-    "cidade": "Recife"
-  },
-  {
-    "cod": "CR024",
-    "trecho": "Rota Professor João Medeiros",
-    "cidade": "Recife"
-  },
-  {
-    "cod": "CF029",
-    "trecho": "Ciclofaixa Visconde de Jequitinhonha (2a etapa)",
-    "cidade": "Recife"
-  },
-  {
-    "cod": "CR029",
-    "trecho": "Ciclofaixa Visconde de Jequitinhonha (2a etapa)",
-    "cidade": "Recife"
-  },
-  {
-    "cod": "CF030",
-    "trecho": "Rota Setúbal (2a etapa)",
-    "cidade": "Recife"
-  },
-  {
-    "cod": "CR030",
-    "trecho": "Rota Setúbal (2a etapa)",
-    "cidade": "Recife"
-  },
-  {
-    "cod": "CF037",
-    "trecho": "Rota Geraldão",
-    "cidade": "Recife"
-  },
-  {
-    "cod": "CR037",
-    "trecho": "Rota Geraldão",
-    "cidade": "Recife"
-  },
-  {
-    "cod": "AC037",
-    "trecho": "Rota Geraldão",
-    "cidade": "Recife"
-  },
-  {
-    "cod": "CF040",
-    "trecho": "Ciclofaixa Pinheiros",
-    "cidade": "Recife"
-  },
-  {
-    "cod": "CR040",
-    "trecho": "Ciclofaixa Pinheiros",
-    "cidade": "Recife"
-  },
-  {
-    "cod": "CF048",
-    "trecho": "Ciclofaixa Paris",
-    "cidade": "Recife"
-  },
-  {
-    "cod": "CR048",
-    "trecho": "Ciclofaixa Paris",
-    "cidade": "Recife"
-  },
-  {
-    "cod": "CF052",
-    "trecho": "Ciclofaixa Antônio Falcão (2a Etapa)",
-    "cidade": "Recife"
-  },
-  {
-    "cod": "CR052",
-    "trecho": "Ciclofaixa Antônio Falcão (2a Etapa)",
-    "cidade": "Recife"
-  },
-  {
-    "cod": "AC052",
-    "trecho": "Ciclofaixa Antônio Falcão (2a Etapa)",
-    "cidade": "Recife"
-  },
-  {
-    "cod": "CV066",
-    "trecho": "Ciclovia Bruno Veloso",
-    "cidade": "Recife"
-  },
-  {
-    "cod": "CF066",
-    "trecho": "Ciclofaixa Bruno Veloso",
-    "cidade": "Recife"
-  },
-  {
-    "cod": "AC066",
-    "trecho": "Ciclofaixa Bruno Veloso",
-    "cidade": "Recife"
-  },
-  {
-    "cod": "CV035",
-    "trecho": "Ciclovia Ibura",
-    "cidade": "Recife"
-  },
-  {
-    "cod": "CF035",
-    "trecho": "Ciclofaixa Ibura",
-    "cidade": "Recife"
-  },
-  {
-    "cod": "CR035",
-    "trecho": "Ciclofaixa Ibura",
-    "cidade": "Recife"
-  },
-  {
-    "cod": "AC035",
-    "trecho": "Ciclofaixa Ibura",
-    "cidade": "Recife"
-  },
-  {
-    "cod": "CF039",
-    "trecho": "Ciclofaixa Júlio César",
-    "cidade": "Recife"
-  },
-  {
-    "cod": "CR039",
-    "trecho": "Ciclofaixa Júlio César",
-    "cidade": "Recife"
-  },
-  {
-    "cod": "CV055",
-    "trecho": "Rota Dom Helder Câmara",
-    "cidade": "Recife"
-  },
-  {
-    "cod": "CF055",
-    "trecho": "Rota Dom Helder Câmara",
-    "cidade": "Recife"
-  },
-  {
-    "cod": "CR055",
-    "trecho": "Rota Dom Helder Câmara",
-    "cidade": "Recife"
-  },
-  {
-    "cod": "AC055",
-    "trecho": "Rota Dom Helder Câmara",
-    "cidade": "Recife"
-  }
+    {
+        "dupla": "1",
+        "cod": "CV015, CF015, AC015",
+        "rota": "Rota Eixo Estruturador Cicloviário Camilo Simões",
+        "tipologia": "CICLOVIA, CICLOFAIXA, ÁREA COMPARTILHADA",
+        "trecho": "Ponte Buarque de Macedo, Praça da República, Ponte Princesa Izabel, Rua da Aurora, Av. Prefeito Artur Lima Cavalcanti, Av. Dr.\nJayme da Fonte, Pontilhão da Av. Gov. Agamenon Magalhães, Pista local da Av. Gov. Agamenon Magalhães, Fábrica\nTacaruna.",
+        "bairro": "Bairro do Recife, Santo Antônio, Santo Amaro, Campo Grande.",
+        "extensao_km": "5,1"
+    },
+    {
+        "dupla": "1",
+        "cod": "CV027",
+        "rota": "Ciclovia Jornalista Graça Araújo (1a\netapa)",
+        "tipologia": "CICLOVIA",
+        "trecho": "Av. Mário Melo e Rua dos Palmares.",
+        "bairro": "Santo Amaro",
+        "extensao_km": "2,8"
+    },
+    {
+        "dupla": "1",
+        "cod": "CF033, CR033",
+        "rota": "Ciclovia Jornalista Graça Araújo (2a etapa)",
+        "tipologia": "CICLOFAIXA, CICLORROTA",
+        "trecho": "Rua dos Palmares, após o término da Ciclovia Graça Araújo e seguirá à direita na mesma via para acessar a Rua Álvares de Azevedo, Rua Dr. Leopoldo Lins, Av. Montevidéu até Rua Buenos Aires. Rua Monte Castelo, faixa de retorno da\nAv. João de Barros.",
+        "bairro": "Santo Amaro, Boa Vista",
+        "extensao_km": "1,4"
+    },
+    {
+        "dupla": "1",
+        "cod": "CF047, CR047, AC047",
+        "rota": "Rota Othon Paraíso (2a etapa)",
+        "tipologia": "CICLOFAIXA, CICLORROTA, ÁREA COMPARTILHADA",
+        "trecho": "Pista Local Av. Gov. Agamenon Magalhães (ambos os lados).",
+        "bairro": "Santo Amaro, Torreão",
+        "extensao_km": "1,0"
+    },
+    {
+        "dupla": "1",
+        "cod": "CF053",
+        "rota": "Ciclofaixa Hospício",
+        "tipologia": "CICLOFAIXA",
+        "trecho": "Rua do Hospício entre a Rua do Riachuelo e Av. Mário Melo.",
+        "bairro": "Santo Amaro",
+        "extensao_km": "1,0"
+    },
+    {
+        "dupla": "1",
+        "cod": "CF062, CR062",
+        "rota": "Rota Josias de Albuquerque (2a etapa)",
+        "tipologia": "CICLOFAIXA, CICLORROTA",
+        "trecho": "Rua Treze de Maio, Rua Buarque de Macêdo, Rua Leão Falcão e Rua Barão de\nIgarassu.",
+        "bairro": "Santo Amaro",
+        "extensao_km": "1,0"
+    },
+    {
+        "dupla": "1",
+        "cod": "CF064",
+        "rota": "Ciclofaixa João de Barros",
+        "tipologia": "CICLOFAIXA",
+        "trecho": "Rua dos Palmares, Rua Dr. Carlos Chagas e Av. João de Barros até a Ponte João de\nBarros.",
+        "bairro": "Santo Amaro",
+        "extensao_km": "1,0"
+    },
+    {
+        "dupla": "1",
+        "cod": "CF028, CR028",
+        "rota": "Rota Ilha do Leite",
+        "tipologia": "CICLOFAIXA, CICLORROTA",
+        "trecho": "Rua Francisco Alves, Praça Miguel de Cervantes, Rua Estado do Israel, Rua Jornalista Trajano Chacon, Rua Frei Matias Tevis, Rua Senador José Henrique, Rua Antônio Gomes de\nFreitas.",
+        "bairro": "Ilha do Leite, Coelhos",
+        "extensao_km": 262
+    },
+    {
+        "dupla": "1",
+        "cod": "CF031",
+        "rota": "Ciclofaixa Boa Vista (1a etapa)",
+        "tipologia": "CICLOFAIXA",
+        "trecho": "Rua da Aurora.",
+        "bairro": "Boa Vista, Santo Amaro",
+        "extensao_km": "0,4"
+    },
+    {
+        "dupla": "1",
+        "cod": "CF034, CR034",
+        "rota": "Ciclofaixa Boa Vista (2a etapa)",
+        "tipologia": "CICLOFAIXA, CICLORROTA",
+        "trecho": "Rua João Fernandes Vieira, Av. Oliveira Lima e Rua do Riachuelo.",
+        "bairro": "Boa Vista, Soledade",
+        "extensao_km": "1,6"
+    },
+    {
+        "dupla": "1",
+        "cod": "CF036, AC036",
+        "rota": "Ciclofaixa Boa Vista (3a etapa)",
+        "tipologia": "CICLOFAIXA, ÁREA COMPARTILHADA",
+        "trecho": "Rua Bispo Cardoso Ayres e Beco do Estudante. Rua João Fernandes Vieira até a Av. Montevidéu e Rua Joaquim Felipe e Av. João de Barros até a Rua Monte\nCastelo.",
+        "bairro": "Boa Vista, Santo Amaro, Soledade",
+        "extensao_km": "2,4"
+    },
+    {
+        "dupla": "1",
+        "cod": "CF049",
+        "rota": "Ciclofaixa Boa Vista (4a etapa)",
+        "tipologia": "CICLOFAIXA",
+        "trecho": "Rua José de Alencar.",
+        "bairro": "Boa Vista, Ilha do Leite, Coelhos",
+        "extensao_km": "1,0"
+    },
+    {
+        "dupla": "1",
+        "cod": "CF057, AC057",
+        "rota": "Ciclofaixa Santo Antônio",
+        "tipologia": "CICLOFAIXA, ÁREA COMPARTILHADA",
+        "trecho": "Rua do Hospício, Rua Imperatriz Tereza Cristina, Ponte Boa Vista, Rua Nova, Praça da Independência e Rua Primeiro de Março.",
+        "bairro": "Boa Vista, Santo Antônio",
+        "extensao_km": "1,0"
+    },
+    {
+        "dupla": "1",
+        "cod": "CV063, CF063",
+        "rota": "Ciclofaixa Nunes Machado",
+        "tipologia": "CICLOVIA, CICLOFAIXA",
+        "trecho": "Rua da Soledade, Rua Nunes Machado e Av. João de Barros até a Rua Joaquim Felipe.",
+        "bairro": "Soledade",
+        "extensao_km": "0,5"
+    },
+    {
+        "dupla": "1",
+        "cod": "CF068",
+        "rota": "Ciclofaixa Pista Local da Agamenon",
+        "tipologia": "CICLOFAIXA",
+        "trecho": "Pista Local Av. Gov. Agamenon Magalhães.",
+        "bairro": "Boa Vista, Santo Amaro",
+        "extensao_km": "1,0"
+    },
+    {
+        "dupla": "1",
+        "cod": "CF069, CR069",
+        "rota": "Ciclofaixa Rua da Saudade",
+        "tipologia": "CICLOFAIXA, CICLORROTA",
+        "trecho": "Rua da Saudade.",
+        "bairro": "Boa Vista",
+        "extensao_km": "1,0"
+    },
+    {
+        "dupla": "1",
+        "cod": "CF074",
+        "rota": "Ciclofaixa Padre Inglês",
+        "tipologia": "CICLOFAIXA",
+        "trecho": "Rua Padre Inglês.",
+        "bairro": "Boa Vista",
+        "extensao_km": "0,5"
+    },
+    {
+        "dupla": "1",
+        "cod": "CF075, CR075",
+        "rota": "Ciclofaixa Paissandu",
+        "tipologia": "CICLOFAIXA, CICLORROTA",
+        "trecho": "Rua Paissandu, Rua Dom Bosco, Rua Visconde de Goiana até a Rua José de Alencar. Rua Barão de São Borja, Rua Rosário da Boa Vista, Rua do Aragão, Rua da Matriz, Rua Velha, Rua Dr. José Mariano até a Ponte Duarte Coelho. Praça Joaquim Nabuco, Rua Floriano Peixoto, Travessa do Cais da Detenção e\nPonte Seis de Março.",
+        "bairro": "Boa Vista",
+        "extensao_km": "4,2"
+    },
+    {
+        "dupla": "1",
+        "cod": "CF008, CR008",
+        "rota": "Ciclofaixa Arquiteto Luiz Nunes",
+        "tipologia": "CICLOFAIXA, CICLORROTA",
+        "trecho": "Rua Visconde de Pelotas, Rua Santos Araújo, Rua Quitério Inácio de Mello, Rua Augusto Calheiros, Ponte Gilberto Freyre, Rua Arquiteto Luiz Nunes, Rua Eng. José Brandão Cavalcante, Lagoa do\nAraçá.",
+        "bairro": "Afogados, Imbiribeira",
+        "extensao_km": "3,5"
+    },
+    {
+        "dupla": "1",
+        "cod": "CF016, CR016",
+        "rota": "Ciclofaixa Jardim São Paulo",
+        "tipologia": "CICLOFAIXA, CICLORROTA",
+        "trecho": "Rua Comendador Franco Ferreira, Rua Prof. Silvio da Cunha Santos, Av. General San Martin, Av. João Cabral de Melo Neto, Rua Senador Alberto Pasqualini, Praça\nde Jardim São Paulo.",
+        "bairro": "San Martin, Jiquiá, Estância, Jardim São Paulo",
+        "extensao_km": "1,9"
+    },
+    {
+        "dupla": "1",
+        "cod": "CF077, CR077",
+        "rota": "Ciclofaixa Jardim São Paulo (2a etapa)",
+        "tipologia": "CICLOFAIXA, CICLORROTA",
+        "trecho": "Rua Major Godofredo Luiz Pereira de Lima, Rua Professor Pedro Augusto, Rua Carlos Alberto Valença\ne Via Marginal ao Rio Jiquiá.",
+        "bairro": "Jardim São Paulo",
+        "extensao_km": "1,0"
+    },
+    {
+        "dupla": "1",
+        "cod": "CF004, CR004",
+        "rota": "Ciclofaixa Brasília Teimosa",
+        "tipologia": "CICLOFAIXA, CICLORROTA",
+        "trecho": "Início no cruzamento da Av. Boa Viagem com a Av.\nAntônio de Góes, Rua Comendador Moraes, Rua do Jaú, Rua Marechal Hermes, Av. Brasília Formosa e finaliza a 44 metros antes da Rua da\nEsperança.",
+        "bairro": "Pina, Brasília Teimosa",
+        "extensao_km": 141
+    },
+    {
+        "dupla": "2",
+        "cod": "CF002",
+        "rota": "Ciclofaixa do Cavouco",
+        "tipologia": "CICLOFAIXA",
+        "trecho": "Início na Av. Caxangá com a Av. Mário Álvares Pereira de Lyra, Av. Mário Álvares Pereira de Lyra, Rua Manoel Estevão da Costa e Av. Mário Álvares de Lyra.",
+        "bairro": "Cordeiro, Iputinga",
+        "extensao_km": "2,3"
+    },
+    {
+        "dupla": "2",
+        "cod": "CF005, CR005",
+        "rota": "Rota Tiradentes",
+        "tipologia": "CICLOFAIXA, CICLORROTA",
+        "trecho": "Estrada do Forte do Arraial Novo do Bom Jesus, Rua Delmiro Gouveia, Rua Arsênio Calaça, Rua José Veloso, Rua Comendador Franco Ferreira e Rua Vinte\ne Um de Abril.",
+        "bairro": "Cordeiro, Torrões, San Martin, Mangueira, Mustardinha, Afogados",
+        "extensao_km": "5,6"
+    },
+    {
+        "dupla": "2",
+        "cod": "CF010, CR010",
+        "rota": "Ciclofaixa Antônio Curado",
+        "tipologia": "CICLOFAIXA, CICLORROTA",
+        "trecho": "Rua Gaspar Perez, Rua Mauricéia no cruzamento com a BR-101, segue pela Rua Manoel Estevão da Costa, Rua Antônio Curado e Rua José dos Santos.",
+        "bairro": "Iputinga, Engenho do Meio, Cidade Universitária",
+        "extensao_km": "3,2"
+    },
+    {
+        "dupla": "2",
+        "cod": "CF011, CR011",
+        "rota": "Ciclofaixa Inácio Monteiro",
+        "tipologia": "CICLOFAIXA, CICLORROTA",
+        "trecho": "Rua Professor Joaquim Xavier de Brito, Av. Inácio Monteiro e Rua Dr. Miguel Vieira Ferreira até a Estrada do Forte.",
+        "bairro": "Cordeiro",
+        "extensao_km": "2,4"
+    },
+    {
+        "dupla": "2",
+        "cod": "CR017",
+        "rota": "Rota Compaz Ariano Suassuna",
+        "tipologia": "CICLORROTA",
+        "trecho": "Rua Tamboril, Rua Tijucas, Rua Capitão Francisco Barreiras, Rua Capitão Antônio Dias e Pista Local Av. Eng. Abdias de\nCarvalho.",
+        "bairro": "Cordeiro",
+        "extensao_km": "0,65"
+    },
+    {
+        "dupla": "2",
+        "cod": "CF018, CR018",
+        "rota": "Ciclofaixa Estrada do Bongi",
+        "tipologia": "CICLOFAIXA, CICLORROTA",
+        "trecho": "Rua Carlos Gomes, Estrada do Bongi, Rua Pedro Américo, Rua Isaac Markman, Rua Itapemirim e Rua Cônsul Vilares Fragoso.",
+        "bairro": "Prado, Bongi, San Martin",
+        "extensao_km": "2,7"
+    },
+    {
+        "dupla": "2",
+        "cod": "CF025",
+        "rota": "Ciclofaixa Maurício de Nassau",
+        "tipologia": "CICLOFAIXA",
+        "trecho": "Rua Dr. João Lacerda, Av. Maurício de Nassau, Rua Nossa Senhora da Saúde e Av. Inácio Monteiro",
+        "bairro": "Cordeiro, Iputinga",
+        "extensao_km": "3,0"
+    },
+    {
+        "dupla": "2",
+        "cod": "CF041",
+        "rota": "Ciclofaixa Historiador Jordão Emerenciano",
+        "tipologia": "CICLOFAIXA",
+        "trecho": "Av. Luiz de Lacerda, Av. Historiador Jordão Emerenciano e Rua Ministro João Alberto.",
+        "bairro": "Iputinga, Caxangá",
+        "extensao_km": "1,8"
+    },
+    {
+        "dupla": "2",
+        "cod": "CF044, CR044",
+        "rota": "Rota Parque Caiara",
+        "tipologia": "CICLOFAIXA, CICLORROTA",
+        "trecho": "Parque Caiara, Travessa Dr. José Anastácio da Silva Guimarães, Rua Dr. José Anastácio da Silva Guimarães, Rua Leal de Barros, Rua São Mateus, Rua Simonésia, Av.\nJornalista Possidônio Cavalcanti Bastos, Rua Maria de Fátima Soares e volta para Rua Leal de Barros. Rua Desembargador Oscar\nCoutinho.",
+        "bairro": "Iputinga",
+        "extensao_km": "3,5"
+    },
+    {
+        "dupla": "2",
+        "cod": "CF065, CR065",
+        "rota": "Ciclofaixa Torre",
+        "tipologia": "CICLOFAIXA, CICLORROTA",
+        "trecho": "Rua Conselheiro Theodoro, Praça Professor Barreto Campelo, Rua Marquês de Maricá, Rua Dianópolis, Rua Odete Monteiro, Rua Dez de Novembro, Rua Tomaz Gonzaga. Rua Souza Bandeira entre a Rua Marquês de Maricá e a Av.\nCaxangá.",
+        "bairro": "Torre, Cordeiro, Zumbi",
+        "extensao_km": "2,8"
+    },
+    {
+        "dupla": "2",
+        "cod": "CF071",
+        "rota": "Ciclofaixa Emiliano Braga",
+        "tipologia": "CICLOFAIXA",
+        "trecho": "Rua Emiliano Braga e Rua Manoel Joaquim de Almeida.",
+        "bairro": "Iputinga",
+        "extensao_km": "0,3"
+    },
+    {
+        "dupla": "2",
+        "cod": "CF073, CR073",
+        "rota": "Ciclofaixa Torre (2a etapa)",
+        "tipologia": "CICLOFAIXA, CICLORROTA",
+        "trecho": "Av. Beira Rio, Rua Marcos André, Rua Real da Torre, Rua Visconde de Itaparica, Rua Lagoa do Rancho, Praça Gregório Bezerra, Rua Cantora Clara Nunes, Rua Carandaí, Av. Professor Estevão Francisco da Costa. Rua Pio Nono, Praça Professor Barreto\nCampello.",
+        "bairro": "Torre",
+        "extensao_km": "3,5"
+    },
+    {
+        "dupla": "2",
+        "cod": "CR081",
+        "rota": "Ciclorrota Gomes Taborda",
+        "tipologia": "CICLORROTA",
+        "trecho": "Rua Gomes Taborda, Rua Carlos Gomes, Rua Ricardo Salazar e Rua João\nCrescêncio.",
+        "bairro": "Cordeiro, Prado, Madalena",
+        "extensao_km": "3,0"
+    },
+    {
+        "dupla": "2",
+        "cod": "CF060, CR060",
+        "rota": "Ciclofaixa CDU\/UFPE",
+        "tipologia": "CICLOFAIXA, CICLORROTA",
+        "trecho": "Av. Professor Artur de Sá, Rua Professor Antônio Coelho, Rua Acadêmico Hélio Ramos, Rua Emiliano Braga e Rua General\nPolidoro.",
+        "bairro": "Cidade Universitária",
+        "extensao_km": "3,0"
+    },
+    {
+        "dupla": "3",
+        "cod": "CV050, CF050, CR050",
+        "rota": "Rota Joana Bezerra",
+        "tipologia": "CICLOVIA, CICLOFAIXA, CICLORROTA",
+        "trecho": "Rua dos Coelhos, Ponte Joaquim Cardoso, Av. Beira Rio, Av. Desembargador Guerra Barreto, Ponte Gregório Bezerra, Rua Dr. Joaquim dos Santos, Av.\nPrefeito Lima de Castro, Praça da Bandeira, Rua Benfica, Av.\nDesembargador Otílio Neiva, Av. Agostinho Gomes, Av. Central, Rua\nUrubici, Rua Ibipora.",
+        "bairro": "Coelhos, Ilha Joana Bezerra, Ilha do Retiro, Madalena",
+        "extensao_km": "4,5"
+    },
+    {
+        "dupla": "3",
+        "cod": "CF020",
+        "rota": "Ciclofaixa Ponto de Parada",
+        "tipologia": "CICLOFAIXA",
+        "trecho": "Rua Amaro Coutinho, Av. Santos Dumont, Praça Treze de Junho.",
+        "bairro": "Rosarinho, Encruzilhada, Ponto de\nParada",
+        "extensao_km": "0,7"
+    },
+    {
+        "dupla": "3",
+        "cod": "CF022, CR022",
+        "rota": "Rota Othon Paraíso",
+        "tipologia": "CICLOFAIXA, CICLORROTA",
+        "trecho": "Pista Local da Av. Gov. Agamenon Magalhães, Rua Othon Paraíso, Rua Marechal Deodoro, Rua Paulo de Arruda e Rua Prudente de Moraes. Rua Castro Alves. Rua Dona Elvira e Rua Antônio\nRangel.",
+        "bairro": "Torreão, Campo Grande, Hipódromo, Encruzilhada",
+        "extensao_km": "4,0"
+    },
+    {
+        "dupla": "3",
+        "cod": "CF046, CR046",
+        "rota": "Ciclofaixa Rosarinho",
+        "tipologia": "CICLOFAIXA, CICLORROTA",
+        "trecho": "Rua Salvador de Sá, Rua Couto Magalhães, Rua Treze de Junho, Rua Gen. Abreu e Lima, Rua Dr. José Maria, Rua Simão Mendes,\nRua Hoel Sette e Rua Neto de Mendonça.",
+        "bairro": "Rosarinho, Tamarineira, Jaqueira",
+        "extensao_km": "2,0"
+    },
+    {
+        "dupla": "3",
+        "cod": "CF051",
+        "rota": "Ciclofaixa Correia de Brito",
+        "tipologia": "CICLOFAIXA",
+        "trecho": "Rua Marquês de Abrantes, Av. Correia de Brito e Av. Prof. José dos Anjos até a\nRua Farias Neves.",
+        "bairro": "Campo Grande",
+        "extensao_km": "2,6"
+    },
+    {
+        "dupla": "3",
+        "cod": "CF059, CR059",
+        "rota": "Ciclofaixa Hipódromo",
+        "tipologia": "CICLOFAIXA, CICLORROTA",
+        "trecho": "Rua Mem de Sá, Rua Couto Magalhães, Rua Fonseca Oliveira, Rua Madre Rosa Gattorno, Rua José\nAlexandre Caçador e Rua Marquês de Baipendi.",
+        "bairro": "Hipódromo, Porto de Parada",
+        "extensao_km": "1,0"
+    },
+    {
+        "dupla": "3",
+        "cod": "CF072",
+        "rota": "Ciclofaixa Francisco\nTrindade",
+        "tipologia": "CICLOFAIXA",
+        "trecho": "Rua Professor Francisco da Trindade e Rua Hermílio Gomes.",
+        "bairro": "Campo Grande",
+        "extensao_km": "1,0"
+    },
+    {
+        "dupla": "3",
+        "cod": "CF038, CR038",
+        "rota": "Rota Sebastião Salazar",
+        "tipologia": "CICLOFAIXA, CICLORROTA",
+        "trecho": "Rua Manoel Brandão, Rua dos Craveiros, Rua Sebastião Salazar, Rua Dr. Alberto Wanderley, Rua Arão Botler até o final da Av. Cidade do Monteiro.",
+        "bairro": "Cajueiro, Campina do Barreto, Porto da Madeira",
+        "extensao_km": "1,9"
+    },
+    {
+        "dupla": "3",
+        "cod": "CF043",
+        "rota": "Ciclofaixa Beberibe",
+        "tipologia": "CICLOFAIXA",
+        "trecho": "Estrada Velha de Água Fria, Rua São Bento, Rua Alegre, Rua da Regeneração e Avenida Beberibe.",
+        "bairro": "Água Fria, Arruda, Bomba do Hemetério",
+        "extensao_km": "2,2"
+    },
+    {
+        "dupla": "3",
+        "cod": "CV058",
+        "rota": "Ciclovia Rio Beberibe",
+        "tipologia": "CICLOVIA",
+        "trecho": "Rua Compositor Vinícius de Morais, Rua Rio Beberibe e Rua Rio Morno.",
+        "bairro": "Porto da Madeira, Beberibe, Dois Unidos",
+        "extensao_km": "2,0"
+    },
+    {
+        "dupla": "3",
+        "cod": "CF026, CR026, AC026",
+        "rota": "Rota Afonso Olindense",
+        "tipologia": "CICLOFAIXA, CICLORROTA, ÁREA COMPARTILHADA",
+        "trecho": "Av. Afonso Olindense, Praça Pinto Damásio, Rua Azeredo Coutinho, Rua Francisco Lacerda e Rua João Francisco Lisboa. Rua Acadêmico Hélio Ramos e\nAv. Prof. Luiz Freire.",
+        "bairro": "Várzea, Cidade Universitária",
+        "extensao_km": "6,0"
+    },
+    {
+        "dupla": "3",
+        "cod": "CF070, CR070",
+        "rota": "Ciclofaixa Lindolfo Collor",
+        "tipologia": "CICLOFAIXA, CICLORROTA",
+        "trecho": "Rua General Vargas, Rua Lindolfo Collor e Rua Dr. Miguel Vieira Ferreira.",
+        "bairro": "Cidade Universitária, Engenho do Meio e\nCordeiro",
+        "extensao_km": "2,2"
+    },
+    {
+        "dupla": "3",
+        "cod": "CV003",
+        "rota": "Ciclovia Orla",
+        "tipologia": "CICLOVIA",
+        "trecho": "Início a 63 metros da Rua Dr. Arlindo dos Santos na Av. Boa Viagem, Av. Boa Viagem até o cruzamento com a Av. Antônio de Góes.",
+        "bairro": "Boa Viagem, Pina",
+        "extensao_km": 785
+    },
+    {
+        "dupla": "4",
+        "cod": "CF032, CR032",
+        "rota": "Rota Josias de Albuquerque (1a etapa)",
+        "tipologia": "CICLOFAIXA, CICLORROTA",
+        "trecho": "Pista local da Avenida Governador Agamenon Magalhães, Rua Frei Cassimiro, Rua do Pombal, Rua Treze de Maio, Rua Tupinambás, Rua Barros Barreto, Rua Pedro Afonso, Rua Doutor João Vieira de Menezes, Rua Araripina até a Rua da Aurora. Rua Coelho Leite, Rua do Veiga\ne Rua Fundição.",
+        "bairro": "Santo Amaro",
+        "extensao_km": "6,8"
+    },
+    {
+        "dupla": "4",
+        "cod": "CF009, CR009",
+        "rota": "Rota Marquês de Abrantes",
+        "tipologia": "CICLOFAIXA, CICLORROTA",
+        "trecho": "Rua Amaro Coutinho, Rua Pedro Alves, Rua da Coragem, Rua Retiro Saudoso, Rua Carlos Fernandes e Rua Marquês de Abrantes, até o cruzamento com a Rua\nJerônimo Vilela.",
+        "bairro": "Encruzilhada, Hipódromo, Campo Grande.",
+        "extensao_km": 190
+    },
+    {
+        "dupla": "4",
+        "cod": "CF007",
+        "rota": "Ciclofaixa Binário de Casa Amarela Arraial x Encanamento",
+        "tipologia": "CICLOFAIXA",
+        "trecho": "Sentido cidade\/subúrbio - início no cruzamento da Av. Des. Góis Cavalcante com a Estrada do Arraial. Segue a Estrada do Arraial em toda sua extensão. Sentido subúrbio\/cidade –  Estrada do Encanamento - início no cruzamento com a Rua Oscar Ferreira, Praça do Parnamirim, Rua Padre Roma, Rua Sebastião Alves. Estrada das Ubaias e Rua\nPaula Batista, no trecho compreendido entre os binários.",
+        "bairro": "Casa Amarela, Monteiro, Parnamirim, Tamarineira",
+        "extensao_km": "5,0"
+    },
+    {
+        "dupla": "4",
+        "cod": "CF042, CR042, AC042",
+        "rota": "Rota Parque Macaxeira",
+        "tipologia": "CICLOFAIXA, CICLORROTA, ÁREA COMPARTILHADA",
+        "trecho": "Av. José Américo de Almeida, Rua Cel. João Batista do Rego Barros e a Rua de Apipucos.",
+        "bairro": "Apipucos, Macaxeira",
+        "extensao_km": "2,8"
+    },
+    {
+        "dupla": "4",
+        "cod": "CF045",
+        "rota": "Ciclofaixa\nFerreira Lopes e Paula Batista",
+        "tipologia": "CICLOFAIXA",
+        "trecho": "Rua Ferreira Lopes e Rua Paula Batista.",
+        "bairro": "Parnamirim, Casa Amarela",
+        "extensao_km": "1,0"
+    },
+    {
+        "dupla": "4",
+        "cod": "CF054, AC054",
+        "rota": "Ciclofaixa Padre Roma",
+        "tipologia": "CICLOFAIXA, ÁREA COMPARTILHADA",
+        "trecho": "Rua Padre Roma, Rua Padre Roma (novo acesso), Rua Padre Roma, Rua Muniz\nTavares  e Rua do Futuro.",
+        "bairro": "Jaqueira, Parnamirim, Tamarineira",
+        "extensao_km": "1,0"
+    },
+    {
+        "dupla": "4",
+        "cod": "CF056, CR056",
+        "rota": "Ciclofaixa Rua Amélia",
+        "tipologia": "CICLOFAIXA, CICLORROTA",
+        "trecho": "Rua da Hora, Rua Amélia, Rua Esmeraldino Bandeira, Rua Alberto Paiva, Rua Antônio Novais e Av. Beira\nRio.",
+        "bairro": "Graças, Espinheiro",
+        "extensao_km": "2,0"
+    },
+    {
+        "dupla": "4",
+        "cod": "CF061",
+        "rota": "Ciclofaixa Rua do Futuro",
+        "tipologia": "CICLOFAIXA",
+        "trecho": "Rua do Futuro e Rua João Ramos até a Rua Amélia.",
+        "bairro": "Jaqueira, Graças",
+        "extensao_km": "1,0"
+    },
+    {
+        "dupla": "4",
+        "cod": "CR067, AC067",
+        "rota": "Rota Parque das Graças",
+        "tipologia": "CICLORROTA, ÁREA COMPARTILHADA",
+        "trecho": "Av. Beira Rio.",
+        "bairro": "Graças",
+        "extensao_km": "0,2"
+    },
+    {
+        "dupla": "4",
+        "cod": "CF076, CR076",
+        "rota": "Ciclofaixa Marquês do Paraná",
+        "tipologia": "CICLOFAIXA, CICLORROTA",
+        "trecho": "Rua Marquês do Paraná até a Rua Castro Alves. Rua Dr. Fernando Allain, Pista Local da Agamenon Magalhães até o viaduto da Av. Norte\nMiguel Arraes de Alencar.",
+        "bairro": "Espinheiro, Encruzilhada",
+        "extensao_km": "1,5"
+    },
+    {
+        "dupla": "4",
+        "cod": "CF078, CR078",
+        "rota": "Ciclofaixa Harmonia",
+        "tipologia": "CICLOFAIXA, CICLORROTA",
+        "trecho": "Rua da Harmonia, Rua Dr. Samuel Lins, Rua Edson Alvares, Rua Jeronimo de Albuquerque, Praça de Casa Forte, Rua Padre Edwaldo Gomes e Estrada\ndas Ubaias.",
+        "bairro": "Casa Forte",
+        "extensao_km": "2,0"
+    },
+    {
+        "dupla": "4",
+        "cod": "CF079, CR079",
+        "rota": "Ciclofaixa Padre Lemos",
+        "tipologia": "CICLOFAIXA, CICLORROTA",
+        "trecho": "Rua Pedro Allain, Rua Padre Lemos. Rua Xavantes, Rua Oscar de Barros, Rua Reverendo Antônio Gueiros, Rua Eugênio Samico e Praça do\nTrabalho.",
+        "bairro": "Casa Amarela",
+        "extensao_km": "1,5"
+    },
+    {
+        "dupla": "4",
+        "cod": "CV080, AC080",
+        "rota": "Ciclovia Agamenon Magalhães",
+        "tipologia": "CICLOVIA, ÁREA COMPARTILHADA",
+        "trecho": "Av. Gov. Agamenon Magalhães (começa no cruzamento com a Rua Dr. Leopoldo Lins), Ponte José de Barros Lima, Praça Joana Bezerra, Viaduto Capitão Temudo, alça do viaduto até a Av. Saturnino de\nBrito.",
+        "bairro": "Espinheiro, Graças, Derby, Paissandu, Ilha Joana Bezerra, São José, Cabanga",
+        "extensao_km": "4,0"
+    },
+    {
+        "dupla": "4",
+        "cod": "CV021, CF021",
+        "rota": "Ciclofaixa Professor José dos Anjos",
+        "tipologia": "CICLOVIA, CICLOFAIXA",
+        "trecho": "Av. Professor José dos Anjos (Início Rua Euclides Gomes de Freitas até a Rua Farias Neves), continuidade até a Rua Manoel Brandão.",
+        "bairro": "Mangabeira, Tamarineira, Arruda, Ponto de Parada, Campo Grande, Peixinhos, Campina do\nBarreto, Rosarinho",
+        "extensao_km": "8,0"
+    },
+    {
+        "dupla": "5",
+        "cod": "CV006",
+        "rota": "Ciclovia\nShopping",
+        "tipologia": "CICLOVIA",
+        "trecho": "Anel viário do Shopping RioMar.",
+        "bairro": "Pina",
+        "extensao_km": "0,95"
+    },
+    {
+        "dupla": "5",
+        "cod": "CF012",
+        "rota": "Ciclofaixa Antônio Falcão",
+        "tipologia": "CICLOFAIXA",
+        "trecho": "Av. General Mac Arthur e Rua Antônio Falcão até a Rua General Edson Amâncio Ramalho.",
+        "bairro": "Imbiribeira, Boa Viagem",
+        "extensao_km": "1,7"
+    },
+    {
+        "dupla": "5",
+        "cod": "CV013",
+        "rota": "Ciclovia Via Mangue",
+        "tipologia": "CICLOVIA",
+        "trecho": "Pista Oeste da Via Mangue até a Rua Manoel de Brito.",
+        "bairro": "Pina",
+        "extensao_km": "4,5"
+    },
+    {
+        "dupla": "5",
+        "cod": "CF014",
+        "rota": "Ciclofaixa Jardim Beira Rio",
+        "tipologia": "CICLOFAIXA",
+        "trecho": "Rua Manoel de Brito e Av. Cônsul Joseph Noujaim.",
+        "bairro": "Pina",
+        "extensao_km": "0,45"
+    },
+    {
+        "dupla": "5",
+        "cod": "CF019, CR019",
+        "rota": "Rota Setúbal (1a etapa)",
+        "tipologia": "CICLOFAIXA, CICLORROTA",
+        "trecho": "Av. Vinte e Três de Outubro, Rua Tenente Aurélio Sampaio, Av. Vinte de Janeiro, Rua Copacabana, Av. Marechal Juarez Távora, Rua Cosmorama e Av. Armindo Moura. Rua João Cardoso\nAires.",
+        "bairro": "Boa Viagem",
+        "extensao_km": "4,5"
+    },
+    {
+        "dupla": "5",
+        "cod": "CF023, CR023",
+        "rota": "Ciclofaixa Visconde de Jequitinhonha (1a etapa)",
+        "tipologia": "CICLOFAIXA, CICLORROTA",
+        "trecho": "Rua Visconde de Jequitinhonha, Rua Baltazar Passos e Rua Setúbal, Dona Lindu.",
+        "bairro": "Boa Viagem",
+        "extensao_km": "1,0"
+    },
+    {
+        "dupla": "5",
+        "cod": "CF024, CR024",
+        "rota": "Rota Professor João Medeiros",
+        "tipologia": "CICLOFAIXA, CICLORROTA",
+        "trecho": "Rua Professor Arnaldo Carneiro Leão, Rua General Edson Amâncio Ramalho e Av. Professor João Medeiros até a Delegacia\nde Boa Viagem.",
+        "bairro": "Boa Viagem",
+        "extensao_km": "2,0"
+    },
+    {
+        "dupla": "5",
+        "cod": "CF029, CR029",
+        "rota": "Ciclofaixa Visconde de Jequitinhonha (2a etapa)",
+        "tipologia": "CICLOFAIXA, CICLORROTA",
+        "trecho": "Rua Visconde de Jequitinhonha, a partir da Rua João Cardoso Aires, até a Rua José Paraíso, Rua José Domingues da Silva, Rua Feliciano José de Farias, Rua Dona Uzinha Nunes e Rua Padre Cabral. O outro trecho seguirá pela Rua Visconde de Jequitinhonha, a partir da Rua Armindo Moura, até o limite com o município de Jaboatão dos Guararapes.",
+        "bairro": "Boa Viagem",
+        "extensao_km": "3,7"
+    },
+    {
+        "dupla": "5",
+        "cod": "CF030, CR030",
+        "rota": "Rota Setúbal (2a etapa)",
+        "tipologia": "CICLOFAIXA, CICLORROTA",
+        "trecho": "Av. Vinte de Janeiro, Rua Camboim, Rua João Cardoso Aires, Rua Waldemar Nery Carneiro Monteiro, Rua Prof. Aurélio de Castro Cavalcanti, Av.\nMal. Juarez Távora até a Av. Lino Jordão.",
+        "bairro": "Boa Viagem",
+        "extensao_km": "2,5"
+    },
+    {
+        "dupla": "5",
+        "cod": "CF037, CR037, AC037",
+        "rota": "Rota Geraldão",
+        "tipologia": "CICLOFAIXA, CICLORROTA, ÁREA COMPARTILHADA",
+        "trecho": "Av. Sen. Robert Kennedy, Rua Dr. Tavares Correia, Rua Allan Kardec, Rua Jornalista Cleófas de Oliveira, Rua Jalisco, Geraldão, Av. Sul Gov. Cid Sampaio para ligar a ciclofaixa a Estação Antônio Falcão e a Estação Shopping Recife, Rua Soldado Sinésio de Aragão\naté a Av. Dom João VI.",
+        "bairro": "Imbiribeira, Ipsep",
+        "extensao_km": "3,2"
+    },
+    {
+        "dupla": "5",
+        "cod": "CF040",
+        "rota": "Ciclofaixa Pinheiros",
+        "tipologia": "CICLOFAIXA",
+        "trecho": "Av. Pinheiros, Rua Amélia Xavier Sampaio, Rua Eng. José Brandão Cavalcante e Av. Eng. Alves de Souza.",
+        "bairro": "Imbiribeira",
+        "extensao_km": "2,0"
+    },
+    {
+        "dupla": "5",
+        "cod": "CF048",
+        "rota": "Ciclofaixa Paris",
+        "tipologia": "CICLOFAIXA",
+        "trecho": "Rua Arquiteto Luiz Nunes, Rua Paris, Rua Jean Émile Favre e Rua Itacari.",
+        "bairro": "Imbiribeira",
+        "extensao_km": "2,3"
+    },
+    {
+        "dupla": "5",
+        "cod": "CF052",
+        "rota": "Ciclofaixa Antônio Falcão (2a Etapa)",
+        "tipologia": "CICLOFAIXA",
+        "trecho": "Rua Antônio Falcão da Orla de Boa Viagem até a Via Mangue. Rua Francisco da Cunha entre a Rua Antônio Falcão e Rua Félix de Brito. Rua Félix de Brito até a Orla\nde Boa Viagem.",
+        "bairro": "Boa Viagem",
+        "extensao_km": "2,0"
+    },
+    {
+        "dupla": "5",
+        "cod": "CV066, CF066, AC066",
+        "rota": "Ciclovia Bruno Veloso",
+        "tipologia": "CICLOVIA, CICLOFAIXA, ÁREA COMPARTILHADA",
+        "trecho": "Rua Bruno Veloso.",
+        "bairro": "Boa Viagem",
+        "extensao_km": "1,0"
+    },
+    {
+        "dupla": "5",
+        "cod": "CV035",
+        "rota": "Ciclovia Ibura",
+        "tipologia": "CICLOVIA",
+        "trecho": "Canal Rio da Prata, com início na Av. Dois Rios e término na Rua Rio Douro.",
+        "bairro": "Ibura",
+        "extensao_km": "1,0"
+    },
+    {
+        "dupla": "5",
+        "cod": "CF039",
+        "rota": "Ciclofaixa Júlio César",
+        "tipologia": "CICLOFAIXA",
+        "trecho": "Av. Júlio César da Av. Maria Irene até acesso a Av.\nCentenário Albert Santos Dumont.",
+        "bairro": "Jordão",
+        "extensao_km": "1,5"
+    },
+    {
+        "dupla": "5",
+        "cod": "CV055, CF055, CR055, AC055",
+        "rota": "Rota Dom Helder Câmara",
+        "tipologia": "CICLOVIA, CICLOFAIXA, CICLORROTA, ÁREA COMPARTILHADA",
+        "trecho": "Rua Araçatuba, Rua Araraquara, Rua Itaquicé, Rua Itaimbé, Rua Potengy, Rua Blumenau, Rua Itanagé, Rua Pintor Antônio Albuquerque, Rua Virgínia Heráclio, Rua São Nicolau e\nAv. Dom Helder Câmara.",
+        "bairro": "Ibura, Ipsep",
+        "extensao_km": "4,0"
+    },
+    {
+        "dupla": "1",
+        "cod": "ACF02",
+        "rota": "Avenida D",
+        "tipologia": "Ciclofaixa",
+        "trecho": "Abreu e Lima",
+        "bairro": "Jordão",
+        "extensao_km": "1,9"
+    },
+    {
+        "dupla": "1",
+        "cod": "ACV03",
+        "rota": "Avenida D",
+        "tipologia": "Ciclovia",
+        "trecho": "Abreu e Lima",
+        "bairro": "Jordão",
+        "extensao_km": "0,8"
+    },
+    {
+        "dupla": "1",
+        "cod": "ACR04",
+        "rota": "Avenida D",
+        "tipologia": "Ciclorrota",
+        "trecho": "Abreu e Lima",
+        "bairro": "Jordão",
+        "extensao_km": "0,0"
+    },
+    {
+        "dupla": "5",
+        "cod": "CCV05",
+        "rota": "Calçadão da Vila Social",
+        "tipologia": "Ciclovia",
+        "trecho": "Cabo de Santo Agostinho",
+        "bairro": null,
+        "extensao_km": "0,8"
+    },
+    {
+        "dupla": "5",
+        "cod": "CCV06",
+        "rota": "Ciclovia do Paiva",
+        "tipologia": "Ciclovia",
+        "trecho": "Cabo de Santo Agostinho",
+        "bairro": null,
+        "extensao_km": "6,5"
+    },
+    {
+        "dupla": "5",
+        "cod": "CCV07",
+        "rota": "Ciclovia Praça de Gaibu",
+        "tipologia": "Ciclovia",
+        "trecho": "Cabo de Santo Agostinho",
+        "bairro": null,
+        "extensao_km": "0,2"
+    },
+    {
+        "dupla": "5",
+        "cod": "CCF08",
+        "rota": "Ciclovia Praça de Gaibu",
+        "tipologia": "Ciclofaixa",
+        "trecho": "Cabo de Santo Agostinho",
+        "bairro": null,
+        "extensao_km": "0,0"
+    },
+    {
+        "dupla": "5",
+        "cod": "CCV09",
+        "rota": "PE-060",
+        "tipologia": "Ciclovia",
+        "trecho": "Cabo de Santo Agostinho",
+        "bairro": null,
+        "extensao_km": "0,3"
+    },
+    {
+        "dupla": "5",
+        "cod": "CCF10",
+        "rota": "PE-060",
+        "tipologia": "Ciclofaixa",
+        "trecho": "Cabo de Santo Agostinho",
+        "bairro": null,
+        "extensao_km": "0,7"
+    },
+    {
+        "dupla": "5",
+        "cod": "CCF11",
+        "rota": "Ponte do Paiva",
+        "tipologia": "Ciclofaixa",
+        "trecho": "Cabo de Santo Agostinho",
+        "bairro": null,
+        "extensao_km": "0,3"
+    },
+    {
+        "dupla": "5",
+        "cod": "CCV12",
+        "rota": "Ponte do Paiva",
+        "tipologia": "Ciclovia",
+        "trecho": "Cabo de Santo Agostinho",
+        "bairro": null,
+        "extensao_km": "0,0"
+    },
+    {
+        "dupla": "5",
+        "cod": "CCV13",
+        "rota": "Ramal Arena Pernambuco",
+        "tipologia": "Ciclovia",
+        "trecho": "Camaragibe",
+        "bairro": null,
+        "extensao_km": "1,0"
+    },
+    {
+        "dupla": "5",
+        "cod": "CCV14",
+        "rota": "Ramal da Copa",
+        "tipologia": "Ciclovia",
+        "trecho": "Camaragibe",
+        "bairro": null,
+        "extensao_km": "0,1"
+    },
+    {
+        "dupla": "5",
+        "cod": "CCF15",
+        "rota": "Rua Manoel Honorato da Costa",
+        "tipologia": "Ciclofaixa",
+        "trecho": "Camaragibe",
+        "bairro": null,
+        "extensao_km": "0,6"
+    },
+    {
+        "dupla": "5",
+        "cod": "CCV16",
+        "rota": "Rua Padre Ozeas Cavalcante",
+        "tipologia": "Ciclovia",
+        "trecho": "Camaragibe",
+        "bairro": null,
+        "extensao_km": "0,2"
+    },
+    {
+        "dupla": "5",
+        "cod": "ICR17",
+        "rota": "Ciclovia da PE-09",
+        "tipologia": "Ciclorrota",
+        "trecho": "Ipojuca",
+        "bairro": null,
+        "extensao_km": "2,4"
+    },
+    {
+        "dupla": "5",
+        "cod": "ICV18",
+        "rota": "Ciclovia da PE-09",
+        "tipologia": "Ciclovia",
+        "trecho": "Ipojuca",
+        "bairro": null,
+        "extensao_km": "3,4"
+    },
+    {
+        "dupla": "5",
+        "cod": "ICV19",
+        "rota": "Ciclovia de Porto de Galinhas",
+        "tipologia": "Ciclovia",
+        "trecho": "Ipojuca",
+        "bairro": null,
+        "extensao_km": "6,5"
+    },
+    {
+        "dupla": "5",
+        "cod": "ICV20",
+        "rota": "Ciclovia de Porto de Galinhas",
+        "tipologia": "Ciclovia",
+        "trecho": "Ipojuca",
+        "bairro": null,
+        "extensao_km": "2,0"
+    },
+    {
+        "dupla": "5",
+        "cod": "ICV21",
+        "rota": "Rua Beijupirá",
+        "tipologia": "Ciclovia",
+        "trecho": "Ipojuca",
+        "bairro": null,
+        "extensao_km": "0,2"
+    },
+    {
+        "dupla": "5",
+        "cod": "ICV22",
+        "rota": "Rua da Esperança",
+        "tipologia": "Ciclovia",
+        "trecho": "Ipojuca",
+        "bairro": null,
+        "extensao_km": "0,3"
+    },
+    {
+        "dupla": "5",
+        "cod": "ICV23",
+        "rota": "Ciclovia de Maracaípe",
+        "tipologia": "Ciclovia",
+        "trecho": "Ipojuca",
+        "bairro": null,
+        "extensao_km": "2,6"
+    },
+    {
+        "dupla": "4",
+        "cod": "JCV24",
+        "rota": "Avenida Ayrton Senna da Silva",
+        "tipologia": "Ciclovia",
+        "trecho": "Jaboatão dos Guararapes",
+        "bairro": null,
+        "extensao_km": "2,9"
+    },
+    {
+        "dupla": "4",
+        "cod": "JCF25",
+        "rota": "Avenida Ayrton Senna da Silva",
+        "tipologia": "Ciclofaixa",
+        "trecho": "Jaboatão dos Guararapes",
+        "bairro": null,
+        "extensao_km": "1,3"
+    },
+    {
+        "dupla": "4",
+        "cod": "JCV26",
+        "rota": "Avenida Beira Mar",
+        "tipologia": "Ciclovia",
+        "trecho": "Jaboatão dos Guararapes",
+        "bairro": null,
+        "extensao_km": "6,7"
+    },
+    {
+        "dupla": "4",
+        "cod": "JCF27",
+        "rota": "Avenida Júlio César",
+        "tipologia": "Ciclofaixa",
+        "trecho": "Jaboatão dos Guararapes",
+        "bairro": null,
+        "extensao_km": "1,5"
+    },
+    {
+        "dupla": "4",
+        "cod": "JCF28",
+        "rota": "Avenida Presidente Castelo Branco",
+        "tipologia": "Ciclofaixa",
+        "trecho": "Jaboatão dos Guararapes",
+        "bairro": null,
+        "extensao_km": "0,8"
+    },
+    {
+        "dupla": "4",
+        "cod": "JCV29",
+        "rota": "Avenida Presidente Castelo Branco",
+        "tipologia": "Ciclovia",
+        "trecho": "Jaboatão dos Guararapes",
+        "bairro": null,
+        "extensao_km": "1,0"
+    },
+    {
+        "dupla": "4",
+        "cod": "JCR30",
+        "rota": "Avenida Presidente Castelo Branco",
+        "tipologia": "Ciclorrota",
+        "trecho": "Jaboatão dos Guararapes",
+        "bairro": null,
+        "extensao_km": "0,0"
+    },
+    {
+        "dupla": "4",
+        "cod": "JCV31",
+        "rota": "Calçadão",
+        "tipologia": "Ciclovia",
+        "trecho": "Jaboatão dos Guararapes",
+        "bairro": null,
+        "extensao_km": "0,1"
+    },
+    {
+        "dupla": "4",
+        "cod": "JCD32",
+        "rota": "Calçadão",
+        "tipologia": "Calçada Compartilhada",
+        "trecho": "Jaboatão dos Guararapes",
+        "bairro": null,
+        "extensao_km": "0,0"
+    },
+    {
+        "dupla": "4",
+        "cod": "JCV33",
+        "rota": "Ciclorrota - Piedade/Paiva",
+        "tipologia": "Ciclovia",
+        "trecho": "Jaboatão dos Guararapes",
+        "bairro": null,
+        "extensao_km": "1,3"
+    },
+    {
+        "dupla": "4",
+        "cod": "JCV34",
+        "rota": "Ciclovia Beira Mar",
+        "tipologia": "Ciclovia",
+        "trecho": "Jaboatão dos Guararapes",
+        "bairro": null,
+        "extensao_km": "1,9"
+    },
+    {
+        "dupla": "4",
+        "cod": "JCV35",
+        "rota": "Ciclovia do Canal",
+        "tipologia": "Ciclovia",
+        "trecho": "Jaboatão dos Guararapes",
+        "bairro": null,
+        "extensao_km": "4,2"
+    },
+    {
+        "dupla": "4",
+        "cod": "JCV36",
+        "rota": "Rua do Canal",
+        "tipologia": "Ciclovia",
+        "trecho": "Jaboatão dos Guararapes",
+        "bairro": null,
+        "extensao_km": "2,0"
+    },
+    {
+        "dupla": "4",
+        "cod": "JCV37",
+        "rota": "Rua Nossa Senhora de Fátima",
+        "tipologia": "Ciclovia",
+        "trecho": "Jaboatão dos Guararapes",
+        "bairro": null,
+        "extensao_km": "0,2"
+    },
+    {
+        "dupla": "4",
+        "cod": "JCV38",
+        "rota": "Rua Padre Nestor de Alencar",
+        "tipologia": "Ciclovia",
+        "trecho": "Jaboatão dos Guararapes",
+        "bairro": null,
+        "extensao_km": "0,4"
+    },
+    {
+        "dupla": "4",
+        "cod": "JCV39",
+        "rota": "Rua Santa Mônica",
+        "tipologia": "Ciclovia",
+        "trecho": "Jaboatão dos Guararapes",
+        "bairro": null,
+        "extensao_km": "0,0"
+    },
+    {
+        "dupla": "4",
+        "cod": "JCV40",
+        "rota": "Ponte do Paiva",
+        "tipologia": "Ciclovia",
+        "trecho": "Jaboatão dos Guararapes",
+        "bairro": null,
+        "extensao_km": "0,1"
+    },
+    {
+        "dupla": "1",
+        "cod": "OCV41",
+        "rota": "Avenida Beira Mar",
+        "tipologia": "Ciclovia",
+        "trecho": "Olinda",
+        "bairro": null,
+        "extensao_km": "5,3"
+    },
+    {
+        "dupla": "1",
+        "cod": "OCR42",
+        "rota": "Avenida Beira Mar",
+        "tipologia": "Ciclorrota",
+        "trecho": "Olinda",
+        "bairro": null,
+        "extensao_km": "0,3"
+    },
+    {
+        "dupla": "1",
+        "cod": "OCV43",
+        "rota": "Avenida Marginal",
+        "tipologia": "Ciclovia",
+        "trecho": "Olinda",
+        "bairro": null,
+        "extensao_km": "0,5"
+    },
+    {
+        "dupla": "1",
+        "cod": "OCV44",
+        "rota": "Ciclovia Av. Beira-Mar",
+        "tipologia": "Ciclovia",
+        "trecho": "Olinda",
+        "bairro": null,
+        "extensao_km": "0,0"
+    },
+    {
+        "dupla": "1",
+        "cod": "OCV45",
+        "rota": "Ciclovia Camilo Simões",
+        "tipologia": "Ciclovia",
+        "trecho": "Olinda",
+        "bairro": null,
+        "extensao_km": "3,0"
+    },
+    {
+        "dupla": "1",
+        "cod": "OCF46",
+        "rota": "Primeira Travessa Doutor Luiz Ramos Leal",
+        "tipologia": "Ciclofaixa",
+        "trecho": "Olinda",
+        "bairro": null,
+        "extensao_km": "0,1"
+    },
+    {
+        "dupla": "1",
+        "cod": "OCF47",
+        "rota": "Rua Compositor Vinícius de Morais",
+        "tipologia": "Ciclofaixa",
+        "trecho": "Olinda",
+        "bairro": null,
+        "extensao_km": "0,1"
+    },
+    {
+        "dupla": "1",
+        "cod": "OCF48",
+        "rota": "Rua General Labatut",
+        "tipologia": "Ciclofaixa",
+        "trecho": "Olinda",
+        "bairro": null,
+        "extensao_km": "0,1"
+    },
+    {
+        "dupla": "1",
+        "cod": "OCR49",
+        "rota": "Rua Recanto do Rio",
+        "tipologia": "Ciclorrota",
+        "trecho": "Olinda",
+        "bairro": null,
+        "extensao_km": "0,2"
+    },
+    {
+        "dupla": "1",
+        "cod": "OCF50",
+        "rota": "Rua Rio Beberibe",
+        "tipologia": "Ciclofaixa",
+        "trecho": "Olinda",
+        "bairro": null,
+        "extensao_km": "0,2"
+    },
+    {
+        "dupla": "1",
+        "cod": "OCV51",
+        "rota": "Rua Rio Beberibe",
+        "tipologia": "Ciclovia",
+        "trecho": "Olinda",
+        "bairro": null,
+        "extensao_km": "0,1"
+    },
+    {
+        "dupla": "1",
+        "cod": "OCV52",
+        "rota": "PE-060",
+        "tipologia": "Ciclovia",
+        "trecho": "Olinda",
+        "bairro": null,
+        "extensao_km": "2,0"
+    },
+    {
+        "dupla": "1",
+        "cod": "PCV53",
+        "rota": "Avenida Antônio Cabral de Souza",
+        "tipologia": "Ciclovia",
+        "trecho": "Paulista",
+        "bairro": null,
+        "extensao_km": "0,0"
+    },
+    {
+        "dupla": "1",
+        "cod": "PCV54",
+        "rota": "Ciclovia da PE-15",
+        "tipologia": "Ciclovia",
+        "trecho": "Paulista",
+        "bairro": null,
+        "extensao_km": "5,4"
+    },
+    {
+        "dupla": "1",
+        "cod": "PCV55",
+        "rota": "PE-060",
+        "tipologia": "Ciclovia",
+        "trecho": "Paulista",
+        "bairro": null,
+        "extensao_km": "2,3"
+    },
+    {
+        "dupla": "5",
+        "cod": "SCV56",
+        "rota": "Avenida Deus é Fiel",
+        "tipologia": "Ciclovia",
+        "trecho": "São Lourenço da Mata",
+        "bairro": null,
+        "extensao_km": "0,3"
+    },
+    {
+        "dupla": "5",
+        "cod": "SCF57",
+        "rota": "Ciclofaixa Arena",
+        "tipologia": "Ciclofaixa",
+        "trecho": "São Lourenço da Mata",
+        "bairro": null,
+        "extensao_km": "1,0"
+    },
+    {
+        "dupla": "5",
+        "cod": "SCV58",
+        "rota": "Ciclovia da Arena de Pernambuco",
+        "tipologia": "Ciclovia",
+        "trecho": "São Lourenço da Mata",
+        "bairro": null,
+        "extensao_km": "2,9"
+    },
+    {
+        "dupla": "5",
+        "cod": "SCV59",
+        "rota": "Residencial São Lourenço",
+        "tipologia": "Ciclovia",
+        "trecho": "São Lourenço da Mata",
+        "bairro": null,
+        "extensao_km": "1,2"
+    }
 ]

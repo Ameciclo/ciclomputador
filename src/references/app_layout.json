@@ -1,0 +1,1580 @@
+{
+    "layouts": {
+        "layout": [
+            {
+                "-name": "root",
+                "row": [
+                    {
+                        "button": [
+                            {
+                                "-type": "page",
+                                "-label": "Caracterização",
+                                "-targetlayout": "caracterizacao-ciclo",
+                                "-icon": "auditoria_cicloviaria_icons/flow_direction.png"
+                            },
+                            {
+                                "-type": "page",
+                                "-label": "Avaliações",
+                                "-targetlayout": "avaliacoes",
+                                "-icon": "auditoria_cicloviaria_icons/sinuosity.png"
+                            }
+                        ]
+                    },
+                    {
+                        "button": [
+                            {
+                                "-type": "page",
+                                "-label": "Placas",
+                                "-targetlayout": "placas",
+                                "-icon": "auditoria_cicloviaria_icons/on_way_vertical_sign_route.png"
+                            },
+                            {
+                                "-type": "page",
+                                "-label": "Sinalização Horizontal",
+                                "-targetlayout": "sinalizacao_horizontal_qte",
+                                "-icon": "auditoria_cicloviaria_icons/floor_signaling_arrow_route.png"
+                            },
+                            {
+                                "-type": "page",
+                                "-label": "Larguras",
+                                "-targetlayout": "larguras_estrutura_qte",
+                                "-icon": "auditoria_cicloviaria_icons/metrics.png"
+                            }
+                        ]
+                    },
+                    {
+                        "button": [
+                            {
+                                "-type": "page",
+                                "-label": "Obstáculos",
+                                "-targetlayout": "obstaculos",
+                                "-icon": "auditoria_cicloviaria_icons/obstacle.png"
+                            },
+                            {
+                                "-type": "page",
+                                "-label": "Riscos",
+                                "-targetlayout": "riscos",
+                                "-icon": "auditoria_cicloviaria_icons/risk_situation.png"
+                            }
+                        ]
+                    },
+                    {
+                        "button": [
+                            {
+                                "-type": "page",
+                                "-label": "Controle de Velocidade",
+                                "-targetlayout": "controle_de_velocidade_qte",
+                                "-icon": "auditoria_cicloviaria_icons/electronic_spine_route.png"
+                            },
+                            {
+                                "-type": "page",
+                                "-label": "Acessos",
+                                "-targetlayout": "acesso_ciclovias",
+                                "-icon": "auditoria_cicloviaria_icons/bike_lane_access.png"
+                            },
+                            {
+                                "-type": "page",
+                                "-label": "Bicicletários",
+                                "-targetlayout": "bicicletarios",
+                                "-icon": "auditoria_cicloviaria_icons/bicicletarios.png"
+                            }
+                        ]
+                    },
+                    {
+                        "button": [
+                            {
+                                "-type": "voicerec",
+                                "-icon": "logo_voice"
+                            },
+                            {
+                                "-type": "picture",
+                                "-icon": "logo_camera"
+                            },
+                            {
+                                "-type": "textnote",
+                                "-icon": "logo_textnote"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "-name": "caracterizacao-ciclo",
+                "row": [
+                    {
+                        "button": [
+                            {
+                                "-targetlayout": "tipo_da_via",
+                                "-type": "page",
+                                "-label": "Tipo e Fluxo da Ciclo",
+                                "-icon": "auditoria_cicloviaria_icons/lane_type_route.png"
+                            },
+                            {
+                                "-type": "page",
+                                "-label": "Localização na Via",
+                                "-targetlayout": "localizacao_via",
+                                "-icon": "auditoria_cicloviaria_icons/ciclo_location.png"
+                            }
+                        ]
+                    },
+                    {
+                        "button": [
+                            {
+                                "-type": "page",
+                                "-label": "Fluxo da Via",
+                                "-targetlayout": "fluxo-via",
+                                "-icon": "auditoria_cicloviaria_icons/road_flow_route.png"
+                            },
+                            {
+                                "-type": "page",
+                                "-label": "Padrão de pintura",
+                                "-targetlayout": "pintura_vermelha_padrao",
+                                "-icon": "auditoria_cicloviaria_icons/ciclo_range.png"
+                            }
+                        ]
+                    },
+                    {
+                        "button": [
+                            {
+                                "-type": "page",
+                                "-label": "Segregadores",
+                                "-targetlayout": "segregadores",
+                                "-icon": "auditoria_cicloviaria_icons/segregator_type.png"
+                            },
+                            {
+                                "-type": "page",
+                                "-label": "Pavimento",
+                                "-targetlayout": "pavimento_caracterizacao",
+                                "-icon": "auditoria_cicloviaria_icons/brick_floor_route.png"
+                            }
+                        ]
+                    },
+                    {
+                        "button": [
+                            {
+                                "-type": "page",
+                                "-label": "Faixas de rolamento",
+                                "-targetlayout": "faixas_via",
+                                "-icon": "auditoria_cicloviaria_icons/road_lane_route.png"
+                            },
+                            {
+                                "-type": "page",
+                                "-label": "Estacionamento na via",
+                                "-targetlayout": "estacionamento_na_via",
+                                "-icon": "auditoria_cicloviaria_icons/estacionamento_route.png"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "-name": "tipo_da_via",
+                "row": [
+                    {
+                        "button": [
+                            {
+                                "-type": "tag",
+                                "-label": "Ciclovia",
+                                "-icon": "auditoria_cicloviaria_icons/ciclo_way.png"
+                            },
+                            {
+                                "-type": "tag",
+                                "-label": "Ciclofaixa",
+                                "-icon": "auditoria_cicloviaria_icons/ciclo_lane.png"
+                            }
+                        ]
+                    },
+                    {
+                        "button": [
+                            {
+                                "-type": "tag",
+                                "-label": "Ciclorrota",
+                                "-icon": "auditoria_cicloviaria_icons/ciclo_route.png"
+                            },
+                            {
+                                "-type": "tag",
+                                "-label": "Calçada compartilhada",
+                                "-icon": "auditoria_cicloviaria_icons/shared_sidewalk.png"
+                            }
+                        ]
+                    },
+                    {
+                        "button": [
+                            {
+                                "-type": "tag",
+                                "-label": "Unidirecional no Fluxo",
+                                "-icon": "auditoria_cicloviaria_icons/unidirect_flow.png"
+                            },
+                            {
+                                "-type": "tag",
+                                "-label": "Bidirecional",
+                                "-icon": "auditoria_cicloviaria_icons/bidirect.png"
+                            }
+                        ]
+                    },
+                    {
+                        "button": [
+                            {
+                                "-type": "tag",
+                                "-label": "Unidirecional no Contrafluxo",
+                                "-icon": "auditoria_cicloviaria_icons/unidirect_unflow.png"
+                            },
+                            {
+                                "-type": "tag",
+                                "-label": "Bidirecional com Mão Inglesa",
+                                "-icon": "auditoria_cicloviaria_icons/bidirect_english_way.png"
+                            }
+                        ]
+                    },
+                    {
+                        "button": {
+                            "-type": "tag",
+                            "-label": "Remover Tipo de Ciclo 🗑️",
+                            "-icon": ""
+                        }
+                    }
+                ]
+            },
+            {
+                "-name": "localizacao_via",
+                "row": [
+                    {
+                        "button": [
+                            {
+                                "-type": "tag",
+                                "-label": "No canteiro central",
+                                "-icon": "auditoria_cicloviaria_icons/center_flowerbed_ciclo.png"
+                            },
+                            {
+                                "-type": "tag",
+                                "-label": "Na via, junto ao canteiro",
+                                "-icon": "auditoria_cicloviaria_icons/border_flowerbed_ciclo.png"
+                            }
+                        ]
+                    },
+                    {
+                        "button": [
+                            {
+                                "-type": "tag",
+                                "-label": "No bordo direito de Via de Mão Única",
+                                "-icon": "auditoria_cicloviaria_icons/unidirect_right.png"
+                            },
+                            {
+                                "-type": "tag",
+                                "-label": "No bordo esquerdo de Via de Mão Única",
+                                "-icon": "auditoria_cicloviaria_icons/unidirect_left.png"
+                            }
+                        ]
+                    },
+                    {
+                        "button": [
+                            {
+                                "-type": "tag",
+                                "-label": "Em bordo de Via de Mão Dupla",
+                                "-icon": "auditoria_cicloviaria_icons/bidirect_border.png"
+                            },
+                            {
+                                "-type": "tag",
+                                "-label": "Sobre calçada",
+                                "-icon": "auditoria_cicloviaria_icons/pedestrian_with_ciclo.png"
+                            }
+                        ]
+                    },
+                    {
+                        "button": [
+                            {
+                                "-type": "tag",
+                                "-label": "Isolada",
+                                "-icon": "auditoria_cicloviaria_icons/isolated_ciclo.png"
+                            },
+                            {}
+                        ]
+                    },
+                    {
+                        "button": {
+                            "-type": "tag",
+                            "-label": "Remover Localização 🗑️",
+                            "-icon": ""
+                        }
+                    }
+                ]
+            },
+            {
+                "-name": "fluxo-via",
+                "row": [
+                    {
+                        "button": {
+                            "-type": "tag",
+                            "-label": "Mão Única",
+                            "-icon": "auditoria_cicloviaria_icons/unidirect_road_flow.png"
+                        }
+                    },
+                    {
+                        "button": {
+                            "-type": "tag",
+                            "-label": "Mão Dupla",
+                            "-icon": "auditoria_cicloviaria_icons/bidirect_road_flow.png"
+                        }
+                    },
+                    {
+                        "button": {
+                            "-type": "tag",
+                            "-label": "Mão Inglesa",
+                            "-icon": "auditoria_cicloviaria_icons/bidirect_road_flow_english_way.png"
+                        }
+                    },
+                    {
+                        "button": {
+                            "-type": "tag",
+                            "-label": "Pista dupla",
+                            "-icon": "auditoria_cicloviaria_icons/two-roads.png"
+                        }
+                    },
+                    {},
+                    {
+                        "button": {
+                            "-type": "tag",
+                            "-label": "Remover Fluxo da Via🗑️",
+                            "-icon": ""
+                        }
+                    }
+                ]
+            },
+            {
+                "-name": "segregadores",
+                "row": [
+                    {
+                        "button": [
+                            {
+                                "-type": "tag",
+                                "-label": "Canteiros",
+                                "-icon": "auditoria_cicloviaria_icons/flowerbed.png"
+                            },
+                            {
+                                "-type": "tag",
+                                "-label": "Prismas",
+                                "-icon": "auditoria_cicloviaria_icons/prism_divider.png"
+                            }
+                        ]
+                    },
+                    {
+                        "button": [
+                            {
+                                "-type": "tag",
+                                "-label": "Guias",
+                                "-icon": "auditoria_cicloviaria_icons/guide_divider.png"
+                            },
+                            {
+                                "-type": "tag",
+                                "-label": "Gelo baiano",
+                                "-icon": "auditoria_cicloviaria_icons/yellow_brick_large_divider.png"
+                            }
+                        ]
+                    },
+                    {
+                        "button": [
+                            {
+                                "-type": "tag",
+                                "-label": "Tachões",
+                                "-icon": "auditoria_cicloviaria_icons/yellow_brick_small_divider.png"
+                            },
+                            {
+                                "-type": "tag",
+                                "-label": "Balizadores",
+                                "-icon": "auditoria_cicloviaria_icons/beacon_divider.png"
+                            }
+                        ]
+                    },
+                    {
+                        "button": [
+                            {
+                                "-type": "tag",
+                                "-label": "APENAS a Pintura",
+                                "-icon": "auditoria_cicloviaria_icons/paint_divider.png"
+                            },
+                            {
+                                "-type": "tag",
+                                "-label": "Vasos",
+                                "-icon": "auditoria_cicloviaria_icons/flowerbed.png"
+                            }
+                        ]
+                    },
+                    {
+                        "button": [
+                            {
+                                "-type": "tag",
+                                "-label": "Outro segregador",
+                                "-icon": "auditoria_cicloviaria_icons/other.png"
+                            },
+                            {
+                                "-type": "textnote",
+                                "-icon": "logo_textnote"
+                            }
+                        ]
+                    },
+                    {
+                        "button": {
+                            "-type": "tag",
+                            "-label": "Remover Segregador 🗑️",
+                            "-icon": ""
+                        }
+                    }
+                ]
+            },
+            {
+                "-name": "pavimento_caracterizacao",
+                "row": [
+                    {
+                        "button": [
+                            {
+                                "-type": "tag",
+                                "-label": "Concreto",
+                                "-icon": "auditoria_cicloviaria_icons/concret_floor.png"
+                            },
+                            {
+                                "-type": "tag",
+                                "-label": "Asfalto",
+                                "-icon": "auditoria_cicloviaria_icons/asphalt_floor.png"
+                            }
+                        ]
+                    },
+                    {
+                        "button": [
+                            {
+                                "-type": "tag",
+                                "-label": "Tijolo intertravado",
+                                "-icon": "auditoria_cicloviaria_icons/brick_floor.png"
+                            },
+                            {
+                                "-type": "tag",
+                                "-label": "Paralelepípedo",
+                                "-icon": "auditoria_cicloviaria_icons/paralelepipedo.png"
+                            }
+                        ]
+                    },
+                    {
+                        "button": [
+                            {
+                                "-type": "tag",
+                                "-label": "Terra/Barro",
+                                "-icon": "auditoria_cicloviaria_icons/dirt_floor.png"
+                            },
+                            {}
+                        ]
+                    },
+                    {
+                        "button": [
+                            {
+                                "-type": "tag",
+                                "-label": "Outro pavimento",
+                                "-icon": "auditoria_cicloviaria_icons/other.png"
+                            },
+                            {
+                                "-type": "textnote",
+                                "-icon": "logo_textnote"
+                            }
+                        ]
+                    },
+                    {
+                        "button": {
+                            "-type": "tag",
+                            "-label": "Remover Pavimento 🗑️",
+                            "-icon": ""
+                        }
+                    }
+                ]
+            },
+            {
+                "-name": "faixas_via",
+                "row": [
+                    {
+                        "button": [
+                            {
+                                "-type": "tag",
+                                "-label": "1 faixa",
+                                "-icon": "auditoria_cicloviaria_icons/1_lane.png"
+                            },
+                            {
+                                "-type": "tag",
+                                "-label": "2 faixas",
+                                "-icon": "auditoria_cicloviaria_icons/2_lanes.png"
+                            }
+                        ]
+                    },
+                    {
+                        "button": [
+                            {
+                                "-type": "tag",
+                                "-label": "3 faixas",
+                                "-icon": "auditoria_cicloviaria_icons/3_lanes.png"
+                            },
+                            {
+                                "-type": "tag",
+                                "-label": "4 faixas",
+                                "-icon": "auditoria_cicloviaria_icons/4_lanes.png"
+                            }
+                        ]
+                    },
+                    {
+                        "button": [
+                            {
+                                "-type": "tag",
+                                "-label": "5 faixas",
+                                "-icon": "auditoria_cicloviaria_icons/5_lanes.png"
+                            },
+                            {
+                                "-type": "tag",
+                                "-label": "6 faixas",
+                                "-icon": "auditoria_cicloviaria_icons/6_lanes.png"
+                            }
+                        ]
+                    },
+                    {
+                        "button": [
+                            {
+                                "-type": "tag",
+                                "-label": "Mais faixas (especificar)",
+                                "-icon": "auditoria_cicloviaria_icons/7_lanes.png"
+                            },
+                            {
+                                "-type": "textnote",
+                                "-icon": "logo_textnote"
+                            }
+                        ]
+                    },
+                    {
+                        "button": {
+                            "-type": "tag",
+                            "-label": "Remover Faixas da Via 🗑️",
+                            "-icon": ""
+                        }
+                    }
+                ]
+            },
+            {
+                "-name": "estacionamento_na_via",
+                "row": [
+                    {
+                        "button": {
+                            "-type": "tag",
+                            "-label": "Estacionamento proibido na via"
+                        }
+                    },
+                    {
+                        "button": {
+                            "-type": "tag",
+                            "-label": "Estacionamento dedicado de um lado, segregado da circulação"
+                        }
+                    },
+                    {
+                        "button": {
+                            "-type": "tag",
+                            "-label": "Estacionamento de um lado, incluso na circulação"
+                        }
+                    },
+                    {
+                        "button": {
+                            "-type": "tag",
+                            "-label": "Estacionamento dos dois lados"
+                        }
+                    },
+                    {
+                        "button": {
+                            "-type": "tag",
+                            "-label": "Remover Estacionamento 🗑️",
+                            "-icon": ""
+                        }
+                    }
+                ]
+            },
+            {
+                "-name": "avaliacoes",
+                "row": [
+                    {
+                        "button": [
+                            {
+                                "-type": "page",
+                                "-label": "Proteção cicloVIAs e FAIXAs",
+                                "-targetlayout": "protecao",
+                                "-icon": "auditoria_cicloviaria_icons/security.png"
+                            },
+                            {
+                                "-type": "page",
+                                "-label": "Acesso de ciclistas à cicloVIA",
+                                "-targetlayout": "segregadores_avaliacao",
+                                "-icon": "auditoria_cicloviaria_icons/yellow_brick_large_divider.png"
+                            }
+                        ]
+                    },
+                    {
+                        "button": [
+                            {
+                                "-type": "page",
+                                "-label": "Sinuosidade da ciclo",
+                                "-targetlayout": "sinuosidade",
+                                "-icon": "auditoria_cicloviaria_icons/sinuosity_route.png"
+                            },
+                            {
+                                "-type": "page",
+                                "-label": "Arborização",
+                                "-targetlayout": "sombreamento",
+                                "-icon": "auditoria_cicloviaria_icons/shadow_route.png"
+                            }
+                        ]
+                    },
+                    {
+                        "button": [
+                            {
+                                "-type": "page",
+                                "-label": "Situação da pintura",
+                                "-targetlayout": "pintura_vermelha_situacao",
+                                "-icon": "auditoria_cicloviaria_icons/paint_divider.png"
+                            },
+                            {
+                                "-type": "page",
+                                "-label": "Situação do Pavimento",
+                                "-targetlayout": "pavimento_avaliacao",
+                                "-icon": "auditoria_cicloviaria_icons/brick_floor_route.png"
+                            }
+                        ]
+                    },
+                    {
+                        "button": [
+                            {
+                                "-type": "page",
+                                "-label": "Iluminação",
+                                "-targetlayout": "iluminacao_estrutura_qte",
+                                "-icon": "auditoria_cicloviaria_icons/bike_lane_ilumination_route.png"
+                            },
+                            {}
+                        ]
+                    }
+                ]
+            },
+            {
+                "-name": "protecao",
+                "row": [
+                    {
+                        "button": {
+                            "-type": "tag",
+                            "-label": "SE CICLOVIA: segregação impede completamente a invasão de automóvel e não há trechos desprotegidos"
+                        }
+                    },
+                    {
+                        "button": {
+                            "-type": "tag",
+                            "-label": "SE CICLOFAIXA: para invadir a ciclo parte do automóvel passa obrigatoriamente por cima de segregadores"
+                        }
+                    },
+                    {
+                        "button": {
+                            "-type": "tag",
+                            "-label": "AMBAS: Poucos trechos COM segregadores. Automóvel consegue passar POR ENTRE estes com facilidade."
+                        }
+                    },
+                    {
+                        "button": {
+                            "-type": "tag",
+                            "-label": "AMBAS: NENHUM ou QUASE NENHUM segregador."
+                        }
+                    },
+                    {},
+                    {},
+                    {},
+                    {
+                        "button": {
+                            "-type": "tag",
+                            "-label": "Remover Avaliação de Proteção 🗑️",
+                            "-icon": ""
+                        }
+                    }
+                ]
+            },
+            {
+                "-name": "segregadores_avaliacao",
+                "row": [
+                    {
+                        "button": {
+                            "-type": "tag",
+                            "-label": "Segregadores NÃO DIFICULTAM o acesso de ciclistas"
+                        }
+                    },
+                    {
+                        "button": {
+                            "-type": "tag",
+                            "-label": "Segregadores DIFICULTAM o acesso parcialmente de ciclistas"
+                        }
+                    },
+                    {
+                        "button": {
+                            "-type": "tag",
+                            "-label": "Segregadores IMPEDEM o acesso de ciclistas"
+                        }
+                    },
+                    {},
+                    {},
+                    {},
+                    {
+                        "button": {
+                            "-type": "tag",
+                            "-label": "Remover Avaliação de Segregadores 🗑️",
+                            "-icon": ""
+                        }
+                    }
+                ]
+            },
+            {
+                "-name": "sinuosidade",
+                "row": [
+                    {
+                        "button": {
+                            "-type": "tag",
+                            "-label": "A ciclo é completamente reta."
+                        }
+                    },
+                    {
+                        "button": {
+                            "-type": "tag",
+                            "-label": "A ciclo é sinuosa, exigindo atenção"
+                        }
+                    },
+                    {
+                        "button": {
+                            "-type": "tag",
+                            "-label": "A ciclo é muito sinuosa, podendo causar colisões com obstáculos ou outros ciclistas em momentos de ultrapassagem"
+                        }
+                    },
+                    {
+                        "button": {
+                            "-type": "tag",
+                            "-label": "A ciclo é muito sinuosa ou possui curvas com obstáculos que impedem visualização de entorno ou parte da estrutura"
+                        }
+                    },
+                    {},
+                    {},
+                    {
+                        "button": {
+                            "-type": "tag",
+                            "-label": "Remover Avaliação de Sinuosidade 🗑️",
+                            "-icon": ""
+                        }
+                    }
+                ]
+            },
+            {
+                "-name": "sombreamento",
+                "row": [
+                    {
+                        "button": {
+                            "-type": "tag",
+                            "-label": "Sombras em PRATICAMENTE TODA a extensão"
+                        }
+                    },
+                    {
+                        "button": {
+                            "-type": "tag",
+                            "-label": "Sombras na MAIOR PARTE da extensão"
+                        }
+                    },
+                    {
+                        "button": {
+                            "-type": "tag",
+                            "-label": "Sombras em alguns trechos, COM mudas plantadas"
+                        }
+                    },
+                    {
+                        "button": {
+                            "-type": "tag",
+                            "-label": "Sombras em alguns trechos, SEM mudas novas"
+                        }
+                    },
+                    {
+                        "button": {
+                            "-type": "tag",
+                            "-label": "Somente mudas novas"
+                        }
+                    },
+                    {
+                        "button": {
+                            "-type": "tag",
+                            "-label": "Não há árvores nem mudas"
+                        }
+                    },
+                    {},
+                    {},
+                    {
+                        "button": {
+                            "-type": "tag",
+                            "-label": "Remover Avaliação de Sombreamento 🗑️",
+                            "-icon": ""
+                        }
+                    }
+                ]
+            },
+            {
+                "-name": "pintura_vermelha_padrao",
+                "row": [
+                    {
+                        "button": {
+                            "-type": "tag",
+                            "-label": "Toda área de circulação pintada de vermelho",
+                            "-icon": ""
+                        }
+                    },
+                    {
+                        "button": {
+                            "-type": "tag",
+                            "-label": "Pintada de vermelho com interrupções",
+                            "-icon": ""
+                        }
+                    },
+                    {
+                        "button": {
+                            "-type": "tag",
+                            "-label": "Apenas faixas vermelhas nas bordas, com travessias pintadas nos cruzamentos",
+                            "-icon": ""
+                        }
+                    },
+                    {
+                        "button": {
+                            "-type": "tag",
+                            "-label": "Apenas faixas vermelhas nas bordas",
+                            "-icon": ""
+                        }
+                    },
+                    {},
+                    {},
+                    {},
+                    {
+                        "button": {
+                            "-type": "tag",
+                            "-label": "Remover Padrão de Pintura 🗑️",
+                            "-icon": ""
+                        }
+                    }
+                ]
+            },
+            {
+                "-name": "pintura_vermelha_situacao",
+                "row": [
+                    {
+                        "button": {
+                            "-type": "tag",
+                            "-label": "A pintura está boa, COMPLETA e visível",
+                            "-icon": ""
+                        }
+                    },
+                    {
+                        "button": {
+                            "-type": "tag",
+                            "-label": "A pintura está boa, mas FALHA em ALGUNS pontos",
+                            "-icon": ""
+                        }
+                    },
+                    {
+                        "button": {
+                            "-type": "tag",
+                            "-label": "A pintura é falha em VÁRIOS pontos",
+                            "-icon": ""
+                        }
+                    },
+                    {
+                        "button": {
+                            "-type": "tag",
+                            "-label": "A pintura é MUITO falha, mostrando muito asfalto",
+                            "-icon": ""
+                        }
+                    },
+                    {
+                        "button": {
+                            "-type": "tag",
+                            "-label": "Pintura APAGADA ou somente rastros de tinta",
+                            "-icon": ""
+                        }
+                    },
+                    {},
+                    {},
+                    {
+                        "button": {
+                            "-type": "tag",
+                            "-label": "Remover Situação Pintura 🗑️",
+                            "-icon": ""
+                        }
+                    }
+                ]
+            },
+            {
+                "-name": "padrao_de_pintura_vermelha",
+                "row": [
+                    {
+                        "button": {
+                            "-type": "tag",
+                            "-label": "Toda área de circulação pintada de vermelho"
+                        }
+                    },
+                    {
+                        "button": {
+                            "-type": "tag",
+                            "-label": "Pintada de vermelho com interrupções"
+                        }
+                    },
+                    {
+                        "button": {
+                            "-type": "tag",
+                            "-label": "Apenas faixas vermelhas nas bordas, com travessias pintadas nos cruzamentos"
+                        }
+                    },
+                    {
+                        "button": {
+                            "-type": "tag",
+                            "-label": "Apenas faixas vermelhas nas bordas"
+                        }
+                    },
+                    {
+                        "button": {
+                            "-type": "tag",
+                            "-label": "Remover Padrão Pintura 🗑️",
+                            "-icon": ""
+                        }
+                    }
+                ]
+            },
+            {
+                "-name": "pavimento_avaliacao",
+                "row": [
+                    {
+                        "button": {
+                            "-type": "tag",
+                            "-label": "Bom estado"
+                        }
+                    },
+                    {
+                        "button": {
+                            "-type": "tag",
+                            "-label": "Pequenas imperfeições, como fissuras"
+                        }
+                    },
+                    {
+                        "button": {
+                            "-type": "tag",
+                            "-label": "Irregularidades que demandam desvio para circulação"
+                        }
+                    },
+                    {
+                        "button": {
+                            "-type": "tag",
+                            "-label": "Falhas que demandam redução de velocidade ou parada"
+                        }
+                    },
+                    {
+                        "button": {
+                            "-type": "tag",
+                            "-label": "Buracos grandes que demandam saída da ciclo"
+                        }
+                    },
+                    {
+                        "button": {
+                            "-type": "tag",
+                            "-label": "Totalmente destruído, impossível transitar"
+                        }
+                    },
+                    {},
+                    {},
+                    {
+                        "button": {
+                            "-type": "tag",
+                            "-label": "Remover Avaliação de Pavimento 🗑️",
+                            "-icon": ""
+                        }
+                    }
+                ]
+            },
+            {
+                "-name": "placas",
+                "row": [
+                    {
+                        "button": [
+                            {
+                                "-type": "tag",
+                                "-label": "R-34",
+                                "-icon": "auditoria_cicloviaria_icons/on_way_vertical_sign.png"
+                            },
+                            {
+                                "-type": "tag",
+                                "-label": "A-30",
+                                "-icon": "auditoria_cicloviaria_icons/cross_vertical_sign.png"
+                            },
+                            {
+                                "-type": "tag",
+                                "-label": "Complementar",
+                                "-icon": "auditoria_cicloviaria_icons/complementary_plate.png"
+                            }
+                        ]
+                    },
+                    {
+                        "button": [
+                            {
+                                "-type": "tag",
+                                "-label": "Início",
+                                "-icon": "auditoria_cicloviaria_icons/bike_lane_start.png"
+                            },
+                            {
+                                "-type": "tag",
+                                "-label": "Fim",
+                                "-icon": "auditoria_cicloviaria_icons/bike_lane_end.png"
+                            },
+                            {
+                                "-type": "tag",
+                                "-label": "Semáforo exclusivo",
+                                "-icon": "auditoria_cicloviaria_icons/bicicle_traffic_light.png"
+                            }
+                        ]
+                    },
+                    {
+                        "button": [
+                            {
+                                "-type": "tag",
+                                "-label": "20km/h",
+                                "-icon": "auditoria_cicloviaria_icons/speed_sign_20.png"
+                            },
+                            {
+                                "-type": "tag",
+                                "-label": "30km/h",
+                                "-icon": "auditoria_cicloviaria_icons/speed_sign_30.png"
+                            },
+                            {
+                                "-type": "tag",
+                                "-label": "40km/h",
+                                "-icon": "auditoria_cicloviaria_icons/speed_sign_40.png"
+                            }
+                        ]
+                    },
+                    {
+                        "button": [
+                            {
+                                "-type": "tag",
+                                "-label": "50km/h",
+                                "-icon": "auditoria_cicloviaria_icons/speed_sign_50.png"
+                            },
+                            {
+                                "-type": "tag",
+                                "-label": "60km/h",
+                                "-icon": "auditoria_cicloviaria_icons/speed_sign_60.png"
+                            },
+                            {
+                                "-type": "tag",
+                                "-label": "80km/h",
+                                "-icon": "auditoria_cicloviaria_icons/speed_sign_80.png"
+                            }
+                        ]
+                    },
+                    {
+                        "button": {
+                            "-type": "tag",
+                            "-label": "Remover Placa 🗑️",
+                            "-icon": ""
+                        }
+                    }
+                ]
+            },
+            {
+                "-name": "sinalizacao_horizontal_qte",
+                "row": [
+                    {
+                        "button": [
+                            {
+                                "-type": "tag",
+                                "-label": "Pictograma BOA condição",
+                                "-icon": "auditoria_cicloviaria_icons/picto_and_arrow_route.png"
+                            },
+                            {
+                                "-type": "tag",
+                                "-label": "Pictograma MÁ condição",
+                                "-icon": "auditoria_cicloviaria_icons/picto_and_arrow-bad_route.png"
+                            }
+                        ]
+                    },
+                    {
+                        "button": [
+                            {
+                                "-type": "tag",
+                                "-label": "Seta BOA condição",
+                                "-icon": "auditoria_cicloviaria_icons/arrow_route.png"
+                            },
+                            {
+                                "-type": "tag",
+                                "-label": "Seta MÁ condição",
+                                "-icon": "auditoria_cicloviaria_icons/arrow-bad_route.png"
+                            }
+                        ]
+                    },
+                    {
+                        "button": [
+                            {
+                                "-type": "tag",
+                                "-label": "Em cruzamento BOA condição",
+                                "-icon": "auditoria_cicloviaria_icons/horizontal_crossing_signs.png"
+                            },
+                            {
+                                "-type": "tag",
+                                "-label": "Em cruzamento MÁ condição",
+                                "-icon": "auditoria_cicloviaria_icons/horizontal_crossing_signs-bad.png"
+                            }
+                        ]
+                    },
+                    {},
+                    {
+                        "button": {
+                            "-type": "tag",
+                            "-label": "Remover registro da pintura 🗑️",
+                            "-icon": ""
+                        }
+                    }
+                ]
+            },
+            {
+                "-name": "obstaculos",
+                "row": [
+                    {
+                        "button": [
+                            {
+                                "-type": "tag",
+                                "-label": "Bueiro",
+                                "-icon": "auditoria_cicloviaria_icons/manhole.png"
+                            },
+                            {
+                                "-type": "tag",
+                                "-label": "Raíz",
+                                "-icon": "auditoria_cicloviaria_icons/tree_root.png"
+                            }
+                        ]
+                    },
+                    {
+                        "button": [
+                            {
+                                "-type": "tag",
+                                "-label": "Buraco",
+                                "-icon": "auditoria_cicloviaria_icons/hole.png"
+                            },
+                            {
+                                "-type": "tag",
+                                "-label": "Vala profunda",
+                                "-icon": "auditoria_cicloviaria_icons/ditch.png"
+                            }
+                        ]
+                    },
+                    {
+                        "button": [
+                            {
+                                "-type": "tag",
+                                "-label": "Desnível",
+                                "-icon": "auditoria_cicloviaria_icons/desalign_bike_lane.png"
+                            },
+                            {
+                                "-type": "tag",
+                                "-label": "Grade alinhada ao pneu",
+                                "-icon": "auditoria_cicloviaria_icons/gradealinhada.png"
+                            }
+                        ]
+                    },
+                    {
+                        "button": [
+                            {
+                                "-type": "tag",
+                                "-label": "Outro obstáculo",
+                                "-icon": "auditoria_cicloviaria_icons/other.png"
+                            },
+                            {
+                                "-type": "textnote",
+                                "-icon": "logo_textnote"
+                            }
+                        ]
+                    },
+                    {},
+                    {},
+                    {},
+                    {
+                        "button": {
+                            "-type": "tag",
+                            "-label": "Remover Obstáculo 🗑️",
+                            "-icon": ""
+                        }
+                    }
+                ]
+            },
+            {
+                "-name": "riscos",
+                "row": [
+                    {
+                        "button": {
+                            "-type": "tag",
+                            "-label": "Ponto de embarque de ônibus interrompe a ciclo",
+                            "-icon": ""
+                        }
+                    },
+                    {
+                        "button": {
+                            "-type": "tag",
+                            "-label": "Termina ciclo com ciclista na contramão",
+                            "-icon": ""
+                        }
+                    },
+                    {
+                        "button": {
+                            "-type": "tag",
+                            "-label": "A ciclo troca de lado na via, sem redutores de velocidade ou semáforos",
+                            "-icon": ""
+                        }
+                    },
+                    {
+                        "button": {
+                            "-type": "tag",
+                            "-label": "Conversão perigosa. EXPLIQUE.",
+                            "-icon": ""
+                        }
+                    },
+                    {
+                        "button": {
+                            "-type": "tag",
+                            "-label": "Cruzamento perigoso. EXPLIQUE.",
+                            "-icon": ""
+                        }
+                    },
+                    {
+                        "button": {
+                            "-type": "tag",
+                            "-label": "Outro risco. EXPLIQUE.",
+                            "-icon": "auditoria_cicloviaria_icons/other.png"
+                        }
+                    },
+                    {
+                        "button": {
+                            "-type": "voicerec",
+                            "-icon": "logo_voice"
+                        }
+                    },
+                    {
+                        "button": {
+                            "-type": "picture",
+                            "-icon": "logo_camera"
+                        }
+                    },
+                    {
+                        "button": {
+                            "-type": "textnote",
+                            "-icon": "logo_textnote"
+                        }
+                    },
+                    {
+                        "button": {
+                            "-type": "tag",
+                            "-label": "Remover risco 🗑️",
+                            "-icon": ""
+                        }
+                    }
+                ]
+            },
+            {
+                "-name": "larguras_estrutura_qte",
+                "row": [
+                    {
+                        "button": [
+                            {
+                                "-type": "tag",
+                                "-label": "Área transitável da ciclo (cm)"
+                            },
+                            {
+                                "-type": "textnote",
+                                "-icon": "logo_textnote"
+                            }
+                        ]
+                    },
+                    {
+                        "button": [
+                            {
+                                "-type": "tag",
+                                "-label": "Área de amortecimento da ciclo (cm)"
+                            },
+                            {
+                                "-type": "textnote",
+                                "-icon": "logo_textnote"
+                            }
+                        ]
+                    },
+                    {
+                        "button": [
+                            {
+                                "-type": "tag",
+                                "-label": "Faixa de carros logo ao lado da ciclo (cm)"
+                            },
+                            {
+                                "-type": "textnote",
+                                "-icon": "logo_textnote"
+                            }
+                        ]
+                    },
+                    {
+                        "button": [
+                            {
+                                "-type": "tag",
+                                "-label": "Total da via (incluindo a ciclo) (cm)"
+                            },
+                            {
+                                "-type": "textnote",
+                                "-icon": "logo_textnote"
+                            }
+                        ]
+                    },
+                    {},
+                    {},
+                    {
+                        "button": {
+                            "-type": "tag",
+                            "-label": "Remover Largura 🗑️",
+                            "-icon": ""
+                        }
+                    }
+                ]
+            },
+            {
+                "-name": "controle_de_velocidade_qte",
+                "row": [
+                    {
+                        "button": {
+                            "-type": "tag",
+                            "-label": "Pintura da velocidade no piso",
+                            "-icon": ""
+                        }
+                    },
+                    {
+                        "button": {
+                            "-type": "tag",
+                            "-label": "Travessia de pedestre em nível (lombofaixa)",
+                            "-icon": ""
+                        }
+                    },
+                    {
+                        "button": {
+                            "-type": "tag",
+                            "-label": "Lombadas físicas",
+                            "-icon": ""
+                        }
+                    },
+                    {
+                        "button": {
+                            "-type": "tag",
+                            "-label": "Radar/Lombada Eletrônica",
+                            "-icon": ""
+                        }
+                    },
+                    {
+                        "button": {
+                            "-type": "tag",
+                            "-label": "Piso diferenciado",
+                            "-icon": ""
+                        }
+                    },
+                    {
+                        "button": {
+                            "-type": "tag",
+                            "-label": "Nenhum elemento de controle de velocidade na via",
+                            "-icon": ""
+                        }
+                    },
+                    {
+                        "button": [
+                            {
+                                "-type": "tag",
+                                "-label": "Outro controle",
+                                "-icon": "auditoria_cicloviaria_icons/other.png"
+                            },
+                            {
+                                "-type": "textnote",
+                                "-icon": "logo_textnote"
+                            }
+                        ]
+                    },
+                    {
+                        "button": {
+                            "-type": "tag",
+                            "-label": "Remover Controle de Velocidade 🗑️",
+                            "-icon": ""
+                        }
+                    }
+                ]
+            },
+            {
+                "-name": "acesso_ciclovias",
+                "row": [
+                    {
+                        "button": {
+                            "-type": "tag",
+                            "-label": "Via transversal COM acesso à ciclovia"
+                        }
+                    },
+                    {
+                        "button": {
+                            "-type": "tag",
+                            "-label": "Via transversal SEM acesso à ciclovia"
+                        }
+                    },
+                    {
+                        "button": {
+                            "-type": "tag",
+                            "-label": "Acesso sem uma via transversal"
+                        }
+                    },
+                    {},
+                    {},
+                    {
+                        "button": {
+                            "-type": "tag",
+                            "-label": "Remover Acesso Ciclovias 🗑️",
+                            "-icon": ""
+                        }
+                    }
+                ]
+            },
+            {
+                "-name": "iluminacao_estrutura_qte",
+                "row": [
+                    {
+                        "button": {
+                            "-type": "tag",
+                            "-label": "Iluminação dedicada para ciclistas"
+                        }
+                    },
+                    {
+                        "button": {
+                            "-type": "tag",
+                            "-label": "Iluminação geral na via do mesmo lado da estrutura"
+                        }
+                    },
+                    {
+                        "button": {
+                            "-type": "tag",
+                            "-label": "Iluminação geral na via do outro lado da infraestrutura"
+                        }
+                    },
+                    {
+                        "button": {
+                            "-type": "tag",
+                            "-label": "Iluminação geral dos dois lados da via"
+                        }
+                    },
+                    {},
+                    {
+                        "button": {
+                            "-type": "tag",
+                            "-label": "Remover Tipo de Iluminação 🗑️",
+                            "-icon": ""
+                        }
+                    }
+                ]
+            },
+            {
+                "-name": "bicicletarios",
+                "row": [
+                    {
+                        "button": [
+                            {
+                                "-type": "tag",
+                                "-label": "U invertido",
+                                "-icon": ""
+                            },
+                            {
+                                "-type": "tag",
+                                "-label": "Entorta roda",
+                                "-icon": ""
+                            },
+                            {
+                                "-type": "tag",
+                                "-label": "Açougue",
+                                "-icon": ""
+                            }
+                        ]
+                    },
+                    {
+                        "button": [
+                            {
+                                "-type": "tag",
+                                "-label": "Trave de balé",
+                                "-icon": ""
+                            },
+                            {
+                                "-type": "tag",
+                                "-label": "Suspenso na parede",
+                                "-icon": ""
+                            },
+                            {
+                                "-type": "tag",
+                                "-label": "Presilha na parede",
+                                "-icon": ""
+                            }
+                        ]
+                    },
+                    {
+                        "button": [
+                            {
+                                "-type": "tag",
+                                "-label": "Outro paraciclo",
+                                "-icon": ""
+                            },
+                            {
+                                "-type": "textnote",
+                                "-icon": "logo_textnote"
+                            }
+                        ]
+                    },
+                    {
+                        "button": [
+                            {
+                                "-type": "tag",
+                                "-label": "Tem cobertura",
+                                "-icon": ""
+                            },
+                            {
+                                "-type": "tag",
+                                "-label": "É privado",
+                                "-icon": ""
+                            }
+                        ]
+                    },
+                    {
+                        "button": [
+                            {
+                                "-type": "tag",
+                                "-label": "Quantidade de vagas",
+                                "-icon": ""
+                            },
+                            {
+                                "-type": "textnote",
+                                "-icon": "logo_textnote"
+                            }
+                        ]
+                    },
+                    {
+                        "button": [
+                            {
+                                "-type": "tag",
+                                "-label": "Se tiver um nome, descreva",
+                                "-icon": ""
+                            },
+                            {
+                                "-type": "textnote",
+                                "-icon": "logo_textnote"
+                            }
+                        ]
+                    },
+                    {
+                        "button": {
+                            "-type": "tag",
+                            "-label": "Remover Bicicletário 🗑️",
+                            "-icon": ""
+                        }
+                    }
+                ]
+            }
+        ]
+    }
+}

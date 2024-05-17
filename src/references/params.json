@@ -1,4 +1,13 @@
 {
+    "metadata": {
+        "dupla": "",
+        "cod": "",
+        "rota": "",
+        "tipologia": "",
+        "trecho": "",
+        "bairro": "",
+        "extensao_km": ""
+    },
     "tipo_da_via": {
         "Ciclovia": false,
         "Ciclofaixa": false,
@@ -43,8 +52,7 @@
         "4 faixas": false,
         "5 faixas": false,
         "6 faixas": false,
-        "Mais faixas (especificar)": false,
-        "Remover Faixas da Via 🗑️": false
+        "Mais faixas (especificar)": false
     },
     "pavimento": {
         "Concreto": false,
@@ -135,14 +143,14 @@
         "Em cruzamento BOA condição": "",
         "Em cruzamento MÁ condição": ""
     },
-    "obstaculos": {
-        "Bueiro": false,
-        "Raíz": false,
-        "Buraco": false,
-        "Vala profunda": false,
-        "Desnível": false,
-        "Grade alinhada ao pneu": false,
-        "Outro obstáculo": false
+    "obstaculos_qte": {
+        "Bueiro": "",
+        "Raíz": "",
+        "Buraco": "",
+        "Vala profunda": "",
+        "Desnível": "",
+        "Grade alinhada ao pneu": "",
+        "Outro obstáculo": ""
     },
     "riscos": {
         "Ponto de embarque de ônibus interrompe a ciclo": false,
@@ -159,12 +167,12 @@
         "Total da via (incluindo a ciclo) (cm)": ""
     },
     "controle_de_velocidade_qte": {
-        "Pintura da velocidade no piso": false,
-        "Travessia de pedestre em nível (lombofaixa)": false,
-        "Lombadas físicas": false,
-        "Radar/Lombada Eletrônica": false,
-        "Piso diferenciado": false,
-        "Nenhum elemento de controle de velocidade na via": false,
+        "Pintura da velocidade no piso": "",
+        "Travessia de pedestre em nível (lombofaixa)": "",
+        "Lombadas físicas": "",
+        "Radar/Lombada Eletrônica": "",
+        "Piso diferenciado": "",
+        "Nenhum elemento de controle de velocidade na via": "",
         "Outro controle": ""
     },
     "acesso_ciclovias": {
@@ -173,10 +181,10 @@
         "Acesso sem uma via transversal": false
     },
     "iluminacao_estrutura_qte": {
-        "Iluminação dedicada para ciclistas": false,
-        "Iluminação geral na via do mesmo lado da estrutura": false,
-        "Iluminação geral na via do outro lado da infraestrutura": false,
-        "Iluminação geral dos dois lados da via": false
+        "Iluminação dedicada para ciclistas": "",
+        "Iluminação geral na via do mesmo lado da estrutura": "",
+        "Iluminação geral na via do outro lado da infraestrutura": "",
+        "Iluminação geral dos dois lados da via": ""
     },
     "bicicletarios": {
         "U invertido": false,
