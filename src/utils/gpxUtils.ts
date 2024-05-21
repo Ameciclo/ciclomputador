@@ -5,7 +5,7 @@ import { applyParametrization } from './parametrizationUtils';
 
 const gpxFolderPath = 'src/gpx-files';
 
-export function processGPXFile(filePath: string) {
+export function processGPXFile(filePath: string, fileName: string) {
     try {
         const data = readFileSync(filePath);
         xml2js.parseString(data, (err, result) => {
@@ -15,7 +15,7 @@ export function processGPXFile(filePath: string) {
             }
 
             const assessmentParams = readJSONFileSync("src/references/params.json");
-            applyParametrization(assessmentParams, result);
+            applyParametrization(assessmentParams, result, fileName);
 
             const resultFolderPath = './src/result';
             const resultFilePath = `${resultFolderPath}/data.json`;
@@ -36,7 +36,7 @@ export function processAllGPXFiles() {
         console.log("Processando dados GPX");
         for (const fileName of fileNames) {
             const filePath = `${gpxFolderPath}/${fileName}`;
-            processGPXFile(filePath);
+            processGPXFile(filePath, fileName);
         }
     } catch (error) {
         console.error('Erro ao ler os arquivos da pasta:', error);
