@@ -13,3 +13,24 @@ Para executar esse script de processamento de dados GPX você precisa lançar os
 2 - `npm run dev`
 
 3 - 💡 uma pasta em 'src' chamada chamada 'result' vai conter um arquivo 'data.json' com os dados de cada arquivo gpx processados. 
+
+
+### Entendendo mais sobre o JSON gerado:
+  a estrutura basica do JSON resultado é a seguinte:
+
+um array de objetos [{},{},{}...]
+onde cada objeto representa um acumulado de dados de cada GPX
+
+ex.:
+
+```
+[
+  {
+    resume: {},
+    metadata: {},
+    ... acumulado de dados brutos
+  },
+  ...
+]
+```
+Basicamente a chave resume sintetiza tudo que interessa de dados de cada gpx.
