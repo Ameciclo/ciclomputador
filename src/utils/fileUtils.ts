@@ -17,7 +17,10 @@ export function fileExists(filePath: string): boolean {
 }
 
 export function createDirectorySync(dirPath: string) {
-    if (!fileExists(dirPath)) {
+    if (fileExists(dirPath)) {
+        fs.rmSync(dirPath, { recursive: true });
+        fs.mkdirSync(dirPath);
+    } else {
         fs.mkdirSync(dirPath);
     }
 }

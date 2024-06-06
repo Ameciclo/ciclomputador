@@ -1,139 +1,230 @@
 {
+    "resume": {
+        "timestamp": "",
+        "evaluator_1": "",
+        "evaluator_2": "",
+        "date": "",
+        "start_time": "",
+        "street": "",
+        "section_start": "",
+        "section_end": "",
+        "section_name": "",
+        "typology": "",
+        "flow_direction": "",
+        "traffic_flow": "",
+        "localization": "",
+        "speed_limit": "",
+        "contiguos_lanes": "",
+        "segregator_type": "",
+        "protection_conditions_evaluation": "",
+        "access_evaluation": "",
+        "all_access_count": "",
+        "way_with_access": "",
+        "ways_without_access": "",
+        "ways_access_apply": "",
+        "pavement_type": "",
+        "pavement_condition_evaluation": "",
+        "sinuosity_evaluation": "",
+        "shading_evaluation": "",
+        "car_risk_situations": "",
+        "bus_stops_along": "",
+        "crossings_no_speed_reduction": "",
+        "conversion_path_allows_car_intrusion": "",
+        "structure_side_change_without_speed_reducers_or_lights": "",
+        "car_turning_left_with_cyclist_invisibility": "",
+        "structure_abrupt_end_in_counterflow": "",
+        "other_car_risk_situations": "",
+        "all_risks_situations_count": "",
+        "permanent_obstacles_asphalt_related": "",
+        "manhole_covers": "",
+        "roots": "",
+        "potholes": "",
+        "deep_gutters_along_structure": "",
+        "unevenness_obstacles": "",
+        "other_obstacles": "",
+        "all_obstacles_count": "",
+        "if_gutters_width": "",
+        "ridable_width": "",
+        "buffer_width": "",
+        "side_lane_width": "",
+        "road_width": "",
+        "parking": "",
+        "max_speed_control": "",
+        "vertical_speed_signs_count": "",
+        "horizontal_speed_sign_count": "",
+        "pedestrian_crossings_count": "",
+        "speed_bumps_count": "",
+        "electronic_speed_control_count": "",
+        "other_control_elements_count": "",
+        "start_indication": "",
+        "end_indication": "",
+        "on_way_vertical_signs_count": "",
+        "crosses_with_vertical_sign_count": "",
+        "crosses_without_vertical_sign_count": "",
+        "horizontal_pattern_evaluation": "",
+        "painting_condition_evaluation": "",
+        "good_conditions_crossing_signs": "",
+        "bad_conditions_crossing_signs": "",
+        "no_visible_crossing_signs": "",
+        "pictograms_along_structure_existence": "",
+        "good_conditions_picto_signs": "",
+        "bad_conditions_picto_signs": "",
+        "arrows_along_structure_existence": "",
+        "good_conditions_arrow_signs": "",
+        "bad_conditions_arrow_signs": "",
+        "dedicated_ligthing": "",
+        "same_side_ligthing": "",
+        "other_side_ligthing": "",
+        "end_time": "",
+        "notes_comments": "",
+        "front_page_photo": "",
+        "back_page_photo": "",
+        "structure_photos": "",
+        "comments": "",
+        "seg_length": "",
+        "geo_id": "",
+        "form_id": ""
+    },
     "metadata": {
+        "Carimbo de data/hora": "",
+        "data": "",
         "dupla": "",
+        "Avaliador(a) 1": "",
+        "Avaliador(a) 2": "",
         "cod": "",
-        "rota": "",
+        "Via": "",
         "tipologia": "",
         "trecho": "",
         "bairro": "",
-        "extensao_km": ""
+        "extensao_km": "",
+        "Hora Início": ""
     },
     "tipo_da_via": {
-        "Ciclovia": false,
-        "Ciclofaixa": false,
-        "Ciclorrota": false,
-        "Calçada compartilhada": false
+        "Ciclovia": 0,
+        "Ciclofaixa": 0,
+        "Ciclorrota": 0,
+        "Calçada compartilhada": 0
     },
     "localizacao_via": {
-        "No canteiro central": false,
-        "Na via, junto ao canteiro": false,
-        "No bordo direito de Via de Mão Única": false,
-        "No bordo esquerdo de Via de Mão Única": false,
-        "Em bordo de Via de Mão Dupla": false,
-        "Sobre calçada": false,
-        "Isolada": false
+        "No canteiro central": 0,
+        "Na via, junto ao canteiro": 0,
+        "No bordo direito de Via de Mão Única": 0,
+        "No bordo esquerdo de Via de Mão Única": 0,
+        "Em bordo de Via de Mão Dupla": 0,
+        "Sobre calçada": 0,
+        "Isolada": 0
     },
     "fluxo-via": {
-        "Mão Única": false,
-        "Mão Dupla": false,
-        "Mão Inglesa": false,
-        "Pista dupla": false
+        "Mão Única": 0,
+        "Mão Dupla": 0,
+        "Mão Inglesa": 0,
+        "Pista dupla": 0
     },
     "fluxo-ciclo": {
-        "Unidirecional no Fluxo": false,
-        "Bidirecional": false,
-        "Unidirecional no Contrafluxo": false,
-        "Bidirecional com Mão Inglesa": false
+        "Unidirecional no Fluxo": 0,
+        "Bidirecional": 0,
+        "Unidirecional no Contrafluxo": 0,
+        "Bidirecional com Mão Inglesa": 0
     },
     "segregadores": {
-        "Canteiros": false,
-        "Prismas": false,
-        "Guias": false,
-        "Gelo baiano": false,
-        "Tachões": false,
-        "Balizadores": false,
-        "Pintura": false,
-        "Vasos": false
+        "Canteiros": 0,
+        "Prismas": 0,
+        "Guias": 0,
+        "Gelo baiano": 0,
+        "Tachões": 0,
+        "Balizadores": 0,
+        "Pintura": 0,
+        "Vasos": 0
     },
     "faixas_via": {
-        "1 faixa": false,
-        "2 faixas": false,
-        "3 faixas": false,
-        "4 faixas": false,
-        "5 faixas": false,
-        "6 faixas": false,
-        "Mais faixas (especificar)": false
+        "1 faixa": 0,
+        "2 faixas": 0,
+        "3 faixas": 0,
+        "4 faixas": 0,
+        "5 faixas": 0,
+        "6 faixas": 0,
+        "Mais faixas (especificar)": 0
     },
     "pavimento": {
-        "Concreto": false,
-        "Asfalto": false,
-        "Tijolo intertravado": false,
-        "Paralelepípedo": false,
-        "Terra": false,
-        "Barro": false,
-        "Outro pavimento": false
+        "Concreto": 0,
+        "Asfalto": 0,
+        "Tijolo intertravado": 0,
+        "Paralelepípedo": 0,
+        "Terra": 0,
+        "Barro": 0,
+        "Outro pavimento": 0
     },
     "estacionamento_na_via": {
-        "Estacionamento proibido na via": false,
-        "Estacionamento dedicado de um lado, segregado da circulação": false,
-        "Estacionamento de um lado, incluso na circulação": false,
-        "Estacionamento dos dois lados": false
+        "Estacionamento proibido na via": 0,
+        "Estacionamento dedicado de um lado, segregado da circulação": 0,
+        "Estacionamento de um lado, incluso na circulação": 0,
+        "Estacionamento dos dois lados": 0
     },
     "protecao": {
-        "SE CICLOVIA: segregação impede completamente a invasão de automóvel e não há trechos desprotegidos": false,
-        "SE CICLOFAIXA: para invadir a ciclo parte do automóvel passa obrigatoriamente por cima de segregadores": false,
-        "AMBAS: Poucos trechos COM segregadores. Automóvel consegue passar POR ENTRE estes com facilidade.": false,
-        "AMBAS: NENHUM ou QUASE NENHUM segregador.": false
+        "SE CICLOVIA: segregação impede completamente a invasão de automóvel e não há trechos desprotegidos": 0,
+        "SE CICLOFAIXA: para invadir a ciclo parte do automóvel passa obrigatoriamente por cima de segregadores": 0,
+        "AMBAS: Poucos trechos COM segregadores. Automóvel consegue passar POR ENTRE estes com facilidade.": 0,
+        "AMBAS: NENHUM ou QUASE NENHUM segregador.": 0
     },
     "segregadores_avaliacao": {
-        "Segregadores NÃO DIFICULTAM o acesso de ciclistas": false,
-        "Segregadores DIFICULTAM o acesso parcialmente de ciclistas": false,
-        "Segregadores IMPEDEM o acesso de ciclistas": false
+        "Segregadores NÃO DIFICULTAM o acesso de ciclistas": 0,
+        "Segregadores DIFICULTAM o acesso parcialmente de ciclistas": 0,
+        "Segregadores IMPEDEM o acesso de ciclistas": 0
     },
     "sinuosidade": {
-        "A ciclo é completamente reta.": false,
-        "A ciclo é sinuosa, exigindo atenção": false,
-        "A ciclo é muito sinuosa, podendo causar colisões com obstáculos ou outros ciclistas em momentos de ultrapassagem": false,
-        "A ciclo é muito sinuosa ou possui curvas com obstáculos que impedem visualização de entorno ou parte da estrutura": false
+        "A ciclo é completamente reta.": 0,
+        "A ciclo é sinuosa, exigindo atenção": 0,
+        "A ciclo é muito sinuosa, podendo causar colisões com obstáculos ou outros ciclistas em momentos de ultrapassagem": 0,
+        "A ciclo é muito sinuosa ou possui curvas com obstáculos que impedem visualização de entorno ou parte da estrutura": 0
     },
     "sombreamento": {
-        "Sombras em PRATICAMENTE TODA a extensão": false,
-        "Sombras na MAIOR PARTE da extensão": false,
-        "Sombras em alguns trechos, COM mudas plantadas": false,
-        "Sombras em alguns trechos, SEM mudas novas": false,
-        "Somente mudas novas": false,
-        "Não há árvores nem mudas": false
+        "Sombras em PRATICAMENTE TODA a extensão": 0,
+        "Sombras na MAIOR PARTE da extensão": 0,
+        "Sombras em alguns trechos, COM mudas plantadas": 0,
+        "Sombras em alguns trechos, SEM mudas novas": 0,
+        "Somente mudas novas": 0,
+        "Não há árvores nem mudas": 0
     },
     "pintura_vermelha_padrao": {
-        "Toda área de circulação pintada de vermelho": false,
-        "Pintada de vermelho com interrupções": false,
-        "Apenas faixas vermelhas nas bordas, com travessias pintadas nos cruzamentos": false,
-        "Apenas faixas vermelhas nas bordas": false
+        "Toda área de circulação pintada de vermelho": 0,
+        "Pintada de vermelho com interrupções": 0,
+        "Apenas faixas vermelhas nas bordas, com travessias pintadas nos cruzamentos": 0,
+        "Apenas faixas vermelhas nas bordas": 0
     },
     "pintura_vermelha_situacao": {
-        "A pintura está boa, COMPLETA e visível": false,
-        "A pintura está boa, mas FALHA em ALGUNS pontos": false,
-        "A pintura é falha em VÁRIOS pontos": false,
-        "A pintura é MUITO falha, mostrando muito asfalto": false,
-        "Pintura APAGADA ou somente rastros de tinta": false
+        "A pintura está boa, COMPLETA e visível": 0,
+        "A pintura está boa, mas FALHA em ALGUNS pontos": 0,
+        "A pintura é falha em VÁRIOS pontos": 0,
+        "A pintura é MUITO falha, mostrando muito asfalto": 0,
+        "Pintura APAGADA ou somente rastros de tinta": 0
     },
     "padrao_de_pintura_vermelha": {
-        "Toda área de circulação pintada de vermelho": false,
-        "Pintada de vermelho com interrupções": false,
-        "Apenas faixas vermelhas nas bordas, com travessias pintadas nos cruzamentos": false,
-        "Apenas faixas vermelhas nas bordas": false
+        "Toda área de circulação pintada de vermelho": 0,
+        "Pintada de vermelho com interrupções": 0,
+        "Apenas faixas vermelhas nas bordas, com travessias pintadas nos cruzamentos": 0,
+        "Apenas faixas vermelhas nas bordas": 0
     },
     "pavimento_avaliacao": {
-        "Bom estado": false,
-        "Pequenas imperfeições, como fissuras": false,
-        "Irregularidades que demandam desvio para circulação": false,
-        "Falhas que demandam redução de velocidade ou parada": false,
-        "Buracos grandes que demandam saída da ciclo": false,
-        "Totalmente destruído, impossível transitar": false
+        "Bom estado": 0,
+        "Pequenas imperfeições, como fissuras": 0,
+        "Irregularidades que demandam desvio para circulação": 0,
+        "Falhas que demandam redução de velocidade ou parada": 0,
+        "Buracos grandes que demandam saída da ciclo": 0,
+        "Totalmente destruído, impossível transitar": 0
     },
     "placas": {
-        "R-34": false,
-        "A-30": false,
-        "Complementar": false,
-        "Início": false,
-        "Fim": false,
-        "Semáforo exclusivo": false,
-        "20km/h": false,
-        "30km/h": false,
-        "40km/h": false,
-        "50km/h": false,
-        "60km/h": false,
-        "80km/h": false
+        "R-34": 0,
+        "A-30": 0,
+        "Complementar": 0,
+        "Início": 0,
+        "Fim": 0,
+        "Semáforo exclusivo": 0,
+        "20km/h": 0,
+        "30km/h": 0,
+        "40km/h": 0,
+        "50km/h": 0,
+        "60km/h": 0,
+        "80km/h": 0
     },
     "sinalizacao_horizontal_qte": {
         "Pictograma BOA condição": "",
@@ -153,12 +244,12 @@
         "Outro obstáculo": ""
     },
     "riscos": {
-        "Ponto de embarque de ônibus interrompe a ciclo": false,
-        "Termina ciclo com ciclista na contramão": false,
-        "A ciclo troca de lado na via, sem redutores de velocidade ou semáforos": false,
-        "Conversão perigosa. EXPLIQUE.": false,
-        "Cruzamento perigoso. EXPLIQUE.": false,
-        "Outro risco. EXPLIQUE.": false
+        "Ponto de embarque de ônibus interrompe a ciclo": 0,
+        "Termina ciclo com ciclista na contramão": 0,
+        "A ciclo troca de lado na via, sem redutores de velocidade ou semáforos": 0,
+        "Conversão perigosa. EXPLIQUE.": 0,
+        "Cruzamento perigoso. EXPLIQUE.": 0,
+        "Outro risco. EXPLIQUE.": 0
     },
     "larguras_estrutura_qte": {
         "Área transitável da ciclo (cm)": "",
@@ -176,9 +267,9 @@
         "Outro controle": ""
     },
     "acesso_ciclovias": {
-        "Via transversal COM acesso à ciclovia": false,
-        "Via transversal SEM acesso à ciclovia": false,
-        "Acesso sem uma via transversal": false
+        "Via transversal COM acesso à ciclovia": 0,
+        "Via transversal SEM acesso à ciclovia": 0,
+        "Acesso sem uma via transversal": 0
     },
     "iluminacao_estrutura_qte": {
         "Iluminação dedicada para ciclistas": "",
@@ -187,15 +278,15 @@
         "Iluminação geral dos dois lados da via": ""
     },
     "bicicletarios": {
-        "U invertido": false,
-        "Entorta roda": false,
-        "Açougue": false,
-        "Trave de balé": false,
-        "Suspenso na parede": false,
-        "Presilha na parede": false,
+        "U invertido": 0,
+        "Entorta roda": 0,
+        "Açougue": 0,
+        "Trave de balé": 0,
+        "Suspenso na parede": 0,
+        "Presilha na parede": 0,
         "Outro paraciclo": "",
-        "Tem cobertura": false,
-        "É privado": false,
+        "Tem cobertura": 0,
+        "É privado": 0,
         "Quantidade de vagas": "",
         "Se tiver um nome, descreva": ""
     }
