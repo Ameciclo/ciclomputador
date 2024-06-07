@@ -48,7 +48,7 @@ Sendo a chave "resume", o principal elemento de consumo de outros serviços.
 - [ ] "Dockerização"
 - [ ] Banco de Dados
 - [ ] API REST
-- [ ] Melhorias de performace e compatibilidade
+- [ ] Melhorias de performace e compatibilidade do código
 - [ ] Testes Unitários
 - [ ] Front-End
 - [ ] Testes de integração
