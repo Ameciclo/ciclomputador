@@ -33,4 +33,22 @@ ex.:
   ...
 ]
 ```
-Basicamente a chave resume sintetiza tudo que interessa de dados de cada gpx.
+Sendo a chave "resume", o principal elemento de consumo de outros serviços.
+
+### Dev:
+
+- [x] [Setup](https://github.com/Ameciclo/ideciclo-processador-GPX/commit/ede0b673153867981d2ff6cf0382ccdfed23629b)
+- [x] [Parametrização dos dados coletados no .gpx ](https://github.com/Ameciclo/ideciclo-processador-GPX/pull/1)
+- [ ] [Issue de alinhamento referências](https://github.com/Ameciclo/ideciclo-processador-GPX/issues/3)
+- [ ] Tratamento de "Errors" ou "Warnings" nos dados parametrizados.
+
+
+
+
+
+
+
+
+
+
+  
