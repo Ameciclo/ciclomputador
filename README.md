@@ -35,20 +35,21 @@ ex.:
 ```
 Sendo a chave "resume", o principal elemento de consumo de outros serviços.
 
-### Dev:
+### Desenvolvendo Agora:
 
 - [x] [Setup](https://github.com/Ameciclo/ideciclo-processador-GPX/commit/ede0b673153867981d2ff6cf0382ccdfed23629b)
 - [x] [Parametrização dos dados coletados no .gpx ](https://github.com/Ameciclo/ideciclo-processador-GPX/pull/1)
+- [x] [Disponibilização dos dados principais de consumo](https://github.com/Ameciclo/ideciclo-processador-GPX/pull/2)
 - [ ] [Issue de alinhamento referências](https://github.com/Ameciclo/ideciclo-processador-GPX/issues/3)
-- [ ] Tratamento de "Errors" ou "Warnings" nos dados parametrizados.
+- [ ] Tratamento de "Errors" ou "Warnings" nos dados parametrizados e disponibilização.
 
+#### Implementações Futuras Sugeridas:
 
-
-
-
-
-
-
-
-
-  
+- [ ] "Dockerização"
+- [ ] Banco de Dados
+- [ ] API REST
+- [ ] Melhorias de performace e compatibilidade
+- [ ] Testes Unitários
+- [ ] Front-End
+- [ ] Testes de integração
+- [ ] Testes E2E
