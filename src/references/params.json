@@ -1,14 +1,19 @@
 {
-    "resume": {
+    "result": {
+        "error": [],
+        "cod": "",
+        "gpx_name": "",
         "timestamp": "",
         "evaluator_1": "",
         "evaluator_2": "",
         "date": "",
         "start_time": "",
+        "end_time": "",
         "street": "",
         "section_start": "",
         "section_end": "",
         "section_name": "",
+        "crosses": 0,
         "typology": "",
         "flow_direction": "",
         "traffic_flow": "",
@@ -21,15 +26,13 @@
         "all_access_count": "",
         "way_with_access": "",
         "ways_without_access": "",
-        "ways_access_apply": "",
+        "other_access": "",
         "pavement_type": "",
         "pavement_condition_evaluation": "",
         "sinuosity_evaluation": "",
         "shading_evaluation": "",
         "car_risk_situations": "",
         "bus_stops_along": "",
-        "crossings_no_speed_reduction": "",
-        "conversion_path_allows_car_intrusion": "",
         "structure_side_change_without_speed_reducers_or_lights": "",
         "car_turning_left_with_cyclist_invisibility": "",
         "structure_abrupt_end_in_counterflow": "",
@@ -43,18 +46,16 @@
         "unevenness_obstacles": "",
         "other_obstacles": "",
         "all_obstacles_count": "",
-        "if_gutters_width": "",
         "ridable_width": "",
         "buffer_width": "",
-        "side_lane_width": "",
         "road_width": "",
         "parking": "",
-        "max_speed_control": "",
         "vertical_speed_signs_count": "",
         "horizontal_speed_sign_count": "",
         "pedestrian_crossings_count": "",
         "speed_bumps_count": "",
         "electronic_speed_control_count": "",
+        "differentiated_floor": "",
         "other_control_elements_count": "",
         "start_indication": "",
         "end_indication": "",
@@ -66,24 +67,18 @@
         "good_conditions_crossing_signs": "",
         "bad_conditions_crossing_signs": "",
         "no_visible_crossing_signs": "",
-        "pictograms_along_structure_existence": "",
         "good_conditions_picto_signs": "",
         "bad_conditions_picto_signs": "",
-        "arrows_along_structure_existence": "",
         "good_conditions_arrow_signs": "",
         "bad_conditions_arrow_signs": "",
         "dedicated_ligthing": "",
         "same_side_ligthing": "",
+        "both_side_ligthing": "",
         "other_side_ligthing": "",
-        "end_time": "",
-        "notes_comments": "",
-        "front_page_photo": "",
-        "back_page_photo": "",
         "structure_photos": "",
-        "comments": "",
+        "comments": [],
         "seg_length": "",
-        "geo_id": "",
-        "form_id": ""
+        "geo_id": ""
     },
     "metadata": {
         "Carimbo de data/hora": "",
@@ -97,7 +92,8 @@
         "trecho": "",
         "bairro": "",
         "extensao_km": "",
-        "Hora Início": ""
+        "Hora Início": "",
+        "Hora Fim": ""
     },
     "tipo_da_via": {
         "Ciclovia": 0,
@@ -215,6 +211,7 @@
     "placas": {
         "R-34": 0,
         "A-30": 0,
+        "A-30 SEM": 0,
         "Complementar": 0,
         "Início": 0,
         "Fim": 0,
@@ -232,7 +229,8 @@
         "Seta BOA condição": "",
         "Seta MÁ condição": "",
         "Em cruzamento BOA condição": "",
-        "Em cruzamento MÁ condição": ""
+        "Em cruzamento MÁ condição": "",
+        "Em cruzamento FALTA": ""
     },
     "obstaculos_qte": {
         "Bueiro": "",
@@ -289,5 +287,8 @@
         "É privado": 0,
         "Quantidade de vagas": "",
         "Se tiver um nome, descreva": ""
+    },
+    "outros": {
+        "Remover": 0
     }
 }
