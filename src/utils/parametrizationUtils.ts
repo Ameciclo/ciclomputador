@@ -3,20 +3,10 @@ import { readJSONFileSync } from './fileUtils';
 import { iDuo, iDuos } from '../interfaces/iDuos';
 
 export function applyParametrization(data: iDataForms, result: iGPXData, fileName: string) {
-    for (const propriedade in data) {
-        if (propriedade === "metadata") {
-            data[propriedade] = parametrization(result, fileName, propriedade);
-        } else if (propriedade !== "result") {
-            for (const key in data[propriedade]) {
-                data[propriedade][key] = parametrization(result, key, propriedade);
-            }
-        }
-    }
 
     function setDataConcatTrueValues(param: string) {
         return Object.keys(data[param]).filter(key => data[param][key] !== 0).join(', ')
-    }
-
+    };
     function setErrors() {
         let error: iDataErrors = {} as iDataErrors;
 
@@ -75,94 +65,110 @@ export function applyParametrization(data: iDataForms, result: iGPXData, fileNam
         }
 
         return error;
-    }
+    };
 
-    if (!data.metadata.err) {
-        data.result.cod = data.metadata["cod"];
-        data.result.gpx_name = data.metadata["gpx_name"];
-        data.result.timestamp = data.metadata["Carimbo de data/hora"];
-        data.result.evaluator_1 = data.metadata["Avaliador(a) 1"];
-        data.result.evaluator_2 = data.metadata["Avaliador(a) 2"];
-        data.result.date = data.metadata["Data"];
-        data.result.start_time = data.metadata["Hora Início"];
-        data.result.end_time = data.metadata["Hora Fim"];
-        data.result.street = data.metadata["via"];
-        data.result.section_start = "";
-        data.result.section_end = "";
-        data.result.section_name = data.metadata["trecho"];
-        data.result.typology = data.metadata["tipologia"];
-        data.result.seg_length = data.metadata["extensao_km"];
-        data.result.crosses = data.metadata["cruzamentos"];
-    }
-    data.result.flow_direction = setDataConcatTrueValues("fluxo-ciclo");
-    data.result.traffic_flow = setDataConcatTrueValues("fluxo-via");
-    data.result.localization = setDataConcatTrueValues("localizacao_via");
-    data.result.speed_limit = setDataConcatTrueValues("placas").split(", ").filter((placa) => placa.includes("km")).join(", ");
-    data.result.contiguos_lanes = setDataConcatTrueValues("faixas_via");
-    data.result.segregator_type = setDataConcatTrueValues("segregadores");
-    data.result.protection_conditions_evaluation = setDataConcatTrueValues("protecao");
-    data.result.access_evaluation = setDataConcatTrueValues("segregadores_avaliacao");
-    data.result.all_access_count = Object.keys(data["acesso_ciclovias"]).reduce((acc, crr) => Number(data["acesso_ciclovias"][crr]) + acc, 0);
-    data.result.way_with_access = data.acesso_ciclovias["Via transversal COM acesso à ciclovia"];
-    data.result.ways_without_access = data.acesso_ciclovias["Via transversal SEM acesso à ciclovia"];
-    data.result.other_access = data.acesso_ciclovias["Acesso sem uma via transversal"];
-    data.result.pavement_type = setDataConcatTrueValues("pavimento");
-    data.result.pavement_condition_evaluation = setDataConcatTrueValues("pavimento_avaliacao");
-    data.result.sinuosity_evaluation = setDataConcatTrueValues("sinuosidade");
-    data.result.shading_evaluation = setDataConcatTrueValues("sombreamento");
-    data.result.car_risk_situations = setDataConcatTrueValues("riscos");
-    data.result.bus_stops_along = data.riscos["Ponto de embarque de ônibus interrompe a ciclo"];
-    data.result.structure_side_change_without_speed_reducers_or_lights = data.riscos["A ciclo troca de lado na via, sem redutores de velocidade ou semáforos"];
-    data.result.car_turning_left_with_cyclist_invisibility = "DEFINIR";
-    data.result.structure_abrupt_end_in_counterflow = data.riscos["Termina ciclo com ciclista na contramão"];
-    data.result.other_car_risk_situations = data.riscos["Outro risco. EXPLIQUE."];
-    data.result.all_risks_situations_count = Object.keys(data["riscos"]).reduce((sum, risc_name) => Number(data["riscos"][risc_name]) + sum, 0);
-    data.result.permanent_obstacles_asphalt_related = setDataConcatTrueValues("obstaculos_qte");
-    data.result.manhole_covers = data.obstaculos_qte["Bueiro"];
-    data.result.roots = data.obstaculos_qte["Raíz"];
-    data.result.potholes = data.obstaculos_qte["Buraco"];
-    data.result.deep_gutters_along_structure = data.obstaculos_qte["Vala profunda"];
-    data.result.unevenness_obstacles = data.obstaculos_qte["Desnível"];
-    data.result.other_obstacles = data.obstaculos_qte["Outro obstáculo"];
-    data.result.all_obstacles_count = Object.keys(data["obstaculos_qte"]).reduce((sum, obstacle_name) => Number(data["obstaculos_qte"][obstacle_name]) + sum, 0);
-    data.result.ridable_width = data.larguras_estrutura_qte["Área transitável da ciclo (cm)"];
-    data.result.buffer_width = data.larguras_estrutura_qte["Área de amortecimento da ciclo (cm)"];
-    data.result.road_width = data.larguras_estrutura_qte["Faixa de carros logo ao lado da ciclo (cm)"];
-    data.result.parking = setDataConcatTrueValues("estacionamento_na_via");
-    data.result.vertical_speed_signs_count = Object.keys(data["placas"]).reduce((sum, plate) => {
-        if (plate.includes("km")) {
-            return Number(data["placas"][plate]) + sum;
+    function setAppData() {
+        for (const propriedade in data) {
+            if (propriedade === "metadata") {
+                data[propriedade] = parametrization(result, fileName, propriedade);
+            } else if (propriedade !== "result") {
+                for (const key in data[propriedade]) {
+                    data[propriedade][key] = parametrization(result, key, propriedade);
+                }
+            }
         }
-        return sum;
-    }, 0)
-    data.result.horizontal_speed_sign_count = data.controle_de_velocidade_qte["Pintura da velocidade no piso"];
-    data.result.pedestrian_crossings_count = data.controle_de_velocidade_qte["Travessia de pedestre em nível (lombofaixa)"];
-    data.result.speed_bumps_count = data.controle_de_velocidade_qte["Lombadas físicas"];
-    data.result.electronic_speed_control_count = data.controle_de_velocidade_qte["Radar/Lombada Eletrônica"];
-    data.result.differentiated_floor = data.controle_de_velocidade_qte["Piso diferenciado"];
-    data.result.other_control_elements_count = data.controle_de_velocidade_qte["Outro controle"];
-    data.result.start_indication = Object.keys(data["placas"]).some((tipo) => tipo === "Início" && data.placas[tipo] !== 0);
-    data.result.end_indication = Object.keys(data["placas"]).some((tipo) => tipo === "Fim" && data.placas[tipo] !== 0)
-    data.result.on_way_vertical_signs_count = data.placas["R-34"];
-    data.result.crosses_with_vertical_sign_count = data.placas["A-30"];
-    data.result.crosses_without_vertical_sign_count = Number(data.metadata["cruzamentos"]) - Number(data.placas["A-30"]);
-    data.result.horizontal_pattern_evaluation = setDataConcatTrueValues("padrao_de_pintura_vermelha");
-    data.result.painting_condition_evaluation = setDataConcatTrueValues("pintura_vermelha_situacao");
-    data.result.good_conditions_crossing_signs = data.sinalizacao_horizontal_qte["Em cruzamento BOA condição"];
-    data.result.bad_conditions_crossing_signs = data.sinalizacao_horizontal_qte["Em cruzamento MÁ condição"];
-    data.result.no_visible_crossing_signs = Number(data.metadata["cruzamentos"]) - Number(data.sinalizacao_horizontal_qte["Em cruzamento MÁ condição"]) - Number(data.sinalizacao_horizontal_qte["Em cruzamento BOA condição"]);
-    data.result.good_conditions_picto_signs = data.sinalizacao_horizontal_qte["Pictograma BOA condição"];
-    data.result.bad_conditions_picto_signs = data.sinalizacao_horizontal_qte["Pictograma MÁ condição"];
-    data.result.good_conditions_arrow_signs = data.sinalizacao_horizontal_qte["Seta BOA condição"];
-    data.result.bad_conditions_arrow_signs = data.sinalizacao_horizontal_qte["Seta MÁ condição"];
-    data.result.dedicated_ligthing = data.iluminacao_estrutura_qte["Iluminação dedicada para ciclistas"];
-    data.result.same_side_ligthing = data.iluminacao_estrutura_qte["Iluminação geral na via do mesmo lado da estrutura"];
-    data.result.other_side_ligthing = data.iluminacao_estrutura_qte["Iluminação geral na via do outro lado da infraestrutura"];
-    data.result.both_side_ligthing = data.iluminacao_estrutura_qte["Iluminação geral dos dois lados da via"];
-    data.result.notes_comments = "";
-    data.result.structure_photos = "";
-    data.result.geo_id = "";
-    data.result.error = setErrors();
+    };
+    function setResultData() {
+        if (!data.metadata.err) {
+            data.result.cod = data.metadata["cod"];
+            data.result.gpx_name = data.metadata["gpx_name"];
+            data.result.timestamp = data.metadata["Carimbo de data/hora"];
+            data.result.evaluator_1 = data.metadata["Avaliador(a) 1"];
+            data.result.evaluator_2 = data.metadata["Avaliador(a) 2"];
+            data.result.date = data.metadata["Data"];
+            data.result.start_time = data.metadata["Hora Início"];
+            data.result.end_time = data.metadata["Hora Fim"];
+            data.result.street = data.metadata["via"];
+            data.result.section_start = "";
+            data.result.section_end = "";
+            data.result.section_name = data.metadata["trecho"];
+            data.result.typology = data.metadata["tipologia"];
+            data.result.seg_length = data.metadata["extensao_km"];
+            data.result.crosses = data.metadata["cruzamentos"];
+        }
+        data.result.flow_direction = setDataConcatTrueValues("fluxo-ciclo");
+        data.result.traffic_flow = setDataConcatTrueValues("fluxo-via");
+        data.result.localization = setDataConcatTrueValues("localizacao_via");
+        data.result.speed_limit = setDataConcatTrueValues("placas").split(", ").filter((placa) => placa.includes("km")).join(", ");
+        data.result.contiguos_lanes = setDataConcatTrueValues("faixas_via");
+        data.result.segregator_type = setDataConcatTrueValues("segregadores");
+        data.result.protection_conditions_evaluation = setDataConcatTrueValues("protecao");
+        data.result.access_evaluation = setDataConcatTrueValues("segregadores_avaliacao");
+        data.result.all_access_count = Object.keys(data["acesso_ciclovias"]).reduce((acc, crr) => Number(data["acesso_ciclovias"][crr]) + acc, 0);
+        data.result.way_with_access = data.acesso_ciclovias["Via transversal COM acesso à ciclovia"];
+        data.result.ways_without_access = data.acesso_ciclovias["Via transversal SEM acesso à ciclovia"];
+        data.result.other_access = data.acesso_ciclovias["Acesso sem uma via transversal"];
+        data.result.pavement_type = setDataConcatTrueValues("pavimento");
+        data.result.pavement_condition_evaluation = setDataConcatTrueValues("pavimento_avaliacao");
+        data.result.sinuosity_evaluation = setDataConcatTrueValues("sinuosidade");
+        data.result.shading_evaluation = setDataConcatTrueValues("sombreamento");
+        data.result.car_risk_situations = setDataConcatTrueValues("riscos");
+        data.result.bus_stops_along = data.riscos["Ponto de embarque de ônibus interrompe a ciclo"];
+        data.result.structure_side_change_without_speed_reducers_or_lights = data.riscos["A ciclo troca de lado na via, sem redutores de velocidade ou semáforos"];
+        data.result.car_turning_left_with_cyclist_invisibility = "DEFINIR";
+        data.result.structure_abrupt_end_in_counterflow = data.riscos["Termina ciclo com ciclista na contramão"];
+        data.result.other_car_risk_situations = data.riscos["Outro risco. EXPLIQUE."];
+        data.result.all_risks_situations_count = Object.keys(data["riscos"]).reduce((sum, risc_name) => Number(data["riscos"][risc_name]) + sum, 0);
+        data.result.permanent_obstacles_asphalt_related = setDataConcatTrueValues("obstaculos_qte");
+        data.result.manhole_covers = data.obstaculos_qte["Bueiro"];
+        data.result.roots = data.obstaculos_qte["Raíz"];
+        data.result.potholes = data.obstaculos_qte["Buraco"];
+        data.result.deep_gutters_along_structure = data.obstaculos_qte["Vala profunda"];
+        data.result.unevenness_obstacles = data.obstaculos_qte["Desnível"];
+        data.result.other_obstacles = data.obstaculos_qte["Outro obstáculo"];
+        data.result.all_obstacles_count = Object.keys(data["obstaculos_qte"]).reduce((sum, obstacle_name) => Number(data["obstaculos_qte"][obstacle_name]) + sum, 0);
+        data.result.ridable_width = data.larguras_estrutura_qte["Área transitável da ciclo (cm)"];
+        data.result.buffer_width = data.larguras_estrutura_qte["Área de amortecimento da ciclo (cm)"];
+        data.result.road_width = data.larguras_estrutura_qte["Faixa de carros logo ao lado da ciclo (cm)"];
+        data.result.parking = setDataConcatTrueValues("estacionamento_na_via");
+        data.result.vertical_speed_signs_count = Object.keys(data["placas"]).reduce((sum, plate) => {
+            if (plate.includes("km")) {
+                return Number(data["placas"][plate]) + sum;
+            }
+            return sum;
+        }, 0)
+        data.result.horizontal_speed_sign_count = data.controle_de_velocidade_qte["Pintura da velocidade no piso"];
+        data.result.pedestrian_crossings_count = data.controle_de_velocidade_qte["Travessia de pedestre em nível (lombofaixa)"];
+        data.result.speed_bumps_count = data.controle_de_velocidade_qte["Lombadas físicas"];
+        data.result.electronic_speed_control_count = data.controle_de_velocidade_qte["Radar/Lombada Eletrônica"];
+        data.result.differentiated_floor = data.controle_de_velocidade_qte["Piso diferenciado"];
+        data.result.other_control_elements_count = data.controle_de_velocidade_qte["Outro controle"];
+        data.result.start_indication = Object.keys(data["placas"]).some((tipo) => tipo === "Início" && data.placas[tipo] !== 0);
+        data.result.end_indication = Object.keys(data["placas"]).some((tipo) => tipo === "Fim" && data.placas[tipo] !== 0)
+        data.result.on_way_vertical_signs_count = data.placas["R-34"];
+        data.result.crosses_with_vertical_sign_count = data.placas["A-30"];
+        data.result.crosses_without_vertical_sign_count = Number(data.metadata["cruzamentos"]) - Number(data.placas["A-30"]);
+        data.result.horizontal_pattern_evaluation = setDataConcatTrueValues("padrao_de_pintura_vermelha");
+        data.result.painting_condition_evaluation = setDataConcatTrueValues("pintura_vermelha_situacao");
+        data.result.good_conditions_crossing_signs = data.sinalizacao_horizontal_qte["Em cruzamento BOA condição"];
+        data.result.bad_conditions_crossing_signs = data.sinalizacao_horizontal_qte["Em cruzamento MÁ condição"];
+        data.result.no_visible_crossing_signs = Number(data.metadata["cruzamentos"]) - Number(data.sinalizacao_horizontal_qte["Em cruzamento MÁ condição"]) - Number(data.sinalizacao_horizontal_qte["Em cruzamento BOA condição"]);
+        data.result.good_conditions_picto_signs = data.sinalizacao_horizontal_qte["Pictograma BOA condição"];
+        data.result.bad_conditions_picto_signs = data.sinalizacao_horizontal_qte["Pictograma MÁ condição"];
+        data.result.good_conditions_arrow_signs = data.sinalizacao_horizontal_qte["Seta BOA condição"];
+        data.result.bad_conditions_arrow_signs = data.sinalizacao_horizontal_qte["Seta MÁ condição"];
+        data.result.dedicated_ligthing = data.iluminacao_estrutura_qte["Iluminação dedicada para ciclistas"];
+        data.result.same_side_ligthing = data.iluminacao_estrutura_qte["Iluminação geral na via do mesmo lado da estrutura"];
+        data.result.other_side_ligthing = data.iluminacao_estrutura_qte["Iluminação geral na via do outro lado da infraestrutura"];
+        data.result.both_side_ligthing = data.iluminacao_estrutura_qte["Iluminação geral dos dois lados da via"];
+        data.result.notes_comments = "";
+        data.result.structure_photos = "";
+        data.result.geo_id = "";
+        data.result.error = setErrors();
+    };
+
+    setAppData();
+    setResultData();
 }
 
 export function parametrization(data: iGPXData, param: string, type: string) {
