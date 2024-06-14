@@ -183,6 +183,17 @@ export function parametrization(data: iGPXData, param: string, type: string) {
                 }
             });
             return value;
+            break;
+
+        case "outros":
+            if (param === "Remover") return data.gpx.wpt.reduce((acc, crr) => {
+                if (crr.name[0].includes(param)) {
+                    return acc + 1;
+                };
+                return acc;
+            }, 0);
+            break;
+
         default:
             return data.gpx.wpt.reduce((sum, elem, index) => {
                 if (!!data.gpx.wpt[index + 1]) {
