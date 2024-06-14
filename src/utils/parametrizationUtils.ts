@@ -1,4 +1,4 @@
-import { iDataForms, iGPXData, iGPXNode, iDataFormsMetadata } from '../interfaces';
+import { iDataForms, iGPXData, iGPXNode, iDataFormsMetadata, iDataErrors } from '../interfaces';
 import { readJSONFileSync } from './fileUtils';
 import { iDuo, iDuos } from '../interfaces/iDuos';
 
@@ -6,32 +6,75 @@ export function applyParametrization(data: iDataForms, result: iGPXData, fileNam
     for (const propriedade in data) {
         if (propriedade === "metadata") {
             data[propriedade] = parametrization(result, fileName, propriedade);
-        } else if (propriedade !== "resume") {
+        } else if (propriedade !== "result") {
             for (const key in data[propriedade]) {
                 data[propriedade][key] = parametrization(result, key, propriedade);
             }
         }
     }
 
-    function setData(param: string) {
+    function setDataConcatTrueValues(param: string) {
         return Object.keys(data[param]).filter(key => data[param][key] !== 0).join(', ')
     }
 
+    function setErrors() {
+        let error: iDataErrors = {} as iDataErrors;
 
-    if (!data.err) {
-        data.resume.timestamp = data.metadata["Carimbo de data/hora"];
-        data.resume.evaluator_1 = data.metadata["Avaliador(a) 1"];
-        data.resume.evaluator_2 = data.metadata["Avaliador(a) 2"];
-        data.resume.date = data.metadata["Data"];
-        data.resume.start_time = data.metadata["Hora Início"];
-        data.resume.end_time = data.metadata["Hora Fim"];
-        data.resume.street = data.metadata["Ciclofaixa Rua do Futuro"];
-        data.resume.section_start = "DEFINIR";
-        data.resume.section_end = "DEFINIR";
-        data.resume.section_name = data.metadata["trecho"];
-        data.resume.typology = data.metadata["tipologia"];
-        data.resume.seg_length = data.metadata["extensao_km"];
+        const metadataError = () => {
+            if (data.metadata.err) {
+                error["metadata"] = data.metadata.err as string;
+                return error;
+            }
+        }
+        const emptyFieldError = () => {
+            Object.keys(data.result).forEach((element) => {
+                const invalidKeys = [
+                    "error",
+                    "warnings",
+                    "comments",
+                    "section_start",
+                    "section_end",
+                    "notes_comments",
+                    "structure_photos",
+                    "geo_id",
+                    "bus_stops_along",
+                    "other_access",
+                    "structure_side_change_without_speed_reducers_or_lights",
+                    "structure_abrupt_end_in_counterflow",
+                    "unevenness_obstacles",
+                    "pedestrian_crossings_count",
+                    "speed_bumps_count",
+                    "electronic_speed_control_count",
+                    "differentiated_floor",
+                    "other_control_elements_count",
+                    "dedicated_ligthing",
+                    "same_side_ligthing",
+                    "other_side_ligthing",
+                    "horizontal_speed_sign_count"
+                ];
 
+                const nullElement = (data: iDataForms) => data.result[element] === 0 || data.result[element] === "" || data.result[element] === null || data.result[element] === undefined;
+                if (!invalidKeys.includes(element) && nullElement(data)) {
+                    if (!error["emptyValues"]) {
+                        error["emptyValues"] = [];
+                    }
+                    error["emptyValues"].push(element);
+                }
+            });
+        };
+        const warningsError = () => {
+            error["warnings"] = { press_remove_button: 0 };
+            error.warnings["press_remove_button"] = data.outros.Remover as number;
+        }
+
+        warningsError();
+        metadataError();
+
+        if (!error.metadata) {
+            emptyFieldError();
+        }
+
+        return error;
     }
 
     if (!data.metadata.err) {
@@ -160,7 +203,6 @@ export function parametrization(data: iGPXData, param: string, type: string) {
                     result["Carimbo de data/hora"] = "Falha ao encontrar Data e Hora";
                     result["Data"] = "Falha ao encontrar Data";
                     result["Hora Início"] = "Falha ao encontrar Hora Início";
-
                 }
 
                 const regexDate = /\d{4}-\d{2}-\d{2}/;
