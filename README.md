@@ -29,14 +29,14 @@ ex.:
 ```
 [
   {
-    resume: {},
+    result: {},
     metadata: {},
     ... acumulado de dados brutos
   },
   ...
 ]
 ```
-- "resume" - dados finais para consumo
+- "result" - dados finais para consumo
 - "metadata" - dados basicos informativos sobre o conteudo analizado
 - "acumulado de dados brutos" - sao todas as categorias e botoes contabilizados no gpx analizado, necessario para construir o elemento "resume"
 
