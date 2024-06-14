@@ -134,6 +134,7 @@ export function parametrization(data: iGPXData, param: string, type: string) {
             });
             if (result) {
                 result["cod"] = codigo_da_area;
+                result["gpx_name"] = param;
             } else {
                 return { "err": `No arquivo GPX '${param.replace(".gpx", "")}', o código da ciclo parece ter algo errado... cod: ${codigo_da_area}` }
             }
