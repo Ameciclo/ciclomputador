@@ -18,33 +18,28 @@ export function applyParametrization(data: iDataForms, result: iGPXData, fileNam
         }
         const emptyFieldError = () => {
             Object.keys(data.result).forEach((element) => {
-                const invalidKeys = [
-                    "error",
-                    "warnings",
-                    "comments",
-                    "section_start",
-                    "section_end",
-                    "notes_comments",
-                    "structure_photos",
-                    "geo_id",
-                    "bus_stops_along",
-                    "other_access",
-                    "structure_side_change_without_speed_reducers_or_lights",
-                    "structure_abrupt_end_in_counterflow",
-                    "unevenness_obstacles",
-                    "pedestrian_crossings_count",
-                    "speed_bumps_count",
-                    "electronic_speed_control_count",
-                    "differentiated_floor",
-                    "other_control_elements_count",
-                    "dedicated_ligthing",
-                    "same_side_ligthing",
-                    "other_side_ligthing",
-                    "horizontal_speed_sign_count"
+                const validKeys = [
+                    "crosses",
+                    "typology",
+                    "flow_direction",
+                    "traffic_flow",
+                    "localization",
+                    "contiguos_lanes",
+                    "segregator_type",
+                    "protection_conditions_evaluation",
+                    "pavement_type",
+                    "pavement_condition_evaluation",
+                    "sinuosity_evaluation",
+                    "shading_evaluation",
+                    "ridable_width",
+                    "buffer_width",
+                    "road_width",
+                    "horizontal_pattern_evaluation",
+                    "painting_condition_evaluation"
                 ];
 
                 const nullElement = (data: iDataForms) => data.result[element] === 0 || data.result[element] === "" || data.result[element] === null || data.result[element] === undefined;
-                if (!invalidKeys.includes(element) && nullElement(data)) {
+                if (validKeys.includes(element) && nullElement(data)) {
                     if (!error["emptyValues"]) {
                         error["emptyValues"] = [];
                     }
@@ -57,12 +52,9 @@ export function applyParametrization(data: iDataForms, result: iGPXData, fileNam
             error.warnings["press_remove_button"] = data.outros.Remover as number;
         }
 
-        warningsError();
         metadataError();
-
-        if (!error.metadata) {
-            emptyFieldError();
-        }
+        if (!error.metadata) emptyFieldError()
+        warningsError();
 
         return error;
     };
@@ -306,7 +298,7 @@ export function parametrization(data: iGPXData, param: string, type: string) {
                 } else if (elem.name[0] === param) {
                     return sum + 1;
                 }
-
+                return sum;
             }, 0);
             break;
     }
