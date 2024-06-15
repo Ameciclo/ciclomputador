@@ -161,7 +161,7 @@ export function applyParametrization(data: iDataForms, result: iGPXData, fileNam
         data.result.same_side_ligthing = data.iluminacao_estrutura_qte["Iluminação geral na via do mesmo lado da estrutura"];
         data.result.other_side_ligthing = data.iluminacao_estrutura_qte["Iluminação geral na via do outro lado da infraestrutura"];
         data.result.both_side_ligthing = data.iluminacao_estrutura_qte["Iluminação geral dos dois lados da via"];
-        data.result.notes_comments = "";
+        data.result.comments = data.outros["Comentarios"];
         data.result.structure_photos = "";
         data.result.geo_id = "";
         data.result.error = setErrors();
@@ -277,6 +277,23 @@ export function parametrization(data: iGPXData, param: string, type: string) {
                 };
                 return acc;
             }, 0);
+            if (param === "Comentarios") return data.gpx.wpt.map((elem) => {
+                const point = elem.name[0];
+                let keys: string[] = [];
+                Object.keys(params).forEach(key => {
+                    if (typeof params[key] === 'object' && params[key] !== null) {
+                        keys = keys.concat(Object.keys(params[key]));
+                    }
+                });
+                return keys.some((elem) => elem === point) ? undefined : point;
+            })
+                .filter((elem) => elem)
+                .filter((elem) => elem !== "Foto")
+                .filter((elem) => !/^\d+$/.test(elem))
+                .filter((elem) => !elem.includes("cm"))
+                .filter((elem) => !elem.includes("Remover"))
+                .filter((elem) => !elem.includes("Gravação de voz"))
+
             break;
 
         default:
