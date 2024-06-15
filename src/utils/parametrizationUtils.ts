@@ -78,16 +78,17 @@ export function applyParametrization(data: iDataForms, result: iGPXData, fileNam
             data.result.evaluator_1 = data.metadata["Avaliador(a) 1"];
             data.result.evaluator_2 = data.metadata["Avaliador(a) 2"];
             data.result.date = data.metadata["Data"];
+            data.result.typology = data.metadata["tipologia"];
             data.result.start_time = data.metadata["Hora Início"];
             data.result.end_time = data.metadata["Hora Fim"];
             data.result.street = data.metadata["via"];
             data.result.section_start = "";
             data.result.section_end = "";
             data.result.section_name = data.metadata["trecho"];
-            data.result.typology = data.metadata["tipologia"];
             data.result.seg_length = data.metadata["extensao_km"];
             data.result.crosses = data.metadata["cruzamentos"];
         }
+        data.result.typology_evaluated = setDataConcatTrueValues("tipo_da_via");
         data.result.flow_direction = setDataConcatTrueValues("fluxo-ciclo");
         data.result.traffic_flow = setDataConcatTrueValues("fluxo-via");
         data.result.localization = setDataConcatTrueValues("localizacao_via");
