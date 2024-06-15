@@ -171,7 +171,7 @@ export function parametrization(data: iGPXData, param: string, type: string) {
     const params: iDataForms = readJSONFileSync("./src/references/params.json")
     switch (type) {
         case "metadata":
-            const codigo_da_area = data.gpx.metadata[0].desc[0].toLowerCase();
+            const codigo_da_area = data.gpx.metadata[0].desc ? data.gpx.metadata[0].desc[0].toLowerCase() : "codigo de area nao informado";
             const result = dadosAreaAvaliacao.find((elem: iDataFormsMetadata) => {
                 const codigo = elem.cod.toLowerCase();
                 return codigo.includes(codigo_da_area);
