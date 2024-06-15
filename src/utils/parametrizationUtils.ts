@@ -153,6 +153,7 @@ export function applyParametrization(data: iDataForms, result: iGPXData, fileNam
         data.result.other_side_ligthing = data.iluminacao_estrutura_qte["Iluminação geral na via do outro lado da infraestrutura"];
         data.result.both_side_ligthing = data.iluminacao_estrutura_qte["Iluminação geral dos dois lados da via"];
         data.result.comments = data.outros["Comentarios"];
+        data.result.photos = data.outros["Fotos"];
         data.result.structure_photos = "";
         data.result.geo_id = "";
         data.result.error = setErrors();
