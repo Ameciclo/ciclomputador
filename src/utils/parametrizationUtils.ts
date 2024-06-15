@@ -260,31 +260,37 @@ export function parametrization(data: iGPXData, param: string, type: string) {
             }
             return value;
 
-
         case "outros":
-            if (param === "Remover") return data.gpx.wpt.reduce((acc, crr) => {
-                if (crr.name[0].includes(param)) {
-                    return acc + 1;
-                };
-                return acc;
-            }, 0);
-            if (param === "Comentarios") return data.gpx.wpt.map((elem) => {
-                const point = elem.name[0];
-                let keys: string[] = [];
-                Object.keys(params).forEach(key => {
-                    if (typeof params[key] === 'object' && params[key] !== null) {
-                        keys = keys.concat(Object.keys(params[key]));
-                    }
-                });
-                return keys.some((elem) => elem === point) ? undefined : point;
-            })
-                .filter((elem) => elem)
-                .filter((elem) => elem !== "Foto")
-                .filter((elem) => !/^\d+$/.test(elem))
-                .filter((elem) => !elem.includes("cm"))
-                .filter((elem) => !elem.includes("Remover"))
-                .filter((elem) => !elem.includes("Gravação de voz"))
-
+            switch (param) {
+                case "Remover":
+                    return data.gpx.wpt.reduce((acc, crr) => {
+                        if (crr.name[0].includes(param)) {
+                            return acc + 1;
+                        }
+                        return acc;
+                    }, 0);
+                    
+                case "Comentarios":
+                    return data.gpx.wpt.map((elem) => {
+                        const point = elem.name[0];
+                        let keys: Array<string> = [];
+                        Object.keys(params).forEach(key => {
+                            if (typeof params[key] === 'object' && params[key] !== null) {
+                                keys = keys.concat(Object.keys(params[key]));
+                            }
+                        });
+                        return keys.some((elem) => elem === point) ? undefined : point;
+                    })
+                    .filter((elem) => elem)
+                    .filter((elem) => elem !== "Foto")
+                    .filter((elem) => !/^\d+$/.test(elem))
+                    .filter((elem) => !elem.includes("cm"))
+                    .filter((elem) => !elem.includes("Remover"))
+                    .filter((elem) => !elem.includes("Gravação de voz"));
+            
+                default:
+                    return null;
+            }
             break;
 
         default:
