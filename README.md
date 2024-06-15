@@ -1,5 +1,5 @@
 # ciclomputer
-Projeto que trata e disponibiliza os dados coletados pelos avaliadores de campo através da [ferramenta de auditoria cicloviária do IDECICLO](https://github.com/Ameciclo/auditoria-cicloviaria).  
+Projeto de código aberto que trata e disponibiliza os dados coletados pela equipe avaliadora de campo através da [ferramenta de auditoria cicloviária do IDECICLO](https://github.com/Ameciclo/auditoria-cicloviaria).  
 
 ## Instalação e Execução do Script
 ⚠️ versão node 22.1.0
