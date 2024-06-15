@@ -214,7 +214,10 @@ export function parametrization(data: iGPXData, param: string, type: string) {
                 const matchTime = fileName.match(regexTime);
 
                 if (matchTime) result["Hora Início"] = matchTime[1]
-
+                
+                const lastPointCap = data.gpx.wpt.pop().time[0];
+                const lastTimePointCap = lastPointCap.substr(11, 8);
+                result["Hora Fim"] = lastTimePointCap;
             }
 
             setTimestamps();
