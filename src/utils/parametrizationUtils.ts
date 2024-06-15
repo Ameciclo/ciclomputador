@@ -154,6 +154,7 @@ export function applyParametrization(data: iDataForms, result: iGPXData, fileNam
         data.result.both_side_ligthing = data.iluminacao_estrutura_qte["Iluminação geral dos dois lados da via"];
         data.result.comments = data.outros["Comentarios"];
         data.result.photos = data.outros["Fotos"];
+        data.result.audios = data.outros["Audios"];
         data.result.structure_photos = "";
         data.result.geo_id = "";
         data.result.error = setErrors();
@@ -295,6 +296,13 @@ export function parametrization(data: iGPXData, param: string, type: string) {
                         .filter((elem) => elem)
                         .map((elem) => elem[0].text[0])
                         .filter((elem) => elem.includes(".jpg"));
+
+                case "Audios":
+                    return data.gpx.wpt
+                        .map((elem) => elem.link)
+                        .filter((elem) => elem)
+                        .map((elem) => elem[0].text[0])
+                        .filter((elem) => elem.includes(".3gpp"));
 
                 default:
                     return null;
