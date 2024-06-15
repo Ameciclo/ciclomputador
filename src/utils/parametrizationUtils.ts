@@ -269,7 +269,7 @@ export function parametrization(data: iGPXData, param: string, type: string) {
                         }
                         return acc;
                     }, 0);
-                    
+
                 case "Comentarios":
                     return data.gpx.wpt.map((elem) => {
                         const point = elem.name[0];
@@ -281,13 +281,20 @@ export function parametrization(data: iGPXData, param: string, type: string) {
                         });
                         return keys.some((elem) => elem === point) ? undefined : point;
                     })
-                    .filter((elem) => elem)
-                    .filter((elem) => elem !== "Foto")
-                    .filter((elem) => !/^\d+$/.test(elem))
-                    .filter((elem) => !elem.includes("cm"))
-                    .filter((elem) => !elem.includes("Remover"))
-                    .filter((elem) => !elem.includes("Gravação de voz"));
-            
+                        .filter((elem) => elem)
+                        .filter((elem) => elem !== "Foto")
+                        .filter((elem) => !/^\d+$/.test(elem))
+                        .filter((elem) => !elem.includes("cm"))
+                        .filter((elem) => !elem.includes("Remover"))
+                        .filter((elem) => !elem.includes("Gravação de voz"));
+
+                case "Fotos":
+                    return data.gpx.wpt
+                        .map((elem) => elem.link)
+                        .filter((elem) => elem)
+                        .map((elem) => elem[0].text[0])
+                        .filter((elem) => elem.includes(".jpg"));
+
                 default:
                     return null;
             }
