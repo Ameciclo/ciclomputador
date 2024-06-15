@@ -115,7 +115,6 @@ export function applyParametrization(data: iDataForms, result: iGPXData, fileNam
         data.result.car_risk_situations = setDataConcatTrueValues("riscos");
         data.result.bus_stops_along = data.riscos["Ponto de embarque de ônibus interrompe a ciclo"];
         data.result.structure_side_change_without_speed_reducers_or_lights = data.riscos["A ciclo troca de lado na via, sem redutores de velocidade ou semáforos"];
-        data.result.car_turning_left_with_cyclist_invisibility = "DEFINIR";
         data.result.structure_abrupt_end_in_counterflow = data.riscos["Termina ciclo com ciclista na contramão"];
         data.result.other_car_risk_situations = data.riscos["Outro risco. EXPLIQUE."];
         data.result.all_risks_situations_count = Object.keys(data["riscos"]).reduce((sum, risc_name) => Number(data["riscos"][risc_name]) + sum, 0);
