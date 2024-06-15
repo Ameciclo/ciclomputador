@@ -174,6 +174,7 @@ export function applyParametrization(data: iDataForms, result: iGPXData, fileNam
 export function parametrization(data: iGPXData, param: string, type: string) {
     const dadosAreaAvaliacao = readJSONFileSync("./src/references/area.json");
     const duplas: iDuos = readJSONFileSync("./src/references/duos.json");
+    const params: iDataForms = readJSONFileSync("./src/references/params.json")
     switch (type) {
         case "metadata":
             const codigo_da_area = data.gpx.metadata[0].desc[0].toLowerCase();
@@ -231,22 +232,43 @@ export function parametrization(data: iGPXData, param: string, type: string) {
 
         case "larguras_estrutura_qte":
             let value = 0;
-            data.gpx.wpt.forEach((elem, index) => {
-                const proximoElementoExiste = !!data.gpx.wpt[index + 1];
-                const proximoSegundoElementoExiste = !!data.gpx.wpt[index + 2];
-                const antepenultimoElementoNaoExiste = !(index === data.gpx.wpt.length - 2);
-                if (proximoElementoExiste && proximoSegundoElementoExiste && antepenultimoElementoNaoExiste) {
-                    const naoContemElementoRemover = !data.gpx.wpt[index + 1].name[0].includes("Remover");
-                    const naoContemElementoRemoverAposValorEmCentimetro = !data.gpx.wpt[index + 2].name[0].includes("Remover")
-                    if (naoContemElementoRemover && naoContemElementoRemoverAposValorEmCentimetro) {
-                        if (elem.name[0] === param) {
-                            value = parseFloat(data.gpx.wpt[index + 1].name[0].replace('cm', ''));
-                        }
+            for (const elem of data.gpx.wpt) {
+                const point = elem.name[0];
+                const pointIsWidth = /^\d+(cm)?$/.test(point);
+                if (pointIsWidth) {
+                    const newValue = parseFloat(point.replace("cm", ""));
+                    switch (param) {
+                        case "Área de amortecimento da ciclo (cm)":
+                            if (newValue < 50) {
+                                value = newValue;
+                            }
+                            break;
+
+                        case "Área transitável da ciclo (cm)":
+                            if (newValue >= 50 && newValue <= 250) {
+                                value = newValue;
+                            }
+                            break;
+
+                        case "Faixa de carros logo ao lado da ciclo (cm)":
+                            if (newValue > 250 && newValue < 800) {
+                                value = newValue;
+                            }
+                            break;
+
+                        case "Total da via (incluindo a ciclo) (cm)":
+                            if (newValue >= 800) {
+                                value = newValue;
+                            }
+                            break;
+
+                        default:
+                            break;
                     }
                 }
-            });
+            }
             return value;
-            break;
+
 
         case "outros":
             if (param === "Remover") return data.gpx.wpt.reduce((acc, crr) => {
@@ -268,7 +290,7 @@ export function parametrization(data: iGPXData, param: string, type: string) {
                 } else if (elem.name[0] === param) {
                     return sum + 1;
                 }
-                return sum;
+
             }, 0);
             break;
     }
