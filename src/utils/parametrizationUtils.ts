@@ -197,8 +197,9 @@ export function parametrization(data: iGPXData, param: string, type: string) {
                 const matchTimestamp = fileName.match(regexTimestamp);
 
                 if (matchTimestamp) {
-                    const timestamp = matchTimestamp[0];
-                    result["Carimbo de data/hora"] = timestamp
+                    const timestamp = matchTimestamp[0].replace('_', 'T').replace(/-/g, (match, offset) => (offset > 10 ? ':' : '-'));
+                    const timestampDateParse = new Date(timestamp);
+                    result["Carimbo de data/hora"] = timestampDateParse;
                 } else {
                     result["Carimbo de data/hora"] = "Falha ao encontrar Data e Hora";
                     result["Data"] = "Falha ao encontrar Data";
@@ -208,12 +209,12 @@ export function parametrization(data: iGPXData, param: string, type: string) {
                 const regexDate = /\d{4}-\d{2}-\d{2}/;
                 const matchDate = fileName.match(regexDate);
 
-                if (matchDate) result["Data"] = matchDate[0]
+                if (matchDate) result["Data"] = matchDate[0].split("-").join("/")
 
                 const regexTime = /_(\d{2}-\d{2}-\d{2})/;
                 const matchTime = fileName.match(regexTime);
 
-                if (matchTime) result["Hora Início"] = matchTime[1]
+                if (matchTime) result["Hora Início"] = matchTime[1].split("-").join(":");
                 
                 const lastPointCap = data.gpx.wpt.pop().time[0];
                 const lastTimePointCap = lastPointCap.substr(11, 8);
