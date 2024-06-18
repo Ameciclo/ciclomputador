@@ -6,7 +6,8 @@
         "tipologia": "CICLOVIA, CICLOFAIXA, ÁREA COMPARTILHADA",
         "trecho": "Ponte Buarque de Macedo, Praça da República, Ponte Princesa Izabel, Rua da Aurora, Av. Prefeito Artur Lima Cavalcanti, Av. Dr.\nJayme da Fonte, Pontilhão da Av. Gov. Agamenon Magalhães, Pista local da Av. Gov. Agamenon Magalhães, Fábrica\nTacaruna.",
         "bairro": "Bairro do Recife, Santo Antônio, Santo Amaro, Campo Grande.",
-        "extensao_km": "5,1"
+        "extensao_km": "5,1",
+        "cruzamentos": 0
     },
     {
         "dupla": "1",
@@ -15,7 +16,8 @@
         "tipologia": "CICLOVIA",
         "trecho": "Av. Mário Melo e Rua dos Palmares.",
         "bairro": "Santo Amaro",
-        "extensao_km": "2,8"
+        "extensao_km": "2,8",
+        "cruzamentos": 0
     },
     {
         "dupla": "1",
@@ -24,7 +26,8 @@
         "tipologia": "CICLOFAIXA, CICLORROTA",
         "trecho": "Rua dos Palmares, após o término da Ciclovia Graça Araújo e seguirá à direita na mesma via para acessar a Rua Álvares de Azevedo, Rua Dr. Leopoldo Lins, Av. Montevidéu até Rua Buenos Aires. Rua Monte Castelo, faixa de retorno da\nAv. João de Barros.",
         "bairro": "Santo Amaro, Boa Vista",
-        "extensao_km": "1,4"
+        "extensao_km": "1,4",
+        "cruzamentos": 0
     },
     {
         "dupla": "1",
@@ -33,7 +36,8 @@
         "tipologia": "CICLOFAIXA, CICLORROTA, ÁREA COMPARTILHADA",
         "trecho": "Pista Local Av. Gov. Agamenon Magalhães (ambos os lados).",
         "bairro": "Santo Amaro, Torreão",
-        "extensao_km": "1,0"
+        "extensao_km": "1,0",
+        "cruzamentos": 0
     },
     {
         "dupla": "1",
@@ -42,7 +46,8 @@
         "tipologia": "CICLOFAIXA",
         "trecho": "Rua do Hospício entre a Rua do Riachuelo e Av. Mário Melo.",
         "bairro": "Santo Amaro",
-        "extensao_km": "1,0"
+        "extensao_km": "1,0",
+        "cruzamentos": 0
     },
     {
         "dupla": "1",
@@ -51,7 +56,8 @@
         "tipologia": "CICLOFAIXA, CICLORROTA",
         "trecho": "Rua Treze de Maio, Rua Buarque de Macêdo, Rua Leão Falcão e Rua Barão de\nIgarassu.",
         "bairro": "Santo Amaro",
-        "extensao_km": "1,0"
+        "extensao_km": "1,0",
+        "cruzamentos": 0
     },
     {
         "dupla": "1",
@@ -60,7 +66,8 @@
         "tipologia": "CICLOFAIXA",
         "trecho": "Rua dos Palmares, Rua Dr. Carlos Chagas e Av. João de Barros até a Ponte João de\nBarros.",
         "bairro": "Santo Amaro",
-        "extensao_km": "1,0"
+        "extensao_km": "1,0",
+        "cruzamentos": 0
     },
     {
         "dupla": "1",
@@ -69,7 +76,8 @@
         "tipologia": "CICLOFAIXA, CICLORROTA",
         "trecho": "Rua Francisco Alves, Praça Miguel de Cervantes, Rua Estado do Israel, Rua Jornalista Trajano Chacon, Rua Frei Matias Tevis, Rua Senador José Henrique, Rua Antônio Gomes de\nFreitas.",
         "bairro": "Ilha do Leite, Coelhos",
-        "extensao_km": 262
+        "extensao_km": 262,
+        "cruzamentos": 0
     },
     {
         "dupla": "1",
@@ -78,7 +86,8 @@
         "tipologia": "CICLOFAIXA",
         "trecho": "Rua da Aurora.",
         "bairro": "Boa Vista, Santo Amaro",
-        "extensao_km": "0,4"
+        "extensao_km": "0,4",
+        "cruzamentos": 0
     },
     {
         "dupla": "1",
@@ -87,7 +96,8 @@
         "tipologia": "CICLOFAIXA, CICLORROTA",
         "trecho": "Rua João Fernandes Vieira, Av. Oliveira Lima e Rua do Riachuelo.",
         "bairro": "Boa Vista, Soledade",
-        "extensao_km": "1,6"
+        "extensao_km": "1,6",
+        "cruzamentos": 0
     },
     {
         "dupla": "1",
@@ -96,7 +106,8 @@
         "tipologia": "CICLOFAIXA, ÁREA COMPARTILHADA",
         "trecho": "Rua Bispo Cardoso Ayres e Beco do Estudante. Rua João Fernandes Vieira até a Av. Montevidéu e Rua Joaquim Felipe e Av. João de Barros até a Rua Monte\nCastelo.",
         "bairro": "Boa Vista, Santo Amaro, Soledade",
-        "extensao_km": "2,4"
+        "extensao_km": "2,4",
+        "cruzamentos": 0
     },
     {
         "dupla": "1",
@@ -105,7 +116,8 @@
         "tipologia": "CICLOFAIXA",
         "trecho": "Rua José de Alencar.",
         "bairro": "Boa Vista, Ilha do Leite, Coelhos",
-        "extensao_km": "1,0"
+        "extensao_km": "1,0",
+        "cruzamentos": 0
     },
     {
         "dupla": "1",
@@ -114,7 +126,8 @@
         "tipologia": "CICLOFAIXA, ÁREA COMPARTILHADA",
         "trecho": "Rua do Hospício, Rua Imperatriz Tereza Cristina, Ponte Boa Vista, Rua Nova, Praça da Independência e Rua Primeiro de Março.",
         "bairro": "Boa Vista, Santo Antônio",
-        "extensao_km": "1,0"
+        "extensao_km": "1,0",
+        "cruzamentos": 0
     },
     {
         "dupla": "1",
@@ -123,7 +136,8 @@
         "tipologia": "CICLOVIA, CICLOFAIXA",
         "trecho": "Rua da Soledade, Rua Nunes Machado e Av. João de Barros até a Rua Joaquim Felipe.",
         "bairro": "Soledade",
-        "extensao_km": "0,5"
+        "extensao_km": "0,5",
+        "cruzamentos": 0
     },
     {
         "dupla": "1",
@@ -132,7 +146,8 @@
         "tipologia": "CICLOFAIXA",
         "trecho": "Pista Local Av. Gov. Agamenon Magalhães.",
         "bairro": "Boa Vista, Santo Amaro",
-        "extensao_km": "1,0"
+        "extensao_km": "1,0",
+        "cruzamentos": 0
     },
     {
         "dupla": "1",
@@ -141,7 +156,8 @@
         "tipologia": "CICLOFAIXA, CICLORROTA",
         "trecho": "Rua da Saudade.",
         "bairro": "Boa Vista",
-        "extensao_km": "1,0"
+        "extensao_km": "1,0",
+        "cruzamentos": 0
     },
     {
         "dupla": "1",
@@ -150,7 +166,8 @@
         "tipologia": "CICLOFAIXA",
         "trecho": "Rua Padre Inglês.",
         "bairro": "Boa Vista",
-        "extensao_km": "0,5"
+        "extensao_km": "0,5",
+        "cruzamentos": 0
     },
     {
         "dupla": "1",
@@ -159,7 +176,8 @@
         "tipologia": "CICLOFAIXA, CICLORROTA",
         "trecho": "Rua Paissandu, Rua Dom Bosco, Rua Visconde de Goiana até a Rua José de Alencar. Rua Barão de São Borja, Rua Rosário da Boa Vista, Rua do Aragão, Rua da Matriz, Rua Velha, Rua Dr. José Mariano até a Ponte Duarte Coelho. Praça Joaquim Nabuco, Rua Floriano Peixoto, Travessa do Cais da Detenção e\nPonte Seis de Março.",
         "bairro": "Boa Vista",
-        "extensao_km": "4,2"
+        "extensao_km": "4,2",
+        "cruzamentos": 0
     },
     {
         "dupla": "1",
@@ -168,7 +186,8 @@
         "tipologia": "CICLOFAIXA, CICLORROTA",
         "trecho": "Rua Visconde de Pelotas, Rua Santos Araújo, Rua Quitério Inácio de Mello, Rua Augusto Calheiros, Ponte Gilberto Freyre, Rua Arquiteto Luiz Nunes, Rua Eng. José Brandão Cavalcante, Lagoa do\nAraçá.",
         "bairro": "Afogados, Imbiribeira",
-        "extensao_km": "3,5"
+        "extensao_km": "3,5",
+        "cruzamentos": 0
     },
     {
         "dupla": "1",
@@ -177,7 +196,8 @@
         "tipologia": "CICLOFAIXA, CICLORROTA",
         "trecho": "Rua Comendador Franco Ferreira, Rua Prof. Silvio da Cunha Santos, Av. General San Martin, Av. João Cabral de Melo Neto, Rua Senador Alberto Pasqualini, Praça\nde Jardim São Paulo.",
         "bairro": "San Martin, Jiquiá, Estância, Jardim São Paulo",
-        "extensao_km": "1,9"
+        "extensao_km": "1,9",
+        "cruzamentos": 0
     },
     {
         "dupla": "1",
@@ -186,7 +206,8 @@
         "tipologia": "CICLOFAIXA, CICLORROTA",
         "trecho": "Rua Major Godofredo Luiz Pereira de Lima, Rua Professor Pedro Augusto, Rua Carlos Alberto Valença\ne Via Marginal ao Rio Jiquiá.",
         "bairro": "Jardim São Paulo",
-        "extensao_km": "1,0"
+        "extensao_km": "1,0",
+        "cruzamentos": 0
     },
     {
         "dupla": "1",
@@ -195,7 +216,8 @@
         "tipologia": "CICLOFAIXA, CICLORROTA",
         "trecho": "Início no cruzamento da Av. Boa Viagem com a Av.\nAntônio de Góes, Rua Comendador Moraes, Rua do Jaú, Rua Marechal Hermes, Av. Brasília Formosa e finaliza a 44 metros antes da Rua da\nEsperança.",
         "bairro": "Pina, Brasília Teimosa",
-        "extensao_km": 141
+        "extensao_km": 141,
+        "cruzamentos": 0
     },
     {
         "dupla": "2",
@@ -204,7 +226,8 @@
         "tipologia": "CICLOFAIXA",
         "trecho": "Início na Av. Caxangá com a Av. Mário Álvares Pereira de Lyra, Av. Mário Álvares Pereira de Lyra, Rua Manoel Estevão da Costa e Av. Mário Álvares de Lyra.",
         "bairro": "Cordeiro, Iputinga",
-        "extensao_km": "2,3"
+        "extensao_km": "2,3",
+        "cruzamentos": 0
     },
     {
         "dupla": "2",
@@ -213,7 +236,8 @@
         "tipologia": "CICLOFAIXA, CICLORROTA",
         "trecho": "Estrada do Forte do Arraial Novo do Bom Jesus, Rua Delmiro Gouveia, Rua Arsênio Calaça, Rua José Veloso, Rua Comendador Franco Ferreira e Rua Vinte\ne Um de Abril.",
         "bairro": "Cordeiro, Torrões, San Martin, Mangueira, Mustardinha, Afogados",
-        "extensao_km": "5,6"
+        "extensao_km": "5,6",
+        "cruzamentos": 0
     },
     {
         "dupla": "2",
@@ -222,7 +246,8 @@
         "tipologia": "CICLOFAIXA, CICLORROTA",
         "trecho": "Rua Gaspar Perez, Rua Mauricéia no cruzamento com a BR-101, segue pela Rua Manoel Estevão da Costa, Rua Antônio Curado e Rua José dos Santos.",
         "bairro": "Iputinga, Engenho do Meio, Cidade Universitária",
-        "extensao_km": "3,2"
+        "extensao_km": "3,2",
+        "cruzamentos": 0
     },
     {
         "dupla": "2",
@@ -231,7 +256,8 @@
         "tipologia": "CICLOFAIXA, CICLORROTA",
         "trecho": "Rua Professor Joaquim Xavier de Brito, Av. Inácio Monteiro e Rua Dr. Miguel Vieira Ferreira até a Estrada do Forte.",
         "bairro": "Cordeiro",
-        "extensao_km": "2,4"
+        "extensao_km": "2,4",
+        "cruzamentos": 0
     },
     {
         "dupla": "2",
@@ -240,7 +266,8 @@
         "tipologia": "CICLORROTA",
         "trecho": "Rua Tamboril, Rua Tijucas, Rua Capitão Francisco Barreiras, Rua Capitão Antônio Dias e Pista Local Av. Eng. Abdias de\nCarvalho.",
         "bairro": "Cordeiro",
-        "extensao_km": "0,65"
+        "extensao_km": "0,65",
+        "cruzamentos": 0
     },
     {
         "dupla": "2",
@@ -249,7 +276,8 @@
         "tipologia": "CICLOFAIXA, CICLORROTA",
         "trecho": "Rua Carlos Gomes, Estrada do Bongi, Rua Pedro Américo, Rua Isaac Markman, Rua Itapemirim e Rua Cônsul Vilares Fragoso.",
         "bairro": "Prado, Bongi, San Martin",
-        "extensao_km": "2,7"
+        "extensao_km": "2,7",
+        "cruzamentos": 0
     },
     {
         "dupla": "2",
@@ -258,7 +286,8 @@
         "tipologia": "CICLOFAIXA",
         "trecho": "Rua Dr. João Lacerda, Av. Maurício de Nassau, Rua Nossa Senhora da Saúde e Av. Inácio Monteiro",
         "bairro": "Cordeiro, Iputinga",
-        "extensao_km": "3,0"
+        "extensao_km": "3,0",
+        "cruzamentos": 0
     },
     {
         "dupla": "2",
@@ -267,7 +296,8 @@
         "tipologia": "CICLOFAIXA",
         "trecho": "Av. Luiz de Lacerda, Av. Historiador Jordão Emerenciano e Rua Ministro João Alberto.",
         "bairro": "Iputinga, Caxangá",
-        "extensao_km": "1,8"
+        "extensao_km": "1,8",
+        "cruzamentos": 0
     },
     {
         "dupla": "2",
@@ -276,7 +306,8 @@
         "tipologia": "CICLOFAIXA, CICLORROTA",
         "trecho": "Parque Caiara, Travessa Dr. José Anastácio da Silva Guimarães, Rua Dr. José Anastácio da Silva Guimarães, Rua Leal de Barros, Rua São Mateus, Rua Simonésia, Av.\nJornalista Possidônio Cavalcanti Bastos, Rua Maria de Fátima Soares e volta para Rua Leal de Barros. Rua Desembargador Oscar\nCoutinho.",
         "bairro": "Iputinga",
-        "extensao_km": "3,5"
+        "extensao_km": "3,5",
+        "cruzamentos": 0
     },
     {
         "dupla": "2",
@@ -285,7 +316,8 @@
         "tipologia": "CICLOFAIXA, CICLORROTA",
         "trecho": "Rua Conselheiro Theodoro, Praça Professor Barreto Campelo, Rua Marquês de Maricá, Rua Dianópolis, Rua Odete Monteiro, Rua Dez de Novembro, Rua Tomaz Gonzaga. Rua Souza Bandeira entre a Rua Marquês de Maricá e a Av.\nCaxangá.",
         "bairro": "Torre, Cordeiro, Zumbi",
-        "extensao_km": "2,8"
+        "extensao_km": "2,8",
+        "cruzamentos": 0
     },
     {
         "dupla": "2",
@@ -294,7 +326,8 @@
         "tipologia": "CICLOFAIXA",
         "trecho": "Rua Emiliano Braga e Rua Manoel Joaquim de Almeida.",
         "bairro": "Iputinga",
-        "extensao_km": "0,3"
+        "extensao_km": "0,3",
+        "cruzamentos": 0
     },
     {
         "dupla": "2",
@@ -303,7 +336,8 @@
         "tipologia": "CICLOFAIXA, CICLORROTA",
         "trecho": "Av. Beira Rio, Rua Marcos André, Rua Real da Torre, Rua Visconde de Itaparica, Rua Lagoa do Rancho, Praça Gregório Bezerra, Rua Cantora Clara Nunes, Rua Carandaí, Av. Professor Estevão Francisco da Costa. Rua Pio Nono, Praça Professor Barreto\nCampello.",
         "bairro": "Torre",
-        "extensao_km": "3,5"
+        "extensao_km": "3,5",
+        "cruzamentos": 0
     },
     {
         "dupla": "2",
@@ -312,7 +346,8 @@
         "tipologia": "CICLORROTA",
         "trecho": "Rua Gomes Taborda, Rua Carlos Gomes, Rua Ricardo Salazar e Rua João\nCrescêncio.",
         "bairro": "Cordeiro, Prado, Madalena",
-        "extensao_km": "3,0"
+        "extensao_km": "3,0",
+        "cruzamentos": 0
     },
     {
         "dupla": "2",
@@ -321,7 +356,8 @@
         "tipologia": "CICLOFAIXA, CICLORROTA",
         "trecho": "Av. Professor Artur de Sá, Rua Professor Antônio Coelho, Rua Acadêmico Hélio Ramos, Rua Emiliano Braga e Rua General\nPolidoro.",
         "bairro": "Cidade Universitária",
-        "extensao_km": "3,0"
+        "extensao_km": "3,0",
+        "cruzamentos": 0
     },
     {
         "dupla": "3",
@@ -330,7 +366,8 @@
         "tipologia": "CICLOVIA, CICLOFAIXA, CICLORROTA",
         "trecho": "Rua dos Coelhos, Ponte Joaquim Cardoso, Av. Beira Rio, Av. Desembargador Guerra Barreto, Ponte Gregório Bezerra, Rua Dr. Joaquim dos Santos, Av.\nPrefeito Lima de Castro, Praça da Bandeira, Rua Benfica, Av.\nDesembargador Otílio Neiva, Av. Agostinho Gomes, Av. Central, Rua\nUrubici, Rua Ibipora.",
         "bairro": "Coelhos, Ilha Joana Bezerra, Ilha do Retiro, Madalena",
-        "extensao_km": "4,5"
+        "extensao_km": "4,5",
+        "cruzamentos": 0
     },
     {
         "dupla": "3",
@@ -339,7 +376,8 @@
         "tipologia": "CICLOFAIXA",
         "trecho": "Rua Amaro Coutinho, Av. Santos Dumont, Praça Treze de Junho.",
         "bairro": "Rosarinho, Encruzilhada, Ponto de\nParada",
-        "extensao_km": "0,7"
+        "extensao_km": "0,7",
+        "cruzamentos": 0
     },
     {
         "dupla": "3",
@@ -348,7 +386,8 @@
         "tipologia": "CICLOFAIXA, CICLORROTA",
         "trecho": "Pista Local da Av. Gov. Agamenon Magalhães, Rua Othon Paraíso, Rua Marechal Deodoro, Rua Paulo de Arruda e Rua Prudente de Moraes. Rua Castro Alves. Rua Dona Elvira e Rua Antônio\nRangel.",
         "bairro": "Torreão, Campo Grande, Hipódromo, Encruzilhada",
-        "extensao_km": "4,0"
+        "extensao_km": "4,0",
+        "cruzamentos": 0
     },
     {
         "dupla": "3",
@@ -357,7 +396,8 @@
         "tipologia": "CICLOFAIXA, CICLORROTA",
         "trecho": "Rua Salvador de Sá, Rua Couto Magalhães, Rua Treze de Junho, Rua Gen. Abreu e Lima, Rua Dr. José Maria, Rua Simão Mendes,\nRua Hoel Sette e Rua Neto de Mendonça.",
         "bairro": "Rosarinho, Tamarineira, Jaqueira",
-        "extensao_km": "2,0"
+        "extensao_km": "2,0",
+        "cruzamentos": 0
     },
     {
         "dupla": "3",
@@ -366,7 +406,8 @@
         "tipologia": "CICLOFAIXA",
         "trecho": "Rua Marquês de Abrantes, Av. Correia de Brito e Av. Prof. José dos Anjos até a\nRua Farias Neves.",
         "bairro": "Campo Grande",
-        "extensao_km": "2,6"
+        "extensao_km": "2,6",
+        "cruzamentos": 0
     },
     {
         "dupla": "3",
@@ -375,7 +416,8 @@
         "tipologia": "CICLOFAIXA, CICLORROTA",
         "trecho": "Rua Mem de Sá, Rua Couto Magalhães, Rua Fonseca Oliveira, Rua Madre Rosa Gattorno, Rua José\nAlexandre Caçador e Rua Marquês de Baipendi.",
         "bairro": "Hipódromo, Porto de Parada",
-        "extensao_km": "1,0"
+        "extensao_km": "1,0",
+        "cruzamentos": 0
     },
     {
         "dupla": "3",
@@ -384,7 +426,8 @@
         "tipologia": "CICLOFAIXA",
         "trecho": "Rua Professor Francisco da Trindade e Rua Hermílio Gomes.",
         "bairro": "Campo Grande",
-        "extensao_km": "1,0"
+        "extensao_km": "1,0",
+        "cruzamentos": 0
     },
     {
         "dupla": "3",
@@ -393,7 +436,8 @@
         "tipologia": "CICLOFAIXA, CICLORROTA",
         "trecho": "Rua Manoel Brandão, Rua dos Craveiros, Rua Sebastião Salazar, Rua Dr. Alberto Wanderley, Rua Arão Botler até o final da Av. Cidade do Monteiro.",
         "bairro": "Cajueiro, Campina do Barreto, Porto da Madeira",
-        "extensao_km": "1,9"
+        "extensao_km": "1,9",
+        "cruzamentos": 0
     },
     {
         "dupla": "3",
@@ -402,7 +446,8 @@
         "tipologia": "CICLOFAIXA",
         "trecho": "Estrada Velha de Água Fria, Rua São Bento, Rua Alegre, Rua da Regeneração e Avenida Beberibe.",
         "bairro": "Água Fria, Arruda, Bomba do Hemetério",
-        "extensao_km": "2,2"
+        "extensao_km": "2,2",
+        "cruzamentos": 0
     },
     {
         "dupla": "3",
@@ -411,7 +456,8 @@
         "tipologia": "CICLOVIA",
         "trecho": "Rua Compositor Vinícius de Morais, Rua Rio Beberibe e Rua Rio Morno.",
         "bairro": "Porto da Madeira, Beberibe, Dois Unidos",
-        "extensao_km": "2,0"
+        "extensao_km": "2,0",
+        "cruzamentos": 0
     },
     {
         "dupla": "3",
@@ -420,7 +466,8 @@
         "tipologia": "CICLOFAIXA, CICLORROTA, ÁREA COMPARTILHADA",
         "trecho": "Av. Afonso Olindense, Praça Pinto Damásio, Rua Azeredo Coutinho, Rua Francisco Lacerda e Rua João Francisco Lisboa. Rua Acadêmico Hélio Ramos e\nAv. Prof. Luiz Freire.",
         "bairro": "Várzea, Cidade Universitária",
-        "extensao_km": "6,0"
+        "extensao_km": "6,0",
+        "cruzamentos": 0
     },
     {
         "dupla": "3",
@@ -429,7 +476,8 @@
         "tipologia": "CICLOFAIXA, CICLORROTA",
         "trecho": "Rua General Vargas, Rua Lindolfo Collor e Rua Dr. Miguel Vieira Ferreira.",
         "bairro": "Cidade Universitária, Engenho do Meio e\nCordeiro",
-        "extensao_km": "2,2"
+        "extensao_km": "2,2",
+        "cruzamentos": 0
     },
     {
         "dupla": "3",
@@ -438,7 +486,8 @@
         "tipologia": "CICLOVIA",
         "trecho": "Início a 63 metros da Rua Dr. Arlindo dos Santos na Av. Boa Viagem, Av. Boa Viagem até o cruzamento com a Av. Antônio de Góes.",
         "bairro": "Boa Viagem, Pina",
-        "extensao_km": 785
+        "extensao_km": 785,
+        "cruzamentos": 0
     },
     {
         "dupla": "4",
@@ -447,7 +496,8 @@
         "tipologia": "CICLOFAIXA, CICLORROTA",
         "trecho": "Pista local da Avenida Governador Agamenon Magalhães, Rua Frei Cassimiro, Rua do Pombal, Rua Treze de Maio, Rua Tupinambás, Rua Barros Barreto, Rua Pedro Afonso, Rua Doutor João Vieira de Menezes, Rua Araripina até a Rua da Aurora. Rua Coelho Leite, Rua do Veiga\ne Rua Fundição.",
         "bairro": "Santo Amaro",
-        "extensao_km": "6,8"
+        "extensao_km": "6,8",
+        "cruzamentos": 0
     },
     {
         "dupla": "4",
@@ -456,7 +506,8 @@
         "tipologia": "CICLOFAIXA, CICLORROTA",
         "trecho": "Rua Amaro Coutinho, Rua Pedro Alves, Rua da Coragem, Rua Retiro Saudoso, Rua Carlos Fernandes e Rua Marquês de Abrantes, até o cruzamento com a Rua\nJerônimo Vilela.",
         "bairro": "Encruzilhada, Hipódromo, Campo Grande.",
-        "extensao_km": 190
+        "extensao_km": 190,
+        "cruzamentos": 0
     },
     {
         "dupla": "4",
@@ -465,7 +516,8 @@
         "tipologia": "CICLOFAIXA",
         "trecho": "Sentido cidade\/subúrbio - início no cruzamento da Av. Des. Góis Cavalcante com a Estrada do Arraial. Segue a Estrada do Arraial em toda sua extensão. Sentido subúrbio\/cidade –  Estrada do Encanamento - início no cruzamento com a Rua Oscar Ferreira, Praça do Parnamirim, Rua Padre Roma, Rua Sebastião Alves. Estrada das Ubaias e Rua\nPaula Batista, no trecho compreendido entre os binários.",
         "bairro": "Casa Amarela, Monteiro, Parnamirim, Tamarineira",
-        "extensao_km": "5,0"
+        "extensao_km": "5,0",
+        "cruzamentos": 0
     },
     {
         "dupla": "4",
@@ -474,7 +526,8 @@
         "tipologia": "CICLOFAIXA, CICLORROTA, ÁREA COMPARTILHADA",
         "trecho": "Av. José Américo de Almeida, Rua Cel. João Batista do Rego Barros e a Rua de Apipucos.",
         "bairro": "Apipucos, Macaxeira",
-        "extensao_km": "2,8"
+        "extensao_km": "2,8",
+        "cruzamentos": 0
     },
     {
         "dupla": "4",
@@ -483,7 +536,8 @@
         "tipologia": "CICLOFAIXA",
         "trecho": "Rua Ferreira Lopes e Rua Paula Batista.",
         "bairro": "Parnamirim, Casa Amarela",
-        "extensao_km": "1,0"
+        "extensao_km": "1,0",
+        "cruzamentos": 0
     },
     {
         "dupla": "4",
@@ -492,7 +546,8 @@
         "tipologia": "CICLOFAIXA, ÁREA COMPARTILHADA",
         "trecho": "Rua Padre Roma, Rua Padre Roma (novo acesso), Rua Padre Roma, Rua Muniz\nTavares  e Rua do Futuro.",
         "bairro": "Jaqueira, Parnamirim, Tamarineira",
-        "extensao_km": "1,0"
+        "extensao_km": "1,0",
+        "cruzamentos": 0
     },
     {
         "dupla": "4",
@@ -501,7 +556,8 @@
         "tipologia": "CICLOFAIXA, CICLORROTA",
         "trecho": "Rua da Hora, Rua Amélia, Rua Esmeraldino Bandeira, Rua Alberto Paiva, Rua Antônio Novais e Av. Beira\nRio.",
         "bairro": "Graças, Espinheiro",
-        "extensao_km": "2,0"
+        "extensao_km": "2,0",
+        "cruzamentos": 0
     },
     {
         "dupla": "4",
@@ -510,7 +566,8 @@
         "tipologia": "CICLOFAIXA",
         "trecho": "Rua do Futuro e Rua João Ramos até a Rua Amélia.",
         "bairro": "Jaqueira, Graças",
-        "extensao_km": "1,0"
+        "extensao_km": "1,0",
+        "cruzamentos": 0
     },
     {
         "dupla": "4",
@@ -519,7 +576,8 @@
         "tipologia": "CICLORROTA, ÁREA COMPARTILHADA",
         "trecho": "Av. Beira Rio.",
         "bairro": "Graças",
-        "extensao_km": "0,2"
+        "extensao_km": "0,2",
+        "cruzamentos": 0
     },
     {
         "dupla": "4",
@@ -528,7 +586,8 @@
         "tipologia": "CICLOFAIXA, CICLORROTA",
         "trecho": "Rua Marquês do Paraná até a Rua Castro Alves. Rua Dr. Fernando Allain, Pista Local da Agamenon Magalhães até o viaduto da Av. Norte\nMiguel Arraes de Alencar.",
         "bairro": "Espinheiro, Encruzilhada",
-        "extensao_km": "1,5"
+        "extensao_km": "1,5",
+        "cruzamentos": 0
     },
     {
         "dupla": "4",
@@ -537,7 +596,8 @@
         "tipologia": "CICLOFAIXA, CICLORROTA",
         "trecho": "Rua da Harmonia, Rua Dr. Samuel Lins, Rua Edson Alvares, Rua Jeronimo de Albuquerque, Praça de Casa Forte, Rua Padre Edwaldo Gomes e Estrada\ndas Ubaias.",
         "bairro": "Casa Forte",
-        "extensao_km": "2,0"
+        "extensao_km": "2,0",
+        "cruzamentos": 0
     },
     {
         "dupla": "4",
@@ -546,7 +606,8 @@
         "tipologia": "CICLOFAIXA, CICLORROTA",
         "trecho": "Rua Pedro Allain, Rua Padre Lemos. Rua Xavantes, Rua Oscar de Barros, Rua Reverendo Antônio Gueiros, Rua Eugênio Samico e Praça do\nTrabalho.",
         "bairro": "Casa Amarela",
-        "extensao_km": "1,5"
+        "extensao_km": "1,5",
+        "cruzamentos": 0
     },
     {
         "dupla": "4",
@@ -555,7 +616,8 @@
         "tipologia": "CICLOVIA, ÁREA COMPARTILHADA",
         "trecho": "Av. Gov. Agamenon Magalhães (começa no cruzamento com a Rua Dr. Leopoldo Lins), Ponte José de Barros Lima, Praça Joana Bezerra, Viaduto Capitão Temudo, alça do viaduto até a Av. Saturnino de\nBrito.",
         "bairro": "Espinheiro, Graças, Derby, Paissandu, Ilha Joana Bezerra, São José, Cabanga",
-        "extensao_km": "4,0"
+        "extensao_km": "4,0",
+        "cruzamentos": 0
     },
     {
         "dupla": "4",
@@ -564,7 +626,8 @@
         "tipologia": "CICLOVIA, CICLOFAIXA",
         "trecho": "Av. Professor José dos Anjos (Início Rua Euclides Gomes de Freitas até a Rua Farias Neves), continuidade até a Rua Manoel Brandão.",
         "bairro": "Mangabeira, Tamarineira, Arruda, Ponto de Parada, Campo Grande, Peixinhos, Campina do\nBarreto, Rosarinho",
-        "extensao_km": "8,0"
+        "extensao_km": "8,0",
+        "cruzamentos": 0
     },
     {
         "dupla": "5",
@@ -573,7 +636,8 @@
         "tipologia": "CICLOVIA",
         "trecho": "Anel viário do Shopping RioMar.",
         "bairro": "Pina",
-        "extensao_km": "0,95"
+        "extensao_km": "0,95",
+        "cruzamentos": 0
     },
     {
         "dupla": "5",
@@ -582,7 +646,8 @@
         "tipologia": "CICLOFAIXA",
         "trecho": "Av. General Mac Arthur e Rua Antônio Falcão até a Rua General Edson Amâncio Ramalho.",
         "bairro": "Imbiribeira, Boa Viagem",
-        "extensao_km": "1,7"
+        "extensao_km": "1,7",
+        "cruzamentos": 0
     },
     {
         "dupla": "5",
@@ -591,7 +656,8 @@
         "tipologia": "CICLOVIA",
         "trecho": "Pista Oeste da Via Mangue até a Rua Manoel de Brito.",
         "bairro": "Pina",
-        "extensao_km": "4,5"
+        "extensao_km": "4,5",
+        "cruzamentos": 0
     },
     {
         "dupla": "5",
@@ -600,7 +666,8 @@
         "tipologia": "CICLOFAIXA",
         "trecho": "Rua Manoel de Brito e Av. Cônsul Joseph Noujaim.",
         "bairro": "Pina",
-        "extensao_km": "0,45"
+        "extensao_km": "0,45",
+        "cruzamentos": 0
     },
     {
         "dupla": "5",
@@ -609,7 +676,8 @@
         "tipologia": "CICLOFAIXA, CICLORROTA",
         "trecho": "Av. Vinte e Três de Outubro, Rua Tenente Aurélio Sampaio, Av. Vinte de Janeiro, Rua Copacabana, Av. Marechal Juarez Távora, Rua Cosmorama e Av. Armindo Moura. Rua João Cardoso\nAires.",
         "bairro": "Boa Viagem",
-        "extensao_km": "4,5"
+        "extensao_km": "4,5",
+        "cruzamentos": 0
     },
     {
         "dupla": "5",
@@ -618,7 +686,8 @@
         "tipologia": "CICLOFAIXA, CICLORROTA",
         "trecho": "Rua Visconde de Jequitinhonha, Rua Baltazar Passos e Rua Setúbal, Dona Lindu.",
         "bairro": "Boa Viagem",
-        "extensao_km": "1,0"
+        "extensao_km": "1,0",
+        "cruzamentos": 0
     },
     {
         "dupla": "5",
@@ -627,7 +696,8 @@
         "tipologia": "CICLOFAIXA, CICLORROTA",
         "trecho": "Rua Professor Arnaldo Carneiro Leão, Rua General Edson Amâncio Ramalho e Av. Professor João Medeiros até a Delegacia\nde Boa Viagem.",
         "bairro": "Boa Viagem",
-        "extensao_km": "2,0"
+        "extensao_km": "2,0",
+        "cruzamentos": 0
     },
     {
         "dupla": "5",
@@ -636,7 +706,8 @@
         "tipologia": "CICLOFAIXA, CICLORROTA",
         "trecho": "Rua Visconde de Jequitinhonha, a partir da Rua João Cardoso Aires, até a Rua José Paraíso, Rua José Domingues da Silva, Rua Feliciano José de Farias, Rua Dona Uzinha Nunes e Rua Padre Cabral. O outro trecho seguirá pela Rua Visconde de Jequitinhonha, a partir da Rua Armindo Moura, até o limite com o município de Jaboatão dos Guararapes.",
         "bairro": "Boa Viagem",
-        "extensao_km": "3,7"
+        "extensao_km": "3,7",
+        "cruzamentos": 0
     },
     {
         "dupla": "5",
@@ -645,7 +716,8 @@
         "tipologia": "CICLOFAIXA, CICLORROTA",
         "trecho": "Av. Vinte de Janeiro, Rua Camboim, Rua João Cardoso Aires, Rua Waldemar Nery Carneiro Monteiro, Rua Prof. Aurélio de Castro Cavalcanti, Av.\nMal. Juarez Távora até a Av. Lino Jordão.",
         "bairro": "Boa Viagem",
-        "extensao_km": "2,5"
+        "extensao_km": "2,5",
+        "cruzamentos": 0
     },
     {
         "dupla": "5",
@@ -654,7 +726,8 @@
         "tipologia": "CICLOFAIXA, CICLORROTA, ÁREA COMPARTILHADA",
         "trecho": "Av. Sen. Robert Kennedy, Rua Dr. Tavares Correia, Rua Allan Kardec, Rua Jornalista Cleófas de Oliveira, Rua Jalisco, Geraldão, Av. Sul Gov. Cid Sampaio para ligar a ciclofaixa a Estação Antônio Falcão e a Estação Shopping Recife, Rua Soldado Sinésio de Aragão\naté a Av. Dom João VI.",
         "bairro": "Imbiribeira, Ipsep",
-        "extensao_km": "3,2"
+        "extensao_km": "3,2",
+        "cruzamentos": 0
     },
     {
         "dupla": "5",
@@ -663,7 +736,8 @@
         "tipologia": "CICLOFAIXA",
         "trecho": "Av. Pinheiros, Rua Amélia Xavier Sampaio, Rua Eng. José Brandão Cavalcante e Av. Eng. Alves de Souza.",
         "bairro": "Imbiribeira",
-        "extensao_km": "2,0"
+        "extensao_km": "2,0",
+        "cruzamentos": 0
     },
     {
         "dupla": "5",
@@ -672,7 +746,8 @@
         "tipologia": "CICLOFAIXA",
         "trecho": "Rua Arquiteto Luiz Nunes, Rua Paris, Rua Jean Émile Favre e Rua Itacari.",
         "bairro": "Imbiribeira",
-        "extensao_km": "2,3"
+        "extensao_km": "2,3",
+        "cruzamentos": 0
     },
     {
         "dupla": "5",
@@ -681,7 +756,8 @@
         "tipologia": "CICLOFAIXA",
         "trecho": "Rua Antônio Falcão da Orla de Boa Viagem até a Via Mangue. Rua Francisco da Cunha entre a Rua Antônio Falcão e Rua Félix de Brito. Rua Félix de Brito até a Orla\nde Boa Viagem.",
         "bairro": "Boa Viagem",
-        "extensao_km": "2,0"
+        "extensao_km": "2,0",
+        "cruzamentos": 0
     },
     {
         "dupla": "5",
@@ -690,7 +766,8 @@
         "tipologia": "CICLOVIA, CICLOFAIXA, ÁREA COMPARTILHADA",
         "trecho": "Rua Bruno Veloso.",
         "bairro": "Boa Viagem",
-        "extensao_km": "1,0"
+        "extensao_km": "1,0",
+        "cruzamentos": 0
     },
     {
         "dupla": "5",
@@ -699,7 +776,8 @@
         "tipologia": "CICLOVIA",
         "trecho": "Canal Rio da Prata, com início na Av. Dois Rios e término na Rua Rio Douro.",
         "bairro": "Ibura",
-        "extensao_km": "1,0"
+        "extensao_km": "1,0",
+        "cruzamentos": 0
     },
     {
         "dupla": "5",
@@ -708,7 +786,8 @@
         "tipologia": "CICLOFAIXA",
         "trecho": "Av. Júlio César da Av. Maria Irene até acesso a Av.\nCentenário Albert Santos Dumont.",
         "bairro": "Jordão",
-        "extensao_km": "1,5"
+        "extensao_km": "1,5",
+        "cruzamentos": 0
     },
     {
         "dupla": "5",
@@ -717,7 +796,8 @@
         "tipologia": "CICLOVIA, CICLOFAIXA, CICLORROTA, ÁREA COMPARTILHADA",
         "trecho": "Rua Araçatuba, Rua Araraquara, Rua Itaquicé, Rua Itaimbé, Rua Potengy, Rua Blumenau, Rua Itanagé, Rua Pintor Antônio Albuquerque, Rua Virgínia Heráclio, Rua São Nicolau e\nAv. Dom Helder Câmara.",
         "bairro": "Ibura, Ipsep",
-        "extensao_km": "4,0"
+        "extensao_km": "4,0",
+        "cruzamentos": 0
     },
     {
         "dupla": "1",
@@ -726,7 +806,8 @@
         "tipologia": "Ciclofaixa",
         "trecho": "Abreu e Lima",
         "bairro": "Jordão",
-        "extensao_km": "1,9"
+        "extensao_km": "1,9",
+        "cruzamentos": 0
     },
     {
         "dupla": "1",
@@ -735,7 +816,8 @@
         "tipologia": "Ciclovia",
         "trecho": "Abreu e Lima",
         "bairro": "Jordão",
-        "extensao_km": "0,8"
+        "extensao_km": "0,8",
+        "cruzamentos": 0
     },
     {
         "dupla": "1",
@@ -744,7 +826,8 @@
         "tipologia": "Ciclorrota",
         "trecho": "Abreu e Lima",
         "bairro": "Jordão",
-        "extensao_km": "0,0"
+        "extensao_km": "0,0",
+        "cruzamentos": 0
     },
     {
         "dupla": "5",
@@ -753,7 +836,8 @@
         "tipologia": "Ciclovia",
         "trecho": "Cabo de Santo Agostinho",
         "bairro": null,
-        "extensao_km": "0,8"
+        "extensao_km": "0,8",
+        "cruzamentos": 0
     },
     {
         "dupla": "5",
@@ -762,7 +846,8 @@
         "tipologia": "Ciclovia",
         "trecho": "Cabo de Santo Agostinho",
         "bairro": null,
-        "extensao_km": "6,5"
+        "extensao_km": "6,5",
+        "cruzamentos": 0
     },
     {
         "dupla": "5",
@@ -771,7 +856,8 @@
         "tipologia": "Ciclovia",
         "trecho": "Cabo de Santo Agostinho",
         "bairro": null,
-        "extensao_km": "0,2"
+        "extensao_km": "0,2",
+        "cruzamentos": 0
     },
     {
         "dupla": "5",
@@ -780,7 +866,8 @@
         "tipologia": "Ciclofaixa",
         "trecho": "Cabo de Santo Agostinho",
         "bairro": null,
-        "extensao_km": "0,0"
+        "extensao_km": "0,0",
+        "cruzamentos": 0
     },
     {
         "dupla": "5",
@@ -789,7 +876,8 @@
         "tipologia": "Ciclovia",
         "trecho": "Cabo de Santo Agostinho",
         "bairro": null,
-        "extensao_km": "0,3"
+        "extensao_km": "0,3",
+        "cruzamentos": 0
     },
     {
         "dupla": "5",
@@ -798,7 +886,8 @@
         "tipologia": "Ciclofaixa",
         "trecho": "Cabo de Santo Agostinho",
         "bairro": null,
-        "extensao_km": "0,7"
+        "extensao_km": "0,7",
+        "cruzamentos": 0
     },
     {
         "dupla": "5",
@@ -807,7 +896,8 @@
         "tipologia": "Ciclofaixa",
         "trecho": "Cabo de Santo Agostinho",
         "bairro": null,
-        "extensao_km": "0,3"
+        "extensao_km": "0,3",
+        "cruzamentos": 0
     },
     {
         "dupla": "5",
@@ -816,7 +906,8 @@
         "tipologia": "Ciclovia",
         "trecho": "Cabo de Santo Agostinho",
         "bairro": null,
-        "extensao_km": "0,0"
+        "extensao_km": "0,0",
+        "cruzamentos": 0
     },
     {
         "dupla": "5",
@@ -825,7 +916,8 @@
         "tipologia": "Ciclovia",
         "trecho": "Camaragibe",
         "bairro": null,
-        "extensao_km": "1,0"
+        "extensao_km": "1,0",
+        "cruzamentos": 0
     },
     {
         "dupla": "5",
@@ -834,7 +926,8 @@
         "tipologia": "Ciclovia",
         "trecho": "Camaragibe",
         "bairro": null,
-        "extensao_km": "0,1"
+        "extensao_km": "0,1",
+        "cruzamentos": 0
     },
     {
         "dupla": "5",
@@ -843,7 +936,8 @@
         "tipologia": "Ciclofaixa",
         "trecho": "Camaragibe",
         "bairro": null,
-        "extensao_km": "0,6"
+        "extensao_km": "0,6",
+        "cruzamentos": 0
     },
     {
         "dupla": "5",
@@ -852,7 +946,8 @@
         "tipologia": "Ciclovia",
         "trecho": "Camaragibe",
         "bairro": null,
-        "extensao_km": "0,2"
+        "extensao_km": "0,2",
+        "cruzamentos": 0
     },
     {
         "dupla": "5",
@@ -861,7 +956,8 @@
         "tipologia": "Ciclorrota",
         "trecho": "Ipojuca",
         "bairro": null,
-        "extensao_km": "2,4"
+        "extensao_km": "2,4",
+        "cruzamentos": 0
     },
     {
         "dupla": "5",
@@ -870,7 +966,8 @@
         "tipologia": "Ciclovia",
         "trecho": "Ipojuca",
         "bairro": null,
-        "extensao_km": "3,4"
+        "extensao_km": "3,4",
+        "cruzamentos": 0
     },
     {
         "dupla": "5",
@@ -879,7 +976,8 @@
         "tipologia": "Ciclovia",
         "trecho": "Ipojuca",
         "bairro": null,
-        "extensao_km": "6,5"
+        "extensao_km": "6,5",
+        "cruzamentos": 0
     },
     {
         "dupla": "5",
@@ -888,7 +986,8 @@
         "tipologia": "Ciclovia",
         "trecho": "Ipojuca",
         "bairro": null,
-        "extensao_km": "2,0"
+        "extensao_km": "2,0",
+        "cruzamentos": 0
     },
     {
         "dupla": "5",
@@ -897,7 +996,8 @@
         "tipologia": "Ciclovia",
         "trecho": "Ipojuca",
         "bairro": null,
-        "extensao_km": "0,2"
+        "extensao_km": "0,2",
+        "cruzamentos": 0
     },
     {
         "dupla": "5",
@@ -906,7 +1006,8 @@
         "tipologia": "Ciclovia",
         "trecho": "Ipojuca",
         "bairro": null,
-        "extensao_km": "0,3"
+        "extensao_km": "0,3",
+        "cruzamentos": 0
     },
     {
         "dupla": "5",
@@ -915,7 +1016,8 @@
         "tipologia": "Ciclovia",
         "trecho": "Ipojuca",
         "bairro": null,
-        "extensao_km": "2,6"
+        "extensao_km": "2,6",
+        "cruzamentos": 0
     },
     {
         "dupla": "4",
@@ -924,7 +1026,8 @@
         "tipologia": "Ciclovia",
         "trecho": "Jaboatão dos Guararapes",
         "bairro": null,
-        "extensao_km": "2,9"
+        "extensao_km": "2,9",
+        "cruzamentos": 0
     },
     {
         "dupla": "4",
@@ -933,7 +1036,8 @@
         "tipologia": "Ciclofaixa",
         "trecho": "Jaboatão dos Guararapes",
         "bairro": null,
-        "extensao_km": "1,3"
+        "extensao_km": "1,3",
+        "cruzamentos": 0
     },
     {
         "dupla": "4",
@@ -942,7 +1046,8 @@
         "tipologia": "Ciclovia",
         "trecho": "Jaboatão dos Guararapes",
         "bairro": null,
-        "extensao_km": "6,7"
+        "extensao_km": "6,7",
+        "cruzamentos": 0
     },
     {
         "dupla": "4",
@@ -951,7 +1056,8 @@
         "tipologia": "Ciclofaixa",
         "trecho": "Jaboatão dos Guararapes",
         "bairro": null,
-        "extensao_km": "1,5"
+        "extensao_km": "1,5",
+        "cruzamentos": 0
     },
     {
         "dupla": "4",
@@ -960,7 +1066,8 @@
         "tipologia": "Ciclofaixa",
         "trecho": "Jaboatão dos Guararapes",
         "bairro": null,
-        "extensao_km": "0,8"
+        "extensao_km": "0,8",
+        "cruzamentos": 0
     },
     {
         "dupla": "4",
@@ -969,7 +1076,8 @@
         "tipologia": "Ciclovia",
         "trecho": "Jaboatão dos Guararapes",
         "bairro": null,
-        "extensao_km": "1,0"
+        "extensao_km": "1,0",
+        "cruzamentos": 0
     },
     {
         "dupla": "4",
@@ -978,7 +1086,8 @@
         "tipologia": "Ciclorrota",
         "trecho": "Jaboatão dos Guararapes",
         "bairro": null,
-        "extensao_km": "0,0"
+        "extensao_km": "0,0",
+        "cruzamentos": 0
     },
     {
         "dupla": "4",
@@ -987,7 +1096,8 @@
         "tipologia": "Ciclovia",
         "trecho": "Jaboatão dos Guararapes",
         "bairro": null,
-        "extensao_km": "0,1"
+        "extensao_km": "0,1",
+        "cruzamentos": 0
     },
     {
         "dupla": "4",
@@ -996,7 +1106,8 @@
         "tipologia": "Calçada Compartilhada",
         "trecho": "Jaboatão dos Guararapes",
         "bairro": null,
-        "extensao_km": "0,0"
+        "extensao_km": "0,0",
+        "cruzamentos": 0
     },
     {
         "dupla": "4",
@@ -1005,7 +1116,8 @@
         "tipologia": "Ciclovia",
         "trecho": "Jaboatão dos Guararapes",
         "bairro": null,
-        "extensao_km": "1,3"
+        "extensao_km": "1,3",
+        "cruzamentos": 0
     },
     {
         "dupla": "4",
@@ -1014,7 +1126,8 @@
         "tipologia": "Ciclovia",
         "trecho": "Jaboatão dos Guararapes",
         "bairro": null,
-        "extensao_km": "1,9"
+        "extensao_km": "1,9",
+        "cruzamentos": 0
     },
     {
         "dupla": "4",
@@ -1023,7 +1136,8 @@
         "tipologia": "Ciclovia",
         "trecho": "Jaboatão dos Guararapes",
         "bairro": null,
-        "extensao_km": "4,2"
+        "extensao_km": "4,2",
+        "cruzamentos": 0
     },
     {
         "dupla": "4",
@@ -1032,7 +1146,8 @@
         "tipologia": "Ciclovia",
         "trecho": "Jaboatão dos Guararapes",
         "bairro": null,
-        "extensao_km": "2,0"
+        "extensao_km": "2,0",
+        "cruzamentos": 0
     },
     {
         "dupla": "4",
@@ -1041,7 +1156,8 @@
         "tipologia": "Ciclovia",
         "trecho": "Jaboatão dos Guararapes",
         "bairro": null,
-        "extensao_km": "0,2"
+        "extensao_km": "0,2",
+        "cruzamentos": 0
     },
     {
         "dupla": "4",
@@ -1050,7 +1166,8 @@
         "tipologia": "Ciclovia",
         "trecho": "Jaboatão dos Guararapes",
         "bairro": null,
-        "extensao_km": "0,4"
+        "extensao_km": "0,4",
+        "cruzamentos": 0
     },
     {
         "dupla": "4",
@@ -1059,7 +1176,8 @@
         "tipologia": "Ciclovia",
         "trecho": "Jaboatão dos Guararapes",
         "bairro": null,
-        "extensao_km": "0,0"
+        "extensao_km": "0,0",
+        "cruzamentos": 0
     },
     {
         "dupla": "4",
@@ -1068,7 +1186,8 @@
         "tipologia": "Ciclovia",
         "trecho": "Jaboatão dos Guararapes",
         "bairro": null,
-        "extensao_km": "0,1"
+        "extensao_km": "0,1",
+        "cruzamentos": 0
     },
     {
         "dupla": "1",
@@ -1077,7 +1196,8 @@
         "tipologia": "Ciclovia",
         "trecho": "Olinda",
         "bairro": null,
-        "extensao_km": "5,3"
+        "extensao_km": "5,3",
+        "cruzamentos": 0
     },
     {
         "dupla": "1",
@@ -1086,7 +1206,8 @@
         "tipologia": "Ciclorrota",
         "trecho": "Olinda",
         "bairro": null,
-        "extensao_km": "0,3"
+        "extensao_km": "0,3",
+        "cruzamentos": 0
     },
     {
         "dupla": "1",
@@ -1095,7 +1216,8 @@
         "tipologia": "Ciclovia",
         "trecho": "Olinda",
         "bairro": null,
-        "extensao_km": "0,5"
+        "extensao_km": "0,5",
+        "cruzamentos": 0
     },
     {
         "dupla": "1",
@@ -1104,7 +1226,8 @@
         "tipologia": "Ciclovia",
         "trecho": "Olinda",
         "bairro": null,
-        "extensao_km": "0,0"
+        "extensao_km": "0,0",
+        "cruzamentos": 0
     },
     {
         "dupla": "1",
@@ -1113,7 +1236,8 @@
         "tipologia": "Ciclovia",
         "trecho": "Olinda",
         "bairro": null,
-        "extensao_km": "3,0"
+        "extensao_km": "3,0",
+        "cruzamentos": 0
     },
     {
         "dupla": "1",
@@ -1122,7 +1246,8 @@
         "tipologia": "Ciclofaixa",
         "trecho": "Olinda",
         "bairro": null,
-        "extensao_km": "0,1"
+        "extensao_km": "0,1",
+        "cruzamentos": 0
     },
     {
         "dupla": "1",
@@ -1131,7 +1256,8 @@
         "tipologia": "Ciclofaixa",
         "trecho": "Olinda",
         "bairro": null,
-        "extensao_km": "0,1"
+        "extensao_km": "0,1",
+        "cruzamentos": 0
     },
     {
         "dupla": "1",
@@ -1140,7 +1266,8 @@
         "tipologia": "Ciclofaixa",
         "trecho": "Olinda",
         "bairro": null,
-        "extensao_km": "0,1"
+        "extensao_km": "0,1",
+        "cruzamentos": 0
     },
     {
         "dupla": "1",
@@ -1149,7 +1276,8 @@
         "tipologia": "Ciclorrota",
         "trecho": "Olinda",
         "bairro": null,
-        "extensao_km": "0,2"
+        "extensao_km": "0,2",
+        "cruzamentos": 0
     },
     {
         "dupla": "1",
@@ -1158,7 +1286,8 @@
         "tipologia": "Ciclofaixa",
         "trecho": "Olinda",
         "bairro": null,
-        "extensao_km": "0,2"
+        "extensao_km": "0,2",
+        "cruzamentos": 0
     },
     {
         "dupla": "1",
@@ -1167,7 +1296,8 @@
         "tipologia": "Ciclovia",
         "trecho": "Olinda",
         "bairro": null,
-        "extensao_km": "0,1"
+        "extensao_km": "0,1",
+        "cruzamentos": 0
     },
     {
         "dupla": "1",
@@ -1176,7 +1306,8 @@
         "tipologia": "Ciclovia",
         "trecho": "Olinda",
         "bairro": null,
-        "extensao_km": "2,0"
+        "extensao_km": "2,0",
+        "cruzamentos": 0
     },
     {
         "dupla": "1",
@@ -1185,7 +1316,8 @@
         "tipologia": "Ciclovia",
         "trecho": "Paulista",
         "bairro": null,
-        "extensao_km": "0,0"
+        "extensao_km": "0,0",
+        "cruzamentos": 0
     },
     {
         "dupla": "1",
@@ -1194,7 +1326,8 @@
         "tipologia": "Ciclovia",
         "trecho": "Paulista",
         "bairro": null,
-        "extensao_km": "5,4"
+        "extensao_km": "5,4",
+        "cruzamentos": 0
     },
     {
         "dupla": "1",
@@ -1203,7 +1336,8 @@
         "tipologia": "Ciclovia",
         "trecho": "Paulista",
         "bairro": null,
-        "extensao_km": "2,3"
+        "extensao_km": "2,3",
+        "cruzamentos": 0
     },
     {
         "dupla": "5",
@@ -1212,7 +1346,8 @@
         "tipologia": "Ciclovia",
         "trecho": "São Lourenço da Mata",
         "bairro": null,
-        "extensao_km": "0,3"
+        "extensao_km": "0,3",
+        "cruzamentos": 0
     },
     {
         "dupla": "5",
@@ -1221,7 +1356,8 @@
         "tipologia": "Ciclofaixa",
         "trecho": "São Lourenço da Mata",
         "bairro": null,
-        "extensao_km": "1,0"
+        "extensao_km": "1,0",
+        "cruzamentos": 0
     },
     {
         "dupla": "5",
@@ -1230,7 +1366,8 @@
         "tipologia": "Ciclovia",
         "trecho": "São Lourenço da Mata",
         "bairro": null,
-        "extensao_km": "2,9"
+        "extensao_km": "2,9",
+        "cruzamentos": 0
     },
     {
         "dupla": "5",
@@ -1239,6 +1376,7 @@
         "tipologia": "Ciclovia",
         "trecho": "São Lourenço da Mata",
         "bairro": null,
-        "extensao_km": "1,2"
+        "extensao_km": "1,2",
+        "cruzamentos": 0
     }
 ]
