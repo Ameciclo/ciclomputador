@@ -341,7 +341,8 @@
           "buffer_width",
           "road_width",
           "horizontal_pattern_evaluation",
-          "painting_condition_evaluation"
+          "painting_condition_evaluation",
+          "no_visible_crossing_signs"
         ],
         "warnings": {
           "press_remove_button": 5
@@ -816,7 +817,8 @@
     "result": {
       "error": {
         "emptyValues": [
-          "crosses"
+          "crosses",
+          "no_visible_crossing_signs"
         ],
         "warnings": {
           "press_remove_button": 3
@@ -1171,7 +1173,8 @@
         "emptyValues": [
           "crosses",
           "buffer_width",
-          "road_width"
+          "road_width",
+          "no_visible_crossing_signs"
         ],
         "warnings": {
           "press_remove_button": 1
@@ -1491,7 +1494,8 @@
       "error": {
         "emptyValues": [
           "crosses",
-          "pavement_condition_evaluation"
+          "pavement_condition_evaluation",
+          "no_visible_crossing_signs"
         ],
         "warnings": {
           "press_remove_button": 0
@@ -1855,7 +1859,8 @@
           "buffer_width",
           "road_width",
           "horizontal_pattern_evaluation",
-          "painting_condition_evaluation"
+          "painting_condition_evaluation",
+          "no_visible_crossing_signs"
         ],
         "warnings": {
           "press_remove_button": 0
@@ -2231,7 +2236,8 @@
       "error": {
         "emptyValues": [
           "crosses",
-          "pavement_condition_evaluation"
+          "pavement_condition_evaluation",
+          "no_visible_crossing_signs"
         ],
         "warnings": {
           "press_remove_button": 0
@@ -2573,7 +2579,8 @@
       "error": {
         "emptyValues": [
           "crosses",
-          "pavement_condition_evaluation"
+          "pavement_condition_evaluation",
+          "no_visible_crossing_signs"
         ],
         "warnings": {
           "press_remove_button": 0
@@ -2906,7 +2913,8 @@
         "emptyValues": [
           "crosses",
           "localization",
-          "road_width"
+          "road_width",
+          "no_visible_crossing_signs"
         ],
         "warnings": {
           "press_remove_button": 0
@@ -3272,7 +3280,8 @@
           "buffer_width",
           "road_width",
           "horizontal_pattern_evaluation",
-          "painting_condition_evaluation"
+          "painting_condition_evaluation",
+          "no_visible_crossing_signs"
         ],
         "warnings": {
           "press_remove_button": 0
@@ -3696,7 +3705,8 @@
           "buffer_width",
           "road_width",
           "horizontal_pattern_evaluation",
-          "painting_condition_evaluation"
+          "painting_condition_evaluation",
+          "no_visible_crossing_signs"
         ],
         "warnings": {
           "press_remove_button": 0
@@ -4046,7 +4056,8 @@
           "buffer_width",
           "road_width",
           "horizontal_pattern_evaluation",
-          "painting_condition_evaluation"
+          "painting_condition_evaluation",
+          "no_visible_crossing_signs"
         ],
         "warnings": {
           "press_remove_button": 0
@@ -4401,7 +4412,8 @@
           "buffer_width",
           "road_width",
           "horizontal_pattern_evaluation",
-          "painting_condition_evaluation"
+          "painting_condition_evaluation",
+          "no_visible_crossing_signs"
         ],
         "warnings": {
           "press_remove_button": 0
@@ -4750,7 +4762,8 @@
     "result": {
       "error": {
         "emptyValues": [
-          "crosses"
+          "crosses",
+          "no_visible_crossing_signs"
         ],
         "warnings": {
           "press_remove_button": 2
@@ -5111,7 +5124,8 @@
     "result": {
       "error": {
         "emptyValues": [
-          "crosses"
+          "crosses",
+          "no_visible_crossing_signs"
         ],
         "warnings": {
           "press_remove_button": 0
@@ -5454,7 +5468,8 @@
     "result": {
       "error": {
         "emptyValues": [
-          "crosses"
+          "crosses",
+          "no_visible_crossing_signs"
         ],
         "warnings": {
           "press_remove_button": 1
@@ -5773,7 +5788,8 @@
     "result": {
       "error": {
         "emptyValues": [
-          "crosses"
+          "crosses",
+          "no_visible_crossing_signs"
         ],
         "warnings": {
           "press_remove_button": 0
@@ -6108,7 +6124,8 @@
           "buffer_width",
           "road_width",
           "horizontal_pattern_evaluation",
-          "painting_condition_evaluation"
+          "painting_condition_evaluation",
+          "no_visible_crossing_signs"
         ],
         "warnings": {
           "press_remove_button": 2
@@ -6470,7 +6487,8 @@
       "error": {
         "emptyValues": [
           "crosses",
-          "road_width"
+          "road_width",
+          "no_visible_crossing_signs"
         ],
         "warnings": {
           "press_remove_button": 0
@@ -6826,7 +6844,8 @@
       "error": {
         "emptyValues": [
           "crosses",
-          "flow_direction"
+          "flow_direction",
+          "no_visible_crossing_signs"
         ],
         "warnings": {
           "press_remove_button": 1
@@ -7177,7 +7196,8 @@
     "result": {
       "error": {
         "emptyValues": [
-          "crosses"
+          "crosses",
+          "no_visible_crossing_signs"
         ],
         "warnings": {
           "press_remove_button": 1
@@ -7579,7 +7599,8 @@
       "error": {
         "emptyValues": [
           "crosses",
-          "flow_direction"
+          "flow_direction",
+          "no_visible_crossing_signs"
         ],
         "warnings": {
           "press_remove_button": 1
@@ -7908,7 +7929,8 @@
     "result": {
       "error": {
         "emptyValues": [
-          "crosses"
+          "crosses",
+          "no_visible_crossing_signs"
         ],
         "warnings": {
           "press_remove_button": 1
@@ -8269,7 +8291,8 @@
           "ridable_width",
           "buffer_width",
           "horizontal_pattern_evaluation",
-          "painting_condition_evaluation"
+          "painting_condition_evaluation",
+          "no_visible_crossing_signs"
         ],
         "warnings": {
           "press_remove_button": 0
@@ -8584,7 +8607,8 @@
         "emptyValues": [
           "crosses",
           "flow_direction",
-          "segregator_type"
+          "segregator_type",
+          "no_visible_crossing_signs"
         ],
         "warnings": {
           "press_remove_button": 0
@@ -8898,7 +8922,8 @@
       "error": {
         "emptyValues": [
           "crosses",
-          "flow_direction"
+          "flow_direction",
+          "no_visible_crossing_signs"
         ],
         "warnings": {
           "press_remove_button": 0
@@ -9207,7 +9232,8 @@
     "result": {
       "error": {
         "emptyValues": [
-          "crosses"
+          "crosses",
+          "no_visible_crossing_signs"
         ],
         "warnings": {
           "press_remove_button": 1
@@ -9601,7 +9627,8 @@
           "ridable_width",
           "buffer_width",
           "horizontal_pattern_evaluation",
-          "painting_condition_evaluation"
+          "painting_condition_evaluation",
+          "no_visible_crossing_signs"
         ],
         "warnings": {
           "press_remove_button": 0
@@ -9918,7 +9945,8 @@
     "result": {
       "error": {
         "emptyValues": [
-          "crosses"
+          "crosses",
+          "no_visible_crossing_signs"
         ],
         "warnings": {
           "press_remove_button": 1
@@ -10256,7 +10284,8 @@
       "error": {
         "emptyValues": [
           "crosses",
-          "flow_direction"
+          "flow_direction",
+          "no_visible_crossing_signs"
         ],
         "warnings": {
           "press_remove_button": 1
@@ -10606,7 +10635,8 @@
           "buffer_width",
           "road_width",
           "horizontal_pattern_evaluation",
-          "painting_condition_evaluation"
+          "painting_condition_evaluation",
+          "no_visible_crossing_signs"
         ],
         "warnings": {
           "press_remove_button": 1
@@ -10949,7 +10979,8 @@
           "buffer_width",
           "road_width",
           "horizontal_pattern_evaluation",
-          "painting_condition_evaluation"
+          "painting_condition_evaluation",
+          "no_visible_crossing_signs"
         ],
         "warnings": {
           "press_remove_button": 0
@@ -11273,7 +11304,8 @@
           "ridable_width",
           "buffer_width",
           "horizontal_pattern_evaluation",
-          "painting_condition_evaluation"
+          "painting_condition_evaluation",
+          "no_visible_crossing_signs"
         ],
         "warnings": {
           "press_remove_button": 1
@@ -11593,7 +11625,8 @@
       "error": {
         "emptyValues": [
           "crosses",
-          "segregator_type"
+          "segregator_type",
+          "no_visible_crossing_signs"
         ],
         "warnings": {
           "press_remove_button": 0
@@ -11939,7 +11972,8 @@
           "crosses",
           "flow_direction",
           "localization",
-          "segregator_type"
+          "segregator_type",
+          "no_visible_crossing_signs"
         ],
         "warnings": {
           "press_remove_button": 1
@@ -12267,7 +12301,8 @@
           "buffer_width",
           "road_width",
           "horizontal_pattern_evaluation",
-          "painting_condition_evaluation"
+          "painting_condition_evaluation",
+          "no_visible_crossing_signs"
         ],
         "warnings": {
           "press_remove_button": 0
@@ -12614,7 +12649,8 @@
     "result": {
       "error": {
         "emptyValues": [
-          "crosses"
+          "crosses",
+          "no_visible_crossing_signs"
         ],
         "warnings": {
           "press_remove_button": 0
@@ -12980,7 +13016,8 @@
           "buffer_width",
           "road_width",
           "horizontal_pattern_evaluation",
-          "painting_condition_evaluation"
+          "painting_condition_evaluation",
+          "no_visible_crossing_signs"
         ],
         "warnings": {
           "press_remove_button": 0
@@ -13313,7 +13350,8 @@
     "result": {
       "error": {
         "emptyValues": [
-          "crosses"
+          "crosses",
+          "no_visible_crossing_signs"
         ],
         "warnings": {
           "press_remove_button": 1
@@ -13967,7 +14005,8 @@
     "result": {
       "error": {
         "emptyValues": [
-          "crosses"
+          "crosses",
+          "no_visible_crossing_signs"
         ],
         "warnings": {
           "press_remove_button": 1
@@ -14307,7 +14346,8 @@
           "buffer_width",
           "road_width",
           "horizontal_pattern_evaluation",
-          "painting_condition_evaluation"
+          "painting_condition_evaluation",
+          "no_visible_crossing_signs"
         ],
         "warnings": {
           "press_remove_button": 0
@@ -14626,7 +14666,8 @@
     "result": {
       "error": {
         "emptyValues": [
-          "crosses"
+          "crosses",
+          "no_visible_crossing_signs"
         ],
         "warnings": {
           "press_remove_button": 0
@@ -14958,7 +14999,8 @@
       "error": {
         "emptyValues": [
           "crosses",
-          "buffer_width"
+          "buffer_width",
+          "no_visible_crossing_signs"
         ],
         "warnings": {
           "press_remove_button": 0
@@ -15288,7 +15330,8 @@
       "error": {
         "emptyValues": [
           "crosses",
-          "pavement_type"
+          "pavement_type",
+          "no_visible_crossing_signs"
         ],
         "warnings": {
           "press_remove_button": 3
@@ -15608,7 +15651,8 @@
       "error": {
         "emptyValues": [
           "crosses",
-          "buffer_width"
+          "buffer_width",
+          "no_visible_crossing_signs"
         ],
         "warnings": {
           "press_remove_button": 1
@@ -15944,7 +15988,8 @@
           "crosses",
           "flow_direction",
           "buffer_width",
-          "road_width"
+          "road_width",
+          "no_visible_crossing_signs"
         ],
         "warnings": {
           "press_remove_button": 0
@@ -16285,7 +16330,8 @@
     "result": {
       "error": {
         "emptyValues": [
-          "crosses"
+          "crosses",
+          "no_visible_crossing_signs"
         ],
         "warnings": {
           "press_remove_button": 3
@@ -16612,7 +16658,8 @@
         "emptyValues": [
           "crosses",
           "buffer_width",
-          "road_width"
+          "road_width",
+          "no_visible_crossing_signs"
         ],
         "warnings": {
           "press_remove_button": 2
@@ -16938,7 +16985,8 @@
       "error": {
         "emptyValues": [
           "crosses",
-          "flow_direction"
+          "flow_direction",
+          "no_visible_crossing_signs"
         ],
         "warnings": {
           "press_remove_button": 5
@@ -17297,7 +17345,8 @@
     "result": {
       "error": {
         "emptyValues": [
-          "crosses"
+          "crosses",
+          "no_visible_crossing_signs"
         ],
         "warnings": {
           "press_remove_button": 10
@@ -17668,7 +17717,8 @@
           "buffer_width",
           "road_width",
           "horizontal_pattern_evaluation",
-          "painting_condition_evaluation"
+          "painting_condition_evaluation",
+          "no_visible_crossing_signs"
         ],
         "warnings": {
           "press_remove_button": 1
@@ -18044,7 +18094,8 @@
           "buffer_width",
           "road_width",
           "horizontal_pattern_evaluation",
-          "painting_condition_evaluation"
+          "painting_condition_evaluation",
+          "no_visible_crossing_signs"
         ],
         "warnings": {
           "press_remove_button": 0
@@ -18378,7 +18429,8 @@
       "error": {
         "emptyValues": [
           "crosses",
-          "buffer_width"
+          "buffer_width",
+          "no_visible_crossing_signs"
         ],
         "warnings": {
           "press_remove_button": 0
@@ -18743,7 +18795,8 @@
         "emptyValues": [
           "crosses",
           "buffer_width",
-          "road_width"
+          "road_width",
+          "no_visible_crossing_signs"
         ],
         "warnings": {
           "press_remove_button": 0
@@ -19096,7 +19149,8 @@
     "result": {
       "error": {
         "emptyValues": [
-          "crosses"
+          "crosses",
+          "no_visible_crossing_signs"
         ],
         "warnings": {
           "press_remove_button": 0
@@ -19458,7 +19512,8 @@
       "error": {
         "emptyValues": [
           "crosses",
-          "localization"
+          "localization",
+          "no_visible_crossing_signs"
         ],
         "warnings": {
           "press_remove_button": 0
@@ -19780,7 +19835,8 @@
       "error": {
         "emptyValues": [
           "crosses",
-          "road_width"
+          "road_width",
+          "no_visible_crossing_signs"
         ],
         "warnings": {
           "press_remove_button": 0
@@ -20117,7 +20173,8 @@
     "result": {
       "error": {
         "emptyValues": [
-          "crosses"
+          "crosses",
+          "no_visible_crossing_signs"
         ],
         "warnings": {
           "press_remove_button": 0
@@ -20455,7 +20512,8 @@
       "error": {
         "emptyValues": [
           "crosses",
-          "localization"
+          "localization",
+          "no_visible_crossing_signs"
         ],
         "warnings": {
           "press_remove_button": 0
@@ -20782,7 +20840,8 @@
     "result": {
       "error": {
         "emptyValues": [
-          "crosses"
+          "crosses",
+          "no_visible_crossing_signs"
         ],
         "warnings": {
           "press_remove_button": 1
@@ -21127,7 +21186,8 @@
     "result": {
       "error": {
         "emptyValues": [
-          "crosses"
+          "crosses",
+          "no_visible_crossing_signs"
         ],
         "warnings": {
           "press_remove_button": 0
@@ -21475,7 +21535,8 @@
           "sinuosity_evaluation",
           "shading_evaluation",
           "road_width",
-          "painting_condition_evaluation"
+          "painting_condition_evaluation",
+          "no_visible_crossing_signs"
         ],
         "warnings": {
           "press_remove_button": 1
@@ -21796,7 +21857,8 @@
           "sinuosity_evaluation",
           "shading_evaluation",
           "road_width",
-          "painting_condition_evaluation"
+          "painting_condition_evaluation",
+          "no_visible_crossing_signs"
         ],
         "warnings": {
           "press_remove_button": 0
@@ -22110,7 +22172,8 @@
           "segregator_type",
           "ridable_width",
           "buffer_width",
-          "road_width"
+          "road_width",
+          "no_visible_crossing_signs"
         ],
         "warnings": {
           "press_remove_button": 1
@@ -22442,7 +22505,8 @@
           "buffer_width",
           "road_width",
           "horizontal_pattern_evaluation",
-          "painting_condition_evaluation"
+          "painting_condition_evaluation",
+          "no_visible_crossing_signs"
         ],
         "warnings": {
           "press_remove_button": 0
@@ -22789,7 +22853,8 @@
           "protection_conditions_evaluation",
           "ridable_width",
           "buffer_width",
-          "horizontal_pattern_evaluation"
+          "horizontal_pattern_evaluation",
+          "no_visible_crossing_signs"
         ],
         "warnings": {
           "press_remove_button": 2
@@ -23148,7 +23213,8 @@
           "buffer_width",
           "road_width",
           "horizontal_pattern_evaluation",
-          "painting_condition_evaluation"
+          "painting_condition_evaluation",
+          "no_visible_crossing_signs"
         ],
         "warnings": {
           "press_remove_button": 0
@@ -23467,7 +23533,8 @@
     "result": {
       "error": {
         "emptyValues": [
-          "crosses"
+          "crosses",
+          "no_visible_crossing_signs"
         ],
         "warnings": {
           "press_remove_button": 0
@@ -23795,7 +23862,8 @@
       "error": {
         "emptyValues": [
           "crosses",
-          "contiguos_lanes"
+          "contiguos_lanes",
+          "no_visible_crossing_signs"
         ],
         "warnings": {
           "press_remove_button": 2
@@ -24151,7 +24219,8 @@
           "ridable_width",
           "buffer_width",
           "road_width",
-          "painting_condition_evaluation"
+          "painting_condition_evaluation",
+          "no_visible_crossing_signs"
         ],
         "warnings": {
           "press_remove_button": 0
@@ -24504,7 +24573,8 @@
           "buffer_width",
           "road_width",
           "horizontal_pattern_evaluation",
-          "painting_condition_evaluation"
+          "painting_condition_evaluation",
+          "no_visible_crossing_signs"
         ],
         "warnings": {
           "press_remove_button": 0
@@ -24831,7 +24901,8 @@
     "result": {
       "error": {
         "emptyValues": [
-          "crosses"
+          "crosses",
+          "no_visible_crossing_signs"
         ],
         "warnings": {
           "press_remove_button": 3
@@ -25177,7 +25248,8 @@
           "ridable_width",
           "buffer_width",
           "road_width",
-          "painting_condition_evaluation"
+          "painting_condition_evaluation",
+          "no_visible_crossing_signs"
         ],
         "warnings": {
           "press_remove_button": 0
@@ -25516,7 +25588,8 @@
           "sinuosity_evaluation",
           "shading_evaluation",
           "road_width",
-          "painting_condition_evaluation"
+          "painting_condition_evaluation",
+          "no_visible_crossing_signs"
         ],
         "warnings": {
           "press_remove_button": 0
@@ -25848,7 +25921,8 @@
           "contiguos_lanes",
           "segregator_type",
           "pavement_type",
-          "horizontal_pattern_evaluation"
+          "horizontal_pattern_evaluation",
+          "no_visible_crossing_signs"
         ],
         "warnings": {
           "press_remove_button": 0
@@ -26180,7 +26254,8 @@
           "buffer_width",
           "road_width",
           "horizontal_pattern_evaluation",
-          "painting_condition_evaluation"
+          "painting_condition_evaluation",
+          "no_visible_crossing_signs"
         ],
         "warnings": {
           "press_remove_button": 1
@@ -26501,7 +26576,8 @@
     "result": {
       "error": {
         "emptyValues": [
-          "crosses"
+          "crosses",
+          "no_visible_crossing_signs"
         ],
         "warnings": {
           "press_remove_button": 0
@@ -26837,7 +26913,8 @@
           "buffer_width",
           "road_width",
           "horizontal_pattern_evaluation",
-          "painting_condition_evaluation"
+          "painting_condition_evaluation",
+          "no_visible_crossing_signs"
         ],
         "warnings": {
           "press_remove_button": 0
@@ -27175,7 +27252,8 @@
           "buffer_width",
           "road_width",
           "horizontal_pattern_evaluation",
-          "painting_condition_evaluation"
+          "painting_condition_evaluation",
+          "no_visible_crossing_signs"
         ],
         "warnings": {
           "press_remove_button": 1
@@ -27501,7 +27579,8 @@
           "ridable_width",
           "buffer_width",
           "horizontal_pattern_evaluation",
-          "painting_condition_evaluation"
+          "painting_condition_evaluation",
+          "no_visible_crossing_signs"
         ],
         "warnings": {
           "press_remove_button": 1
@@ -27837,7 +27916,8 @@
           "buffer_width",
           "road_width",
           "horizontal_pattern_evaluation",
-          "painting_condition_evaluation"
+          "painting_condition_evaluation",
+          "no_visible_crossing_signs"
         ],
         "warnings": {
           "press_remove_button": 0
@@ -28160,7 +28240,8 @@
     "result": {
       "error": {
         "emptyValues": [
-          "crosses"
+          "crosses",
+          "no_visible_crossing_signs"
         ],
         "warnings": {
           "press_remove_button": 1
@@ -28480,7 +28561,8 @@
           "buffer_width",
           "road_width",
           "horizontal_pattern_evaluation",
-          "painting_condition_evaluation"
+          "painting_condition_evaluation",
+          "no_visible_crossing_signs"
         ],
         "warnings": {
           "press_remove_button": 0
@@ -28804,7 +28886,8 @@
           "ridable_width",
           "buffer_width",
           "road_width",
-          "painting_condition_evaluation"
+          "painting_condition_evaluation",
+          "no_visible_crossing_signs"
         ],
         "warnings": {
           "press_remove_button": 0
@@ -29124,7 +29207,8 @@
       "error": {
         "emptyValues": [
           "crosses",
-          "road_width"
+          "road_width",
+          "no_visible_crossing_signs"
         ],
         "warnings": {
           "press_remove_button": 1
@@ -29448,7 +29532,8 @@
           "buffer_width",
           "road_width",
           "horizontal_pattern_evaluation",
-          "painting_condition_evaluation"
+          "painting_condition_evaluation",
+          "no_visible_crossing_signs"
         ],
         "warnings": {
           "press_remove_button": 0
@@ -29768,7 +29853,8 @@
           "crosses",
           "contiguos_lanes",
           "buffer_width",
-          "road_width"
+          "road_width",
+          "no_visible_crossing_signs"
         ],
         "warnings": {
           "press_remove_button": 1
@@ -30098,7 +30184,8 @@
           "buffer_width",
           "road_width",
           "horizontal_pattern_evaluation",
-          "painting_condition_evaluation"
+          "painting_condition_evaluation",
+          "no_visible_crossing_signs"
         ],
         "warnings": {
           "press_remove_button": 0
@@ -30418,7 +30505,8 @@
           "segregator_type",
           "protection_conditions_evaluation",
           "buffer_width",
-          "road_width"
+          "road_width",
+          "no_visible_crossing_signs"
         ],
         "warnings": {
           "press_remove_button": 1
@@ -30762,7 +30850,8 @@
           "buffer_width",
           "road_width",
           "horizontal_pattern_evaluation",
-          "painting_condition_evaluation"
+          "painting_condition_evaluation",
+          "no_visible_crossing_signs"
         ],
         "warnings": {
           "press_remove_button": 0
@@ -31107,7 +31196,8 @@
           "ridable_width",
           "buffer_width",
           "road_width",
-          "painting_condition_evaluation"
+          "painting_condition_evaluation",
+          "no_visible_crossing_signs"
         ],
         "warnings": {
           "press_remove_button": 0
@@ -31423,7 +31513,8 @@
       "error": {
         "emptyValues": [
           "crosses",
-          "road_width"
+          "road_width",
+          "no_visible_crossing_signs"
         ],
         "warnings": {
           "press_remove_button": 1
@@ -31749,7 +31840,8 @@
           "pavement_condition_evaluation",
           "sinuosity_evaluation",
           "shading_evaluation",
-          "road_width"
+          "road_width",
+          "no_visible_crossing_signs"
         ],
         "warnings": {
           "press_remove_button": 0
@@ -32077,7 +32169,8 @@
           "pavement_condition_evaluation",
           "sinuosity_evaluation",
           "buffer_width",
-          "road_width"
+          "road_width",
+          "no_visible_crossing_signs"
         ],
         "warnings": {
           "press_remove_button": 3
@@ -32408,7 +32501,8 @@
           "buffer_width",
           "road_width",
           "horizontal_pattern_evaluation",
-          "painting_condition_evaluation"
+          "painting_condition_evaluation",
+          "no_visible_crossing_signs"
         ],
         "warnings": {
           "press_remove_button": 1
@@ -32755,7 +32849,8 @@
           "buffer_width",
           "road_width",
           "horizontal_pattern_evaluation",
-          "painting_condition_evaluation"
+          "painting_condition_evaluation",
+          "no_visible_crossing_signs"
         ],
         "warnings": {
           "press_remove_button": 1
@@ -33087,7 +33182,8 @@
           "crosses",
           "traffic_flow",
           "pavement_type",
-          "road_width"
+          "road_width",
+          "no_visible_crossing_signs"
         ],
         "warnings": {
           "press_remove_button": 0
@@ -33415,7 +33511,8 @@
           "shading_evaluation",
           "buffer_width",
           "road_width",
-          "painting_condition_evaluation"
+          "painting_condition_evaluation",
+          "no_visible_crossing_signs"
         ],
         "warnings": {
           "press_remove_button": 5
@@ -33739,7 +33836,8 @@
           "pavement_condition_evaluation",
           "sinuosity_evaluation",
           "shading_evaluation",
-          "painting_condition_evaluation"
+          "painting_condition_evaluation",
+          "no_visible_crossing_signs"
         ],
         "warnings": {
           "press_remove_button": 0
@@ -34069,7 +34167,8 @@
           "ridable_width",
           "buffer_width",
           "horizontal_pattern_evaluation",
-          "painting_condition_evaluation"
+          "painting_condition_evaluation",
+          "no_visible_crossing_signs"
         ],
         "warnings": {
           "press_remove_button": 0
@@ -34386,7 +34485,8 @@
     "result": {
       "error": {
         "emptyValues": [
-          "crosses"
+          "crosses",
+          "no_visible_crossing_signs"
         ],
         "warnings": {
           "press_remove_button": 0
@@ -34768,7 +34868,8 @@
       "error": {
         "emptyValues": [
           "crosses",
-          "segregator_type"
+          "segregator_type",
+          "no_visible_crossing_signs"
         ],
         "warnings": {
           "press_remove_button": 1
@@ -35110,7 +35211,8 @@
           "buffer_width",
           "road_width",
           "horizontal_pattern_evaluation",
-          "painting_condition_evaluation"
+          "painting_condition_evaluation",
+          "no_visible_crossing_signs"
         ],
         "warnings": {
           "press_remove_button": 0
@@ -35433,7 +35535,8 @@
     "result": {
       "error": {
         "emptyValues": [
-          "crosses"
+          "crosses",
+          "no_visible_crossing_signs"
         ],
         "warnings": {
           "press_remove_button": 0
@@ -35797,7 +35900,8 @@
       "error": {
         "emptyValues": [
           "crosses",
-          "segregator_type"
+          "segregator_type",
+          "no_visible_crossing_signs"
         ],
         "warnings": {
           "press_remove_button": 0
@@ -36130,7 +36234,8 @@
         "emptyValues": [
           "crosses",
           "segregator_type",
-          "buffer_width"
+          "buffer_width",
+          "no_visible_crossing_signs"
         ],
         "warnings": {
           "press_remove_button": 0
@@ -36459,7 +36564,8 @@
     "result": {
       "error": {
         "emptyValues": [
-          "crosses"
+          "crosses",
+          "no_visible_crossing_signs"
         ],
         "warnings": {
           "press_remove_button": 0
@@ -36840,7 +36946,8 @@
     "result": {
       "error": {
         "emptyValues": [
-          "crosses"
+          "crosses",
+          "no_visible_crossing_signs"
         ],
         "warnings": {
           "press_remove_button": 1
@@ -37195,7 +37302,8 @@
     "result": {
       "error": {
         "emptyValues": [
-          "crosses"
+          "crosses",
+          "no_visible_crossing_signs"
         ],
         "warnings": {
           "press_remove_button": 0
@@ -37530,7 +37638,8 @@
     "result": {
       "error": {
         "emptyValues": [
-          "crosses"
+          "crosses",
+          "no_visible_crossing_signs"
         ],
         "warnings": {
           "press_remove_button": 0
@@ -37880,7 +37989,8 @@
           "buffer_width",
           "road_width",
           "horizontal_pattern_evaluation",
-          "painting_condition_evaluation"
+          "painting_condition_evaluation",
+          "no_visible_crossing_signs"
         ],
         "warnings": {
           "press_remove_button": 0
@@ -38203,7 +38313,8 @@
     "result": {
       "error": {
         "emptyValues": [
-          "crosses"
+          "crosses",
+          "no_visible_crossing_signs"
         ],
         "warnings": {
           "press_remove_button": 0
@@ -38526,7 +38637,8 @@
     "result": {
       "error": {
         "emptyValues": [
-          "crosses"
+          "crosses",
+          "no_visible_crossing_signs"
         ],
         "warnings": {
           "press_remove_button": 0
@@ -38877,7 +38989,8 @@
           "segregator_type",
           "pavement_condition_evaluation",
           "shading_evaluation",
-          "road_width"
+          "road_width",
+          "no_visible_crossing_signs"
         ],
         "warnings": {
           "press_remove_button": 0
@@ -39237,7 +39350,8 @@
           "crosses",
           "flow_direction",
           "segregator_type",
-          "horizontal_pattern_evaluation"
+          "horizontal_pattern_evaluation",
+          "no_visible_crossing_signs"
         ],
         "warnings": {
           "press_remove_button": 0
@@ -39559,7 +39673,8 @@
       "error": {
         "emptyValues": [
           "crosses",
-          "flow_direction"
+          "flow_direction",
+          "no_visible_crossing_signs"
         ],
         "warnings": {
           "press_remove_button": 1
@@ -39892,7 +40007,8 @@
           "buffer_width",
           "road_width",
           "horizontal_pattern_evaluation",
-          "painting_condition_evaluation"
+          "painting_condition_evaluation",
+          "no_visible_crossing_signs"
         ],
         "warnings": {
           "press_remove_button": 0
@@ -40236,7 +40352,8 @@
           "ridable_width",
           "buffer_width",
           "horizontal_pattern_evaluation",
-          "painting_condition_evaluation"
+          "painting_condition_evaluation",
+          "no_visible_crossing_signs"
         ],
         "warnings": {
           "press_remove_button": 1
@@ -40573,7 +40690,8 @@
           "ridable_width",
           "buffer_width",
           "road_width",
-          "painting_condition_evaluation"
+          "painting_condition_evaluation",
+          "no_visible_crossing_signs"
         ],
         "warnings": {
           "press_remove_button": 0
@@ -40912,7 +41030,8 @@
     "result": {
       "error": {
         "emptyValues": [
-          "crosses"
+          "crosses",
+          "no_visible_crossing_signs"
         ],
         "warnings": {
           "press_remove_button": 3
@@ -41264,7 +41383,8 @@
           "ridable_width",
           "buffer_width",
           "horizontal_pattern_evaluation",
-          "painting_condition_evaluation"
+          "painting_condition_evaluation",
+          "no_visible_crossing_signs"
         ],
         "warnings": {
           "press_remove_button": 0
@@ -41590,7 +41710,8 @@
           "buffer_width",
           "road_width",
           "horizontal_pattern_evaluation",
-          "painting_condition_evaluation"
+          "painting_condition_evaluation",
+          "no_visible_crossing_signs"
         ],
         "warnings": {
           "press_remove_button": 0
@@ -41911,7 +42032,8 @@
         "emptyValues": [
           "crosses",
           "segregator_type",
-          "pavement_type"
+          "pavement_type",
+          "no_visible_crossing_signs"
         ],
         "warnings": {
           "press_remove_button": 1
@@ -42236,7 +42358,8 @@
           "ridable_width",
           "buffer_width",
           "road_width",
-          "painting_condition_evaluation"
+          "painting_condition_evaluation",
+          "no_visible_crossing_signs"
         ],
         "warnings": {
           "press_remove_button": 1
@@ -42563,7 +42686,8 @@
           "ridable_width",
           "buffer_width",
           "road_width",
-          "painting_condition_evaluation"
+          "painting_condition_evaluation",
+          "no_visible_crossing_signs"
         ],
         "warnings": {
           "press_remove_button": 0
@@ -42895,7 +43019,8 @@
           "shading_evaluation",
           "road_width",
           "horizontal_pattern_evaluation",
-          "painting_condition_evaluation"
+          "painting_condition_evaluation",
+          "no_visible_crossing_signs"
         ],
         "warnings": {
           "press_remove_button": 0
@@ -43228,7 +43353,8 @@
           "buffer_width",
           "road_width",
           "horizontal_pattern_evaluation",
-          "painting_condition_evaluation"
+          "painting_condition_evaluation",
+          "no_visible_crossing_signs"
         ],
         "warnings": {
           "press_remove_button": 1
@@ -43561,7 +43687,8 @@
           "traffic_flow",
           "contiguos_lanes",
           "buffer_width",
-          "road_width"
+          "road_width",
+          "no_visible_crossing_signs"
         ],
         "warnings": {
           "press_remove_button": 1
@@ -43899,7 +44026,8 @@
           "ridable_width",
           "buffer_width",
           "road_width",
-          "painting_condition_evaluation"
+          "painting_condition_evaluation",
+          "no_visible_crossing_signs"
         ],
         "warnings": {
           "press_remove_button": 0
@@ -44228,7 +44356,8 @@
         "emptyValues": [
           "crosses",
           "pavement_type",
-          "buffer_width"
+          "buffer_width",
+          "no_visible_crossing_signs"
         ],
         "warnings": {
           "press_remove_button": 1
@@ -44567,7 +44696,8 @@
           "buffer_width",
           "road_width",
           "horizontal_pattern_evaluation",
-          "painting_condition_evaluation"
+          "painting_condition_evaluation",
+          "no_visible_crossing_signs"
         ],
         "warnings": {
           "press_remove_button": 0
@@ -44920,7 +45050,8 @@
         "emptyValues": [
           "crosses",
           "buffer_width",
-          "road_width"
+          "road_width",
+          "no_visible_crossing_signs"
         ],
         "warnings": {
           "press_remove_button": 0
@@ -45278,7 +45409,8 @@
           "ridable_width",
           "buffer_width",
           "road_width",
-          "painting_condition_evaluation"
+          "painting_condition_evaluation",
+          "no_visible_crossing_signs"
         ],
         "warnings": {
           "press_remove_button": 0
@@ -45611,7 +45743,8 @@
         "emptyValues": [
           "crosses",
           "segregator_type",
-          "road_width"
+          "road_width",
+          "no_visible_crossing_signs"
         ],
         "warnings": {
           "press_remove_button": 1
@@ -45944,7 +46077,8 @@
           "flow_direction",
           "sinuosity_evaluation",
           "horizontal_pattern_evaluation",
-          "painting_condition_evaluation"
+          "painting_condition_evaluation",
+          "no_visible_crossing_signs"
         ],
         "warnings": {
           "press_remove_button": 1
@@ -46288,7 +46422,8 @@
           "segregator_type",
           "protection_conditions_evaluation",
           "buffer_width",
-          "road_width"
+          "road_width",
+          "no_visible_crossing_signs"
         ],
         "warnings": {
           "press_remove_button": 0
@@ -46623,7 +46758,8 @@
           "pavement_type",
           "sinuosity_evaluation",
           "buffer_width",
-          "road_width"
+          "road_width",
+          "no_visible_crossing_signs"
         ],
         "warnings": {
           "press_remove_button": 0
@@ -46948,7 +47084,8 @@
         "emptyValues": [
           "crosses",
           "flow_direction",
-          "road_width"
+          "road_width",
+          "no_visible_crossing_signs"
         ],
         "warnings": {
           "press_remove_button": 2
@@ -47291,7 +47428,8 @@
         "emptyValues": [
           "crosses",
           "flow_direction",
-          "road_width"
+          "road_width",
+          "no_visible_crossing_signs"
         ],
         "warnings": {
           "press_remove_button": 0
@@ -47914,7 +48052,8 @@
       "error": {
         "emptyValues": [
           "crosses",
-          "road_width"
+          "road_width",
+          "no_visible_crossing_signs"
         ],
         "warnings": {
           "press_remove_button": 0
@@ -48263,7 +48402,8 @@
           "ridable_width",
           "buffer_width",
           "road_width",
-          "painting_condition_evaluation"
+          "painting_condition_evaluation",
+          "no_visible_crossing_signs"
         ],
         "warnings": {
           "press_remove_button": 0
@@ -48607,7 +48747,8 @@
           "crosses",
           "flow_direction",
           "traffic_flow",
-          "road_width"
+          "road_width",
+          "no_visible_crossing_signs"
         ],
         "warnings": {
           "press_remove_button": 2
@@ -48943,7 +49084,8 @@
           "ridable_width",
           "buffer_width",
           "road_width",
-          "painting_condition_evaluation"
+          "painting_condition_evaluation",
+          "no_visible_crossing_signs"
         ],
         "warnings": {
           "press_remove_button": 0
@@ -49294,7 +49436,8 @@
           "segregator_type",
           "pavement_type",
           "road_width",
-          "horizontal_pattern_evaluation"
+          "horizontal_pattern_evaluation",
+          "no_visible_crossing_signs"
         ],
         "warnings": {
           "press_remove_button": 2
@@ -49639,7 +49782,8 @@
           "flow_direction",
           "pavement_type",
           "road_width",
-          "horizontal_pattern_evaluation"
+          "horizontal_pattern_evaluation",
+          "no_visible_crossing_signs"
         ],
         "warnings": {
           "press_remove_button": 0
@@ -49975,7 +50119,8 @@
           "pavement_type",
           "ridable_width",
           "buffer_width",
-          "horizontal_pattern_evaluation"
+          "horizontal_pattern_evaluation",
+          "no_visible_crossing_signs"
         ],
         "warnings": {
           "press_remove_button": 2
@@ -50326,7 +50471,8 @@
           "buffer_width",
           "road_width",
           "horizontal_pattern_evaluation",
-          "painting_condition_evaluation"
+          "painting_condition_evaluation",
+          "no_visible_crossing_signs"
         ],
         "warnings": {
           "press_remove_button": 0
@@ -50675,7 +50821,8 @@
           "buffer_width",
           "road_width",
           "horizontal_pattern_evaluation",
-          "painting_condition_evaluation"
+          "painting_condition_evaluation",
+          "no_visible_crossing_signs"
         ],
         "warnings": {
           "press_remove_button": 0
@@ -51007,7 +51154,8 @@
       "error": {
         "emptyValues": [
           "crosses",
-          "ridable_width"
+          "ridable_width",
+          "no_visible_crossing_signs"
         ],
         "warnings": {
           "press_remove_button": 0
@@ -51650,7 +51798,8 @@
           "ridable_width",
           "buffer_width",
           "road_width",
-          "painting_condition_evaluation"
+          "painting_condition_evaluation",
+          "no_visible_crossing_signs"
         ],
         "warnings": {
           "press_remove_button": 1
@@ -52001,7 +52150,8 @@
           "pavement_condition_evaluation",
           "ridable_width",
           "buffer_width",
-          "horizontal_pattern_evaluation"
+          "horizontal_pattern_evaluation",
+          "no_visible_crossing_signs"
         ],
         "warnings": {
           "press_remove_button": 1
@@ -52343,7 +52493,8 @@
           "crosses",
           "segregator_type",
           "buffer_width",
-          "road_width"
+          "road_width",
+          "no_visible_crossing_signs"
         ],
         "warnings": {
           "press_remove_button": 0
@@ -52688,7 +52839,8 @@
           "ridable_width",
           "buffer_width",
           "road_width",
-          "painting_condition_evaluation"
+          "painting_condition_evaluation",
+          "no_visible_crossing_signs"
         ],
         "warnings": {
           "press_remove_button": 0
@@ -53043,7 +53195,8 @@
         "emptyValues": [
           "crosses",
           "flow_direction",
-          "traffic_flow"
+          "traffic_flow",
+          "no_visible_crossing_signs"
         ],
         "warnings": {
           "press_remove_button": 2
@@ -53368,7 +53521,8 @@
           "flow_direction",
           "ridable_width",
           "buffer_width",
-          "road_width"
+          "road_width",
+          "no_visible_crossing_signs"
         ],
         "warnings": {
           "press_remove_button": 1
@@ -53689,7 +53843,8 @@
         "emptyValues": [
           "crosses",
           "flow_direction",
-          "pavement_condition_evaluation"
+          "pavement_condition_evaluation",
+          "no_visible_crossing_signs"
         ],
         "warnings": {
           "press_remove_button": 2
@@ -54009,7 +54164,8 @@
       "error": {
         "emptyValues": [
           "crosses",
-          "flow_direction"
+          "flow_direction",
+          "no_visible_crossing_signs"
         ],
         "warnings": {
           "press_remove_button": 0
@@ -54360,7 +54516,8 @@
     "result": {
       "error": {
         "emptyValues": [
-          "crosses"
+          "crosses",
+          "no_visible_crossing_signs"
         ],
         "warnings": {
           "press_remove_button": 1
@@ -57971,7 +58128,8 @@
           "shading_evaluation",
           "ridable_width",
           "road_width",
-          "painting_condition_evaluation"
+          "painting_condition_evaluation",
+          "no_visible_crossing_signs"
         ],
         "warnings": {
           "press_remove_button": 0
@@ -58286,7 +58444,8 @@
           "sinuosity_evaluation",
           "shading_evaluation",
           "road_width",
-          "painting_condition_evaluation"
+          "painting_condition_evaluation",
+          "no_visible_crossing_signs"
         ],
         "warnings": {
           "press_remove_button": 2
@@ -58606,7 +58765,8 @@
           "crosses",
           "shading_evaluation",
           "buffer_width",
-          "road_width"
+          "road_width",
+          "no_visible_crossing_signs"
         ],
         "warnings": {
           "press_remove_button": 0
@@ -59217,7 +59377,8 @@
           "pavement_type",
           "ridable_width",
           "buffer_width",
-          "horizontal_pattern_evaluation"
+          "horizontal_pattern_evaluation",
+          "no_visible_crossing_signs"
         ],
         "warnings": {
           "press_remove_button": 1
@@ -59552,7 +59713,8 @@
           "pavement_type",
           "buffer_width",
           "road_width",
-          "horizontal_pattern_evaluation"
+          "horizontal_pattern_evaluation",
+          "no_visible_crossing_signs"
         ],
         "warnings": {
           "press_remove_button": 2
@@ -60868,7 +61030,8 @@
           "segregator_type",
           "ridable_width",
           "buffer_width",
-          "painting_condition_evaluation"
+          "painting_condition_evaluation",
+          "no_visible_crossing_signs"
         ],
         "warnings": {
           "press_remove_button": 0
@@ -61526,7 +61689,8 @@
           "segregator_type",
           "pavement_type",
           "road_width",
-          "horizontal_pattern_evaluation"
+          "horizontal_pattern_evaluation",
+          "no_visible_crossing_signs"
         ],
         "warnings": {
           "press_remove_button": 0
@@ -61864,7 +62028,8 @@
           "crosses",
           "pavement_type",
           "road_width",
-          "horizontal_pattern_evaluation"
+          "horizontal_pattern_evaluation",
+          "no_visible_crossing_signs"
         ],
         "warnings": {
           "press_remove_button": 2
@@ -63445,7 +63610,8 @@
           "localization",
           "contiguos_lanes",
           "road_width",
-          "horizontal_pattern_evaluation"
+          "horizontal_pattern_evaluation",
+          "no_visible_crossing_signs"
         ],
         "warnings": {
           "press_remove_button": 0
@@ -63831,7 +63997,8 @@
       "error": {
         "emptyValues": [
           "crosses",
-          "road_width"
+          "road_width",
+          "no_visible_crossing_signs"
         ],
         "warnings": {
           "press_remove_button": 0
@@ -64161,7 +64328,8 @@
           "crosses",
           "flow_direction",
           "contiguos_lanes",
-          "horizontal_pattern_evaluation"
+          "horizontal_pattern_evaluation",
+          "no_visible_crossing_signs"
         ],
         "warnings": {
           "press_remove_button": 4
@@ -64471,7 +64639,8 @@
       "error": {
         "emptyValues": [
           "crosses",
-          "flow_direction"
+          "flow_direction",
+          "no_visible_crossing_signs"
         ],
         "warnings": {
           "press_remove_button": 0
@@ -64800,7 +64969,8 @@
         "emptyValues": [
           "crosses",
           "pavement_type",
-          "pavement_condition_evaluation"
+          "pavement_condition_evaluation",
+          "no_visible_crossing_signs"
         ],
         "warnings": {
           "press_remove_button": 3
@@ -65113,7 +65283,8 @@
           "flow_direction",
           "segregator_type",
           "ridable_width",
-          "buffer_width"
+          "buffer_width",
+          "no_visible_crossing_signs"
         ],
         "warnings": {
           "press_remove_button": 0
@@ -65446,7 +65617,8 @@
           "protection_conditions_evaluation",
           "buffer_width",
           "road_width",
-          "horizontal_pattern_evaluation"
+          "horizontal_pattern_evaluation",
+          "no_visible_crossing_signs"
         ],
         "warnings": {
           "press_remove_button": 0
@@ -65763,7 +65935,8 @@
     "result": {
       "error": {
         "emptyValues": [
-          "crosses"
+          "crosses",
+          "no_visible_crossing_signs"
         ],
         "warnings": {
           "press_remove_button": 0
@@ -66080,7 +66253,8 @@
     "result": {
       "error": {
         "emptyValues": [
-          "crosses"
+          "crosses",
+          "no_visible_crossing_signs"
         ],
         "warnings": {
           "press_remove_button": 1
@@ -66395,7 +66569,8 @@
     "result": {
       "error": {
         "emptyValues": [
-          "crosses"
+          "crosses",
+          "no_visible_crossing_signs"
         ],
         "warnings": {
           "press_remove_button": 0
@@ -66708,7 +66883,8 @@
     "result": {
       "error": {
         "emptyValues": [
-          "crosses"
+          "crosses",
+          "no_visible_crossing_signs"
         ],
         "warnings": {
           "press_remove_button": 1
@@ -67022,7 +67198,8 @@
       "error": {
         "emptyValues": [
           "crosses",
-          "flow_direction"
+          "flow_direction",
+          "no_visible_crossing_signs"
         ],
         "warnings": {
           "press_remove_button": 0
@@ -69476,7 +69653,8 @@
         "emptyValues": [
           "crosses",
           "shading_evaluation",
-          "road_width"
+          "road_width",
+          "no_visible_crossing_signs"
         ],
         "warnings": {
           "press_remove_button": 0
@@ -69801,7 +69979,8 @@
           "sinuosity_evaluation",
           "shading_evaluation",
           "road_width",
-          "painting_condition_evaluation"
+          "painting_condition_evaluation",
+          "no_visible_crossing_signs"
         ],
         "warnings": {
           "press_remove_button": 2
@@ -73763,7 +73942,8 @@
           "ridable_width",
           "buffer_width",
           "road_width",
-          "horizontal_pattern_evaluation"
+          "horizontal_pattern_evaluation",
+          "no_visible_crossing_signs"
         ],
         "warnings": {
           "press_remove_button": 1
@@ -74162,7 +74342,8 @@
     "result": {
       "error": {
         "emptyValues": [
-          "crosses"
+          "crosses",
+          "no_visible_crossing_signs"
         ],
         "warnings": {
           "press_remove_button": 2
@@ -74535,7 +74716,8 @@
           "ridable_width",
           "buffer_width",
           "road_width",
-          "horizontal_pattern_evaluation"
+          "horizontal_pattern_evaluation",
+          "no_visible_crossing_signs"
         ],
         "warnings": {
           "press_remove_button": 0
@@ -74878,7 +75060,8 @@
           "buffer_width",
           "road_width",
           "horizontal_pattern_evaluation",
-          "painting_condition_evaluation"
+          "painting_condition_evaluation",
+          "no_visible_crossing_signs"
         ],
         "warnings": {
           "press_remove_button": 0
@@ -75216,7 +75399,8 @@
           "buffer_width",
           "road_width",
           "horizontal_pattern_evaluation",
-          "painting_condition_evaluation"
+          "painting_condition_evaluation",
+          "no_visible_crossing_signs"
         ],
         "warnings": {
           "press_remove_button": 0
@@ -75545,7 +75729,8 @@
           "pavement_condition_evaluation",
           "ridable_width",
           "buffer_width",
-          "road_width"
+          "road_width",
+          "no_visible_crossing_signs"
         ],
         "warnings": {
           "press_remove_button": 0
@@ -75905,7 +76090,8 @@
           "contiguos_lanes",
           "segregator_type",
           "pavement_type",
-          "horizontal_pattern_evaluation"
+          "horizontal_pattern_evaluation",
+          "no_visible_crossing_signs"
         ],
         "warnings": {
           "press_remove_button": 1
@@ -76252,7 +76438,8 @@
           "pavement_type",
           "ridable_width",
           "buffer_width",
-          "road_width"
+          "road_width",
+          "no_visible_crossing_signs"
         ],
         "warnings": {
           "press_remove_button": 0
@@ -76609,7 +76796,8 @@
     "result": {
       "error": {
         "emptyValues": [
-          "crosses"
+          "crosses",
+          "no_visible_crossing_signs"
         ],
         "warnings": {
           "press_remove_button": 1
@@ -76950,7 +77138,8 @@
           "ridable_width",
           "buffer_width",
           "road_width",
-          "painting_condition_evaluation"
+          "painting_condition_evaluation",
+          "no_visible_crossing_signs"
         ],
         "warnings": {
           "press_remove_button": 0
@@ -77341,7 +77530,8 @@
           "sinuosity_evaluation",
           "shading_evaluation",
           "buffer_width",
-          "painting_condition_evaluation"
+          "painting_condition_evaluation",
+          "no_visible_crossing_signs"
         ],
         "warnings": {
           "press_remove_button": 0
@@ -78922,7 +79112,8 @@
     "result": {
       "error": {
         "emptyValues": [
-          "crosses"
+          "crosses",
+          "no_visible_crossing_signs"
         ],
         "warnings": {
           "press_remove_button": 1
@@ -79530,7 +79721,8 @@
     "result": {
       "error": {
         "emptyValues": [
-          "crosses"
+          "crosses",
+          "no_visible_crossing_signs"
         ],
         "warnings": {
           "press_remove_button": 0
@@ -80154,7 +80346,8 @@
           "ridable_width",
           "buffer_width",
           "horizontal_pattern_evaluation",
-          "painting_condition_evaluation"
+          "painting_condition_evaluation",
+          "no_visible_crossing_signs"
         ],
         "warnings": {
           "press_remove_button": 0
@@ -80764,7 +80957,8 @@
           "buffer_width",
           "road_width",
           "horizontal_pattern_evaluation",
-          "painting_condition_evaluation"
+          "painting_condition_evaluation",
+          "no_visible_crossing_signs"
         ],
         "warnings": {
           "press_remove_button": 0
@@ -81376,7 +81570,8 @@
     "result": {
       "error": {
         "emptyValues": [
-          "crosses"
+          "crosses",
+          "no_visible_crossing_signs"
         ],
         "warnings": {
           "press_remove_button": 0
@@ -83464,7 +83659,8 @@
           "crosses",
           "shading_evaluation",
           "buffer_width",
-          "road_width"
+          "road_width",
+          "no_visible_crossing_signs"
         ],
         "warnings": {
           "press_remove_button": 0
@@ -83787,7 +83983,8 @@
         "emptyValues": [
           "crosses",
           "contiguos_lanes",
-          "protection_conditions_evaluation"
+          "protection_conditions_evaluation",
+          "no_visible_crossing_signs"
         ],
         "warnings": {
           "press_remove_button": 1
@@ -84105,7 +84302,8 @@
           "buffer_width",
           "road_width",
           "horizontal_pattern_evaluation",
-          "painting_condition_evaluation"
+          "painting_condition_evaluation",
+          "no_visible_crossing_signs"
         ],
         "warnings": {
           "press_remove_button": 0
@@ -84426,7 +84624,8 @@
     "result": {
       "error": {
         "emptyValues": [
-          "crosses"
+          "crosses",
+          "no_visible_crossing_signs"
         ],
         "warnings": {
           "press_remove_button": 0
@@ -84735,7 +84934,8 @@
     "result": {
       "error": {
         "emptyValues": [
-          "crosses"
+          "crosses",
+          "no_visible_crossing_signs"
         ],
         "warnings": {
           "press_remove_button": 0
@@ -85063,7 +85263,8 @@
       "error": {
         "emptyValues": [
           "crosses",
-          "road_width"
+          "road_width",
+          "no_visible_crossing_signs"
         ],
         "warnings": {
           "press_remove_button": 0
@@ -85402,7 +85603,8 @@
     "result": {
       "error": {
         "emptyValues": [
-          "crosses"
+          "crosses",
+          "no_visible_crossing_signs"
         ],
         "warnings": {
           "press_remove_button": 1
@@ -85713,7 +85915,8 @@
         "emptyValues": [
           "crosses",
           "contiguos_lanes",
-          "road_width"
+          "road_width",
+          "no_visible_crossing_signs"
         ],
         "warnings": {
           "press_remove_button": 0
@@ -86027,7 +86230,8 @@
       "error": {
         "emptyValues": [
           "crosses",
-          "road_width"
+          "road_width",
+          "no_visible_crossing_signs"
         ],
         "warnings": {
           "press_remove_button": 0
@@ -86346,7 +86550,8 @@
           "sinuosity_evaluation",
           "shading_evaluation",
           "road_width",
-          "painting_condition_evaluation"
+          "painting_condition_evaluation",
+          "no_visible_crossing_signs"
         ],
         "warnings": {
           "press_remove_button": 1
@@ -86665,7 +86870,8 @@
           "buffer_width",
           "road_width",
           "horizontal_pattern_evaluation",
-          "painting_condition_evaluation"
+          "painting_condition_evaluation",
+          "no_visible_crossing_signs"
         ],
         "warnings": {
           "press_remove_button": 0
@@ -86988,7 +87194,8 @@
     "result": {
       "error": {
         "emptyValues": [
-          "crosses"
+          "crosses",
+          "no_visible_crossing_signs"
         ],
         "warnings": {
           "press_remove_button": 5
@@ -87318,7 +87525,8 @@
           "buffer_width",
           "road_width",
           "horizontal_pattern_evaluation",
-          "painting_condition_evaluation"
+          "painting_condition_evaluation",
+          "no_visible_crossing_signs"
         ],
         "warnings": {
           "press_remove_button": 0
@@ -87636,7 +87844,8 @@
       "error": {
         "emptyValues": [
           "crosses",
-          "segregator_type"
+          "segregator_type",
+          "no_visible_crossing_signs"
         ],
         "warnings": {
           "press_remove_button": 3
@@ -87963,7 +88172,8 @@
     "result": {
       "error": {
         "emptyValues": [
-          "crosses"
+          "crosses",
+          "no_visible_crossing_signs"
         ],
         "warnings": {
           "press_remove_button": 0
@@ -88281,7 +88491,8 @@
           "buffer_width",
           "road_width",
           "horizontal_pattern_evaluation",
-          "painting_condition_evaluation"
+          "painting_condition_evaluation",
+          "no_visible_crossing_signs"
         ],
         "warnings": {
           "press_remove_button": 0
@@ -88610,7 +88821,8 @@
     "result": {
       "error": {
         "emptyValues": [
-          "crosses"
+          "crosses",
+          "no_visible_crossing_signs"
         ],
         "warnings": {
           "press_remove_button": 0
@@ -88925,7 +89137,8 @@
     "result": {
       "error": {
         "emptyValues": [
-          "crosses"
+          "crosses",
+          "no_visible_crossing_signs"
         ],
         "warnings": {
           "press_remove_button": 0
@@ -89251,7 +89464,8 @@
           "buffer_width",
           "road_width",
           "horizontal_pattern_evaluation",
-          "painting_condition_evaluation"
+          "painting_condition_evaluation",
+          "no_visible_crossing_signs"
         ],
         "warnings": {
           "press_remove_button": 0
@@ -89568,7 +89782,8 @@
     "result": {
       "error": {
         "emptyValues": [
-          "crosses"
+          "crosses",
+          "no_visible_crossing_signs"
         ],
         "warnings": {
           "press_remove_button": 0
@@ -89886,7 +90101,8 @@
           "buffer_width",
           "road_width",
           "horizontal_pattern_evaluation",
-          "painting_condition_evaluation"
+          "painting_condition_evaluation",
+          "no_visible_crossing_signs"
         ],
         "warnings": {
           "press_remove_button": 1
@@ -90195,7 +90411,8 @@
     "result": {
       "error": {
         "emptyValues": [
-          "crosses"
+          "crosses",
+          "no_visible_crossing_signs"
         ],
         "warnings": {
           "press_remove_button": 0
@@ -90519,7 +90736,8 @@
           "buffer_width",
           "road_width",
           "horizontal_pattern_evaluation",
-          "painting_condition_evaluation"
+          "painting_condition_evaluation",
+          "no_visible_crossing_signs"
         ],
         "warnings": {
           "press_remove_button": 0
@@ -90837,7 +91055,8 @@
           "buffer_width",
           "road_width",
           "horizontal_pattern_evaluation",
-          "painting_condition_evaluation"
+          "painting_condition_evaluation",
+          "no_visible_crossing_signs"
         ],
         "warnings": {
           "press_remove_button": 0
@@ -91156,7 +91375,8 @@
     "result": {
       "error": {
         "emptyValues": [
-          "crosses"
+          "crosses",
+          "no_visible_crossing_signs"
         ],
         "warnings": {
           "press_remove_button": 1
@@ -91475,7 +91695,8 @@
           "buffer_width",
           "road_width",
           "horizontal_pattern_evaluation",
-          "painting_condition_evaluation"
+          "painting_condition_evaluation",
+          "no_visible_crossing_signs"
         ],
         "warnings": {
           "press_remove_button": 1
@@ -91798,7 +92019,8 @@
           "ridable_width",
           "buffer_width",
           "road_width",
-          "horizontal_pattern_evaluation"
+          "horizontal_pattern_evaluation",
+          "no_visible_crossing_signs"
         ],
         "warnings": {
           "press_remove_button": 0
@@ -92108,7 +92330,8 @@
       "error": {
         "emptyValues": [
           "crosses",
-          "road_width"
+          "road_width",
+          "no_visible_crossing_signs"
         ],
         "warnings": {
           "press_remove_button": 20
@@ -92422,7 +92645,8 @@
       "error": {
         "emptyValues": [
           "crosses",
-          "road_width"
+          "road_width",
+          "no_visible_crossing_signs"
         ],
         "warnings": {
           "press_remove_button": 0
@@ -92746,7 +92970,8 @@
           "buffer_width",
           "road_width",
           "horizontal_pattern_evaluation",
-          "painting_condition_evaluation"
+          "painting_condition_evaluation",
+          "no_visible_crossing_signs"
         ],
         "warnings": {
           "press_remove_button": 5
@@ -93064,7 +93289,8 @@
           "buffer_width",
           "road_width",
           "horizontal_pattern_evaluation",
-          "painting_condition_evaluation"
+          "painting_condition_evaluation",
+          "no_visible_crossing_signs"
         ],
         "warnings": {
           "press_remove_button": 0
@@ -93398,7 +93624,8 @@
           "buffer_width",
           "road_width",
           "horizontal_pattern_evaluation",
-          "painting_condition_evaluation"
+          "painting_condition_evaluation",
+          "no_visible_crossing_signs"
         ],
         "warnings": {
           "press_remove_button": 1
@@ -93720,7 +93947,8 @@
           "crosses",
           "segregator_type",
           "buffer_width",
-          "horizontal_pattern_evaluation"
+          "horizontal_pattern_evaluation",
+          "no_visible_crossing_signs"
         ],
         "warnings": {
           "press_remove_button": 1
@@ -94050,7 +94278,8 @@
           "buffer_width",
           "road_width",
           "horizontal_pattern_evaluation",
-          "painting_condition_evaluation"
+          "painting_condition_evaluation",
+          "no_visible_crossing_signs"
         ],
         "warnings": {
           "press_remove_button": 2
@@ -94380,7 +94609,8 @@
           "buffer_width",
           "road_width",
           "horizontal_pattern_evaluation",
-          "painting_condition_evaluation"
+          "painting_condition_evaluation",
+          "no_visible_crossing_signs"
         ],
         "warnings": {
           "press_remove_button": 0
@@ -94702,7 +94932,8 @@
           "buffer_width",
           "road_width",
           "horizontal_pattern_evaluation",
-          "painting_condition_evaluation"
+          "painting_condition_evaluation",
+          "no_visible_crossing_signs"
         ],
         "warnings": {
           "press_remove_button": 0
@@ -95024,7 +95255,8 @@
           "buffer_width",
           "road_width",
           "horizontal_pattern_evaluation",
-          "painting_condition_evaluation"
+          "painting_condition_evaluation",
+          "no_visible_crossing_signs"
         ],
         "warnings": {
           "press_remove_button": 2
@@ -95651,7 +95883,8 @@
           "ridable_width",
           "buffer_width",
           "horizontal_pattern_evaluation",
-          "painting_condition_evaluation"
+          "painting_condition_evaluation",
+          "no_visible_crossing_signs"
         ],
         "warnings": {
           "press_remove_button": 0
@@ -96005,7 +96238,8 @@
           "buffer_width",
           "road_width",
           "horizontal_pattern_evaluation",
-          "painting_condition_evaluation"
+          "painting_condition_evaluation",
+          "no_visible_crossing_signs"
         ],
         "warnings": {
           "press_remove_button": 1
@@ -96322,7 +96556,8 @@
         "emptyValues": [
           "crosses",
           "segregator_type",
-          "buffer_width"
+          "buffer_width",
+          "no_visible_crossing_signs"
         ],
         "warnings": {
           "press_remove_button": 0
@@ -96698,7 +96933,8 @@
           "buffer_width",
           "road_width",
           "horizontal_pattern_evaluation",
-          "painting_condition_evaluation"
+          "painting_condition_evaluation",
+          "no_visible_crossing_signs"
         ],
         "warnings": {
           "press_remove_button": 0
@@ -97030,7 +97266,8 @@
       "error": {
         "emptyValues": [
           "crosses",
-          "contiguos_lanes"
+          "contiguos_lanes",
+          "no_visible_crossing_signs"
         ],
         "warnings": {
           "press_remove_button": 0
@@ -97360,7 +97597,8 @@
       "error": {
         "emptyValues": [
           "crosses",
-          "localization"
+          "localization",
+          "no_visible_crossing_signs"
         ],
         "warnings": {
           "press_remove_button": 1
@@ -97716,7 +97954,8 @@
           "buffer_width",
           "road_width",
           "horizontal_pattern_evaluation",
-          "painting_condition_evaluation"
+          "painting_condition_evaluation",
+          "no_visible_crossing_signs"
         ],
         "warnings": {
           "press_remove_button": 1
@@ -98085,7 +98324,8 @@
           "ridable_width",
           "buffer_width",
           "horizontal_pattern_evaluation",
-          "painting_condition_evaluation"
+          "painting_condition_evaluation",
+          "no_visible_crossing_signs"
         ],
         "warnings": {
           "press_remove_button": 1
@@ -98434,7 +98674,8 @@
           "buffer_width",
           "road_width",
           "horizontal_pattern_evaluation",
-          "painting_condition_evaluation"
+          "painting_condition_evaluation",
+          "no_visible_crossing_signs"
         ],
         "warnings": {
           "press_remove_button": 0
@@ -98782,7 +99023,8 @@
           "ridable_width",
           "buffer_width",
           "road_width",
-          "horizontal_pattern_evaluation"
+          "horizontal_pattern_evaluation",
+          "no_visible_crossing_signs"
         ],
         "warnings": {
           "press_remove_button": 0
@@ -99114,7 +99356,8 @@
           "crosses",
           "ridable_width",
           "buffer_width",
-          "road_width"
+          "road_width",
+          "no_visible_crossing_signs"
         ],
         "warnings": {
           "press_remove_button": 0
@@ -99512,7 +99755,8 @@
           "crosses",
           "traffic_flow",
           "segregator_type",
-          "horizontal_pattern_evaluation"
+          "horizontal_pattern_evaluation",
+          "no_visible_crossing_signs"
         ],
         "warnings": {
           "press_remove_button": 4
@@ -99890,7 +100134,8 @@
           "shading_evaluation",
           "ridable_width",
           "buffer_width",
-          "road_width"
+          "road_width",
+          "no_visible_crossing_signs"
         ],
         "warnings": {
           "press_remove_button": 1
@@ -100294,7 +100539,8 @@
       "error": {
         "emptyValues": [
           "crosses",
-          "segregator_type"
+          "segregator_type",
+          "no_visible_crossing_signs"
         ],
         "warnings": {
           "press_remove_button": 3
@@ -100660,7 +100906,8 @@
           "protection_conditions_evaluation",
           "ridable_width",
           "horizontal_pattern_evaluation",
-          "painting_condition_evaluation"
+          "painting_condition_evaluation",
+          "no_visible_crossing_signs"
         ],
         "warnings": {
           "press_remove_button": 2
@@ -100978,7 +101225,8 @@
           "buffer_width",
           "road_width",
           "horizontal_pattern_evaluation",
-          "painting_condition_evaluation"
+          "painting_condition_evaluation",
+          "no_visible_crossing_signs"
         ],
         "warnings": {
           "press_remove_button": 0
@@ -101320,7 +101568,8 @@
           "crosses",
           "ridable_width",
           "buffer_width",
-          "road_width"
+          "road_width",
+          "no_visible_crossing_signs"
         ],
         "warnings": {
           "press_remove_button": 2
@@ -101657,7 +101906,8 @@
     "result": {
       "error": {
         "emptyValues": [
-          "crosses"
+          "crosses",
+          "no_visible_crossing_signs"
         ],
         "warnings": {
           "press_remove_button": 1
@@ -101991,7 +102241,8 @@
           "crosses",
           "ridable_width",
           "buffer_width",
-          "road_width"
+          "road_width",
+          "no_visible_crossing_signs"
         ],
         "warnings": {
           "press_remove_button": 0
@@ -102351,7 +102602,8 @@
           "crosses",
           "traffic_flow",
           "protection_conditions_evaluation",
-          "buffer_width"
+          "buffer_width",
+          "no_visible_crossing_signs"
         ],
         "warnings": {
           "press_remove_button": 3
@@ -102714,7 +102966,8 @@
           "buffer_width",
           "road_width",
           "horizontal_pattern_evaluation",
-          "painting_condition_evaluation"
+          "painting_condition_evaluation",
+          "no_visible_crossing_signs"
         ],
         "warnings": {
           "press_remove_button": 0
@@ -103039,7 +103292,8 @@
           "buffer_width",
           "road_width",
           "horizontal_pattern_evaluation",
-          "painting_condition_evaluation"
+          "painting_condition_evaluation",
+          "no_visible_crossing_signs"
         ],
         "warnings": {
           "press_remove_button": 0
@@ -103359,7 +103613,8 @@
           "sinuosity_evaluation",
           "shading_evaluation",
           "road_width",
-          "painting_condition_evaluation"
+          "painting_condition_evaluation",
+          "no_visible_crossing_signs"
         ],
         "warnings": {
           "press_remove_button": 1
@@ -103687,7 +103942,8 @@
           "buffer_width",
           "road_width",
           "horizontal_pattern_evaluation",
-          "painting_condition_evaluation"
+          "painting_condition_evaluation",
+          "no_visible_crossing_signs"
         ],
         "warnings": {
           "press_remove_button": 0
@@ -104007,7 +104263,8 @@
           "sinuosity_evaluation",
           "shading_evaluation",
           "road_width",
-          "painting_condition_evaluation"
+          "painting_condition_evaluation",
+          "no_visible_crossing_signs"
         ],
         "warnings": {
           "press_remove_button": 0
@@ -104322,7 +104579,8 @@
           "sinuosity_evaluation",
           "shading_evaluation",
           "ridable_width",
-          "painting_condition_evaluation"
+          "painting_condition_evaluation",
+          "no_visible_crossing_signs"
         ],
         "warnings": {
           "press_remove_button": 2
@@ -104661,7 +104919,8 @@
           "buffer_width",
           "road_width",
           "horizontal_pattern_evaluation",
-          "painting_condition_evaluation"
+          "painting_condition_evaluation",
+          "no_visible_crossing_signs"
         ],
         "warnings": {
           "press_remove_button": 0
@@ -104981,7 +105240,8 @@
           "shading_evaluation",
           "buffer_width",
           "road_width",
-          "painting_condition_evaluation"
+          "painting_condition_evaluation",
+          "no_visible_crossing_signs"
         ],
         "warnings": {
           "press_remove_button": 0
@@ -105297,7 +105557,8 @@
           "shading_evaluation",
           "buffer_width",
           "road_width",
-          "painting_condition_evaluation"
+          "painting_condition_evaluation",
+          "no_visible_crossing_signs"
         ],
         "warnings": {
           "press_remove_button": 0
@@ -105626,7 +105887,8 @@
           "sinuosity_evaluation",
           "shading_evaluation",
           "road_width",
-          "painting_condition_evaluation"
+          "painting_condition_evaluation",
+          "no_visible_crossing_signs"
         ],
         "warnings": {
           "press_remove_button": 0
@@ -105953,7 +106215,8 @@
           "sinuosity_evaluation",
           "shading_evaluation",
           "road_width",
-          "painting_condition_evaluation"
+          "painting_condition_evaluation",
+          "no_visible_crossing_signs"
         ],
         "warnings": {
           "press_remove_button": 4
@@ -106275,7 +106538,8 @@
           "shading_evaluation",
           "buffer_width",
           "road_width",
-          "painting_condition_evaluation"
+          "painting_condition_evaluation",
+          "no_visible_crossing_signs"
         ],
         "warnings": {
           "press_remove_button": 0
@@ -106595,7 +106859,8 @@
           "sinuosity_evaluation",
           "shading_evaluation",
           "buffer_width",
-          "painting_condition_evaluation"
+          "painting_condition_evaluation",
+          "no_visible_crossing_signs"
         ],
         "warnings": {
           "press_remove_button": 0
@@ -106915,7 +107180,8 @@
           "sinuosity_evaluation",
           "shading_evaluation",
           "road_width",
-          "painting_condition_evaluation"
+          "painting_condition_evaluation",
+          "no_visible_crossing_signs"
         ],
         "warnings": {
           "press_remove_button": 1
@@ -107234,7 +107500,8 @@
           "sinuosity_evaluation",
           "shading_evaluation",
           "road_width",
-          "painting_condition_evaluation"
+          "painting_condition_evaluation",
+          "no_visible_crossing_signs"
         ],
         "warnings": {
           "press_remove_button": 0
@@ -107559,7 +107826,8 @@
           "sinuosity_evaluation",
           "shading_evaluation",
           "road_width",
-          "painting_condition_evaluation"
+          "painting_condition_evaluation",
+          "no_visible_crossing_signs"
         ],
         "warnings": {
           "press_remove_button": 1
@@ -107876,7 +108144,8 @@
     "result": {
       "error": {
         "emptyValues": [
-          "crosses"
+          "crosses",
+          "no_visible_crossing_signs"
         ],
         "warnings": {
           "press_remove_button": 0
@@ -108489,7 +108758,8 @@
       "error": {
         "emptyValues": [
           "crosses",
-          "road_width"
+          "road_width",
+          "no_visible_crossing_signs"
         ],
         "warnings": {
           "press_remove_button": 0
@@ -108841,7 +109111,8 @@
       "error": {
         "emptyValues": [
           "crosses",
-          "traffic_flow"
+          "traffic_flow",
+          "no_visible_crossing_signs"
         ],
         "warnings": {
           "press_remove_button": 1
@@ -109493,7 +109764,8 @@
     "result": {
       "error": {
         "emptyValues": [
-          "crosses"
+          "crosses",
+          "no_visible_crossing_signs"
         ],
         "warnings": {
           "press_remove_button": 0
