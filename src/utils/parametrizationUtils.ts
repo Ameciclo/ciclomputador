@@ -35,10 +35,11 @@ export function applyParametrization(data: iDataForms, result: iGPXData, fileNam
                     "buffer_width",
                     "road_width",
                     "horizontal_pattern_evaluation",
-                    "painting_condition_evaluation"
+                    "painting_condition_evaluation",
+                    "no_visible_crossing_signs"
                 ];
 
-                const nullElement = (data: iDataForms) => data.result[element] === 0 || data.result[element] === "" || data.result[element] === null || data.result[element] === undefined;
+                const nullElement = (data: iDataForms) => data.result[element] as number <= 0 || data.result[element] === "" || data.result[element] === null || data.result[element] === undefined;
                 if (validKeys.includes(element) && nullElement(data)) {
                     if (!error["emptyValues"]) {
                         error["emptyValues"] = [];
