@@ -22,18 +22,18 @@ rode o script
 
 ## Passo a Passo de Uso
 
-1 - Adicione os arquivos GPX de avaliação na pasta src/gpx-files (ou rode com os que já estao lá para teste)
+1 - Substitua os arquivos GPX de avaliação na pasta `src/gpx-files` (ou rode com os arquivos gpx já presentes)
 
 2 - `npm run dev`
 
-3 - 💡 uma pasta em `src` chamada chamada `result` vai conter um arquivo `data.json` com os dados de cada arquivo gpx processados. 
+3 - 💡 uma pasta em `src` chamada `result` vai conter um arquivo `data.json` com os dados de cada arquivo gpx processados. 
 
 
 ### Entendendo mais sobre o JSON gerado:
   a estrutura basica do JSON resultado é a seguinte:
 
-um array de objetos [{},{},{}...]
-onde cada objeto representa um acumulado de dados de cada GPX
+- um array de objetos [{},{},{}...]
+- cada objeto desse array representa um acumulado de dados de cada GPX
 
 ex.:
 
@@ -48,7 +48,7 @@ ex.:
 ]
 ```
 - "result" - dados finais para consumo
-- "metadata" - dados basicos informativos sobre o conteudo analizado
-- "acumulado de dados brutos" - sao todas as categorias e botoes contabilizados no gpx analizado, necessario para construir o elemento "resume"
+- "metadata" - dados básicos informativos sobre o conteúdo analizado
+- "acumulado de dados brutos" - são todas as categorias e botões contabilizados no gpx analizado, necessário para construir o elemento "resume"
 
 
