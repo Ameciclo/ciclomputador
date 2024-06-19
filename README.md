@@ -5,15 +5,19 @@ Projeto de código aberto que trata e disponibiliza os dados coletados pela equi
 ⚠️ versão node 14+
 
 clone o repositório
+
 `git clone https://github.com/Ameciclo/ciclomputer.git`
 
 entre na pasta 
+
 `cd ciclomputer`
 
 instale as dependências
+
 `npm install`
 
 rode o script
+
 `npm run dev`
 
 ## Passo a Passo de Uso
