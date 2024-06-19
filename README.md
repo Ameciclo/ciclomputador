@@ -2,11 +2,18 @@
 Projeto de código aberto que trata e disponibiliza os dados coletados pela equipe avaliadora de campo através da [ferramenta de auditoria cicloviária do IDECICLO](https://github.com/Ameciclo/auditoria-cicloviaria).  
 
 ## Instalação e Execução do Script
-⚠️ versão node 22.1.0
+⚠️ versão node 14+
 
-Para executar esse script de processamento de dados GPX você precisa lançar os seguintes comandos, após clonar o repositório:
+clone o repositório
+`git clone https://github.com/Ameciclo/ciclomputer.git`
 
+entre na pasta 
+`cd ciclomputer`
+
+instale as dependências
 `npm install`
+
+rode o script
 `npm run dev`
 
 ## Passo a Passo de Uso
