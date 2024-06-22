@@ -1,4 +1,4 @@
-# ciclomputer
+# ciclomputador
 Projeto de código aberto que trata e disponibiliza os dados coletados pela equipe avaliadora de campo através da [ferramenta de auditoria cicloviária do IDECICLO](https://github.com/Ameciclo/auditoria-cicloviaria).  
 
 ## Execução do Script
@@ -6,7 +6,7 @@ Projeto de código aberto que trata e disponibiliza os dados coletados pela equi
 
 clone o repositório
 
-`git clone https://github.com/Ameciclo/ciclomputer.git`
+`git clone https://github.com/Ameciclo/ciclomputador.git`
 
 entre na pasta 
 
