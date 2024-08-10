@@ -1,0 +1,1316 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<gpx>
+  <metadata>
+    <name>2024-05-09_13-19-56 AV. AGAMENOM MAGALHÃES  (SENTIDO BOA VIAGEM)</name>
+    <keywords>auditoria cicloviaria</keywords>
+    <keywords>osmtracker</keywords>
+    <desc>CF047, &#xD;
+CR047, &#xD;
+AC047, CF068</desc>
+  </metadata>
+  <wpt lat="-8.048925" lon="-34.89340166666667">
+    <ele>-0.1999999999999993</ele>
+    <time>2024-05-09T16:20:01Z</time>
+    <name>Ciclovia</name>
+    <sat>18</sat>
+  </wpt>
+  <wpt lat="-8.04881" lon="-34.893148333333336">
+    <ele>0.09999999999999964</ele>
+    <time>2024-05-09T16:20:09Z</time>
+    <name>Unidirecional no Fluxo</name>
+    <sat>24</sat>
+  </wpt>
+  <wpt lat="-8.048815" lon="-34.89315666666666">
+    <ele>2.200000000000001</ele>
+    <time>2024-05-09T16:20:14Z</time>
+    <name>No bordo esquerdo de Via de Mão Única</name>
+    <sat>25</sat>
+  </wpt>
+  <wpt lat="-8.048811666666667" lon="-34.89315666666666">
+    <ele>2.700000000000001</ele>
+    <time>2024-05-09T16:20:15Z</time>
+    <name>No canteiro central</name>
+    <sat>25</sat>
+  </wpt>
+  <wpt lat="-8.048798333333334" lon="-34.89315666666666">
+    <ele>5.700000000000001</ele>
+    <time>2024-05-09T16:20:25Z</time>
+    <name>Mão Única</name>
+    <sat>26</sat>
+  </wpt>
+  <wpt lat="-8.048786666666667" lon="-34.893164999999996">
+    <ele>5.500000000000002</ele>
+    <time>2024-05-09T16:20:29Z</time>
+    <name>Toda área de circulação pintada de vermelho</name>
+    <sat>27</sat>
+  </wpt>
+  <wpt lat="-8.048785" lon="-34.89316833333333">
+    <ele>6.299999999999999</ele>
+    <time>2024-05-09T16:20:33Z</time>
+    <name>Guias</name>
+    <sat>28</sat>
+  </wpt>
+  <wpt lat="-8.048785" lon="-34.89316833333333">
+    <ele>6.299999999999999</ele>
+    <time>2024-05-09T16:21:03Z</time>
+    <name>Concreto</name>
+    <sat>26</sat>
+  </wpt>
+  <wpt lat="-8.048785" lon="-34.89316833333333">
+    <ele>6.299999999999999</ele>
+    <time>2024-05-09T16:21:22Z</time>
+    <name>6 faixas</name>
+    <sat>27</sat>
+  </wpt>
+  <wpt lat="-8.048785" lon="-34.89316833333333">
+    <ele>6.299999999999999</ele>
+    <time>2024-05-09T16:21:29Z</time>
+    <name>Estacionamento proibido na via</name>
+    <sat>25</sat>
+  </wpt>
+  <wpt lat="-8.048721666666667" lon="-34.893161666666664">
+    <ele>1.700000000000001</ele>
+    <time>2024-05-09T16:21:38Z</time>
+    <name>60km/h</name>
+    <sat>29</sat>
+  </wpt>
+  <wpt lat="-8.048716666666667" lon="-34.893161666666664">
+    <ele>1.5999999999999996</ele>
+    <time>2024-05-09T16:21:40Z</time>
+    <name>Semáforo exclusivo</name>
+    <sat>29</sat>
+  </wpt>
+  <wpt lat="-8.048703333333332" lon="-34.89315166666667">
+    <ele>0.5</ele>
+    <time>2024-05-09T16:21:44Z</time>
+    <name>60km/h</name>
+    <sat>27</sat>
+  </wpt>
+  <wpt lat="-8.048753333333334" lon="-34.89317666666667">
+    <ele>-0.7999999999999989</ele>
+    <time>2024-05-09T16:22:36Z</time>
+    <name>Seta BOA condição</name>
+    <sat>28</sat>
+  </wpt>
+  <wpt lat="-8.04875" lon="-34.89318">
+    <ele>-0.7999999999999989</ele>
+    <time>2024-05-09T16:22:38Z</time>
+    <name>Pictograma BOA condição</name>
+    <sat>28</sat>
+  </wpt>
+  <wpt lat="-8.04875" lon="-34.89318">
+    <ele>-0.7999999999999989</ele>
+    <time>2024-05-09T16:22:43Z</time>
+    <name>Em cruzamento MÁ condição</name>
+    <sat>29</sat>
+  </wpt>
+  <wpt lat="-8.048728333333335" lon="-34.893164999999996">
+    <ele>0.3000000000000007</ele>
+    <time>2024-05-09T16:23:51Z</time>
+    <name>A-30</name>
+    <sat>28</sat>
+  </wpt>
+  <wpt lat="-8.048728333333335" lon="-34.893164999999996">
+    <ele>0.3000000000000007</ele>
+    <time>2024-05-09T16:24:09Z</time>
+    <name>Foto</name>
+    <link href="2024-05-09_13-24-09.jpg">
+      <text>2024-05-09_13-24-09.jpg</text>
+    </link>
+    <sat>28</sat>
+  </wpt>
+  <wpt lat="-8.048726666666665" lon="-34.89313">
+    <ele>1.0</ele>
+    <time>2024-05-09T16:25:18Z</time>
+    <name>Área transitável da ciclo (cm)</name>
+    <sat>27</sat>
+  </wpt>
+  <wpt lat="-8.048726666666665" lon="-34.89313">
+    <ele>1.0</ele>
+    <time>2024-05-09T16:25:19Z</time>
+    <name>150cm</name>
+    <sat>26</sat>
+  </wpt>
+  <wpt lat="-8.048726666666665" lon="-34.89313">
+    <ele>1.0</ele>
+    <time>2024-05-09T16:25:46Z</time>
+    <name>Área de amortecimento da ciclo (cm)</name>
+    <sat>27</sat>
+  </wpt>
+  <wpt lat="-8.048726666666665" lon="-34.89313">
+    <ele>1.0</ele>
+    <time>2024-05-09T16:25:48Z</time>
+    <name>18cm (guia)</name>
+    <sat>25</sat>
+  </wpt>
+  <wpt lat="-8.048726666666665" lon="-34.89313">
+    <ele>1.0</ele>
+    <time>2024-05-09T16:26:17Z</time>
+    <name>87cm ("acostamento" da ciclo)</name>
+    <sat>27</sat>
+  </wpt>
+  <wpt lat="-8.049005" lon="-34.89340333333334">
+    <ele>-0.5</ele>
+    <time>2024-05-09T16:27:30Z</time>
+    <name>Pictograma BOA condição</name>
+    <sat>25</sat>
+  </wpt>
+  <wpt lat="-8.049031666666668" lon="-34.89342">
+    <ele>-0.40000000000000036</ele>
+    <time>2024-05-09T16:27:31Z</time>
+    <name>Seta BOA condição</name>
+    <sat>26</sat>
+  </wpt>
+  <wpt lat="-8.050103333333334" lon="-34.894223333333336">
+    <ele>-3.5999999999999996</ele>
+    <time>2024-05-09T16:28:04Z</time>
+    <name>Pictograma BOA condição</name>
+    <sat>26</sat>
+  </wpt>
+  <wpt lat="-8.050135000000001" lon="-34.89425333333334">
+    <ele>-4.3</ele>
+    <time>2024-05-09T16:28:05Z</time>
+    <name>Seta BOA condição</name>
+    <sat>26</sat>
+  </wpt>
+  <wpt lat="-8.051091666666668" lon="-34.89499166666667">
+    <ele>-4.699999999999999</ele>
+    <time>2024-05-09T16:28:38Z</time>
+    <name>Pictograma BOA condição</name>
+    <sat>27</sat>
+  </wpt>
+  <wpt lat="-8.051091666666668" lon="-34.89499166666667">
+    <ele>-4.699999999999999</ele>
+    <time>2024-05-09T16:28:38Z</time>
+    <name>Seta BOA condição</name>
+    <sat>27</sat>
+  </wpt>
+  <wpt lat="-8.051493333333333" lon="-34.89532333333333">
+    <ele>0.0</ele>
+    <time>2024-05-09T16:29:15Z</time>
+    <name>Em cruzamento BOA condição</name>
+    <sat>27</sat>
+  </wpt>
+  <wpt lat="-8.051516666666666" lon="-34.895313333333334">
+    <ele>0.0</ele>
+    <time>2024-05-09T16:29:36Z</time>
+    <name>grades ao retorno da ciclo depois do cruzamento </name>
+    <sat>24</sat>
+  </wpt>
+  <wpt lat="-8.051516666666666" lon="-34.895313333333334">
+    <ele>0.0</ele>
+    <time>2024-05-09T16:30:19Z</time>
+    <name>Pictograma BOA condição</name>
+    <sat>25</sat>
+  </wpt>
+  <wpt lat="-8.051516666666666" lon="-34.895313333333334">
+    <ele>0.0</ele>
+    <time>2024-05-09T16:30:19Z</time>
+    <name>Seta BOA condição</name>
+    <sat>25</sat>
+  </wpt>
+  <wpt lat="-8.052083333333334" lon="-34.89578166666667">
+    <ele>-6.5</ele>
+    <time>2024-05-09T16:30:45Z</time>
+    <name>Em cruzamento BOA condição</name>
+    <sat>25</sat>
+  </wpt>
+  <wpt lat="-8.052116666666667" lon="-34.89581166666667">
+    <ele>-6.6</ele>
+    <time>2024-05-09T16:30:46Z</time>
+    <name>Pictograma BOA condição</name>
+    <sat>25</sat>
+  </wpt>
+  <wpt lat="-8.052116666666667" lon="-34.89581166666667">
+    <ele>-6.6</ele>
+    <time>2024-05-09T16:30:46Z</time>
+    <name>Seta BOA condição</name>
+    <sat>25</sat>
+  </wpt>
+  <wpt lat="-8.05271" lon="-34.89615666666667">
+    <ele>-6.8</ele>
+    <time>2024-05-09T16:31:38Z</time>
+    <name>Outro obstáculo</name>
+    <sat>27</sat>
+  </wpt>
+  <wpt lat="-8.05271" lon="-34.89615666666667">
+    <ele>-6.8</ele>
+    <time>2024-05-09T16:31:39Z</time>
+    <name>poças</name>
+    <sat>27</sat>
+  </wpt>
+  <wpt lat="-8.05271" lon="-34.89615666666667">
+    <ele>-6.8</ele>
+    <time>2024-05-09T16:32:00Z</time>
+    <name>Foto</name>
+    <link href="2024-05-09_13-32-00.jpg">
+      <text>2024-05-09_13-32-00.jpg</text>
+    </link>
+    <sat>26</sat>
+  </wpt>
+  <wpt lat="-8.05271" lon="-34.89615666666667">
+    <ele>-6.8</ele>
+    <time>2024-05-09T16:32:13Z</time>
+    <name>Semáforo exclusivo</name>
+    <sat>26</sat>
+  </wpt>
+  <wpt lat="-8.05271" lon="-34.89615666666667">
+    <ele>-6.8</ele>
+    <time>2024-05-09T16:32:14Z</time>
+    <name>60km/h</name>
+    <sat>26</sat>
+  </wpt>
+  <wpt lat="-8.05271" lon="-34.89615666666667">
+    <ele>-6.8</ele>
+    <time>2024-05-09T16:32:19Z</time>
+    <name>Pictograma BOA condição</name>
+    <sat>27</sat>
+  </wpt>
+  <wpt lat="-8.05271" lon="-34.89615666666667">
+    <ele>-6.8</ele>
+    <time>2024-05-09T16:32:20Z</time>
+    <name>Seta BOA condição</name>
+    <sat>27</sat>
+  </wpt>
+  <wpt lat="-8.053176666666667" lon="-34.896494999999994">
+    <ele>-4.3999999999999995</ele>
+    <time>2024-05-09T16:32:46Z</time>
+    <name>Pictograma BOA condição</name>
+    <sat>24</sat>
+  </wpt>
+  <wpt lat="-8.053176666666667" lon="-34.896494999999994">
+    <ele>-4.3999999999999995</ele>
+    <time>2024-05-09T16:32:46Z</time>
+    <name>Seta BOA condição</name>
+    <sat>24</sat>
+  </wpt>
+  <wpt lat="-8.053181666666667" lon="-34.896498333333334">
+    <ele>-4.699999999999999</ele>
+    <time>2024-05-09T16:32:47Z</time>
+    <name>Em cruzamento BOA condição</name>
+    <sat>25</sat>
+  </wpt>
+  <wpt lat="-8.053186666666667" lon="-34.89648666666667">
+    <ele>-5.199999999999999</ele>
+    <time>2024-05-09T16:32:57Z</time>
+    <name>60km/h</name>
+    <sat>26</sat>
+  </wpt>
+  <wpt lat="-8.053261666666666" lon="-34.89653166666667">
+    <ele>-3.0999999999999996</ele>
+    <time>2024-05-09T16:33:29Z</time>
+    <name>Semáforo exclusivo</name>
+    <sat>25</sat>
+  </wpt>
+  <wpt lat="-8.053383333333333" lon="-34.89664833333333">
+    <ele>-3.0</ele>
+    <time>2024-05-09T16:33:35Z</time>
+    <name>Pictograma BOA condição</name>
+    <sat>26</sat>
+  </wpt>
+  <wpt lat="-8.053406666666666" lon="-34.89666666666667">
+    <ele>-3.3999999999999995</ele>
+    <time>2024-05-09T16:33:36Z</time>
+    <name>Seta BOA condição</name>
+    <sat>27</sat>
+  </wpt>
+  <wpt lat="-8.054623333333332" lon="-34.897576666666666">
+    <ele>-7.5</ele>
+    <time>2024-05-09T16:34:10Z</time>
+    <name>Pictograma BOA condição</name>
+    <sat>24</sat>
+  </wpt>
+  <wpt lat="-8.054668333333332" lon="-34.897605">
+    <ele>-7.5</ele>
+    <time>2024-05-09T16:34:11Z</time>
+    <name>Seta BOA condição</name>
+    <sat>25</sat>
+  </wpt>
+  <wpt lat="-8.056375000000001" lon="-34.89803666666667">
+    <ele>-9.299999999999999</ele>
+    <time>2024-05-09T16:34:48Z</time>
+    <name>Pictograma BOA condição</name>
+    <sat>27</sat>
+  </wpt>
+  <wpt lat="-8.056375000000001" lon="-34.89803666666667">
+    <ele>-9.299999999999999</ele>
+    <time>2024-05-09T16:34:48Z</time>
+    <name>Seta BOA condição</name>
+    <sat>27</sat>
+  </wpt>
+  <wpt lat="-8.056418333333333" lon="-34.898045">
+    <ele>-7.8</ele>
+    <time>2024-05-09T16:34:49Z</time>
+    <name>Em cruzamento BOA condição</name>
+    <sat>28</sat>
+  </wpt>
+  <wpt lat="-8.056741666666666" lon="-34.898043333333334">
+    <ele>-4.199999999999999</ele>
+    <time>2024-05-09T16:34:58Z</time>
+    <name>Pictograma BOA condição</name>
+    <sat>28</sat>
+  </wpt>
+  <wpt lat="-8.056741666666666" lon="-34.898043333333334">
+    <ele>-4.199999999999999</ele>
+    <time>2024-05-09T16:34:58Z</time>
+    <name>Seta BOA condição</name>
+    <sat>28</sat>
+  </wpt>
+  <wpt lat="-8.057295" lon="-34.89805666666667">
+    <ele>-3.1999999999999993</ele>
+    <time>2024-05-09T16:36:03Z</time>
+    <name>Semáforo exclusivo</name>
+    <sat>25</sat>
+  </wpt>
+  <wpt lat="-8.057445" lon="-34.898064999999995">
+    <ele>-5.199999999999999</ele>
+    <time>2024-05-09T16:36:07Z</time>
+    <name>Pictograma BOA condição</name>
+    <sat>26</sat>
+  </wpt>
+  <wpt lat="-8.057445" lon="-34.898064999999995">
+    <ele>-5.199999999999999</ele>
+    <time>2024-05-09T16:36:07Z</time>
+    <name>Seta BOA condição</name>
+    <sat>26</sat>
+  </wpt>
+  <wpt lat="-8.057483333333332" lon="-34.898066666666665">
+    <ele>-5.699999999999999</ele>
+    <time>2024-05-09T16:36:08Z</time>
+    <name>Pictograma BOA condição</name>
+    <sat>26</sat>
+  </wpt>
+  <wpt lat="-8.057483333333332" lon="-34.898066666666665">
+    <ele>-5.699999999999999</ele>
+    <time>2024-05-09T16:36:08Z</time>
+    <name>Seta BOA condição</name>
+    <sat>26</sat>
+  </wpt>
+  <wpt lat="-8.058631666666667" lon="-34.89808333333334">
+    <ele>-2.5999999999999996</ele>
+    <time>2024-05-09T16:36:32Z</time>
+    <name>Em cruzamento BOA condição</name>
+    <sat>27</sat>
+  </wpt>
+  <wpt lat="-8.058685" lon="-34.89808666666667">
+    <ele>-3.0</ele>
+    <time>2024-05-09T16:36:33Z</time>
+    <name>Pictograma BOA condição</name>
+    <sat>27</sat>
+  </wpt>
+  <wpt lat="-8.058685" lon="-34.89808666666667">
+    <ele>-3.0</ele>
+    <time>2024-05-09T16:36:33Z</time>
+    <name>Seta BOA condição</name>
+    <sat>27</sat>
+  </wpt>
+  <wpt lat="-8.058875" lon="-34.89808666666667">
+    <ele>-2.5999999999999996</ele>
+    <time>2024-05-09T16:36:37Z</time>
+    <name>Pictograma BOA condição</name>
+    <sat>26</sat>
+  </wpt>
+  <wpt lat="-8.058875" lon="-34.89808666666667">
+    <ele>-2.5999999999999996</ele>
+    <time>2024-05-09T16:36:37Z</time>
+    <name>Seta BOA condição</name>
+    <sat>26</sat>
+  </wpt>
+  <wpt lat="-8.058986666666668" lon="-34.89809666666667">
+    <ele>-2.8999999999999995</ele>
+    <time>2024-05-09T16:36:40Z</time>
+    <name>Semáforo exclusivo</name>
+    <sat>27</sat>
+  </wpt>
+  <wpt lat="-8.059096666666667" lon="-34.898093333333335">
+    <ele>-2.4000000000000004</ele>
+    <time>2024-05-09T16:36:43Z</time>
+    <name>60km/h</name>
+    <sat>26</sat>
+  </wpt>
+  <wpt lat="-8.059376666666667" lon="-34.89803833333334">
+    <ele>-4.8999999999999995</ele>
+    <time>2024-05-09T16:36:49Z</time>
+    <name>60km/h</name>
+    <sat>27</sat>
+  </wpt>
+  <wpt lat="-8.06024" lon="-34.89791833333334">
+    <ele>-3.6999999999999993</ele>
+    <time>2024-05-09T16:37:06Z</time>
+    <name>60km/h</name>
+    <sat>27</sat>
+  </wpt>
+  <wpt lat="-8.060640000000001" lon="-34.89788166666666">
+    <ele>-2.8999999999999995</ele>
+    <time>2024-05-09T16:37:14Z</time>
+    <name>Pictograma BOA condição</name>
+    <sat>24</sat>
+  </wpt>
+  <wpt lat="-8.060640000000001" lon="-34.89788166666666">
+    <ele>-2.8999999999999995</ele>
+    <time>2024-05-09T16:37:14Z</time>
+    <name>Seta BOA condição</name>
+    <sat>24</sat>
+  </wpt>
+  <wpt lat="-8.061485000000001" lon="-34.89780833333334">
+    <ele>-4.5</ele>
+    <time>2024-05-09T16:37:35Z</time>
+    <name>60km/h</name>
+    <sat>24</sat>
+  </wpt>
+  <wpt lat="-8.061985" lon="-34.89774">
+    <ele>-5.199999999999999</ele>
+    <time>2024-05-09T16:37:55Z</time>
+    <name>60km/h</name>
+    <sat>25</sat>
+  </wpt>
+  <wpt lat="-8.062275" lon="-34.89771333333333">
+    <ele>0.0</ele>
+    <time>2024-05-09T16:38:02Z</time>
+    <name>Semáforo exclusivo</name>
+    <sat>25</sat>
+  </wpt>
+  <wpt lat="-8.062391666666667" lon="-34.89769833333333">
+    <ele>0.0</ele>
+    <time>2024-05-09T16:38:05Z</time>
+    <name>60km/h</name>
+    <sat>25</sat>
+  </wpt>
+  <wpt lat="-8.062585" lon="-34.89767333333334">
+    <ele>-0.5999999999999996</ele>
+    <time>2024-05-09T16:38:10Z</time>
+    <name>Pictograma BOA condição</name>
+    <sat>24</sat>
+  </wpt>
+  <wpt lat="-8.062585" lon="-34.89767333333334">
+    <ele>-0.5999999999999996</ele>
+    <time>2024-05-09T16:38:10Z</time>
+    <name>Seta BOA condição</name>
+    <sat>24</sat>
+  </wpt>
+  <wpt lat="-8.062626666666667" lon="-34.897666666666666">
+    <ele>-0.9000000000000004</ele>
+    <time>2024-05-09T16:38:11Z</time>
+    <name>Pictograma BOA condição</name>
+    <sat>24</sat>
+  </wpt>
+  <wpt lat="-8.062626666666667" lon="-34.897666666666666">
+    <ele>-0.9000000000000004</ele>
+    <time>2024-05-09T16:38:11Z</time>
+    <name>Seta BOA condição</name>
+    <sat>24</sat>
+  </wpt>
+  <wpt lat="-8.062783333333334" lon="-34.897645000000004">
+    <ele>-1.299999999999999</ele>
+    <time>2024-05-09T16:38:15Z</time>
+    <name>Em cruzamento BOA condição</name>
+    <sat>23</sat>
+  </wpt>
+  <wpt lat="-8.063695" lon="-34.897531666666666">
+    <ele>-7.0</ele>
+    <time>2024-05-09T16:38:34Z</time>
+    <name>Pictograma BOA condição</name>
+    <sat>24</sat>
+  </wpt>
+  <wpt lat="-8.063695" lon="-34.897531666666666">
+    <ele>-7.0</ele>
+    <time>2024-05-09T16:38:34Z</time>
+    <name>Seta BOA condição</name>
+    <sat>24</sat>
+  </wpt>
+  <wpt lat="-8.06391" lon="-34.89752333333333">
+    <ele>-4.8</ele>
+    <time>2024-05-09T16:38:53Z</time>
+    <name>Radar/Lombada Eletrônica</name>
+    <sat>23</sat>
+  </wpt>
+  <wpt lat="-8.048816666666665" lon="-34.89297833333333">
+    <ele>10.000000000000002</ele>
+    <time>2024-05-09T16:57:12Z</time>
+    <name>Calçada compartilhada</name>
+    <sat>21</sat>
+  </wpt>
+  <wpt lat="-8.04881" lon="-34.892950000000006">
+    <ele>9.000000000000002</ele>
+    <time>2024-05-09T16:57:20Z</time>
+    <name>Ciclofaixa</name>
+    <sat>22</sat>
+  </wpt>
+  <wpt lat="-8.048816666666665" lon="-34.89295166666667">
+    <ele>8.4</ele>
+    <time>2024-05-09T16:57:30Z</time>
+    <name>Sobre calçada</name>
+    <sat>25</sat>
+  </wpt>
+  <wpt lat="-8.06403203" lon="-34.89747083">
+    <ele>0.609375</ele>
+    <time>2024-05-03T21:55:52Z</time>
+    <name>Ciclovia</name>
+    <sat>28</sat>
+  </wpt>
+  <wpt lat="-8.0640364" lon="-34.89749209">
+    <ele>5.857177734375</ele>
+    <time>2024-05-03T21:58:44Z</time>
+    <name>Mão Única</name>
+    <sat>20</sat>
+  </wpt>
+  <wpt lat="-8.06403767" lon="-34.89749232">
+    <ele>6.3319091796875</ele>
+    <time>2024-05-03T21:58:58Z</time>
+    <name>Pintada de vermelho com interrupções</name>
+    <sat>25</sat>
+  </wpt>
+  <wpt lat="-8.06403803" lon="-34.89748713">
+    <ele>6.44036865234375</ele>
+    <time>2024-05-03T21:59:46Z</time>
+    <name>Concreto</name>
+    <sat>22</sat>
+  </wpt>
+  <wpt lat="-8.064038" lon="-34.89748614">
+    <ele>6.413055419921875</ele>
+    <time>2024-05-03T21:59:51Z</time>
+    <name>4 faixas</name>
+    <sat>20</sat>
+  </wpt>
+  <wpt lat="-8.06403798" lon="-34.89748577">
+    <ele>6.40130615234375</ele>
+    <time>2024-05-03T21:59:59Z</time>
+    <name>Estacionamento proibido na via</name>
+    <sat>20</sat>
+  </wpt>
+  <wpt lat="-8.06388626" lon="-34.89749844">
+    <ele>-1.67938232421875</ele>
+    <time>2024-05-03T22:01:58Z</time>
+    <name>152</name>
+    <sat>17</sat>
+  </wpt>
+  <wpt lat="-8.06388823" lon="-34.89749999">
+    <ele>-2.18170166015625</ele>
+    <time>2024-05-03T22:02:03Z</time>
+    <name>20</name>
+    <sat>15</sat>
+  </wpt>
+  <wpt lat="-8.06387163" lon="-34.89749849">
+    <ele>-2.571136474609375</ele>
+    <time>2024-05-03T22:02:18Z</time>
+    <name>Foto</name>
+    <link href="2024-05-03_19-02-18.jpg">
+      <text>2024-05-03_19-02-18.jpg</text>
+    </link>
+    <sat>27</sat>
+  </wpt>
+  <wpt lat="-8.06386925" lon="-34.89750203">
+    <ele>-2.45562744140625</ele>
+    <time>2024-05-03T22:02:27Z</time>
+    <name>Guias</name>
+    <sat>29</sat>
+  </wpt>
+  <wpt lat="-8.06387013" lon="-34.89751334">
+    <ele>-1.965240478515625</ele>
+    <time>2024-05-03T22:02:44Z</time>
+    <name>No canteiro central</name>
+    <sat>27</sat>
+  </wpt>
+  <wpt lat="-8.06386539" lon="-34.89753426">
+    <ele>-2.24853515625</ele>
+    <time>2024-05-03T22:03:08Z</time>
+    <name>Pictograma BOA condição</name>
+    <sat>24</sat>
+  </wpt>
+  <wpt lat="-8.06386539" lon="-34.89753426">
+    <ele>-2.24853515625</ele>
+    <time>2024-05-03T22:03:08Z</time>
+    <name>Seta BOA condição</name>
+    <sat>24</sat>
+  </wpt>
+  <wpt lat="-8.06275655" lon="-34.89765867">
+    <ele>0.842559814453125</ele>
+    <time>2024-05-03T22:04:00Z</time>
+    <name>Seta BOA condição</name>
+    <sat>29</sat>
+  </wpt>
+  <wpt lat="-8.0627313" lon="-34.89765777">
+    <ele>0.663177490234375</ele>
+    <time>2024-05-03T22:04:01Z</time>
+    <name>Pictograma BOA condição</name>
+    <sat>30</sat>
+  </wpt>
+  <wpt lat="-8.06251214" lon="-34.89768492">
+    <ele>2.286773681640625</ele>
+    <time>2024-05-03T22:04:11Z</time>
+    <name>Em cruzamento BOA condição</name>
+    <sat>33</sat>
+  </wpt>
+  <wpt lat="-8.06218004" lon="-34.89770776">
+    <ele>-5.680999755859375</ele>
+    <time>2024-05-03T22:04:43Z</time>
+    <name>Semáforo exclusivo</name>
+    <sat>29</sat>
+  </wpt>
+  <wpt lat="-8.06216365" lon="-34.89770886">
+    <ele>-5.250762939453125</ele>
+    <time>2024-05-03T22:05:09Z</time>
+    <name>Pictograma BOA condição</name>
+    <sat>32</sat>
+  </wpt>
+  <wpt lat="-8.06216287" lon="-34.89770766">
+    <ele>-5.202606201171875</ele>
+    <time>2024-05-03T22:05:10Z</time>
+    <name>Seta BOA condição</name>
+    <sat>31</sat>
+  </wpt>
+  <wpt lat="-8.0621742" lon="-34.89770774">
+    <ele>-4.336181640625</ele>
+    <time>2024-05-03T22:05:27Z</time>
+    <name>Foto</name>
+    <link href="2024-05-03_19-05-27.jpg">
+      <text>2024-05-03_19-05-27.jpg</text>
+    </link>
+    <sat>29</sat>
+  </wpt>
+  <wpt lat="-8.06215667" lon="-34.89771706">
+    <ele>-3.9825439453125</ele>
+    <time>2024-05-03T22:06:00Z</time>
+    <name>Radar/Lombada Eletrônica</name>
+    <sat>27</sat>
+  </wpt>
+  <wpt lat="-8.06214758" lon="-34.89771377">
+    <ele>-4.8607177734375</ele>
+    <time>2024-05-03T22:06:03Z</time>
+    <name>placa indicando radar eletrônico ao lado do radar</name>
+    <sat>29</sat>
+  </wpt>
+  <wpt lat="-8.06227928" lon="-34.89772127">
+    <ele>0.318634033203125</ele>
+    <time>2024-05-03T22:08:18Z</time>
+    <name>1423</name>
+    <sat>28</sat>
+  </wpt>
+  <wpt lat="-8.06218907" lon="-34.89768276">
+    <ele>-3.94317626953125</ele>
+    <time>2024-05-03T22:09:22Z</time>
+    <name>21</name>
+    <sat>30</sat>
+  </wpt>
+  <wpt lat="-8.06216765" lon="-34.89768351">
+    <ele>-6.21405029296875</ele>
+    <time>2024-05-03T22:09:26Z</time>
+    <name>107</name>
+    <sat>30</sat>
+  </wpt>
+  <wpt lat="-8.06215957" lon="-34.8977128">
+    <ele>-6.55535888671875</ele>
+    <time>2024-05-03T22:09:44Z</time>
+    <name>1295</name>
+    <sat>27</sat>
+  </wpt>
+  <wpt lat="-8.06079047" lon="-34.89785408">
+    <ele>-5.187255859375</ele>
+    <time>2024-05-03T22:12:43Z</time>
+    <name>Pictograma BOA condição</name>
+    <sat>29</sat>
+  </wpt>
+  <wpt lat="-8.06079117" lon="-34.89785335">
+    <ele>-5.34490966796875</ele>
+    <time>2024-05-03T22:12:44Z</time>
+    <name>Seta BOA condição</name>
+    <sat>29</sat>
+  </wpt>
+  <wpt lat="-8.06218607" lon="-34.89772801">
+    <ele>-5.336700439453125</ele>
+    <time>2024-05-03T22:14:37Z</time>
+    <name>Via transversal COM acesso à ciclovia</name>
+    <sat>26</sat>
+  </wpt>
+  <wpt lat="-8.06030018" lon="-34.89792216">
+    <ele>-3.563385009765625</ele>
+    <time>2024-05-03T22:16:13Z</time>
+    <name>Foto</name>
+    <link href="2024-05-03_19-16-13.jpg">
+      <text>2024-05-03_19-16-13.jpg</text>
+    </link>
+    <sat>31</sat>
+  </wpt>
+  <wpt lat="-8.06029838" lon="-34.89792551">
+    <ele>-3.2874755859375</ele>
+    <time>2024-05-03T22:16:19Z</time>
+    <name>60km/h</name>
+    <sat>29</sat>
+  </wpt>
+  <wpt lat="-8.05954095" lon="-34.89797576">
+    <ele>-3.334747314453125</ele>
+    <time>2024-05-03T22:17:00Z</time>
+    <name>60km/h</name>
+    <sat>29</sat>
+  </wpt>
+  <wpt lat="-8.05891454" lon="-34.89805173">
+    <ele>-1.435516357421875</ele>
+    <time>2024-05-03T22:17:38Z</time>
+    <name>60km/h</name>
+    <sat>32</sat>
+  </wpt>
+  <wpt lat="-8.05890831" lon="-34.89805316">
+    <ele>-1.85101318359375</ele>
+    <time>2024-05-03T22:17:49Z</time>
+    <name>Em cruzamento BOA condição</name>
+    <sat>26</sat>
+  </wpt>
+  <wpt lat="-8.05890845" lon="-34.89805335">
+    <ele>-1.783935546875</ele>
+    <time>2024-05-03T22:17:52Z</time>
+    <name>Seta BOA condição</name>
+    <sat>30</sat>
+  </wpt>
+  <wpt lat="-8.05890845" lon="-34.89805335">
+    <ele>-1.783935546875</ele>
+    <time>2024-05-03T22:17:52Z</time>
+    <name>Pictograma BOA condição</name>
+    <sat>30</sat>
+  </wpt>
+  <wpt lat="-8.05890787" lon="-34.89805383">
+    <ele>-1.777313232421875</ele>
+    <time>2024-05-03T22:17:58Z</time>
+    <name>Pictograma BOA condição</name>
+    <sat>31</sat>
+  </wpt>
+  <wpt lat="-8.05890787" lon="-34.89805383">
+    <ele>-1.777313232421875</ele>
+    <time>2024-05-03T22:17:58Z</time>
+    <name>Seta BOA condição</name>
+    <sat>31</sat>
+  </wpt>
+  <wpt lat="-8.0589074" lon="-34.89805452">
+    <ele>-1.778594970703125</ele>
+    <time>2024-05-03T22:18:07Z</time>
+    <name>Via transversal COM acesso à ciclovia</name>
+    <sat>26</sat>
+  </wpt>
+  <wpt lat="-8.05890002" lon="-34.89805603">
+    <ele>-3.379150390625</ele>
+    <time>2024-05-03T22:18:36Z</time>
+    <name>Semáforo exclusivo</name>
+    <sat>29</sat>
+  </wpt>
+  <wpt lat="-8.05891655" lon="-34.8980586">
+    <ele>-4.100677490234375</ele>
+    <time>2024-05-03T22:18:53Z</time>
+    <name>Foto</name>
+    <link href="2024-05-03_19-18-53.jpg">
+      <text>2024-05-03_19-18-53.jpg</text>
+    </link>
+    <sat>30</sat>
+  </wpt>
+  <wpt lat="-8.05889859" lon="-34.89806927">
+    <ele>-3.455810546875</ele>
+    <time>2024-05-03T22:19:10Z</time>
+    <name>Outro obstáculo</name>
+    <sat>32</sat>
+  </wpt>
+  <wpt lat="-8.05889815" lon="-34.89807016">
+    <ele>-3.31103515625</ele>
+    <time>2024-05-03T22:19:13Z</time>
+    <name>fissura no meio da ciclovia (foto)</name>
+    <sat>30</sat>
+  </wpt>
+  <wpt lat="-8.05888813" lon="-34.89807122">
+    <ele>-4.29180908203125</ele>
+    <time>2024-05-03T22:19:33Z</time>
+    <name>Em cruzamento MÁ condição</name>
+    <sat>32</sat>
+  </wpt>
+  <wpt lat="-8.05746351" lon="-34.89802471">
+    <ele>-9.79620361328125</ele>
+    <time>2024-05-03T22:20:33Z</time>
+    <name>Pictograma BOA condição</name>
+    <sat>32</sat>
+  </wpt>
+  <wpt lat="-8.05746351" lon="-34.89802471">
+    <ele>-9.79620361328125</ele>
+    <time>2024-05-03T22:20:33Z</time>
+    <name>Seta BOA condição</name>
+    <sat>32</sat>
+  </wpt>
+  <wpt lat="-8.0574666" lon="-34.89802827">
+    <ele>-10.005126953125</ele>
+    <time>2024-05-03T22:20:38Z</time>
+    <name>Acesso sem uma via transversal</name>
+    <sat>30</sat>
+  </wpt>
+  <wpt lat="-8.05747596" lon="-34.89803698">
+    <ele>-11.203765869140625</ele>
+    <time>2024-05-03T22:20:48Z</time>
+    <name>Foto</name>
+    <link href="2024-05-03_19-20-48.jpg">
+      <text>2024-05-03_19-20-48.jpg</text>
+    </link>
+    <sat>28</sat>
+  </wpt>
+  <wpt lat="-8.05735385" lon="-34.89803986">
+    <ele>-13.52130126953125</ele>
+    <time>2024-05-03T22:21:02Z</time>
+    <name>Pictograma BOA condição</name>
+    <sat>27</sat>
+  </wpt>
+  <wpt lat="-8.05735632" lon="-34.89804486">
+    <ele>-13.756683349609375</ele>
+    <time>2024-05-03T22:21:03Z</time>
+    <name>Seta BOA condição</name>
+    <sat>27</sat>
+  </wpt>
+  <wpt lat="-8.05688892" lon="-34.89803232">
+    <ele>-12.969451904296875</ele>
+    <time>2024-05-03T22:21:30Z</time>
+    <name>Pictograma BOA condição</name>
+    <sat>29</sat>
+  </wpt>
+  <wpt lat="-8.05688973" lon="-34.89802492">
+    <ele>-13.3822021484375</ele>
+    <time>2024-05-03T22:21:31Z</time>
+    <name>Seta BOA condição</name>
+    <sat>30</sat>
+  </wpt>
+  <wpt lat="-8.0568823" lon="-34.89801969">
+    <ele>-11.503326416015625</ele>
+    <time>2024-05-03T22:21:35Z</time>
+    <name>60km/h</name>
+    <sat>30</sat>
+  </wpt>
+  <wpt lat="-8.05687905" lon="-34.8980191">
+    <ele>-11.1676025390625</ele>
+    <time>2024-05-03T22:21:38Z</time>
+    <name>Semáforo exclusivo</name>
+    <sat>28</sat>
+  </wpt>
+  <wpt lat="-8.05687075" lon="-34.89801422">
+    <ele>-11.4124755859375</ele>
+    <time>2024-05-03T22:21:46Z</time>
+    <name>Em cruzamento BOA condição</name>
+    <sat>28</sat>
+  </wpt>
+  <wpt lat="-8.05686615" lon="-34.8980199">
+    <ele>-10.485076904296875</ele>
+    <time>2024-05-03T22:21:50Z</time>
+    <name>Via transversal COM acesso à ciclovia</name>
+    <sat>31</sat>
+  </wpt>
+  <wpt lat="-8.05689711" lon="-34.89802466">
+    <ele>-7.327850341796875</ele>
+    <time>2024-05-03T22:23:03Z</time>
+    <name>128</name>
+    <sat>32</sat>
+  </wpt>
+  <wpt lat="-8.05689716" lon="-34.89802364">
+    <ele>-7.28973388671875</ele>
+    <time>2024-05-03T22:23:07Z</time>
+    <name>21</name>
+    <sat>33</sat>
+  </wpt>
+  <wpt lat="-8.05653222" lon="-34.89802097">
+    <ele>-14.99163818359375</ele>
+    <time>2024-05-03T22:23:57Z</time>
+    <name>Pictograma BOA condição</name>
+    <sat>31</sat>
+  </wpt>
+  <wpt lat="-8.05653346" lon="-34.89802036">
+    <ele>-14.97589111328125</ele>
+    <time>2024-05-03T22:23:58Z</time>
+    <name>Seta BOA condição</name>
+    <sat>31</sat>
+  </wpt>
+  <wpt lat="-8.05654168" lon="-34.89801465">
+    <ele>-12.313323974609375</ele>
+    <time>2024-05-03T22:24:23Z</time>
+    <name>Em cruzamento BOA condição</name>
+    <sat>32</sat>
+  </wpt>
+  <wpt lat="-8.05488038" lon="-34.89764622">
+    <ele>-10.411773681640625</ele>
+    <time>2024-05-03T22:25:37Z</time>
+    <name>Pictograma BOA condição</name>
+    <sat>27</sat>
+  </wpt>
+  <wpt lat="-8.05485947" lon="-34.89763174">
+    <ele>-9.96929931640625</ele>
+    <time>2024-05-03T22:25:38Z</time>
+    <name>Seta BOA condição</name>
+    <sat>27</sat>
+  </wpt>
+  <wpt lat="-8.05350373" lon="-34.89664207">
+    <ele>-9.384368896484375</ele>
+    <time>2024-05-03T22:26:49Z</time>
+    <name>Pictograma BOA condição</name>
+    <sat>27</sat>
+  </wpt>
+  <wpt lat="-8.05350092" lon="-34.89664128">
+    <ele>-9.2281494140625</ele>
+    <time>2024-05-03T22:26:50Z</time>
+    <name>Seta BOA condição</name>
+    <sat>27</sat>
+  </wpt>
+  <wpt lat="-8.05349255" lon="-34.89663966">
+    <ele>-9.2166748046875</ele>
+    <time>2024-05-03T22:26:53Z</time>
+    <name>60km/h</name>
+    <sat>27</sat>
+  </wpt>
+  <wpt lat="-8.05349079" lon="-34.89663883">
+    <ele>-9.316497802734375</ele>
+    <time>2024-05-03T22:26:54Z</time>
+    <name>Semáforo exclusivo</name>
+    <sat>27</sat>
+  </wpt>
+  <wpt lat="-8.05349145" lon="-34.89663862">
+    <ele>-9.504547119140625</ele>
+    <time>2024-05-03T22:26:59Z</time>
+    <name>Via transversal COM acesso à ciclovia</name>
+    <sat>25</sat>
+  </wpt>
+  <wpt lat="-8.05346191" lon="-34.89662798">
+    <ele>-7.589508056640625</ele>
+    <time>2024-05-03T22:27:31Z</time>
+    <name>Em cruzamento BOA condição</name>
+    <sat>31</sat>
+  </wpt>
+  <wpt lat="-8.05346883" lon="-34.89663145">
+    <ele>-5.24530029296875</ele>
+    <time>2024-05-03T22:27:45Z</time>
+    <name>Foto</name>
+    <link href="2024-05-03_19-27-45.jpg">
+      <text>2024-05-03_19-27-45.jpg</text>
+    </link>
+    <sat>29</sat>
+  </wpt>
+  <wpt lat="-8.05350623" lon="-34.89664394">
+    <ele>-9.010345458984375</ele>
+    <time>2024-05-03T22:28:32Z</time>
+    <name>141</name>
+    <sat>28</sat>
+  </wpt>
+  <wpt lat="-8.05350051" lon="-34.89664048">
+    <ele>-6.96527099609375</ele>
+    <time>2024-05-03T22:28:36Z</time>
+    <name>21</name>
+    <sat>26</sat>
+  </wpt>
+  <wpt lat="-8.0532737" lon="-34.89645786">
+    <ele>-10.101348876953125</ele>
+    <time>2024-05-03T22:29:07Z</time>
+    <name>Pictograma BOA condição</name>
+    <sat>32</sat>
+  </wpt>
+  <wpt lat="-8.05323401" lon="-34.89642947">
+    <ele>-9.3123779296875</ele>
+    <time>2024-05-03T22:29:09Z</time>
+    <name>Seta BOA condição</name>
+    <sat>32</sat>
+  </wpt>
+  <wpt lat="-8.05287329" lon="-34.89618527">
+    <ele>-7.449951171875</ele>
+    <time>2024-05-03T22:29:38Z</time>
+    <name>Acesso sem uma via transversal</name>
+    <sat>31</sat>
+  </wpt>
+  <wpt lat="-8.05281365" lon="-34.89615776">
+    <ele>-10.10650634765625</ele>
+    <time>2024-05-03T22:29:45Z</time>
+    <name>Pictograma BOA condição</name>
+    <sat>32</sat>
+  </wpt>
+  <wpt lat="-8.05281497" lon="-34.8961579">
+    <ele>-9.905914306640625</ele>
+    <time>2024-05-03T22:29:46Z</time>
+    <name>Seta BOA condição</name>
+    <sat>32</sat>
+  </wpt>
+  <wpt lat="-8.05253487" lon="-34.89597295">
+    <ele>-10.98236083984375</ele>
+    <time>2024-05-03T22:30:11Z</time>
+    <name>60km/h</name>
+    <sat>31</sat>
+  </wpt>
+  <wpt lat="-8.05254177" lon="-34.89597405">
+    <ele>-11.787506103515625</ele>
+    <time>2024-05-03T22:30:16Z</time>
+    <name>Semáforo exclusivo</name>
+    <sat>32</sat>
+  </wpt>
+  <wpt lat="-8.05254295" lon="-34.89598211">
+    <ele>-10.084869384765625</ele>
+    <time>2024-05-03T22:30:22Z</time>
+    <name>Em cruzamento BOA condição</name>
+    <sat>33</sat>
+  </wpt>
+  <wpt lat="-8.05254337" lon="-34.89597413">
+    <ele>-9.881072998046875</ele>
+    <time>2024-05-03T22:30:28Z</time>
+    <name>Remover registro da pintura 🗑️</name>
+    <sat>29</sat>
+  </wpt>
+  <wpt lat="-8.05226319" lon="-34.89577465">
+    <ele>-9.0545654296875</ele>
+    <time>2024-05-03T22:30:44Z</time>
+    <name>Pictograma BOA condição</name>
+    <sat>30</sat>
+  </wpt>
+  <wpt lat="-8.05226319" lon="-34.89577465">
+    <ele>-9.0545654296875</ele>
+    <time>2024-05-03T22:30:44Z</time>
+    <name>Seta BOA condição</name>
+    <sat>30</sat>
+  </wpt>
+  <wpt lat="-8.05218792" lon="-34.89574261">
+    <ele>-5.612335205078125</ele>
+    <time>2024-05-03T22:31:34Z</time>
+    <name>Área de amortecimento da ciclo (cm)</name>
+    <sat>27</sat>
+  </wpt>
+  <wpt lat="-8.05219872" lon="-34.89575226">
+    <ele>-5.043426513671875</ele>
+    <time>2024-05-03T22:31:35Z</time>
+    <name>21cm</name>
+    <sat>28</sat>
+  </wpt>
+  <wpt lat="-8.05234638" lon="-34.89583032">
+    <ele>-0.064910888671875</ele>
+    <time>2024-05-03T22:34:11Z</time>
+    <name>Área transitável da ciclo (cm)</name>
+    <sat>29</sat>
+  </wpt>
+  <wpt lat="-8.0523576" lon="-34.89583092">
+    <ele>-0.051849365234375</ele>
+    <time>2024-05-03T22:34:12Z</time>
+    <name>37cm</name>
+    <sat>29</sat>
+  </wpt>
+  <wpt lat="-8.05154796" lon="-34.89532445">
+    <ele>-4.01507568359375</ele>
+    <time>2024-05-03T22:35:19Z</time>
+    <name>Pictograma BOA condição</name>
+    <sat>31</sat>
+  </wpt>
+  <wpt lat="-8.05154796" lon="-34.89532445">
+    <ele>-4.01507568359375</ele>
+    <time>2024-05-03T22:35:19Z</time>
+    <name>Seta BOA condição</name>
+    <sat>31</sat>
+  </wpt>
+  <wpt lat="-8.05152549" lon="-34.89532017">
+    <ele>-5.199554443359375</ele>
+    <time>2024-05-03T22:35:21Z</time>
+    <name>Em cruzamento BOA condição</name>
+    <sat>30</sat>
+  </wpt>
+  <wpt lat="-8.05148224" lon="-34.89533046">
+    <ele>-5.918060302734375</ele>
+    <time>2024-05-03T22:35:30Z</time>
+    <name>Em cruzamento MÁ condição</name>
+    <sat>28</sat>
+  </wpt>
+  <wpt lat="-8.05148224" lon="-34.89533046">
+    <ele>-5.918060302734375</ele>
+    <time>2024-05-03T22:35:30Z</time>
+    <name>Em cruzamento MÁ condição</name>
+    <sat>28</sat>
+  </wpt>
+  <wpt lat="-8.05147537" lon="-34.89534273">
+    <ele>-4.372711181640625</ele>
+    <time>2024-05-03T22:35:36Z</time>
+    <name>Remover registro da pintura 🗑️</name>
+    <sat>29</sat>
+  </wpt>
+  <wpt lat="-8.05148373" lon="-34.89533864">
+    <ele>-5.575103759765625</ele>
+    <time>2024-05-03T22:35:50Z</time>
+    <name>Semáforo exclusivo</name>
+    <sat>30</sat>
+  </wpt>
+  <wpt lat="-8.05149655" lon="-34.89532591">
+    <ele>-6.01416015625</ele>
+    <time>2024-05-03T22:36:20Z</time>
+    <name>21</name>
+    <sat>27</sat>
+  </wpt>
+  <wpt lat="-8.05149595" lon="-34.89532376">
+    <ele>-5.96270751953125</ele>
+    <time>2024-05-03T22:36:24Z</time>
+    <name>153</name>
+    <sat>30</sat>
+  </wpt>
+  <wpt lat="-8.05152117" lon="-34.89535804">
+    <ele>-7.865264892578125</ele>
+    <time>2024-05-03T22:36:55Z</time>
+    <name>Foto</name>
+    <link href="2024-05-03_19-36-55.jpg">
+      <text>2024-05-03_19-36-55.jpg</text>
+    </link>
+    <sat>27</sat>
+  </wpt>
+  <wpt lat="-8.05151422" lon="-34.89535256">
+    <ele>-7.470794677734375</ele>
+    <time>2024-05-03T22:36:57Z</time>
+    <name>grades em vários trechos (foto)</name>
+    <sat>30</sat>
+  </wpt>
+  <wpt lat="-8.05130485" lon="-34.89511623">
+    <ele>-7.6517333984375</ele>
+    <time>2024-05-03T22:38:12Z</time>
+    <name>Pictograma BOA condição</name>
+    <sat>31</sat>
+  </wpt>
+  <wpt lat="-8.05130485" lon="-34.89511623">
+    <ele>-7.6517333984375</ele>
+    <time>2024-05-03T22:38:12Z</time>
+    <name>Seta BOA condição</name>
+    <sat>31</sat>
+  </wpt>
+  <wpt lat="-8.05028523" lon="-34.89429523">
+    <ele>-1.12744140625</ele>
+    <time>2024-05-03T22:38:59Z</time>
+    <name>Pictograma BOA condição</name>
+    <sat>27</sat>
+  </wpt>
+  <wpt lat="-8.05026049" lon="-34.8942754">
+    <ele>-0.852569580078125</ele>
+    <time>2024-05-03T22:39:00Z</time>
+    <name>Seta BOA condição</name>
+    <sat>27</sat>
+  </wpt>
+  <wpt lat="-8.04920031" lon="-34.89346232">
+    <ele>2.699005126953125</ele>
+    <time>2024-05-03T22:39:48Z</time>
+    <name>Pictograma BOA condição</name>
+    <sat>20</sat>
+  </wpt>
+  <wpt lat="-8.04920031" lon="-34.89346232">
+    <ele>2.699005126953125</ele>
+    <time>2024-05-03T22:39:48Z</time>
+    <name>Seta BOA condição</name>
+    <sat>20</sat>
+  </wpt>
+  <wpt lat="-8.04880926" lon="-34.89315795">
+    <ele>2.749847412109375</ele>
+    <time>2024-05-03T22:40:21Z</time>
+    <name>Pictograma BOA condição</name>
+    <sat>28</sat>
+  </wpt>
+  <wpt lat="-8.04880926" lon="-34.89315795">
+    <ele>2.749847412109375</ele>
+    <time>2024-05-03T22:40:21Z</time>
+    <name>Seta BOA condição</name>
+    <sat>28</sat>
+  </wpt>
+  <wpt lat="-8.04880854" lon="-34.89315687">
+    <ele>2.928497314453125</ele>
+    <time>2024-05-03T22:40:22Z</time>
+    <name>Em cruzamento BOA condição</name>
+    <sat>28</sat>
+  </wpt>
+  <wpt lat="-8.04881431" lon="-34.89315693">
+    <ele>4.251007080078125</ele>
+    <time>2024-05-03T22:40:30Z</time>
+    <name>60km/h</name>
+    <sat>27</sat>
+  </wpt>
+  <wpt lat="-8.04881751" lon="-34.89315531">
+    <ele>4.480804443359375</ele>
+    <time>2024-05-03T22:40:32Z</time>
+    <name>Semáforo exclusivo</name>
+    <sat>26</sat>
+  </wpt>
+  <wpt lat="-8.04881835" lon="-34.89316268">
+    <ele>4.506378173828125</ele>
+    <time>2024-05-03T22:40:58Z</time>
+    <name>Foto</name>
+    <link href="2024-05-03_19-40-58.jpg">
+      <text>2024-05-03_19-40-58.jpg</text>
+    </link>
+    <sat>25</sat>
+  </wpt>
+  <wpt lat="-8.04880801" lon="-34.89315325">
+    <ele>4.37530517578125</ele>
+    <time>2024-05-03T22:42:02Z</time>
+    <name>152</name>
+    <sat>27</sat>
+  </wpt>
+  <wpt lat="-8.04879699" lon="-34.8931586">
+    <ele>3.96099853515625</ele>
+    <time>2024-05-03T22:42:06Z</time>
+    <name>21</name>
+    <sat>26</sat>
+  </wpt>
+  <wpt lat="-8.04881031" lon="-34.89314279">
+    <ele>1.72674560546875</ele>
+    <time>2024-05-03T22:43:23Z</time>
+    <name>Foto</name>
+    <link href="2024-05-03_19-43-23.jpg">
+      <text>2024-05-03_19-43-23.jpg</text>
+    </link>
+    <sat>28</sat>
+  </wpt>
+  <wpt lat="-8.06400005" lon="-34.89750299">
+    <ele>-9.564727783203125</ele>
+    <time>2024-05-03T22:52:38Z</time>
+    <name>Acesso sem uma via transversal</name>
+    <sat>30</sat>
+  </wpt>
+  <wpt lat="-8.06397206" lon="-34.89749008">
+    <ele>-11.216705322265625</ele>
+    <time>2024-05-03T22:53:07Z</time>
+    <name>SE CICLOVIA: segregação impede completamente a invasão de automóvel e não há trechos desprotegidos</name>
+    <sat>33</sat>
+  </wpt>
+  <wpt lat="-8.06397244" lon="-34.8974897">
+    <ele>-10.86224365234375</ele>
+    <time>2024-05-03T22:53:22Z</time>
+    <name>Segregadores IMPEDEM o acesso de ciclistas</name>
+    <sat>32</sat>
+  </wpt>
+  <wpt lat="-8.0639727" lon="-34.89748979">
+    <ele>-10.809173583984375</ele>
+    <time>2024-05-03T22:53:26Z</time>
+    <name>A ciclo é completamente reta.</name>
+    <sat>30</sat>
+  </wpt>
+  <wpt lat="-8.06397258" lon="-34.89748916">
+    <ele>-10.65936279296875</ele>
+    <time>2024-05-03T22:53:36Z</time>
+    <name>Sombras em PRATICAMENTE TODA a extensão</name>
+    <sat>29</sat>
+  </wpt>
+  <wpt lat="-8.06396892" lon="-34.89747533">
+    <ele>-8.43255615234375</ele>
+    <time>2024-05-03T22:54:03Z</time>
+    <name>A pintura está boa, mas FALHA em ALGUNS pontos</name>
+    <sat>33</sat>
+  </wpt>
+  <wpt lat="-8.06396942" lon="-34.89747565">
+    <ele>-8.33050537109375</ele>
+    <time>2024-05-03T22:54:07Z</time>
+    <name>a pintura está boa em quase toda a ciclovia mas tem um acesso sem via transversal sem pintura nenhuma</name>
+    <sat>29</sat>
+  </wpt>
+  <wpt lat="-8.06397008" lon="-34.89747333">
+    <ele>-7.711456298828125</ele>
+    <time>2024-05-03T22:54:47Z</time>
+    <name>Bom estado</name>
+    <sat>31</sat>
+  </wpt>
+  <wpt lat="-8.06397015" lon="-34.89747293">
+    <ele>-7.69775390625</ele>
+    <time>2024-05-03T22:54:50Z</time>
+    <name>a estrutura da ciclofaixa está em boa condição mas o asfalto dos cruzamentos precisam de reparos</name>
+    <sat>31</sat>
+  </wpt>
+  <wpt lat="-8.06397091" lon="-34.89746998">
+    <ele>-7.3748779296875</ele>
+    <time>2024-05-03T22:55:41Z</time>
+    <name>Iluminação geral dos dois lados da via</name>
+    <sat>31</sat>
+  </wpt>
+  <wpt lat="-8.06397096" lon="-34.89746997">
+    <ele>-7.343292236328125</ele>
+    <time>2024-05-03T22:55:43Z</time>
+    <name>muitos postes do lado da ciclovia com lâmpadas queimadas </name>
+    <sat>30</sat>
+  </wpt>
+</gpx>

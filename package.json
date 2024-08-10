@@ -11,6 +11,9 @@
   "license": "ISC",
   "description": "Este projeto tem a funcionalidade de ler e processar os arquivos gpx gerados atraves das avaliacoes em campo pelo ideciclo",
   "dependencies": {
+    "csv-parser": "^3.0.0",
+    "fs": "^0.0.1-security",
+    "path": "^0.12.7",
     "xml2js": "^0.6.2"
   },
   "devDependencies": {

@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<gpx>
+  <metadata>
+    <name>2024-05-21_15-00-37 ciclovia Praça da bandeira</name>
+    <keywords>auditoria cicloviaria</keywords>
+    <keywords>osmtracker</keywords>
+    <desc>CV050</desc>
+  </metadata>
+  <wpt lat="-8.061278333333332" lon="-34.90127666666667">
+    <ele>13.200000000000001</ele>
+    <time>2024-05-21T18:00:44Z</time>
+    <name>Ciclovia</name>
+    <sat>6</sat>
+  </wpt>
+  <wpt lat="-8.061283333333334" lon="-34.901271666666666">
+    <ele>13.200000000000001</ele>
+    <time>2024-05-21T18:00:49Z</time>
+    <name>Bidirecional</name>
+    <sat>9</sat>
+  </wpt>
+  <wpt lat="-8.061291666666667" lon="-34.901271666666666">
+    <ele>13.1</ele>
+    <time>2024-05-21T18:00:55Z</time>
+    <name>No bordo direito de Via de Mão Única</name>
+    <sat>11</sat>
+  </wpt>
+  <wpt lat="-8.061298333333333" lon="-34.90127333333333">
+    <ele>13.1</ele>
+    <time>2024-05-21T18:00:57Z</time>
+    <name>Mão Única</name>
+    <sat>12</sat>
+  </wpt>
+  <wpt lat="-8.061309999999999" lon="-34.90127">
+    <ele>13.1</ele>
+    <time>2024-05-21T18:01:00Z</time>
+    <name>Apenas faixas vermelhas nas bordas, com travessias pintadas nos cruzamentos</name>
+    <sat>11</sat>
+  </wpt>
+  <wpt lat="-8.061309999999999" lon="-34.901264999999995">
+    <ele>13.1</ele>
+    <time>2024-05-21T18:01:03Z</time>
+    <name>Guias</name>
+    <sat>11</sat>
+  </wpt>
+  <wpt lat="-8.061306666666667" lon="-34.90128">
+    <ele>13.1</ele>
+    <time>2024-05-21T18:01:08Z</time>
+    <name>Concreto</name>
+    <sat>11</sat>
+  </wpt>
+  <wpt lat="-8.0613" lon="-34.90128333333334">
+    <ele>13.1</ele>
+    <time>2024-05-21T18:01:12Z</time>
+    <name>4 faixas</name>
+    <sat>12</sat>
+  </wpt>
+  <wpt lat="-8.061298333333333" lon="-34.901275000000005">
+    <ele>13.000000000000002</ele>
+    <time>2024-05-21T18:01:17Z</time>
+    <name>Estacionamento proibido na via</name>
+    <sat>12</sat>
+  </wpt>
+  <wpt lat="-8.061298333333333" lon="-34.901275000000005">
+    <ele>13.000000000000002</ele>
+    <time>2024-05-21T18:01:21Z</time>
+    <name>Área transitável da ciclo (cm)</name>
+    <sat>11</sat>
+  </wpt>
+  <wpt lat="-8.061298333333333" lon="-34.901275000000005">
+    <ele>13.000000000000002</ele>
+    <time>2024-05-21T18:01:21Z</time>
+    <name>244cm</name>
+    <sat>11</sat>
+  </wpt>
+  <wpt lat="-8.06136" lon="-34.90121166666667">
+    <ele>8.299999999999999</ele>
+    <time>2024-05-21T18:01:41Z</time>
+    <name>Foto</name>
+    <link href="2024-05-21_15-01-41.jpg">
+      <text>2024-05-21_15-01-41.jpg</text>
+    </link>
+    <sat>9</sat>
+  </wpt>
+  <wpt lat="-8.061338333333333" lon="-34.901219999999995">
+    <ele>2.0</ele>
+    <time>2024-05-21T18:01:48Z</time>
+    <name>Buraco</name>
+    <sat>11</sat>
+  </wpt>
+  <wpt lat="-8.061343333333333" lon="-34.901219999999995">
+    <ele>0.7000000000000011</ele>
+    <time>2024-05-21T18:01:51Z</time>
+    <name>Bueiro</name>
+    <sat>12</sat>
+  </wpt>
+  <wpt lat="-8.061356666666667" lon="-34.90121666666666">
+    <ele>-0.5999999999999996</ele>
+    <time>2024-05-21T18:01:54Z</time>
+    <name>Desnível</name>
+    <sat>15</sat>
+  </wpt>
+  <wpt lat="-8.061354999999999" lon="-34.901246666666665">
+    <ele>3.0</ele>
+    <time>2024-05-21T18:02:13Z</time>
+    <name>Cruzamento perigoso. EXPLIQUE.</name>
+    <sat>14</sat>
+  </wpt>
+  <wpt lat="-8.061354999999999" lon="-34.901246666666665">
+    <ele>3.0</ele>
+    <time>2024-05-21T18:02:16Z</time>
+    <name>acesso perigoso à ciclo</name>
+    <sat>17</sat>
+  </wpt>
+  <wpt lat="-8.06132" lon="-34.901246666666665">
+    <ele>0.0</ele>
+    <time>2024-05-21T18:03:00Z</time>
+    <name>Foto</name>
+    <link href="2024-05-21_15-03-00.jpg">
+      <text>2024-05-21_15-03-00.jpg</text>
+    </link>
+    <sat>17</sat>
+  </wpt>
+  <wpt lat="-8.061309999999999" lon="-34.90125333333334">
+    <ele>-0.5</ele>
+    <time>2024-05-21T18:03:05Z</time>
+    <name>segregador dificuldade passagem de ciclistas </name>
+    <sat>15</sat>
+  </wpt>
+  <wpt lat="-8.06133" lon="-34.90123833333334">
+    <ele>2.0999999999999996</ele>
+    <time>2024-05-21T18:04:13Z</time>
+    <name>Foto</name>
+    <link href="2024-05-21_15-04-13.jpg">
+      <text>2024-05-21_15-04-13.jpg</text>
+    </link>
+    <sat>16</sat>
+  </wpt>
+</gpx>

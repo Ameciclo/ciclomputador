@@ -1,0 +1,1395 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<gpx>
+  <metadata>
+    <name>2024-05-21_13-05-17 Ciclovia Orla (AV Boa viagem)</name>
+    <keywords>auditoria cicloviaria</keywords>
+    <keywords>osmtracker</keywords>
+    <desc>CV003</desc>
+  </metadata>
+  <wpt lat="-8.160833333333333" lon="-34.911638333333336">
+    <ele>-4.1</ele>
+    <time>2024-05-21T16:05:40Z</time>
+    <name>Foto</name>
+    <link href="2024-05-21_13-05-40.jpg">
+      <text>2024-05-21_13-05-40.jpg</text>
+    </link>
+    <sat>18</sat>
+  </wpt>
+  <wpt lat="-8.160838333333334" lon="-34.91163166666667">
+    <ele>-3.8999999999999995</ele>
+    <time>2024-05-21T16:05:54Z</time>
+    <name>Ciclovia</name>
+    <sat>20</sat>
+  </wpt>
+  <wpt lat="-8.160836666666667" lon="-34.91163166666667">
+    <ele>-3.8999999999999995</ele>
+    <time>2024-05-21T16:06:04Z</time>
+    <name>Bidirecional</name>
+    <sat>18</sat>
+  </wpt>
+  <wpt lat="-8.160836666666667" lon="-34.91163166666667">
+    <ele>-3.8999999999999995</ele>
+    <time>2024-05-21T16:06:12Z</time>
+    <name>No bordo direito de Via de Mão Única</name>
+    <sat>20</sat>
+  </wpt>
+  <wpt lat="-8.160836666666667" lon="-34.91163166666667">
+    <ele>-3.8999999999999995</ele>
+    <time>2024-05-21T16:06:25Z</time>
+    <name>Mão Única</name>
+    <sat>20</sat>
+  </wpt>
+  <wpt lat="-8.160836666666667" lon="-34.91163166666667">
+    <ele>-3.8999999999999995</ele>
+    <time>2024-05-21T16:06:30Z</time>
+    <name>Pintada de vermelho com interrupções</name>
+    <sat>20</sat>
+  </wpt>
+  <wpt lat="-8.160836666666667" lon="-34.91163166666667">
+    <ele>-3.8999999999999995</ele>
+    <time>2024-05-21T16:06:31Z</time>
+    <name>Remover Padrão de Pintura 🗑️</name>
+    <sat>21</sat>
+  </wpt>
+  <wpt lat="-8.160836666666667" lon="-34.91163166666667">
+    <ele>-3.8999999999999995</ele>
+    <time>2024-05-21T16:06:32Z</time>
+    <name>Apenas faixas vermelhas nas bordas, com travessias pintadas nos cruzamentos</name>
+    <sat>20</sat>
+  </wpt>
+  <wpt lat="-8.160836666666667" lon="-34.91163166666667">
+    <ele>-3.8999999999999995</ele>
+    <time>2024-05-21T16:06:34Z</time>
+    <name>Asfalto</name>
+    <sat>20</sat>
+  </wpt>
+  <wpt lat="-8.160836666666667" lon="-34.91163166666667">
+    <ele>-3.8999999999999995</ele>
+    <time>2024-05-21T16:06:36Z</time>
+    <name>Remover Pavimento 🗑️</name>
+    <sat>21</sat>
+  </wpt>
+  <wpt lat="-8.160836666666667" lon="-34.91163166666667">
+    <ele>-3.8999999999999995</ele>
+    <time>2024-05-21T16:06:38Z</time>
+    <name>Concreto</name>
+    <sat>20</sat>
+  </wpt>
+  <wpt lat="-8.160836666666667" lon="-34.91163166666667">
+    <ele>-3.8999999999999995</ele>
+    <time>2024-05-21T16:06:46Z</time>
+    <name>3 faixas</name>
+    <sat>20</sat>
+  </wpt>
+  <wpt lat="-8.160836666666667" lon="-34.91163166666667">
+    <ele>-3.8999999999999995</ele>
+    <time>2024-05-21T16:06:57Z</time>
+    <name>Estacionamento proibido na via</name>
+    <sat>21</sat>
+  </wpt>
+  <wpt lat="-8.160836666666667" lon="-34.91163166666667">
+    <ele>-3.8999999999999995</ele>
+    <time>2024-05-21T16:07:07Z</time>
+    <name>Guias</name>
+    <sat>21</sat>
+  </wpt>
+  <wpt lat="-8.160763333333334" lon="-34.911683333333336">
+    <ele>-2.0</ele>
+    <time>2024-05-21T16:07:20Z</time>
+    <name>Área transitável da ciclo (cm)</name>
+    <sat>22</sat>
+  </wpt>
+  <wpt lat="-8.160763333333334" lon="-34.911678333333334">
+    <ele>-1.5999999999999996</ele>
+    <time>2024-05-21T16:07:21Z</time>
+    <name>260cm</name>
+    <sat>22</sat>
+  </wpt>
+  <wpt lat="-8.160756666666666" lon="-34.91164166666667">
+    <ele>-0.5999999999999996</ele>
+    <time>2024-05-21T16:07:28Z</time>
+    <name>Área de amortecimento da ciclo (cm)</name>
+    <sat>21</sat>
+  </wpt>
+  <wpt lat="-8.160756666666666" lon="-34.91164166666667">
+    <ele>-0.5999999999999996</ele>
+    <time>2024-05-21T16:07:28Z</time>
+    <name>40cm</name>
+    <sat>21</sat>
+  </wpt>
+  <wpt lat="-8.160753333333334" lon="-34.911645">
+    <ele>0.0</ele>
+    <time>2024-05-21T16:07:52Z</time>
+    <name>Desnível</name>
+    <sat>22</sat>
+  </wpt>
+  <wpt lat="-8.160753333333334" lon="-34.911645">
+    <ele>0.0</ele>
+    <time>2024-05-21T16:07:53Z</time>
+    <name>Buraco</name>
+    <sat>22</sat>
+  </wpt>
+  <wpt lat="-8.15983" lon="-34.91128833333333">
+    <ele>-3.8999999999999995</ele>
+    <time>2024-05-21T16:09:28Z</time>
+    <name>Foto</name>
+    <link href="2024-05-21_13-09-28.jpg">
+      <text>2024-05-21_13-09-28.jpg</text>
+    </link>
+    <sat>26</sat>
+  </wpt>
+  <wpt lat="-8.159825000000001" lon="-34.911280000000005">
+    <ele>-3.8999999999999995</ele>
+    <time>2024-05-21T16:09:35Z</time>
+    <name>Foto</name>
+    <link href="2024-05-21_13-09-35.jpg">
+      <text>2024-05-21_13-09-35.jpg</text>
+    </link>
+    <sat>26</sat>
+  </wpt>
+  <wpt lat="-8.157973333333333" lon="-34.910493333333335">
+    <ele>-4.3999999999999995</ele>
+    <time>2024-05-21T16:13:01Z</time>
+    <name>Foto</name>
+    <link href="2024-05-21_13-13-01.jpg">
+      <text>2024-05-21_13-13-01.jpg</text>
+    </link>
+    <sat>26</sat>
+  </wpt>
+  <wpt lat="-8.151301666666665" lon="-34.90781666666667">
+    <ele>-5.699999999999999</ele>
+    <time>2024-05-21T16:15:51Z</time>
+    <name>Pictograma MÁ condição</name>
+    <sat>24</sat>
+  </wpt>
+  <wpt lat="-8.151301666666665" lon="-34.90781666666667">
+    <ele>-5.699999999999999</ele>
+    <time>2024-05-21T16:15:51Z</time>
+    <name>Seta MÁ condição</name>
+    <sat>24</sat>
+  </wpt>
+  <wpt lat="-8.151235000000002" lon="-34.907795">
+    <ele>-6.8</ele>
+    <time>2024-05-21T16:15:53Z</time>
+    <name>Pictograma MÁ condição</name>
+    <sat>25</sat>
+  </wpt>
+  <wpt lat="-8.151235000000002" lon="-34.907795">
+    <ele>-6.8</ele>
+    <time>2024-05-21T16:15:53Z</time>
+    <name>Seta MÁ condição</name>
+    <sat>25</sat>
+  </wpt>
+  <wpt lat="-8.151118333333333" lon="-34.90775166666666">
+    <ele>-6.8999999999999995</ele>
+    <time>2024-05-21T16:15:56Z</time>
+    <name>Em cruzamento MÁ condição</name>
+    <sat>24</sat>
+  </wpt>
+  <wpt lat="-8.150093333333333" lon="-34.90726166666666">
+    <ele>-4.5</ele>
+    <time>2024-05-21T16:16:22Z</time>
+    <name>Pictograma MÁ condição</name>
+    <sat>25</sat>
+  </wpt>
+  <wpt lat="-8.150093333333333" lon="-34.90726166666666">
+    <ele>-4.5</ele>
+    <time>2024-05-21T16:16:22Z</time>
+    <name>Seta MÁ condição</name>
+    <sat>25</sat>
+  </wpt>
+  <wpt lat="-8.150051666666666" lon="-34.907246666666666">
+    <ele>-4.699999999999999</ele>
+    <time>2024-05-21T16:16:23Z</time>
+    <name>Pictograma MÁ condição</name>
+    <sat>25</sat>
+  </wpt>
+  <wpt lat="-8.150051666666666" lon="-34.907246666666666">
+    <ele>-4.699999999999999</ele>
+    <time>2024-05-21T16:16:23Z</time>
+    <name>Seta MÁ condição</name>
+    <sat>25</sat>
+  </wpt>
+  <wpt lat="-8.149743333333333" lon="-34.907195">
+    <ele>-5.6</ele>
+    <time>2024-05-21T16:16:52Z</time>
+    <name>Toda área de circulação pintada de vermelho</name>
+    <sat>23</sat>
+  </wpt>
+  <wpt lat="-8.149136666666667" lon="-34.906913333333335">
+    <ele>-2.6999999999999993</ele>
+    <time>2024-05-21T16:17:21Z</time>
+    <name>60km/h</name>
+    <sat>25</sat>
+  </wpt>
+  <wpt lat="-8.148715000000001" lon="-34.90677166666667">
+    <ele>-3.5999999999999996</ele>
+    <time>2024-05-21T16:17:33Z</time>
+    <name>Pictograma MÁ condição</name>
+    <sat>23</sat>
+  </wpt>
+  <wpt lat="-8.148715000000001" lon="-34.90677166666667">
+    <ele>-3.5999999999999996</ele>
+    <time>2024-05-21T16:17:33Z</time>
+    <name>Seta MÁ condição</name>
+    <sat>23</sat>
+  </wpt>
+  <wpt lat="-8.14868" lon="-34.906755">
+    <ele>-3.3</ele>
+    <time>2024-05-21T16:17:34Z</time>
+    <name>Pictograma MÁ condição</name>
+    <sat>23</sat>
+  </wpt>
+  <wpt lat="-8.14868" lon="-34.906755">
+    <ele>-3.3</ele>
+    <time>2024-05-21T16:17:34Z</time>
+    <name>Seta MÁ condição</name>
+    <sat>23</sat>
+  </wpt>
+  <wpt lat="-8.147641666666667" lon="-34.90622833333334">
+    <ele>-6.3999999999999995</ele>
+    <time>2024-05-21T16:18:00Z</time>
+    <name>Pictograma MÁ condição</name>
+    <sat>23</sat>
+  </wpt>
+  <wpt lat="-8.147641666666667" lon="-34.90622833333334">
+    <ele>-6.3999999999999995</ele>
+    <time>2024-05-21T16:18:00Z</time>
+    <name>Seta MÁ condição</name>
+    <sat>23</sat>
+  </wpt>
+  <wpt lat="-8.147601666666667" lon="-34.906211666666664">
+    <ele>-6.5</ele>
+    <time>2024-05-21T16:18:01Z</time>
+    <name>Pictograma MÁ condição</name>
+    <sat>23</sat>
+  </wpt>
+  <wpt lat="-8.147601666666667" lon="-34.906211666666664">
+    <ele>-6.5</ele>
+    <time>2024-05-21T16:18:01Z</time>
+    <name>Seta MÁ condição</name>
+    <sat>23</sat>
+  </wpt>
+  <wpt lat="-8.146888333333333" lon="-34.905903333333335">
+    <ele>-5.8</ele>
+    <time>2024-05-21T16:18:20Z</time>
+    <name>Pictograma MÁ condição</name>
+    <sat>23</sat>
+  </wpt>
+  <wpt lat="-8.146888333333333" lon="-34.905903333333335">
+    <ele>-5.8</ele>
+    <time>2024-05-21T16:18:20Z</time>
+    <name>Seta MÁ condição</name>
+    <sat>23</sat>
+  </wpt>
+  <wpt lat="-8.146755" lon="-34.90586166666667">
+    <ele>-4.1</ele>
+    <time>2024-05-21T16:18:24Z</time>
+    <name>Pictograma MÁ condição</name>
+    <sat>21</sat>
+  </wpt>
+  <wpt lat="-8.146755" lon="-34.90586166666667">
+    <ele>-4.1</ele>
+    <time>2024-05-21T16:18:24Z</time>
+    <name>Seta MÁ condição</name>
+    <sat>21</sat>
+  </wpt>
+  <wpt lat="-8.145975" lon="-34.90544833333333">
+    <ele>-1.5999999999999996</ele>
+    <time>2024-05-21T16:19:20Z</time>
+    <name>Foto</name>
+    <link href="2024-05-21_13-19-20.jpg">
+      <text>2024-05-21_13-19-20.jpg</text>
+    </link>
+    <sat>20</sat>
+  </wpt>
+  <wpt lat="-8.145953333333333" lon="-34.90544">
+    <ele>-2.8</ele>
+    <time>2024-05-21T16:19:38Z</time>
+    <name>Tijolo intertravado</name>
+    <sat>21</sat>
+  </wpt>
+  <wpt lat="-8.145976666666666" lon="-34.90544833333333">
+    <ele>-4.0</ele>
+    <time>2024-05-21T16:19:51Z</time>
+    <name>Foto</name>
+    <link href="2024-05-21_13-19-51.jpg">
+      <text>2024-05-21_13-19-51.jpg</text>
+    </link>
+    <sat>20</sat>
+  </wpt>
+  <wpt lat="-8.145768333333333" lon="-34.90531333333333">
+    <ele>-4.5</ele>
+    <time>2024-05-21T16:20:19Z</time>
+    <name>Pictograma MÁ condição</name>
+    <sat>21</sat>
+  </wpt>
+  <wpt lat="-8.145746666666668" lon="-34.90530833333333">
+    <ele>-4.699999999999999</ele>
+    <time>2024-05-21T16:20:20Z</time>
+    <name>Seta MÁ condição</name>
+    <sat>21</sat>
+  </wpt>
+  <wpt lat="-8.145638333333332" lon="-34.905251666666665">
+    <ele>-4.6</ele>
+    <time>2024-05-21T16:20:27Z</time>
+    <name>Pictograma MÁ condição</name>
+    <sat>21</sat>
+  </wpt>
+  <wpt lat="-8.145638333333332" lon="-34.905251666666665">
+    <ele>-4.6</ele>
+    <time>2024-05-21T16:20:27Z</time>
+    <name>Seta MÁ condição</name>
+    <sat>21</sat>
+  </wpt>
+  <wpt lat="-8.145563333333333" lon="-34.90522166666666">
+    <ele>-3.8</ele>
+    <time>2024-05-21T16:20:40Z</time>
+    <name>A-30</name>
+    <sat>22</sat>
+  </wpt>
+  <wpt lat="-8.145263333333332" lon="-34.905165000000004">
+    <ele>-1.1999999999999993</ele>
+    <time>2024-05-21T16:21:29Z</time>
+    <name>Pictograma MÁ condição</name>
+    <sat>22</sat>
+  </wpt>
+  <wpt lat="-8.145263333333332" lon="-34.905165000000004">
+    <ele>-1.1999999999999993</ele>
+    <time>2024-05-21T16:21:29Z</time>
+    <name>Seta MÁ condição</name>
+    <sat>22</sat>
+  </wpt>
+  <wpt lat="-8.145206666666667" lon="-34.90513833333333">
+    <ele>-1.5999999999999996</ele>
+    <time>2024-05-21T16:21:31Z</time>
+    <name>Pictograma MÁ condição</name>
+    <sat>21</sat>
+  </wpt>
+  <wpt lat="-8.14518" lon="-34.905123333333336">
+    <ele>-1.9000000000000004</ele>
+    <time>2024-05-21T16:21:32Z</time>
+    <name>Seta MÁ condição</name>
+    <sat>21</sat>
+  </wpt>
+  <wpt lat="-8.144995" lon="-34.905051666666665">
+    <ele>-4.1</ele>
+    <time>2024-05-21T16:21:39Z</time>
+    <name>Semáforo exclusivo</name>
+    <sat>20</sat>
+  </wpt>
+  <wpt lat="-8.144015" lon="-34.90455833333333">
+    <ele>-3.5999999999999996</ele>
+    <time>2024-05-21T16:22:11Z</time>
+    <name>Pictograma MÁ condição</name>
+    <sat>21</sat>
+  </wpt>
+  <wpt lat="-8.144015" lon="-34.90455833333333">
+    <ele>-3.5999999999999996</ele>
+    <time>2024-05-21T16:22:11Z</time>
+    <name>Seta MÁ condição</name>
+    <sat>21</sat>
+  </wpt>
+  <wpt lat="-8.144015" lon="-34.90455833333333">
+    <ele>-3.5999999999999996</ele>
+    <time>2024-05-21T16:22:11Z</time>
+    <name>Pictograma MÁ condição</name>
+    <sat>21</sat>
+  </wpt>
+  <wpt lat="-8.144015" lon="-34.90455833333333">
+    <ele>-3.5999999999999996</ele>
+    <time>2024-05-21T16:22:11Z</time>
+    <name>Seta MÁ condição</name>
+    <sat>21</sat>
+  </wpt>
+  <wpt lat="-8.1428" lon="-34.903888333333335">
+    <ele>-5.3999999999999995</ele>
+    <time>2024-05-21T16:22:41Z</time>
+    <name>Pictograma MÁ condição</name>
+    <sat>22</sat>
+  </wpt>
+  <wpt lat="-8.14276" lon="-34.90387">
+    <ele>-5.8999999999999995</ele>
+    <time>2024-05-21T16:22:42Z</time>
+    <name>Seta MÁ condição</name>
+    <sat>22</sat>
+  </wpt>
+  <wpt lat="-8.14268" lon="-34.90383833333333">
+    <ele>-6.3</ele>
+    <time>2024-05-21T16:22:44Z</time>
+    <name>Pictograma MÁ condição</name>
+    <sat>22</sat>
+  </wpt>
+  <wpt lat="-8.14268" lon="-34.90383833333333">
+    <ele>-6.3</ele>
+    <time>2024-05-21T16:22:44Z</time>
+    <name>Pictograma MÁ condição</name>
+    <sat>22</sat>
+  </wpt>
+  <wpt lat="-8.142638333333334" lon="-34.903816666666664">
+    <ele>-6.3</ele>
+    <time>2024-05-21T16:22:45Z</time>
+    <name>Seta MÁ condição</name>
+    <sat>22</sat>
+  </wpt>
+  <wpt lat="-8.142551666666666" lon="-34.90378">
+    <ele>-7.0</ele>
+    <time>2024-05-21T16:22:47Z</time>
+    <name>Pictograma MÁ condição</name>
+    <sat>21</sat>
+  </wpt>
+  <wpt lat="-8.142551666666666" lon="-34.90378">
+    <ele>-7.0</ele>
+    <time>2024-05-21T16:22:47Z</time>
+    <name>Seta MÁ condição</name>
+    <sat>21</sat>
+  </wpt>
+  <wpt lat="-8.142426666666667" lon="-34.903725">
+    <ele>-7.1</ele>
+    <time>2024-05-21T16:22:50Z</time>
+    <name>Pictograma MÁ condição</name>
+    <sat>21</sat>
+  </wpt>
+  <wpt lat="-8.142426666666667" lon="-34.903725">
+    <ele>-7.1</ele>
+    <time>2024-05-21T16:22:50Z</time>
+    <name>Seta MÁ condição</name>
+    <sat>21</sat>
+  </wpt>
+  <wpt lat="-8.141861666666667" lon="-34.90347833333333">
+    <ele>-6.199999999999999</ele>
+    <time>2024-05-21T16:23:03Z</time>
+    <name>Pictograma BOA condição</name>
+    <sat>22</sat>
+  </wpt>
+  <wpt lat="-8.141821666666667" lon="-34.90346">
+    <ele>-6.3</ele>
+    <time>2024-05-21T16:23:04Z</time>
+    <name>Seta BOA condição</name>
+    <sat>22</sat>
+  </wpt>
+  <wpt lat="-8.139729999999998" lon="-34.90269">
+    <ele>-6.3999999999999995</ele>
+    <time>2024-05-21T16:23:54Z</time>
+    <name>Pictograma MÁ condição</name>
+    <sat>22</sat>
+  </wpt>
+  <wpt lat="-8.139729999999998" lon="-34.90269">
+    <ele>-6.3999999999999995</ele>
+    <time>2024-05-21T16:23:54Z</time>
+    <name>Seta MÁ condição</name>
+    <sat>22</sat>
+  </wpt>
+  <wpt lat="-8.139646666666666" lon="-34.902665">
+    <ele>-7.0</ele>
+    <time>2024-05-21T16:23:56Z</time>
+    <name>Pictograma MÁ condição</name>
+    <sat>22</sat>
+  </wpt>
+  <wpt lat="-8.139646666666666" lon="-34.902665">
+    <ele>-7.0</ele>
+    <time>2024-05-21T16:23:56Z</time>
+    <name>Seta MÁ condição</name>
+    <sat>22</sat>
+  </wpt>
+  <wpt lat="-8.139336666666667" lon="-34.90258166666667">
+    <ele>-5.8999999999999995</ele>
+    <time>2024-05-21T16:24:03Z</time>
+    <name>Pictograma MÁ condição</name>
+    <sat>22</sat>
+  </wpt>
+  <wpt lat="-8.139286666666667" lon="-34.90257833333333">
+    <ele>-5.699999999999999</ele>
+    <time>2024-05-21T16:24:04Z</time>
+    <name>Seta MÁ condição</name>
+    <sat>22</sat>
+  </wpt>
+  <wpt lat="-8.139286666666667" lon="-34.90257833333333">
+    <ele>-5.699999999999999</ele>
+    <time>2024-05-21T16:24:04Z</time>
+    <name>Pictograma MÁ condição</name>
+    <sat>22</sat>
+  </wpt>
+  <wpt lat="-8.139286666666667" lon="-34.90257833333333">
+    <ele>-5.699999999999999</ele>
+    <time>2024-05-21T16:24:04Z</time>
+    <name>Seta MÁ condição</name>
+    <sat>22</sat>
+  </wpt>
+  <wpt lat="-8.139073333333332" lon="-34.90252833333333">
+    <ele>-6.3</ele>
+    <time>2024-05-21T16:24:09Z</time>
+    <name>Seta MÁ condição</name>
+    <sat>23</sat>
+  </wpt>
+  <wpt lat="-8.138713333333333" lon="-34.90239666666666">
+    <ele>-6.5</ele>
+    <time>2024-05-21T16:24:19Z</time>
+    <name>Seta MÁ condição</name>
+    <sat>23</sat>
+  </wpt>
+  <wpt lat="-8.138608333333334" lon="-34.90237">
+    <ele>-7.1</ele>
+    <time>2024-05-21T16:24:22Z</time>
+    <name>Semáforo exclusivo</name>
+    <sat>22</sat>
+  </wpt>
+  <wpt lat="-8.137218333333333" lon="-34.901918333333334">
+    <ele>-6.699999999999999</ele>
+    <time>2024-05-21T16:25:01Z</time>
+    <name>Semáforo exclusivo</name>
+    <sat>21</sat>
+  </wpt>
+  <wpt lat="-8.136421666666667" lon="-34.901645">
+    <ele>-7.3999999999999995</ele>
+    <time>2024-05-21T16:25:29Z</time>
+    <name>Pictograma MÁ condição</name>
+    <sat>23</sat>
+  </wpt>
+  <wpt lat="-8.136421666666667" lon="-34.901645">
+    <ele>-7.3999999999999995</ele>
+    <time>2024-05-21T16:25:29Z</time>
+    <name>Seta MÁ condição</name>
+    <sat>23</sat>
+  </wpt>
+  <wpt lat="-8.136421666666667" lon="-34.901645">
+    <ele>-7.3999999999999995</ele>
+    <time>2024-05-21T16:25:29Z</time>
+    <name>Pictograma MÁ condição</name>
+    <sat>23</sat>
+  </wpt>
+  <wpt lat="-8.136383333333333" lon="-34.90163833333334">
+    <ele>-7.3</ele>
+    <time>2024-05-21T16:25:30Z</time>
+    <name>Seta MÁ condição</name>
+    <sat>23</sat>
+  </wpt>
+  <wpt lat="-8.136383333333333" lon="-34.90163833333334">
+    <ele>-7.3</ele>
+    <time>2024-05-21T16:25:30Z</time>
+    <name>Pictograma MÁ condição</name>
+    <sat>23</sat>
+  </wpt>
+  <wpt lat="-8.136383333333333" lon="-34.90163833333334">
+    <ele>-7.3</ele>
+    <time>2024-05-21T16:25:30Z</time>
+    <name>Seta MÁ condição</name>
+    <sat>23</sat>
+  </wpt>
+  <wpt lat="-8.136135" lon="-34.901516666666666">
+    <ele>-7.6</ele>
+    <time>2024-05-21T16:25:38Z</time>
+    <name>Pictograma MÁ condição</name>
+    <sat>22</sat>
+  </wpt>
+  <wpt lat="-8.136135" lon="-34.901516666666666">
+    <ele>-7.6</ele>
+    <time>2024-05-21T16:25:38Z</time>
+    <name>Seta MÁ condição</name>
+    <sat>22</sat>
+  </wpt>
+  <wpt lat="-8.136061666666667" lon="-34.901491666666665">
+    <ele>-7.8999999999999995</ele>
+    <time>2024-05-21T16:25:40Z</time>
+    <name>Pictograma MÁ condição</name>
+    <sat>22</sat>
+  </wpt>
+  <wpt lat="-8.136061666666667" lon="-34.901491666666665">
+    <ele>-7.8999999999999995</ele>
+    <time>2024-05-21T16:25:40Z</time>
+    <name>Seta MÁ condição</name>
+    <sat>22</sat>
+  </wpt>
+  <wpt lat="-8.13549" lon="-34.901356666666665">
+    <ele>-8.799999999999999</ele>
+    <time>2024-05-21T16:25:54Z</time>
+    <name>Pictograma MÁ condição</name>
+    <sat>22</sat>
+  </wpt>
+  <wpt lat="-8.13549" lon="-34.901356666666665">
+    <ele>-8.799999999999999</ele>
+    <time>2024-05-21T16:25:54Z</time>
+    <name>Seta MÁ condição</name>
+    <sat>22</sat>
+  </wpt>
+  <wpt lat="-8.135336666666666" lon="-34.90129833333334">
+    <ele>-9.0</ele>
+    <time>2024-05-21T16:25:58Z</time>
+    <name>Pictograma MÁ condição</name>
+    <sat>22</sat>
+  </wpt>
+  <wpt lat="-8.135336666666666" lon="-34.90129833333334">
+    <ele>-9.0</ele>
+    <time>2024-05-21T16:25:58Z</time>
+    <name>Seta MÁ condição</name>
+    <sat>22</sat>
+  </wpt>
+  <wpt lat="-8.135228333333334" lon="-34.90125333333334">
+    <ele>-7.6</ele>
+    <time>2024-05-21T16:26:01Z</time>
+    <name>Semáforo exclusivo</name>
+    <sat>22</sat>
+  </wpt>
+  <wpt lat="-8.133743333333333" lon="-34.90062833333333">
+    <ele>-5.8999999999999995</ele>
+    <time>2024-05-21T16:26:45Z</time>
+    <name>Pictograma MÁ condição</name>
+    <sat>20</sat>
+  </wpt>
+  <wpt lat="-8.133743333333333" lon="-34.90062833333333">
+    <ele>-5.8999999999999995</ele>
+    <time>2024-05-21T16:26:45Z</time>
+    <name>Seta MÁ condição</name>
+    <sat>20</sat>
+  </wpt>
+  <wpt lat="-8.133743333333333" lon="-34.90062833333333">
+    <ele>-5.8999999999999995</ele>
+    <time>2024-05-21T16:26:45Z</time>
+    <name>Pictograma MÁ condição</name>
+    <sat>20</sat>
+  </wpt>
+  <wpt lat="-8.133708333333335" lon="-34.900615">
+    <ele>-5.8</ele>
+    <time>2024-05-21T16:26:46Z</time>
+    <name>Seta MÁ condição</name>
+    <sat>21</sat>
+  </wpt>
+  <wpt lat="-8.133640000000002" lon="-34.90059333333333">
+    <ele>-4.699999999999999</ele>
+    <time>2024-05-21T16:26:48Z</time>
+    <name>Semáforo exclusivo</name>
+    <sat>21</sat>
+  </wpt>
+  <wpt lat="-8.132256666666667" lon="-34.89995166666667">
+    <ele>-4.8</ele>
+    <time>2024-05-21T16:27:23Z</time>
+    <name>Pictograma MÁ condição</name>
+    <sat>23</sat>
+  </wpt>
+  <wpt lat="-8.132256666666667" lon="-34.89995166666667">
+    <ele>-4.8</ele>
+    <time>2024-05-21T16:27:23Z</time>
+    <name>Seta MÁ condição</name>
+    <sat>23</sat>
+  </wpt>
+  <wpt lat="-8.132256666666667" lon="-34.89995166666667">
+    <ele>-4.8</ele>
+    <time>2024-05-21T16:27:23Z</time>
+    <name>Pictograma MÁ condição</name>
+    <sat>23</sat>
+  </wpt>
+  <wpt lat="-8.132256666666667" lon="-34.89995166666667">
+    <ele>-4.8</ele>
+    <time>2024-05-21T16:27:23Z</time>
+    <name>Seta MÁ condição</name>
+    <sat>23</sat>
+  </wpt>
+  <wpt lat="-8.13218" lon="-34.89991333333333">
+    <ele>-4.6</ele>
+    <time>2024-05-21T16:27:25Z</time>
+    <name>Pictograma MÁ condição</name>
+    <sat>23</sat>
+  </wpt>
+  <wpt lat="-8.13218" lon="-34.89991333333333">
+    <ele>-4.6</ele>
+    <time>2024-05-21T16:27:25Z</time>
+    <name>Seta MÁ condição</name>
+    <sat>23</sat>
+  </wpt>
+  <wpt lat="-8.132131666666668" lon="-34.89989666666667">
+    <ele>-4.3</ele>
+    <time>2024-05-21T16:27:26Z</time>
+    <name>Pictograma MÁ condição</name>
+    <sat>22</sat>
+  </wpt>
+  <wpt lat="-8.132131666666668" lon="-34.89989666666667">
+    <ele>-4.3</ele>
+    <time>2024-05-21T16:27:26Z</time>
+    <name>Seta MÁ condição</name>
+    <sat>22</sat>
+  </wpt>
+  <wpt lat="-8.129041666666666" lon="-34.89852">
+    <ele>-10.2</ele>
+    <time>2024-05-21T16:28:42Z</time>
+    <name>Semáforo exclusivo</name>
+    <sat>22</sat>
+  </wpt>
+  <wpt lat="-8.125353333333333" lon="-34.897126666666665">
+    <ele>-5.8999999999999995</ele>
+    <time>2024-05-21T16:30:14Z</time>
+    <name>Semáforo exclusivo</name>
+    <sat>22</sat>
+  </wpt>
+  <wpt lat="-8.123728333333334" lon="-34.896584999999995">
+    <ele>1.0999999999999996</ele>
+    <time>2024-05-21T16:31:15Z</time>
+    <name>Estacionamento dos dois lados</name>
+    <sat>22</sat>
+  </wpt>
+  <wpt lat="-8.123728333333334" lon="-34.896584999999995">
+    <ele>1.0999999999999996</ele>
+    <time>2024-05-21T16:31:29Z</time>
+    <name>Foto</name>
+    <link href="2024-05-21_13-31-29.jpg">
+      <text>2024-05-21_13-31-29.jpg</text>
+    </link>
+    <sat>20</sat>
+  </wpt>
+  <wpt lat="-8.123728333333334" lon="-34.896584999999995">
+    <ele>1.0999999999999996</ele>
+    <time>2024-05-21T16:31:41Z</time>
+    <name>Foto</name>
+    <link href="2024-05-21_13-31-41.jpg">
+      <text>2024-05-21_13-31-41.jpg</text>
+    </link>
+    <sat>19</sat>
+  </wpt>
+  <wpt lat="-8.122636666666667" lon="-34.896226666666664">
+    <ele>-5.6</ele>
+    <time>2024-05-21T16:32:34Z</time>
+    <name>Pictograma MÁ condição</name>
+    <sat>19</sat>
+  </wpt>
+  <wpt lat="-8.122636666666667" lon="-34.896226666666664">
+    <ele>-5.6</ele>
+    <time>2024-05-21T16:32:34Z</time>
+    <name>Seta MÁ condição</name>
+    <sat>19</sat>
+  </wpt>
+  <wpt lat="-8.122636666666667" lon="-34.896226666666664">
+    <ele>-5.6</ele>
+    <time>2024-05-21T16:32:34Z</time>
+    <name>Pictograma MÁ condição</name>
+    <sat>19</sat>
+  </wpt>
+  <wpt lat="-8.122606666666666" lon="-34.8962">
+    <ele>-4.6</ele>
+    <time>2024-05-21T16:32:35Z</time>
+    <name>Seta MÁ condição</name>
+    <sat>21</sat>
+  </wpt>
+  <wpt lat="-8.122143333333334" lon="-34.895985">
+    <ele>-0.09999999999999964</ele>
+    <time>2024-05-21T16:32:48Z</time>
+    <name>Pictograma MÁ condição</name>
+    <sat>21</sat>
+  </wpt>
+  <wpt lat="-8.122143333333334" lon="-34.895985">
+    <ele>-0.09999999999999964</ele>
+    <time>2024-05-21T16:32:48Z</time>
+    <name>Seta MÁ condição</name>
+    <sat>21</sat>
+  </wpt>
+  <wpt lat="-8.122143333333334" lon="-34.895985">
+    <ele>-0.09999999999999964</ele>
+    <time>2024-05-21T16:32:48Z</time>
+    <name>Pictograma MÁ condição</name>
+    <sat>21</sat>
+  </wpt>
+  <wpt lat="-8.122143333333334" lon="-34.895985">
+    <ele>-0.09999999999999964</ele>
+    <time>2024-05-21T16:32:48Z</time>
+    <name>Seta MÁ condição</name>
+    <sat>21</sat>
+  </wpt>
+  <wpt lat="-8.120718333333334" lon="-34.89528">
+    <ele>-3.8999999999999995</ele>
+    <time>2024-05-21T16:33:28Z</time>
+    <name>Pictograma MÁ condição</name>
+    <sat>20</sat>
+  </wpt>
+  <wpt lat="-8.120681666666666" lon="-34.89525666666667">
+    <ele>-3.8999999999999995</ele>
+    <time>2024-05-21T16:33:29Z</time>
+    <name>Seta MÁ condição</name>
+    <sat>20</sat>
+  </wpt>
+  <wpt lat="-8.120681666666666" lon="-34.89525666666667">
+    <ele>-3.8999999999999995</ele>
+    <time>2024-05-21T16:33:29Z</time>
+    <name>Pictograma MÁ condição</name>
+    <sat>20</sat>
+  </wpt>
+  <wpt lat="-8.120681666666666" lon="-34.89525666666667">
+    <ele>-3.8999999999999995</ele>
+    <time>2024-05-21T16:33:29Z</time>
+    <name>Seta MÁ condição</name>
+    <sat>20</sat>
+  </wpt>
+  <wpt lat="-8.120465" lon="-34.89514833333333">
+    <ele>-0.6999999999999993</ele>
+    <time>2024-05-21T16:33:35Z</time>
+    <name>Pictograma MÁ condição</name>
+    <sat>19</sat>
+  </wpt>
+  <wpt lat="-8.120465" lon="-34.89514833333333">
+    <ele>-0.6999999999999993</ele>
+    <time>2024-05-21T16:33:35Z</time>
+    <name>Seta MÁ condição</name>
+    <sat>19</sat>
+  </wpt>
+  <wpt lat="-8.120428333333333" lon="-34.895125">
+    <ele>-0.09999999999999964</ele>
+    <time>2024-05-21T16:33:36Z</time>
+    <name>Pictograma MÁ condição</name>
+    <sat>20</sat>
+  </wpt>
+  <wpt lat="-8.120428333333333" lon="-34.895125">
+    <ele>-0.09999999999999964</ele>
+    <time>2024-05-21T16:33:36Z</time>
+    <name>Seta MÁ condição</name>
+    <sat>20</sat>
+  </wpt>
+  <wpt lat="-8.120201666666667" lon="-34.894999999999996">
+    <ele>1.200000000000001</ele>
+    <time>2024-05-21T16:33:43Z</time>
+    <name>Pictograma MÁ condição</name>
+    <sat>20</sat>
+  </wpt>
+  <wpt lat="-8.120091666666667" lon="-34.89490333333333">
+    <ele>1.200000000000001</ele>
+    <time>2024-05-21T16:33:48Z</time>
+    <name>Início</name>
+    <sat>20</sat>
+  </wpt>
+  <wpt lat="-8.120091666666667" lon="-34.89490333333333">
+    <ele>1.200000000000001</ele>
+    <time>2024-05-21T16:33:48Z</time>
+    <name>Semáforo exclusivo</name>
+    <sat>20</sat>
+  </wpt>
+  <wpt lat="-8.118976666666667" lon="-34.89427833333333">
+    <ele>-1.4000000000000004</ele>
+    <time>2024-05-21T16:34:21Z</time>
+    <name>Semáforo exclusivo</name>
+    <sat>20</sat>
+  </wpt>
+  <wpt lat="-8.118806666666668" lon="-34.89418">
+    <ele>-2.0</ele>
+    <time>2024-05-21T16:34:27Z</time>
+    <name>Pictograma MÁ condição</name>
+    <sat>20</sat>
+  </wpt>
+  <wpt lat="-8.118806666666668" lon="-34.89418">
+    <ele>-2.0</ele>
+    <time>2024-05-21T16:34:27Z</time>
+    <name>Seta MÁ condição</name>
+    <sat>20</sat>
+  </wpt>
+  <wpt lat="-8.118806666666668" lon="-34.89418">
+    <ele>-2.0</ele>
+    <time>2024-05-21T16:34:27Z</time>
+    <name>Pictograma MÁ condição</name>
+    <sat>20</sat>
+  </wpt>
+  <wpt lat="-8.11878" lon="-34.894149999999996">
+    <ele>-0.6999999999999993</ele>
+    <time>2024-05-21T16:34:28Z</time>
+    <name>Seta MÁ condição</name>
+    <sat>21</sat>
+  </wpt>
+  <wpt lat="-8.117006666666667" lon="-34.893074999999996">
+    <ele>-3.8999999999999995</ele>
+    <time>2024-05-21T16:35:16Z</time>
+    <name>Pictograma MÁ condição</name>
+    <sat>20</sat>
+  </wpt>
+  <wpt lat="-8.117006666666667" lon="-34.893074999999996">
+    <ele>-3.8999999999999995</ele>
+    <time>2024-05-21T16:35:16Z</time>
+    <name>Seta MÁ condição</name>
+    <sat>20</sat>
+  </wpt>
+  <wpt lat="-8.117006666666667" lon="-34.893074999999996">
+    <ele>-3.8999999999999995</ele>
+    <time>2024-05-21T16:35:16Z</time>
+    <name>Pictograma MÁ condição</name>
+    <sat>20</sat>
+  </wpt>
+  <wpt lat="-8.116975" lon="-34.893045">
+    <ele>-4.0</ele>
+    <time>2024-05-21T16:35:17Z</time>
+    <name>Seta MÁ condição</name>
+    <sat>20</sat>
+  </wpt>
+  <wpt lat="-8.116901666666667" lon="-34.89299833333334">
+    <ele>-2.5</ele>
+    <time>2024-05-21T16:35:19Z</time>
+    <name>Semáforo exclusivo</name>
+    <sat>20</sat>
+  </wpt>
+  <wpt lat="-8.115693333333333" lon="-34.8923">
+    <ele>0.9000000000000004</ele>
+    <time>2024-05-21T16:35:53Z</time>
+    <name>Pictograma MÁ condição</name>
+    <sat>20</sat>
+  </wpt>
+  <wpt lat="-8.115656666666666" lon="-34.89228166666667">
+    <ele>0.40000000000000036</ele>
+    <time>2024-05-21T16:35:54Z</time>
+    <name>Seta MÁ condição</name>
+    <sat>20</sat>
+  </wpt>
+  <wpt lat="-8.115656666666666" lon="-34.89228166666667">
+    <ele>0.40000000000000036</ele>
+    <time>2024-05-21T16:35:54Z</time>
+    <name>Pictograma MÁ condição</name>
+    <sat>20</sat>
+  </wpt>
+  <wpt lat="-8.115656666666666" lon="-34.89228166666667">
+    <ele>0.40000000000000036</ele>
+    <time>2024-05-21T16:35:54Z</time>
+    <name>Seta MÁ condição</name>
+    <sat>20</sat>
+  </wpt>
+  <wpt lat="-8.11555" lon="-34.89222333333333">
+    <ele>-0.5999999999999996</ele>
+    <time>2024-05-21T16:35:57Z</time>
+    <name>Semáforo exclusivo</name>
+    <sat>20</sat>
+  </wpt>
+  <wpt lat="-8.114063333333332" lon="-34.891216666666665">
+    <ele>-1.799999999999999</ele>
+    <time>2024-05-21T16:36:36Z</time>
+    <name>Pictograma MÁ condição</name>
+    <sat>20</sat>
+  </wpt>
+  <wpt lat="-8.114063333333332" lon="-34.891216666666665">
+    <ele>-1.799999999999999</ele>
+    <time>2024-05-21T16:36:36Z</time>
+    <name>Seta MÁ condição</name>
+    <sat>20</sat>
+  </wpt>
+  <wpt lat="-8.114023333333334" lon="-34.891185">
+    <ele>-1.5</ele>
+    <time>2024-05-21T16:36:37Z</time>
+    <name>Pictograma MÁ condição</name>
+    <sat>20</sat>
+  </wpt>
+  <wpt lat="-8.114023333333334" lon="-34.891185">
+    <ele>-1.5</ele>
+    <time>2024-05-21T16:36:37Z</time>
+    <name>Seta MÁ condição</name>
+    <sat>20</sat>
+  </wpt>
+  <wpt lat="-8.11204" lon="-34.89002">
+    <ele>-5.8999999999999995</ele>
+    <time>2024-05-21T16:37:27Z</time>
+    <name>Pictograma MÁ condição</name>
+    <sat>22</sat>
+  </wpt>
+  <wpt lat="-8.11204" lon="-34.89002">
+    <ele>-5.8999999999999995</ele>
+    <time>2024-05-21T16:37:27Z</time>
+    <name>Seta MÁ condição</name>
+    <sat>22</sat>
+  </wpt>
+  <wpt lat="-8.11204" lon="-34.89002">
+    <ele>-5.8999999999999995</ele>
+    <time>2024-05-21T16:37:27Z</time>
+    <name>Pictograma MÁ condição</name>
+    <sat>22</sat>
+  </wpt>
+  <wpt lat="-8.112008333333334" lon="-34.89000166666666">
+    <ele>-5.5</ele>
+    <time>2024-05-21T16:37:28Z</time>
+    <name>Seta MÁ condição</name>
+    <sat>22</sat>
+  </wpt>
+  <wpt lat="-8.111863333333334" lon="-34.88991166666666">
+    <ele>-2.8</ele>
+    <time>2024-05-21T16:37:33Z</time>
+    <name>Semáforo exclusivo</name>
+    <sat>22</sat>
+  </wpt>
+  <wpt lat="-8.110375" lon="-34.88924833333333">
+    <ele>-2.0999999999999996</ele>
+    <time>2024-05-21T16:38:06Z</time>
+    <name>Pictograma MÁ condição</name>
+    <sat>22</sat>
+  </wpt>
+  <wpt lat="-8.110375" lon="-34.88924833333333">
+    <ele>-2.0999999999999996</ele>
+    <time>2024-05-21T16:38:06Z</time>
+    <name>Seta MÁ condição</name>
+    <sat>22</sat>
+  </wpt>
+  <wpt lat="-8.110375" lon="-34.88924833333333">
+    <ele>-2.0999999999999996</ele>
+    <time>2024-05-21T16:38:06Z</time>
+    <name>Pictograma MÁ condição</name>
+    <sat>22</sat>
+  </wpt>
+  <wpt lat="-8.110328333333333" lon="-34.889226666666666">
+    <ele>-2.5999999999999996</ele>
+    <time>2024-05-21T16:38:07Z</time>
+    <name>Seta MÁ condição</name>
+    <sat>22</sat>
+  </wpt>
+  <wpt lat="-8.109898333333332" lon="-34.888995">
+    <ele>-4.3999999999999995</ele>
+    <time>2024-05-21T16:38:18Z</time>
+    <name>Semáforo exclusivo</name>
+    <sat>23</sat>
+  </wpt>
+  <wpt lat="-8.108984999999999" lon="-34.88863">
+    <ele>-4.8999999999999995</ele>
+    <time>2024-05-21T16:38:44Z</time>
+    <name>Pictograma MÁ condição</name>
+    <sat>23</sat>
+  </wpt>
+  <wpt lat="-8.108984999999999" lon="-34.88863">
+    <ele>-4.8999999999999995</ele>
+    <time>2024-05-21T16:38:44Z</time>
+    <name>Seta MÁ condição</name>
+    <sat>23</sat>
+  </wpt>
+  <wpt lat="-8.108984999999999" lon="-34.88863">
+    <ele>-4.8999999999999995</ele>
+    <time>2024-05-21T16:38:44Z</time>
+    <name>Pictograma MÁ condição</name>
+    <sat>23</sat>
+  </wpt>
+  <wpt lat="-8.108984999999999" lon="-34.88863">
+    <ele>-4.8999999999999995</ele>
+    <time>2024-05-21T16:38:44Z</time>
+    <name>Pictograma MÁ condição</name>
+    <sat>23</sat>
+  </wpt>
+  <wpt lat="-8.108984999999999" lon="-34.88863">
+    <ele>-4.8999999999999995</ele>
+    <time>2024-05-21T16:38:44Z</time>
+    <name>Seta MÁ condição</name>
+    <sat>23</sat>
+  </wpt>
+  <wpt lat="-8.10888" lon="-34.888598333333334">
+    <ele>-2.5999999999999996</ele>
+    <time>2024-05-21T16:38:47Z</time>
+    <name>Semáforo exclusivo</name>
+    <sat>23</sat>
+  </wpt>
+  <wpt lat="-8.10862" lon="-34.88845833333333">
+    <ele>-2.1999999999999993</ele>
+    <time>2024-05-21T16:38:55Z</time>
+    <name>Semáforo exclusivo</name>
+    <sat>23</sat>
+  </wpt>
+  <wpt lat="-8.108533333333332" lon="-34.88838666666666">
+    <ele>-3.1999999999999993</ele>
+    <time>2024-05-21T16:38:58Z</time>
+    <name>Semáforo exclusivo</name>
+    <sat>23</sat>
+  </wpt>
+  <wpt lat="-8.107311666666668" lon="-34.88784">
+    <ele>-3.3999999999999995</ele>
+    <time>2024-05-21T16:39:31Z</time>
+    <name>Pictograma MÁ condição</name>
+    <sat>23</sat>
+  </wpt>
+  <wpt lat="-8.107311666666668" lon="-34.88784">
+    <ele>-3.3999999999999995</ele>
+    <time>2024-05-21T16:39:31Z</time>
+    <name>Pictograma MÁ condição</name>
+    <sat>23</sat>
+  </wpt>
+  <wpt lat="-8.107311666666668" lon="-34.88784">
+    <ele>-3.3999999999999995</ele>
+    <time>2024-05-21T16:39:31Z</time>
+    <name>Seta MÁ condição</name>
+    <sat>23</sat>
+  </wpt>
+  <wpt lat="-8.107276666666667" lon="-34.887825">
+    <ele>-3.5</ele>
+    <time>2024-05-21T16:39:32Z</time>
+    <name>Pictograma MÁ condição</name>
+    <sat>23</sat>
+  </wpt>
+  <wpt lat="-8.107276666666667" lon="-34.887825">
+    <ele>-3.5</ele>
+    <time>2024-05-21T16:39:32Z</time>
+    <name>Seta MÁ condição</name>
+    <sat>23</sat>
+  </wpt>
+  <wpt lat="-8.107083333333332" lon="-34.88776166666666">
+    <ele>-5.1</ele>
+    <time>2024-05-21T16:39:38Z</time>
+    <name>Semáforo exclusivo</name>
+    <sat>22</sat>
+  </wpt>
+  <wpt lat="-8.104659999999999" lon="-34.886655000000005">
+    <ele>-4.8999999999999995</ele>
+    <time>2024-05-21T16:40:50Z</time>
+    <name>Pictograma MÁ condição</name>
+    <sat>23</sat>
+  </wpt>
+  <wpt lat="-8.104659999999999" lon="-34.886655000000005">
+    <ele>-4.8999999999999995</ele>
+    <time>2024-05-21T16:40:50Z</time>
+    <name>Seta MÁ condição</name>
+    <sat>23</sat>
+  </wpt>
+  <wpt lat="-8.104659999999999" lon="-34.886655000000005">
+    <ele>-4.8999999999999995</ele>
+    <time>2024-05-21T16:40:50Z</time>
+    <name>Pictograma MÁ condição</name>
+    <sat>23</sat>
+  </wpt>
+  <wpt lat="-8.104633333333334" lon="-34.88664000000001">
+    <ele>-4.8</ele>
+    <time>2024-05-21T16:40:51Z</time>
+    <name>Seta MÁ condição</name>
+    <sat>23</sat>
+  </wpt>
+  <wpt lat="-8.104584999999998" lon="-34.88661166666667">
+    <ele>-5.5</ele>
+    <time>2024-05-21T16:40:53Z</time>
+    <name>Semáforo exclusivo</name>
+    <sat>23</sat>
+  </wpt>
+  <wpt lat="-8.104584999999998" lon="-34.88661166666667">
+    <ele>-5.5</ele>
+    <time>2024-05-21T16:40:53Z</time>
+    <name>Semáforo exclusivo</name>
+    <sat>23</sat>
+  </wpt>
+  <wpt lat="-8.102496666666667" lon="-34.88563333333333">
+    <ele>-4.0</ele>
+    <time>2024-05-21T16:41:47Z</time>
+    <name>Pictograma MÁ condição</name>
+    <sat>20</sat>
+  </wpt>
+  <wpt lat="-8.102496666666667" lon="-34.88563333333333">
+    <ele>-4.0</ele>
+    <time>2024-05-21T16:41:47Z</time>
+    <name>Seta MÁ condição</name>
+    <sat>20</sat>
+  </wpt>
+  <wpt lat="-8.102454999999999" lon="-34.88561">
+    <ele>-3.5999999999999996</ele>
+    <time>2024-05-21T16:41:48Z</time>
+    <name>Pictograma MÁ condição</name>
+    <sat>21</sat>
+  </wpt>
+  <wpt lat="-8.102454999999999" lon="-34.88561">
+    <ele>-3.5999999999999996</ele>
+    <time>2024-05-21T16:41:48Z</time>
+    <name>Seta MÁ condição</name>
+    <sat>21</sat>
+  </wpt>
+  <wpt lat="-8.101406666666666" lon="-34.88515833333334">
+    <ele>-6.0</ele>
+    <time>2024-05-21T16:42:15Z</time>
+    <name>Pictograma MÁ condição</name>
+    <sat>21</sat>
+  </wpt>
+  <wpt lat="-8.101406666666666" lon="-34.88515833333334">
+    <ele>-6.0</ele>
+    <time>2024-05-21T16:42:15Z</time>
+    <name>Seta MÁ condição</name>
+    <sat>21</sat>
+  </wpt>
+  <wpt lat="-8.101406666666666" lon="-34.88515833333334">
+    <ele>-6.0</ele>
+    <time>2024-05-21T16:42:15Z</time>
+    <name>Pictograma MÁ condição</name>
+    <sat>21</sat>
+  </wpt>
+  <wpt lat="-8.101371666666667" lon="-34.88514333333333">
+    <ele>-6.0</ele>
+    <time>2024-05-21T16:42:16Z</time>
+    <name>Seta MÁ condição</name>
+    <sat>21</sat>
+  </wpt>
+  <wpt lat="-8.101333333333335" lon="-34.885128333333334">
+    <ele>-6.0</ele>
+    <time>2024-05-21T16:42:17Z</time>
+    <name>Semáforo exclusivo</name>
+    <sat>21</sat>
+  </wpt>
+  <wpt lat="-8.099976666666667" lon="-34.88445333333333">
+    <ele>-6.0</ele>
+    <time>2024-05-21T16:42:56Z</time>
+    <name>Pictograma MÁ condição</name>
+    <sat>23</sat>
+  </wpt>
+  <wpt lat="-8.099976666666667" lon="-34.88445333333333">
+    <ele>-6.0</ele>
+    <time>2024-05-21T16:42:56Z</time>
+    <name>Seta MÁ condição</name>
+    <sat>23</sat>
+  </wpt>
+  <wpt lat="-8.099976666666667" lon="-34.88445333333333">
+    <ele>-6.0</ele>
+    <time>2024-05-21T16:42:56Z</time>
+    <name>Pictograma MÁ condição</name>
+    <sat>23</sat>
+  </wpt>
+  <wpt lat="-8.099976666666667" lon="-34.88445333333333">
+    <ele>-6.0</ele>
+    <time>2024-05-21T16:42:56Z</time>
+    <name>Seta MÁ condição</name>
+    <sat>23</sat>
+  </wpt>
+  <wpt lat="-8.099453333333335" lon="-34.884213333333335">
+    <ele>0.7000000000000011</ele>
+    <time>2024-05-21T16:43:12Z</time>
+    <name>Semáforo exclusivo</name>
+    <sat>23</sat>
+  </wpt>
+  <wpt lat="-8.098488333333334" lon="-34.88378">
+    <ele>-3.6999999999999993</ele>
+    <time>2024-05-21T16:43:38Z</time>
+    <name>Pictograma MÁ condição</name>
+    <sat>23</sat>
+  </wpt>
+  <wpt lat="-8.098488333333334" lon="-34.88378">
+    <ele>-3.6999999999999993</ele>
+    <time>2024-05-21T16:43:38Z</time>
+    <name>Seta MÁ condição</name>
+    <sat>23</sat>
+  </wpt>
+  <wpt lat="-8.098488333333334" lon="-34.88378">
+    <ele>-3.6999999999999993</ele>
+    <time>2024-05-21T16:43:38Z</time>
+    <name>Pictograma MÁ condição</name>
+    <sat>23</sat>
+  </wpt>
+  <wpt lat="-8.098448333333332" lon="-34.88375833333334">
+    <ele>-3.1999999999999993</ele>
+    <time>2024-05-21T16:43:39Z</time>
+    <name>Seta MÁ condição</name>
+    <sat>23</sat>
+  </wpt>
+  <wpt lat="-8.098341666666666" lon="-34.88371666666667">
+    <ele>-1.6999999999999993</ele>
+    <time>2024-05-21T16:43:42Z</time>
+    <name>Semáforo exclusivo</name>
+    <sat>23</sat>
+  </wpt>
+  <wpt lat="-8.096536666666667" lon="-34.88321166666666">
+    <ele>-6.1</ele>
+    <time>2024-05-21T16:44:27Z</time>
+    <name>60km/h</name>
+    <sat>23</sat>
+  </wpt>
+  <wpt lat="-8.096536666666667" lon="-34.88321166666666">
+    <ele>-6.1</ele>
+    <time>2024-05-21T16:44:27Z</time>
+    <name>60km/h</name>
+    <sat>23</sat>
+  </wpt>
+  <wpt lat="-8.096499999999999" lon="-34.883206666666666">
+    <ele>-6.1</ele>
+    <time>2024-05-21T16:44:28Z</time>
+    <name>60km/h</name>
+    <sat>21</sat>
+  </wpt>
+  <wpt lat="-8.096315" lon="-34.88314666666667">
+    <ele>-4.8999999999999995</ele>
+    <time>2024-05-21T16:44:33Z</time>
+    <name>Semáforo exclusivo</name>
+    <sat>23</sat>
+  </wpt>
+  <wpt lat="-8.095956666666666" lon="-34.88305833333333">
+    <ele>-3.3999999999999995</ele>
+    <time>2024-05-21T16:44:43Z</time>
+    <name>Pictograma MÁ condição</name>
+    <sat>23</sat>
+  </wpt>
+  <wpt lat="-8.095956666666666" lon="-34.88305833333333">
+    <ele>-3.3999999999999995</ele>
+    <time>2024-05-21T16:44:43Z</time>
+    <name>Seta MÁ condição</name>
+    <sat>23</sat>
+  </wpt>
+  <wpt lat="-8.095956666666666" lon="-34.88305833333333">
+    <ele>-3.3999999999999995</ele>
+    <time>2024-05-21T16:44:43Z</time>
+    <name>Pictograma MÁ condição</name>
+    <sat>23</sat>
+  </wpt>
+  <wpt lat="-8.095921666666667" lon="-34.88305166666667">
+    <ele>-3.5999999999999996</ele>
+    <time>2024-05-21T16:44:44Z</time>
+    <name>Seta MÁ condição</name>
+    <sat>23</sat>
+  </wpt>
+  <wpt lat="-8.09333" lon="-34.882349999999995">
+    <ele>-1.299999999999999</ele>
+    <time>2024-05-21T16:45:54Z</time>
+    <name>Pictograma MÁ condição</name>
+    <sat>23</sat>
+  </wpt>
+  <wpt lat="-8.09333" lon="-34.882349999999995">
+    <ele>-1.299999999999999</ele>
+    <time>2024-05-21T16:45:54Z</time>
+    <name>Seta MÁ condição</name>
+    <sat>23</sat>
+  </wpt>
+  <wpt lat="-8.093304999999999" lon="-34.88233833333334">
+    <ele>-1.5</ele>
+    <time>2024-05-21T16:45:55Z</time>
+    <name>Pictograma MÁ condição</name>
+    <sat>23</sat>
+  </wpt>
+  <wpt lat="-8.093304999999999" lon="-34.88233833333334">
+    <ele>-1.5</ele>
+    <time>2024-05-21T16:45:55Z</time>
+    <name>Seta MÁ condição</name>
+    <sat>23</sat>
+  </wpt>
+  <wpt lat="-8.093243333333334" lon="-34.882325">
+    <ele>-1.5</ele>
+    <time>2024-05-21T16:45:57Z</time>
+    <name>Semáforo exclusivo</name>
+    <sat>23</sat>
+  </wpt>
+  <wpt lat="-8.09221" lon="-34.882126666666665">
+    <ele>-4.3999999999999995</ele>
+    <time>2024-05-21T16:46:24Z</time>
+    <name>Semáforo exclusivo</name>
+    <sat>23</sat>
+  </wpt>
+  <wpt lat="-8.090165" lon="-34.881600000000006">
+    <ele>-3.8</ele>
+    <time>2024-05-21T16:47:16Z</time>
+    <name>Pictograma MÁ condição</name>
+    <sat>22</sat>
+  </wpt>
+  <wpt lat="-8.090165" lon="-34.881600000000006">
+    <ele>-3.8</ele>
+    <time>2024-05-21T16:47:16Z</time>
+    <name>Seta MÁ condição</name>
+    <sat>22</sat>
+  </wpt>
+  <wpt lat="-8.090136666666666" lon="-34.88159333333333">
+    <ele>-3.6999999999999993</ele>
+    <time>2024-05-21T16:47:17Z</time>
+    <name>Pictograma MÁ condição</name>
+    <sat>23</sat>
+  </wpt>
+  <wpt lat="-8.090136666666666" lon="-34.88159333333333">
+    <ele>-3.6999999999999993</ele>
+    <time>2024-05-21T16:47:17Z</time>
+    <name>Pictograma MÁ condição</name>
+    <sat>23</sat>
+  </wpt>
+  <wpt lat="-8.090136666666666" lon="-34.88159333333333">
+    <ele>-3.6999999999999993</ele>
+    <time>2024-05-21T16:47:17Z</time>
+    <name>Seta MÁ condição</name>
+    <sat>23</sat>
+  </wpt>
+  <wpt lat="-8.090028333333333" lon="-34.88155166666666">
+    <ele>-3.6999999999999993</ele>
+    <time>2024-05-21T16:47:22Z</time>
+    <name>Pictograma MÁ condição</name>
+    <sat>23</sat>
+  </wpt>
+  <wpt lat="-8.090028333333333" lon="-34.88155166666666">
+    <ele>-3.6999999999999993</ele>
+    <time>2024-05-21T16:47:22Z</time>
+    <name>Seta MÁ condição</name>
+    <sat>23</sat>
+  </wpt>
+</gpx>

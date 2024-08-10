@@ -1,0 +1,444 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<gpx>
+  <metadata>
+    <name>2024-05-01_10-30-51</name>
+    <keywords>auditoria cicloviaria</keywords>
+    <keywords>osmtracker</keywords>
+    <desc>CF044</desc>
+  </metadata>
+  <wpt lat="-8.02975266" lon="-34.93176424">
+    <ele>6.69268798828125</ele>
+    <time>2024-05-01T13:30:56Z</time>
+    <name>Ciclofaixa</name>
+    <sat>19</sat>
+  </wpt>
+  <wpt lat="-8.02974527" lon="-34.93176123">
+    <ele>12.1951904296875</ele>
+    <time>2024-05-01T13:31:01Z</time>
+    <name>Unidirecional no Fluxo</name>
+    <sat>24</sat>
+  </wpt>
+  <wpt lat="-8.02974328" lon="-34.93175103">
+    <ele>6.867462158203125</ele>
+    <time>2024-05-01T13:31:12Z</time>
+    <name>Em bordo de Via de Mão Dupla</name>
+    <sat>22</sat>
+  </wpt>
+  <wpt lat="-8.02974557" lon="-34.93175255">
+    <ele>6.51385498046875</ele>
+    <time>2024-05-01T13:31:15Z</time>
+    <name>Mão Dupla</name>
+    <sat>20</sat>
+  </wpt>
+  <wpt lat="-8.02974152" lon="-34.93175061">
+    <ele>8.905487060546875</ele>
+    <time>2024-05-01T13:31:21Z</time>
+    <name>Toda área de circulação pintada de vermelho</name>
+    <sat>17</sat>
+  </wpt>
+  <wpt lat="-8.02974079" lon="-34.93175112">
+    <ele>8.74005126953125</ele>
+    <time>2024-05-01T13:31:25Z</time>
+    <name>Tachões</name>
+    <sat>19</sat>
+  </wpt>
+  <wpt lat="-8.02974126" lon="-34.93175162">
+    <ele>8.637664794921875</ele>
+    <time>2024-05-01T13:31:43Z</time>
+    <name>Toda área de circulação pintada de vermelho</name>
+    <sat>19</sat>
+  </wpt>
+  <wpt lat="-8.02974164" lon="-34.93175212">
+    <ele>8.492279052734375</ele>
+    <time>2024-05-01T13:31:45Z</time>
+    <name>Asfalto</name>
+    <sat>20</sat>
+  </wpt>
+  <wpt lat="-8.0297416" lon="-34.93175213">
+    <ele>8.49859619140625</ele>
+    <time>2024-05-01T13:31:49Z</time>
+    <name>2 faixas</name>
+    <sat>19</sat>
+  </wpt>
+  <wpt lat="-8.02974164" lon="-34.93175217">
+    <ele>8.50201416015625</ele>
+    <time>2024-05-01T13:31:53Z</time>
+    <name>Estacionamento de um lado, incluso na circulação</name>
+    <sat>19</sat>
+  </wpt>
+  <wpt lat="-8.02974191" lon="-34.9317518">
+    <ele>8.53167724609375</ele>
+    <time>2024-05-01T13:32:06Z</time>
+    <name>Foto</name>
+    <link href="2024-05-01_10-32-06.jpg">
+      <text>2024-05-01_10-32-06.jpg</text>
+    </link>
+    <sat>22</sat>
+  </wpt>
+  <wpt lat="-8.029741" lon="-34.93175143">
+    <ele>8.697357177734375</ele>
+    <time>2024-05-01T13:32:11Z</time>
+    <name>Pictograma MÁ condição</name>
+    <sat>15</sat>
+  </wpt>
+  <wpt lat="-8.02974123" lon="-34.93175181">
+    <ele>8.619232177734375</ele>
+    <time>2024-05-01T13:32:15Z</time>
+    <name>Seta MÁ condição</name>
+    <sat>20</sat>
+  </wpt>
+  <wpt lat="-8.02976235" lon="-34.93175285">
+    <ele>9.835174560546875</ele>
+    <time>2024-05-01T13:32:43Z</time>
+    <name>Total da via (incluindo a ciclo) (cm)</name>
+    <sat>20</sat>
+  </wpt>
+  <wpt lat="-8.02976235" lon="-34.93175285">
+    <ele>9.835174560546875</ele>
+    <time>2024-05-01T13:32:43Z</time>
+    <name>730</name>
+    <sat>20</sat>
+  </wpt>
+  <wpt lat="-8.02975945" lon="-34.93174126">
+    <ele>12.81524658203125</ele>
+    <time>2024-05-01T13:33:09Z</time>
+    <name>Faixa de carros logo ao lado da ciclo (cm)</name>
+    <sat>12</sat>
+  </wpt>
+  <wpt lat="-8.02975967" lon="-34.93174129">
+    <ele>12.82403564453125</ele>
+    <time>2024-05-01T13:33:10Z</time>
+    <name>220</name>
+    <sat>14</sat>
+  </wpt>
+  <wpt lat="-8.02976007" lon="-34.93174135">
+    <ele>12.80120849609375</ele>
+    <time>2024-05-01T13:33:14Z</time>
+    <name>Área de amortecimento da ciclo (cm)</name>
+    <sat>17</sat>
+  </wpt>
+  <wpt lat="-8.02976007" lon="-34.93174135">
+    <ele>12.80120849609375</ele>
+    <time>2024-05-01T13:33:14Z</time>
+    <name>25</name>
+    <sat>17</sat>
+  </wpt>
+  <wpt lat="-8.02975977" lon="-34.93174199">
+    <ele>13.10247802734375</ele>
+    <time>2024-05-01T13:33:19Z</time>
+    <name>Área transitável da ciclo (cm)</name>
+    <sat>16</sat>
+  </wpt>
+  <wpt lat="-8.02975965" lon="-34.93174218">
+    <ele>13.092529296875</ele>
+    <time>2024-05-01T13:33:20Z</time>
+    <name>105</name>
+    <sat>19</sat>
+  </wpt>
+  <wpt lat="-8.0299741" lon="-34.9318139">
+    <ele>-5.977874755859375</ele>
+    <time>2024-05-01T13:34:53Z</time>
+    <name>Foto</name>
+    <link href="2024-05-01_10-34-53.jpg">
+      <text>2024-05-01_10-34-53.jpg</text>
+    </link>
+    <sat>22</sat>
+  </wpt>
+  <wpt lat="-8.03026114" lon="-34.93188518">
+    <ele>3.69659423828125</ele>
+    <time>2024-05-01T13:35:22Z</time>
+    <name>Bueiro</name>
+    <sat>18</sat>
+  </wpt>
+  <wpt lat="-8.03026282" lon="-34.93188364">
+    <ele>5.606170654296875</ele>
+    <time>2024-05-01T13:35:27Z</time>
+    <name>Pictograma MÁ condição</name>
+    <sat>15</sat>
+  </wpt>
+  <wpt lat="-8.03026326" lon="-34.93188305">
+    <ele>5.853271484375</ele>
+    <time>2024-05-01T13:35:28Z</time>
+    <name>Seta MÁ condição</name>
+    <sat>15</sat>
+  </wpt>
+  <wpt lat="-8.0303058" lon="-34.93189236">
+    <ele>3.538726806640625</ele>
+    <time>2024-05-01T13:35:41Z</time>
+    <name>Em cruzamento MÁ condição</name>
+    <sat>21</sat>
+  </wpt>
+  <wpt lat="-8.03046809" lon="-34.9319135">
+    <ele>6.024749755859375</ele>
+    <time>2024-05-01T13:36:01Z</time>
+    <name>Buraco</name>
+    <sat>26</sat>
+  </wpt>
+  <wpt lat="-8.03047078" lon="-34.93190361">
+    <ele>4.876617431640625</ele>
+    <time>2024-05-01T13:36:16Z</time>
+    <name>Foto</name>
+    <link href="2024-05-01_10-36-16.jpg">
+      <text>2024-05-01_10-36-16.jpg</text>
+    </link>
+    <sat>24</sat>
+  </wpt>
+  <wpt lat="-8.03052212" lon="-34.93192316">
+    <ele>5.271636962890625</ele>
+    <time>2024-05-01T13:36:31Z</time>
+    <name>Foto</name>
+    <link href="2024-05-01_10-36-31.jpg">
+      <text>2024-05-01_10-36-31.jpg</text>
+    </link>
+    <sat>26</sat>
+  </wpt>
+  <wpt lat="-8.03052204" lon="-34.9319233">
+    <ele>5.2711181640625</ele>
+    <time>2024-05-01T13:36:33Z</time>
+    <name>R-34</name>
+    <sat>27</sat>
+  </wpt>
+  <wpt lat="-8.0305901" lon="-34.93195193">
+    <ele>6.416717529296875</ele>
+    <time>2024-05-01T13:36:57Z</time>
+    <name>Lombadas físicas</name>
+    <sat>24</sat>
+  </wpt>
+  <wpt lat="-8.03067459" lon="-34.93197367">
+    <ele>7.798004150390625</ele>
+    <time>2024-05-01T13:37:14Z</time>
+    <name>Outro obstáculo</name>
+    <sat>27</sat>
+  </wpt>
+  <wpt lat="-8.03067459" lon="-34.93197367">
+    <ele>7.798004150390625</ele>
+    <time>2024-05-01T13:37:14Z</time>
+    <name>calçada invade ciclofaixa </name>
+    <sat>27</sat>
+  </wpt>
+  <wpt lat="-8.03067596" lon="-34.93197504">
+    <ele>8.155487060546875</ele>
+    <time>2024-05-01T13:37:35Z</time>
+    <name>Foto</name>
+    <link href="2024-05-01_10-37-35.jpg">
+      <text>2024-05-01_10-37-35.jpg</text>
+    </link>
+    <sat>23</sat>
+  </wpt>
+  <wpt lat="-8.03074061" lon="-34.93200018">
+    <ele>6.30780029296875</ele>
+    <time>2024-05-01T13:37:50Z</time>
+    <name>Foto</name>
+    <link href="2024-05-01_10-37-50.jpg">
+      <text>2024-05-01_10-37-50.jpg</text>
+    </link>
+    <sat>26</sat>
+  </wpt>
+  <wpt lat="-8.03073886" lon="-34.93200121">
+    <ele>6.30450439453125</ele>
+    <time>2024-05-01T13:37:52Z</time>
+    <name>aqui inicia trecho sem ciclofaixa demarcada</name>
+    <sat>26</sat>
+  </wpt>
+  <wpt lat="-8.03124486" lon="-34.93211384">
+    <ele>9.0260009765625</ele>
+    <time>2024-05-01T13:38:50Z</time>
+    <name>Foto</name>
+    <link href="2024-05-01_10-38-50.jpg">
+      <text>2024-05-01_10-38-50.jpg</text>
+    </link>
+    <sat>18</sat>
+  </wpt>
+  <wpt lat="-8.03124484" lon="-34.93211414">
+    <ele>9.241729736328125</ele>
+    <time>2024-05-01T13:38:52Z</time>
+    <name>aqui a Ciclofaixa volta</name>
+    <sat>20</sat>
+  </wpt>
+  <wpt lat="-8.03169002" lon="-34.93221673">
+    <ele>9.524627685546875</ele>
+    <time>2024-05-01T13:39:38Z</time>
+    <name>Pictograma MÁ condição</name>
+    <sat>20</sat>
+  </wpt>
+  <wpt lat="-8.03169064" lon="-34.93221714">
+    <ele>9.78656005859375</ele>
+    <time>2024-05-01T13:39:39Z</time>
+    <name>Seta MÁ condição</name>
+    <sat>18</sat>
+  </wpt>
+  <wpt lat="-8.03180357" lon="-34.93223501">
+    <ele>7.36114501953125</ele>
+    <time>2024-05-01T13:40:03Z</time>
+    <name>Foto</name>
+    <link href="2024-05-01_10-40-03.jpg">
+      <text>2024-05-01_10-40-03.jpg</text>
+    </link>
+    <sat>19</sat>
+  </wpt>
+  <wpt lat="-8.03195953" lon="-34.93226956">
+    <ele>8.34149169921875</ele>
+    <time>2024-05-01T13:41:01Z</time>
+    <name>Total da via (incluindo a ciclo) (cm)</name>
+    <sat>22</sat>
+  </wpt>
+  <wpt lat="-8.03195953" lon="-34.93226956">
+    <ele>8.34149169921875</ele>
+    <time>2024-05-01T13:41:01Z</time>
+    <name>730</name>
+    <sat>22</sat>
+  </wpt>
+  <wpt lat="-8.03195931" lon="-34.93226953">
+    <ele>8.4132080078125</ele>
+    <time>2024-05-01T13:41:06Z</time>
+    <name>Faixa de carros logo ao lado da ciclo (cm)</name>
+    <sat>18</sat>
+  </wpt>
+  <wpt lat="-8.03195928" lon="-34.93226958">
+    <ele>8.400115966796875</ele>
+    <time>2024-05-01T13:41:07Z</time>
+    <name>220</name>
+    <sat>19</sat>
+  </wpt>
+  <wpt lat="-8.03197473" lon="-34.93225139">
+    <ele>8.361083984375</ele>
+    <time>2024-05-01T13:41:44Z</time>
+    <name>Área de amortecimento da ciclo (cm)</name>
+    <sat>19</sat>
+  </wpt>
+  <wpt lat="-8.03197473" lon="-34.93225139">
+    <ele>8.361083984375</ele>
+    <time>2024-05-01T13:41:44Z</time>
+    <name>25</name>
+    <sat>19</sat>
+  </wpt>
+  <wpt lat="-8.03197744" lon="-34.9322489">
+    <ele>7.9090576171875</ele>
+    <time>2024-05-01T13:41:49Z</time>
+    <name>Área transitável da ciclo (cm)</name>
+    <sat>17</sat>
+  </wpt>
+  <wpt lat="-8.03197744" lon="-34.9322489">
+    <ele>7.9090576171875</ele>
+    <time>2024-05-01T13:41:49Z</time>
+    <name>105</name>
+    <sat>17</sat>
+  </wpt>
+  <wpt lat="-8.03197792" lon="-34.9322752">
+    <ele>5.270843505859375</ele>
+    <time>2024-05-01T13:42:56Z</time>
+    <name>Foto</name>
+    <link href="2024-05-01_10-42-56.jpg">
+      <text>2024-05-01_10-42-56.jpg</text>
+    </link>
+    <sat>20</sat>
+  </wpt>
+  <wpt lat="-8.03201124" lon="-34.93227304">
+    <ele>6.130340576171875</ele>
+    <time>2024-05-01T13:43:22Z</time>
+    <name>Lombadas físicas</name>
+    <sat>18</sat>
+  </wpt>
+  <wpt lat="-8.03214186" lon="-34.93227741">
+    <ele>4.87451171875</ele>
+    <time>2024-05-01T13:43:43Z</time>
+    <name>Pictograma MÁ condição</name>
+    <sat>22</sat>
+  </wpt>
+  <wpt lat="-8.0321436" lon="-34.93227639">
+    <ele>5.020843505859375</ele>
+    <time>2024-05-01T13:43:44Z</time>
+    <name>Seta MÁ condição</name>
+    <sat>22</sat>
+  </wpt>
+  <wpt lat="-8.03227497" lon="-34.93228938">
+    <ele>5.7852783203125</ele>
+    <time>2024-05-01T13:44:09Z</time>
+    <name>Outro obstáculo</name>
+    <sat>19</sat>
+  </wpt>
+  <wpt lat="-8.03227498" lon="-34.93228977">
+    <ele>5.76971435546875</ele>
+    <time>2024-05-01T13:44:10Z</time>
+    <name>calçada invade ciclofaixa </name>
+    <sat>19</sat>
+  </wpt>
+  <wpt lat="-8.03227376" lon="-34.93228827">
+    <ele>6.106842041015625</ele>
+    <time>2024-05-01T13:44:29Z</time>
+    <name>Foto</name>
+    <link href="2024-05-01_10-44-29.jpg">
+      <text>2024-05-01_10-44-29.jpg</text>
+    </link>
+    <sat>19</sat>
+  </wpt>
+  <wpt lat="-8.03234079" lon="-34.93230798">
+    <ele>4.679931640625</ele>
+    <time>2024-05-01T13:44:45Z</time>
+    <name>Outro obstáculo</name>
+    <sat>21</sat>
+  </wpt>
+  <wpt lat="-8.03234461" lon="-34.93231338">
+    <ele>4.559661865234375</ele>
+    <time>2024-05-01T13:44:48Z</time>
+    <name>calçada invade ciclofaixa </name>
+    <sat>21</sat>
+  </wpt>
+  <wpt lat="-8.03234648" lon="-34.93231337">
+    <ele>4.327117919921875</ele>
+    <time>2024-05-01T13:45:07Z</time>
+    <name>Foto</name>
+    <link href="2024-05-01_10-45-07.jpg">
+      <text>2024-05-01_10-45-07.jpg</text>
+    </link>
+    <sat>25</sat>
+  </wpt>
+  <wpt lat="-8.03262764" lon="-34.932337">
+    <ele>4.86602783203125</ele>
+    <time>2024-05-01T13:45:47Z</time>
+    <name>Pictograma MÁ condição</name>
+    <sat>25</sat>
+  </wpt>
+  <wpt lat="-8.03262617" lon="-34.93233708">
+    <ele>4.86602783203125</ele>
+    <time>2024-05-01T13:45:48Z</time>
+    <name>Seta MÁ condição</name>
+    <sat>26</sat>
+  </wpt>
+  <wpt lat="-8.03268719" lon="-34.93236809">
+    <ele>6.43426513671875</ele>
+    <time>2024-05-01T13:46:43Z</time>
+    <name>AMBAS: NENHUM ou QUASE NENHUM segregador.</name>
+    <sat>21</sat>
+  </wpt>
+  <wpt lat="-8.03268473" lon="-34.93237038">
+    <ele>5.254852294921875</ele>
+    <time>2024-05-01T13:46:50Z</time>
+    <name>A ciclo é completamente reta.</name>
+    <sat>22</sat>
+  </wpt>
+  <wpt lat="-8.0326812" lon="-34.93237226">
+    <ele>4.830108642578125</ele>
+    <time>2024-05-01T13:47:01Z</time>
+    <name>Sombras em alguns trechos, SEM mudas novas</name>
+    <sat>20</sat>
+  </wpt>
+  <wpt lat="-8.03268425" lon="-34.93237322">
+    <ele>5.119354248046875</ele>
+    <time>2024-05-01T13:47:08Z</time>
+    <name>A pintura é MUITO falha, mostrando muito asfalto</name>
+    <sat>24</sat>
+  </wpt>
+  <wpt lat="-8.03268694" lon="-34.93237404">
+    <ele>5.233306884765625</ele>
+    <time>2024-05-01T13:47:24Z</time>
+    <name>Irregularidades que demandam desvio para circulação</name>
+    <sat>23</sat>
+  </wpt>
+  <wpt lat="-8.03268749" lon="-34.9323742">
+    <ele>5.298065185546875</ele>
+    <time>2024-05-01T13:47:34Z</time>
+    <name>Iluminação geral na via do outro lado da infraestrutura</name>
+    <sat>15</sat>
+  </wpt>
+</gpx>
