@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resumo de Erros</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 20px;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+        .summary-table caption {
+            font-weight: bold;
+            font-size: 1.2em;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Resumo de Erros e Avisos</h1>
+    
+    <table class="summary-table">
+        <caption>Resumo Geral</caption>
+        <tr>
+            <th>Total de Elementos</th>
+            <th>Total de Erros</th>
+            <th>Total de Avisos</th>
+            <th>Total de Campos Vazios</th>
+        </tr>
+        <tr>
+            <td id="total-elements">0</td>
+            <td id="total-errors">0</td>
+            <td id="total-warnings">0</td>
+            <td id="total-empty-values">0</td>
+        </tr>
+    </table>
+
+    <div id="error-tables"></div>
+
+    <script>
+        const jsonFilePath = 'http://localhost:3000/data';
+        const gpxBasePath = '/home/daniel/Documentos/code/ciclomputador/src/gpx-files/';
+
+        fetch(jsonFilePath)
+            .then(response => response.json())
+            .then(data => {
+                let totalElements = 0;
+                let totalErrors = 0;
+                let totalWarnings = 0;
+                let totalEmptyValues = 0;
+
+                const errorTablesContainer = document.getElementById('error-tables');
+
+                data.forEach((element, index) => {
+                    if (element.result && element.result.error) {
+                        totalElements++;
+
+                        // Contando erros e avisos
+                        const emptyValuesCount = Array.isArray(element.result.error.emptyValues) ? element.result.error.emptyValues.length : 0;
+                        const warningsCount = element.result.error.warnings ? Object.keys(element.result.error.warnings).length : 0;
+
+                        totalEmptyValues += emptyValuesCount;
+                        totalWarnings += warningsCount;
+
+                        // Se houver erros (campos vazios ou avisos), considera como um erro total
+                        if (emptyValuesCount > 0 || warningsCount > 0) {
+                            totalErrors++;
+                        }
+
+                        // Gerando as tabelas para cada elemento
+                        if (emptyValuesCount > 0 || warningsCount > 0) {
+                            const errorTable = document.createElement('table');
+                            errorTable.className = 'error-table';
+
+                            const caption = document.createElement('caption');
+                            caption.innerHTML = `Elemento ID: ${element.id} <br> <a href="${gpxBasePath}${element.metadata.gpx_name}" target="_blank">Ver GPX</a>`;
+                            errorTable.appendChild(caption);
+
+                            const headerRow = document.createElement('tr');
+                            headerRow.innerHTML = `
+                                <th>Tipo</th>
+                                <th>Descrição</th>
+                            `;
+                            errorTable.appendChild(headerRow);
+
+                            if (emptyValuesCount > 0) {
+                                element.result.error.emptyValues.forEach(error => {
+                                    const row = document.createElement('tr');
+                                    row.innerHTML = `
+                                        <td>Campo Vazio</td>
+                                        <td>${error}</td>
+                                    `;
+                                    errorTable.appendChild(row);
+                                });
+                            }
+
+                            if (warningsCount > 0) {
+                                for (const [warningKey, warningValue] of Object.entries(element.result.error.warnings)) {
+                                    const row = document.createElement('tr');
+                                    row.innerHTML = `
+                                        <td>Aviso</td>
+                                        <td>${warningKey}: ${warningValue}</td>
+                                    `;
+                                    errorTable.appendChild(row);
+                                }
+                            }
+
+                            errorTablesContainer.appendChild(errorTable);
+                        }
+                    }
+                });
+
+                // Atualizando a tabela resumo com os totais
+                document.getElementById('total-elements').innerText = totalElements;
+                document.getElementById('total-errors').innerText = totalErrors;
+                document.getElementById('total-warnings').innerText = totalWarnings;
+                document.getElementById('total-empty-values').innerText = totalEmptyValues;
+            })
+            .catch(error => console.error('Erro ao carregar o arquivo JSON:', error));
+    </script>
+</body>
+</html>

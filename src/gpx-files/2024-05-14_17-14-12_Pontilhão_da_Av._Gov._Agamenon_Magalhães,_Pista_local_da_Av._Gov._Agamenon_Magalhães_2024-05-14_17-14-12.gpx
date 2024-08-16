@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gpx>
+<gpx xmlns="http://www.topografix.com/GPX/1/1" version="1.1" creator="OSMTracker for Android™ - https://github.com/labexp/osmtracker-android" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd ">
   <metadata>
     <name>2024-05-14_17-14-12 Pontilhão da Av. Gov. Agamenon Magalhães, Pista local da Av. Gov. Agamenon Magalhães</name>
     <keywords>auditoria cicloviaria</keywords>
@@ -7,6 +7,8 @@
     <desc>CV015, &#xD;
 CF015, &#xD;
 AC015</desc>
+    <code>242</code>
+    <scode>000</scode>
   </metadata>
   <wpt lat="-8.038833333333335" lon="-34.87804833333333">
     <ele>-3.9000000000000004</ele>
@@ -116,4 +118,2137 @@ AC015</desc>
     <name>R-34</name>
     <sat>30</sat>
   </wpt>
+  <trk>
+    <name>Gravado com OSMTracker para Android™</name>
+    <trkseg>
+      <trkpt lat="-8.038838333333333" lon="-34.87806333333333">
+        <ele>-3.7</ele>
+        <time>2024-05-14T20:14:15Z</time>
+        <extensions>
+          <speed>0.005147222429513931</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-8.038841666666666" lon="-34.87806333333333">
+        <ele>-3.7</ele>
+        <time>2024-05-14T20:14:16Z</time>
+        <extensions>
+          <speed>0.017500555142760277</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-8.038853333333332" lon="-34.87807333333333">
+        <ele>-3.5</ele>
+        <time>2024-05-14T20:14:16Z</time>
+        <extensions>
+          <speed>0.02933916635811329</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-8.038848333333334" lon="-34.878076666666665">
+        <ele>-3.5999999999999996</ele>
+        <time>2024-05-14T20:14:17Z</time>
+        <extensions>
+          <speed>0.10860639065504074</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-8.03885" lon="-34.87806666666667">
+        <ele>-3.5999999999999996</ele>
+        <time>2024-05-14T20:14:17Z</time>
+        <extensions>
+          <speed>0.23316916823387146</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-8.038848333333334" lon="-34.87806166666667">
+        <ele>-3.8</ele>
+        <time>2024-05-14T20:14:18Z</time>
+        <extensions>
+          <speed>0.20383000373840332</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-8.03885" lon="-34.87806">
+        <ele>-3.8</ele>
+        <time>2024-05-14T20:14:19Z</time>
+        <extensions>
+          <speed>0.31912776827812195</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-8.03885" lon="-34.878058333333335">
+        <ele>-3.7</ele>
+        <time>2024-05-14T20:14:20Z</time>
+        <extensions>
+          <speed>0.13279832899570465</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-8.038851666666666" lon="-34.878056666666666">
+        <ele>-3.9000000000000004</ele>
+        <time>2024-05-14T20:14:21Z</time>
+        <extensions>
+          <speed>0.0761788859963417</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-8.03885" lon="-34.878056666666666">
+        <ele>-4.1</ele>
+        <time>2024-05-14T20:14:22Z</time>
+        <extensions>
+          <speed>0.05456055700778961</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-8.03885" lon="-34.878055">
+        <ele>-4.3</ele>
+        <time>2024-05-14T20:14:24Z</time>
+        <extensions>
+          <speed>0.039633609354496</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-8.038848333333334" lon="-34.878056666666666">
+        <ele>-4.4</ele>
+        <time>2024-05-14T20:14:25Z</time>
+        <extensions>
+          <speed>0.3258191645145416</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-8.038841666666666" lon="-34.878056666666666">
+        <ele>-4.5</ele>
+        <time>2024-05-14T20:14:25Z</time>
+        <extensions>
+          <speed>0.21206556260585785</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-8.03884" lon="-34.878056666666666">
+        <ele>-4.4</ele>
+        <time>2024-05-14T20:14:27Z</time>
+        <extensions>
+          <speed>0.1986827850341797</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-8.038836666666667" lon="-34.878053333333334">
+        <ele>-4.5</ele>
+        <time>2024-05-14T20:14:28Z</time>
+        <extensions>
+          <speed>0.23368388414382935</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-8.038838333333333" lon="-34.878053333333334">
+        <ele>-4.4</ele>
+        <time>2024-05-14T20:14:29Z</time>
+        <extensions>
+          <speed>0.05610472336411476</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-8.038838333333333" lon="-34.878053333333334">
+        <ele>-4.4</ele>
+        <time>2024-05-14T20:14:30Z</time>
+        <extensions>
+          <speed>0.028824444860219955</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-8.038836666666667" lon="-34.878053333333334">
+        <ele>-4.4</ele>
+        <time>2024-05-14T20:14:31Z</time>
+        <extensions>
+          <speed>0.1708877831697464</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-8.038835" lon="-34.878053333333334">
+        <ele>-4.3</ele>
+        <time>2024-05-14T20:14:32Z</time>
+        <extensions>
+          <speed>0.09213528037071228</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-8.038835" lon="-34.878053333333334">
+        <ele>-4.3</ele>
+        <time>2024-05-14T20:14:33Z</time>
+        <extensions>
+          <speed>0.13897499442100525</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-8.038831666666665" lon="-34.878055">
+        <ele>-4.3</ele>
+        <time>2024-05-14T20:14:34Z</time>
+        <extensions>
+          <speed>0.2290513962507248</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-8.038829999999999" lon="-34.878055">
+        <ele>-4.3</ele>
+        <time>2024-05-14T20:14:35Z</time>
+        <extensions>
+          <speed>0.07669360935688019</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-8.038829999999999" lon="-34.878055">
+        <ele>-4.4</ele>
+        <time>2024-05-14T20:14:36Z</time>
+        <extensions>
+          <speed>0.12971000373363495</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-8.038831666666665" lon="-34.878055">
+        <ele>-4.4</ele>
+        <time>2024-05-14T20:14:37Z</time>
+        <extensions>
+          <speed>0.112724170088768</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-8.038835" lon="-34.878053333333334">
+        <ele>-4.3</ele>
+        <time>2024-05-14T20:14:38Z</time>
+        <extensions>
+          <speed>0.10140027850866318</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-8.038833333333335" lon="-34.87805166666667">
+        <ele>-4.2</ele>
+        <time>2024-05-14T20:14:39Z</time>
+        <extensions>
+          <speed>0.12147444486618042</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-8.038833333333335" lon="-34.87804833333333">
+        <ele>-4.0</ele>
+        <time>2024-05-14T20:14:40Z</time>
+        <extensions>
+          <speed>0.12971000373363495</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-8.038833333333335" lon="-34.87804833333333">
+        <ele>-4.0</ele>
+        <time>2024-05-14T20:14:41Z</time>
+        <extensions>
+          <speed>0.1189008355140686</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-8.038833333333335" lon="-34.87804833333333">
+        <ele>-3.9000000000000004</ele>
+        <time>2024-05-14T20:14:42Z</time>
+        <extensions>
+          <speed>0.11787138879299164</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-8.038833333333335" lon="-34.87804833333333">
+        <ele>-3.9000000000000004</ele>
+        <time>2024-05-14T20:14:43Z</time>
+        <extensions>
+          <speed>0.11015055328607559</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-8.038833333333335" lon="-34.87804833333333">
+        <ele>-3.9000000000000004</ele>
+        <time>2024-05-14T20:14:43Z</time>
+        <extensions>
+          <speed>0.11015055328607559</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-8.038831666666665" lon="-34.87804833333333">
+        <ele>-3.9000000000000004</ele>
+        <time>2024-05-14T20:14:44Z</time>
+        <extensions>
+          <speed>0.09110583364963531</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-8.038833333333335" lon="-34.87804833333333">
+        <ele>-3.9000000000000004</ele>
+        <time>2024-05-14T20:14:45Z</time>
+        <extensions>
+          <speed>0.08647333085536957</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-8.038833333333335" lon="-34.87804833333333">
+        <ele>-3.9000000000000004</ele>
+        <time>2024-05-14T20:14:46Z</time>
+        <extensions>
+          <speed>0.08338499814271927</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-8.038833333333335" lon="-34.87804666666667">
+        <ele>-3.8</ele>
+        <time>2024-05-14T20:14:47Z</time>
+        <extensions>
+          <speed>0.0</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-8.038833333333335" lon="-34.87804666666667">
+        <ele>-3.7</ele>
+        <time>2024-05-14T20:14:48Z</time>
+        <extensions>
+          <speed>0.0</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-8.038835" lon="-34.878045">
+        <ele>-3.5999999999999996</ele>
+        <time>2024-05-14T20:14:49Z</time>
+        <extensions>
+          <speed>0.0</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-8.038835" lon="-34.878045">
+        <ele>-3.5999999999999996</ele>
+        <time>2024-05-14T20:14:50Z</time>
+        <extensions>
+          <speed>0.0</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-8.038835" lon="-34.878045">
+        <ele>-3.5999999999999996</ele>
+        <time>2024-05-14T20:14:51Z</time>
+        <extensions>
+          <speed>0.0</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-8.038835" lon="-34.878045">
+        <ele>-3.5999999999999996</ele>
+        <time>2024-05-14T20:14:52Z</time>
+        <extensions>
+          <speed>0.0</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-8.038835" lon="-34.878045">
+        <ele>-3.5999999999999996</ele>
+        <time>2024-05-14T20:14:53Z</time>
+        <extensions>
+          <speed>0.0</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-8.038835" lon="-34.878045">
+        <ele>-3.5999999999999996</ele>
+        <time>2024-05-14T20:14:54Z</time>
+        <extensions>
+          <speed>0.0</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-8.038835" lon="-34.878045">
+        <ele>-3.5999999999999996</ele>
+        <time>2024-05-14T20:14:55Z</time>
+        <extensions>
+          <speed>0.0</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-8.038835" lon="-34.878045">
+        <ele>-3.5999999999999996</ele>
+        <time>2024-05-14T20:14:56Z</time>
+        <extensions>
+          <speed>0.0</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-8.038835" lon="-34.878045">
+        <ele>-3.5999999999999996</ele>
+        <time>2024-05-14T20:14:57Z</time>
+        <extensions>
+          <speed>0.0</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-8.038835" lon="-34.878045">
+        <ele>-3.5999999999999996</ele>
+        <time>2024-05-14T20:14:58Z</time>
+        <extensions>
+          <speed>0.0</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-8.038835" lon="-34.878045">
+        <ele>-3.5999999999999996</ele>
+        <time>2024-05-14T20:14:59Z</time>
+        <extensions>
+          <speed>0.0</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-8.038835" lon="-34.878045">
+        <ele>-3.5999999999999996</ele>
+        <time>2024-05-14T20:15:00Z</time>
+        <extensions>
+          <speed>0.0</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-8.038835" lon="-34.878045">
+        <ele>-3.5999999999999996</ele>
+        <time>2024-05-14T20:15:01Z</time>
+        <extensions>
+          <speed>0.0</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-8.038835" lon="-34.878045">
+        <ele>-3.5999999999999996</ele>
+        <time>2024-05-14T20:15:02Z</time>
+        <extensions>
+          <speed>0.0</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-8.038835" lon="-34.878045">
+        <ele>-3.5999999999999996</ele>
+        <time>2024-05-14T20:15:03Z</time>
+        <extensions>
+          <speed>0.0</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-8.038835" lon="-34.878045">
+        <ele>-3.5999999999999996</ele>
+        <time>2024-05-14T20:15:03Z</time>
+        <extensions>
+          <speed>0.0</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-8.038835" lon="-34.878045">
+        <ele>-3.5999999999999996</ele>
+        <time>2024-05-14T20:15:04Z</time>
+        <extensions>
+          <speed>0.0</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-8.038835" lon="-34.878045">
+        <ele>-3.5999999999999996</ele>
+        <time>2024-05-14T20:15:05Z</time>
+        <extensions>
+          <speed>0.0</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-8.038835" lon="-34.878045">
+        <ele>-3.5999999999999996</ele>
+        <time>2024-05-14T20:15:06Z</time>
+        <extensions>
+          <speed>0.0</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-8.038835" lon="-34.878045">
+        <ele>-3.5999999999999996</ele>
+        <time>2024-05-14T20:15:07Z</time>
+        <extensions>
+          <speed>0.0</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-8.038835" lon="-34.878045">
+        <ele>-3.5999999999999996</ele>
+        <time>2024-05-14T20:15:08Z</time>
+        <extensions>
+          <speed>0.0</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-8.038835" lon="-34.878045">
+        <ele>-3.5999999999999996</ele>
+        <time>2024-05-14T20:15:09Z</time>
+        <extensions>
+          <speed>0.0</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-8.038835" lon="-34.878045">
+        <ele>-3.5999999999999996</ele>
+        <time>2024-05-14T20:15:10Z</time>
+        <extensions>
+          <speed>0.0</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-8.038835" lon="-34.878045">
+        <ele>-3.5999999999999996</ele>
+        <time>2024-05-14T20:15:11Z</time>
+        <extensions>
+          <speed>0.0</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-8.038835" lon="-34.878045">
+        <ele>-3.5999999999999996</ele>
+        <time>2024-05-14T20:15:11Z</time>
+        <extensions>
+          <speed>0.0</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-8.038835" lon="-34.878045">
+        <ele>-3.5999999999999996</ele>
+        <time>2024-05-14T20:15:12Z</time>
+        <extensions>
+          <speed>0.0</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-8.038835" lon="-34.878045">
+        <ele>-3.5999999999999996</ele>
+        <time>2024-05-14T20:15:13Z</time>
+        <extensions>
+          <speed>0.0</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-8.038835" lon="-34.878045">
+        <ele>-3.5999999999999996</ele>
+        <time>2024-05-14T20:15:14Z</time>
+        <extensions>
+          <speed>0.0</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-8.038835" lon="-34.878045">
+        <ele>-3.5999999999999996</ele>
+        <time>2024-05-14T20:15:14Z</time>
+        <extensions>
+          <speed>0.0</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-8.038835" lon="-34.878045">
+        <ele>-3.5999999999999996</ele>
+        <time>2024-05-14T20:15:15Z</time>
+        <extensions>
+          <speed>0.0</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-8.038835" lon="-34.878045">
+        <ele>-3.5999999999999996</ele>
+        <time>2024-05-14T20:15:16Z</time>
+        <extensions>
+          <speed>0.0</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-8.038835" lon="-34.878045">
+        <ele>-3.5999999999999996</ele>
+        <time>2024-05-14T20:15:16Z</time>
+        <extensions>
+          <speed>0.0</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-8.038835" lon="-34.878045">
+        <ele>-3.5999999999999996</ele>
+        <time>2024-05-14T20:15:17Z</time>
+        <extensions>
+          <speed>0.0</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-8.038835" lon="-34.878045">
+        <ele>-3.5999999999999996</ele>
+        <time>2024-05-14T20:15:18Z</time>
+        <extensions>
+          <speed>0.0</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-8.038835" lon="-34.878045">
+        <ele>-3.5999999999999996</ele>
+        <time>2024-05-14T20:15:18Z</time>
+        <extensions>
+          <speed>0.0</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-8.038835" lon="-34.878045">
+        <ele>-3.5999999999999996</ele>
+        <time>2024-05-14T20:15:19Z</time>
+        <extensions>
+          <speed>0.0</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-8.038835" lon="-34.878045">
+        <ele>-3.5999999999999996</ele>
+        <time>2024-05-14T20:15:20Z</time>
+        <extensions>
+          <speed>0.0</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-8.038835" lon="-34.878045">
+        <ele>-3.5999999999999996</ele>
+        <time>2024-05-14T20:15:21Z</time>
+        <extensions>
+          <speed>0.0</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-8.038835" lon="-34.878045">
+        <ele>-3.5999999999999996</ele>
+        <time>2024-05-14T20:15:22Z</time>
+        <extensions>
+          <speed>0.0</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-8.038835" lon="-34.878045">
+        <ele>-3.5999999999999996</ele>
+        <time>2024-05-14T20:15:23Z</time>
+        <extensions>
+          <speed>0.0</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-8.038835" lon="-34.878045">
+        <ele>-3.5999999999999996</ele>
+        <time>2024-05-14T20:15:24Z</time>
+        <extensions>
+          <speed>0.0</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-8.038835" lon="-34.878045">
+        <ele>-3.5999999999999996</ele>
+        <time>2024-05-14T20:15:25Z</time>
+        <extensions>
+          <speed>0.0</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-8.038835" lon="-34.878045">
+        <ele>-3.5999999999999996</ele>
+        <time>2024-05-14T20:15:26Z</time>
+        <extensions>
+          <speed>0.0</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-8.038835" lon="-34.878045">
+        <ele>-3.5999999999999996</ele>
+        <time>2024-05-14T20:15:26Z</time>
+        <extensions>
+          <speed>0.0</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-8.038835" lon="-34.878045">
+        <ele>-3.5999999999999996</ele>
+        <time>2024-05-14T20:15:27Z</time>
+        <extensions>
+          <speed>0.0</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-8.038835" lon="-34.878045">
+        <ele>-3.5999999999999996</ele>
+        <time>2024-05-14T20:15:28Z</time>
+        <extensions>
+          <speed>0.0</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-8.038835" lon="-34.878045">
+        <ele>-3.5999999999999996</ele>
+        <time>2024-05-14T20:15:29Z</time>
+        <extensions>
+          <speed>0.0</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-8.038835" lon="-34.878045">
+        <ele>-3.5999999999999996</ele>
+        <time>2024-05-14T20:15:29Z</time>
+        <extensions>
+          <speed>0.0</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-8.038835" lon="-34.878045">
+        <ele>-3.5999999999999996</ele>
+        <time>2024-05-14T20:15:30Z</time>
+        <extensions>
+          <speed>0.0</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-8.038835" lon="-34.878045">
+        <ele>-3.5999999999999996</ele>
+        <time>2024-05-14T20:15:31Z</time>
+        <extensions>
+          <speed>0.0</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-8.038835" lon="-34.878045">
+        <ele>-3.5999999999999996</ele>
+        <time>2024-05-14T20:15:32Z</time>
+        <extensions>
+          <speed>0.0</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-8.038835" lon="-34.878045">
+        <ele>-3.5999999999999996</ele>
+        <time>2024-05-14T20:15:33Z</time>
+        <extensions>
+          <speed>0.0</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-8.038835" lon="-34.878045">
+        <ele>-3.5999999999999996</ele>
+        <time>2024-05-14T20:15:33Z</time>
+        <extensions>
+          <speed>0.0</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-8.038835" lon="-34.878045">
+        <ele>-3.5999999999999996</ele>
+        <time>2024-05-14T20:15:34Z</time>
+        <extensions>
+          <speed>0.0</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-8.038835" lon="-34.878045">
+        <ele>-3.5999999999999996</ele>
+        <time>2024-05-14T20:15:35Z</time>
+        <extensions>
+          <speed>0.0</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-8.038835" lon="-34.878045">
+        <ele>-3.5999999999999996</ele>
+        <time>2024-05-14T20:15:36Z</time>
+        <extensions>
+          <speed>0.0</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-8.038835" lon="-34.878045">
+        <ele>-3.5999999999999996</ele>
+        <time>2024-05-14T20:15:37Z</time>
+        <extensions>
+          <speed>0.0</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-8.038835" lon="-34.878045">
+        <ele>-3.5999999999999996</ele>
+        <time>2024-05-14T20:15:38Z</time>
+        <extensions>
+          <speed>0.0</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-8.038835" lon="-34.878045">
+        <ele>-3.5999999999999996</ele>
+        <time>2024-05-14T20:15:39Z</time>
+        <extensions>
+          <speed>0.0</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-8.038835" lon="-34.878045">
+        <ele>-3.5999999999999996</ele>
+        <time>2024-05-14T20:15:40Z</time>
+        <extensions>
+          <speed>0.0</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-8.038835" lon="-34.878045">
+        <ele>-3.5999999999999996</ele>
+        <time>2024-05-14T20:15:41Z</time>
+        <extensions>
+          <speed>0.0</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-8.038835" lon="-34.878045">
+        <ele>-3.5999999999999996</ele>
+        <time>2024-05-14T20:15:42Z</time>
+        <extensions>
+          <speed>0.0</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-8.038835" lon="-34.878045">
+        <ele>-3.5999999999999996</ele>
+        <time>2024-05-14T20:15:43Z</time>
+        <extensions>
+          <speed>0.0</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-8.038835" lon="-34.878045">
+        <ele>-3.5999999999999996</ele>
+        <time>2024-05-14T20:15:43Z</time>
+        <extensions>
+          <speed>0.0</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-8.038835" lon="-34.878045">
+        <ele>-3.5999999999999996</ele>
+        <time>2024-05-14T20:15:44Z</time>
+        <extensions>
+          <speed>0.0</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-8.038835" lon="-34.878045">
+        <ele>-3.5999999999999996</ele>
+        <time>2024-05-14T20:15:44Z</time>
+        <extensions>
+          <speed>0.0</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-8.038835" lon="-34.878045">
+        <ele>-3.5999999999999996</ele>
+        <time>2024-05-14T20:15:45Z</time>
+        <extensions>
+          <speed>0.0</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-8.038835" lon="-34.878045">
+        <ele>-3.5999999999999996</ele>
+        <time>2024-05-14T20:15:46Z</time>
+        <extensions>
+          <speed>0.0</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-8.038835" lon="-34.878045">
+        <ele>-3.5999999999999996</ele>
+        <time>2024-05-14T20:15:47Z</time>
+        <extensions>
+          <speed>0.0</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-8.038835" lon="-34.878045">
+        <ele>-3.5999999999999996</ele>
+        <time>2024-05-14T20:15:48Z</time>
+        <extensions>
+          <speed>0.0</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-8.038835" lon="-34.878045">
+        <ele>-3.5999999999999996</ele>
+        <time>2024-05-14T20:15:48Z</time>
+        <extensions>
+          <speed>0.0</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-8.038835" lon="-34.878045">
+        <ele>-3.5999999999999996</ele>
+        <time>2024-05-14T20:15:48Z</time>
+        <extensions>
+          <speed>0.0</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-8.038835" lon="-34.878045">
+        <ele>-3.5999999999999996</ele>
+        <time>2024-05-14T20:15:49Z</time>
+        <extensions>
+          <speed>0.0</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-8.038835" lon="-34.878045">
+        <ele>-3.5999999999999996</ele>
+        <time>2024-05-14T20:15:50Z</time>
+        <extensions>
+          <speed>0.0</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-8.038835" lon="-34.878045">
+        <ele>-3.5999999999999996</ele>
+        <time>2024-05-14T20:15:51Z</time>
+        <extensions>
+          <speed>0.0</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-8.038835" lon="-34.878045">
+        <ele>-3.5999999999999996</ele>
+        <time>2024-05-14T20:15:52Z</time>
+        <extensions>
+          <speed>0.0</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-8.038835" lon="-34.878045">
+        <ele>-3.5999999999999996</ele>
+        <time>2024-05-14T20:15:53Z</time>
+        <extensions>
+          <speed>0.0</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-8.038835" lon="-34.878045">
+        <ele>-3.5999999999999996</ele>
+        <time>2024-05-14T20:15:54Z</time>
+        <extensions>
+          <speed>0.0</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-8.038835" lon="-34.878045">
+        <ele>-3.5999999999999996</ele>
+        <time>2024-05-14T20:15:55Z</time>
+        <extensions>
+          <speed>0.0</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-8.038835" lon="-34.878045">
+        <ele>-3.5999999999999996</ele>
+        <time>2024-05-14T20:15:56Z</time>
+        <extensions>
+          <speed>0.0</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-8.038835" lon="-34.878045">
+        <ele>-3.5999999999999996</ele>
+        <time>2024-05-14T20:15:57Z</time>
+        <extensions>
+          <speed>0.0</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-8.038835" lon="-34.878045">
+        <ele>-3.5999999999999996</ele>
+        <time>2024-05-14T20:15:58Z</time>
+        <extensions>
+          <speed>0.0</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-8.038835" lon="-34.878045">
+        <ele>-3.5999999999999996</ele>
+        <time>2024-05-14T20:15:58Z</time>
+        <extensions>
+          <speed>0.0</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-8.038835" lon="-34.878045">
+        <ele>-3.5999999999999996</ele>
+        <time>2024-05-14T20:15:59Z</time>
+        <extensions>
+          <speed>0.0</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-8.038835" lon="-34.878045">
+        <ele>-3.5999999999999996</ele>
+        <time>2024-05-14T20:15:59Z</time>
+        <extensions>
+          <speed>0.0</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-8.038835" lon="-34.878045">
+        <ele>-3.5999999999999996</ele>
+        <time>2024-05-14T20:16:00Z</time>
+        <extensions>
+          <speed>0.0</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-8.038835" lon="-34.878045">
+        <ele>-3.5999999999999996</ele>
+        <time>2024-05-14T20:16:00Z</time>
+        <extensions>
+          <speed>0.0</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-8.038835" lon="-34.878045">
+        <ele>-3.5999999999999996</ele>
+        <time>2024-05-14T20:16:01Z</time>
+        <extensions>
+          <speed>0.0</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-8.038835" lon="-34.878045">
+        <ele>-3.5999999999999996</ele>
+        <time>2024-05-14T20:16:02Z</time>
+        <extensions>
+          <speed>0.0</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-8.038835" lon="-34.878045">
+        <ele>-3.5999999999999996</ele>
+        <time>2024-05-14T20:16:03Z</time>
+        <extensions>
+          <speed>0.0</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-8.038835" lon="-34.878045">
+        <ele>-3.5999999999999996</ele>
+        <time>2024-05-14T20:16:04Z</time>
+        <extensions>
+          <speed>0.0</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-8.038835" lon="-34.878045">
+        <ele>-3.5999999999999996</ele>
+        <time>2024-05-14T20:16:04Z</time>
+        <extensions>
+          <speed>0.0</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-8.038835" lon="-34.878045">
+        <ele>-3.5999999999999996</ele>
+        <time>2024-05-14T20:16:05Z</time>
+        <extensions>
+          <speed>0.0</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-8.038835" lon="-34.878045">
+        <ele>-3.5999999999999996</ele>
+        <time>2024-05-14T20:16:06Z</time>
+        <extensions>
+          <speed>0.0</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-8.038835" lon="-34.878045">
+        <ele>-3.5999999999999996</ele>
+        <time>2024-05-14T20:16:07Z</time>
+        <extensions>
+          <speed>0.0</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-8.038835" lon="-34.878045">
+        <ele>-3.5999999999999996</ele>
+        <time>2024-05-14T20:16:08Z</time>
+        <extensions>
+          <speed>0.0</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-8.038835" lon="-34.878045">
+        <ele>-3.5999999999999996</ele>
+        <time>2024-05-14T20:16:09Z</time>
+        <extensions>
+          <speed>0.0</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-8.038835" lon="-34.878045">
+        <ele>-3.5999999999999996</ele>
+        <time>2024-05-14T20:16:10Z</time>
+        <extensions>
+          <speed>0.0</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-8.038835" lon="-34.878045">
+        <ele>-3.5999999999999996</ele>
+        <time>2024-05-14T20:16:11Z</time>
+        <extensions>
+          <speed>0.0</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-8.038835" lon="-34.878045">
+        <ele>-3.5999999999999996</ele>
+        <time>2024-05-14T20:16:12Z</time>
+        <extensions>
+          <speed>0.0</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-8.038835" lon="-34.878045">
+        <ele>-3.5999999999999996</ele>
+        <time>2024-05-14T20:16:13Z</time>
+        <extensions>
+          <speed>0.0</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-8.038835" lon="-34.878045">
+        <ele>-3.5999999999999996</ele>
+        <time>2024-05-14T20:16:14Z</time>
+        <extensions>
+          <speed>0.0</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-8.038835" lon="-34.878045">
+        <ele>-3.5999999999999996</ele>
+        <time>2024-05-14T20:16:15Z</time>
+        <extensions>
+          <speed>0.0</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-8.038835" lon="-34.878045">
+        <ele>-3.5999999999999996</ele>
+        <time>2024-05-14T20:16:16Z</time>
+        <extensions>
+          <speed>0.0</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-8.038835" lon="-34.878045">
+        <ele>-3.5999999999999996</ele>
+        <time>2024-05-14T20:16:17Z</time>
+        <extensions>
+          <speed>0.0</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-8.038823333333333" lon="-34.87803833333333">
+        <ele>-3.8</ele>
+        <time>2024-05-14T20:16:18Z</time>
+        <extensions>
+          <speed>0.33148109912872314</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-8.038815" lon="-34.878025">
+        <ele>-3.8</ele>
+        <time>2024-05-14T20:16:19Z</time>
+        <extensions>
+          <speed>0.507516086101532</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-8.038805" lon="-34.87801">
+        <ele>-4.2</ele>
+        <time>2024-05-14T20:16:20Z</time>
+        <extensions>
+          <speed>0.7139196991920471</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-8.038793333333333" lon="-34.87799">
+        <ele>-4.5</ele>
+        <time>2024-05-14T20:16:21Z</time>
+        <extensions>
+          <speed>0.9630452990531921</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-8.038781666666667" lon="-34.877968333333335">
+        <ele>-4.8</ele>
+        <time>2024-05-14T20:16:22Z</time>
+        <extensions>
+          <speed>1.2296713590621948</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-8.038771666666666" lon="-34.877945">
+        <ele>-5.0</ele>
+        <time>2024-05-14T20:16:23Z</time>
+        <extensions>
+          <speed>1.4973269701004028</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-8.038755" lon="-34.877918333333334">
+        <ele>-5.2</ele>
+        <time>2024-05-14T20:16:24Z</time>
+        <extensions>
+          <speed>1.7999836206436157</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-8.038745" lon="-34.87789">
+        <ele>-5.5</ele>
+        <time>2024-05-14T20:16:25Z</time>
+        <extensions>
+          <speed>2.0506532192230225</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-8.038733333333333" lon="-34.87786666666667">
+        <ele>-5.6</ele>
+        <time>2024-05-14T20:16:26Z</time>
+        <extensions>
+          <speed>2.3337504863739014</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-8.038718333333332" lon="-34.87784333333333">
+        <ele>-5.8</ele>
+        <time>2024-05-14T20:16:27Z</time>
+        <extensions>
+          <speed>2.596773624420166</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-8.038706666666666" lon="-34.87781833333334">
+        <ele>-5.6</ele>
+        <time>2024-05-14T20:16:28Z</time>
+        <extensions>
+          <speed>2.8186187744140625</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-8.038693333333333" lon="-34.87779">
+        <ele>-5.5</ele>
+        <time>2024-05-14T20:16:29Z</time>
+        <extensions>
+          <speed>2.983330011367798</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-8.038678333333333" lon="-34.877763333333334">
+        <ele>-5.5</ele>
+        <time>2024-05-14T20:16:30Z</time>
+        <extensions>
+          <speed>3.1315701007843018</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-8.038663333333334" lon="-34.877735">
+        <ele>-5.6</ele>
+        <time>2024-05-14T20:16:31Z</time>
+        <extensions>
+          <speed>3.2391469478607178</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-8.038649999999999" lon="-34.877705">
+        <ele>-5.5</ele>
+        <time>2024-05-14T20:16:32Z</time>
+        <extensions>
+          <speed>3.3148112297058105</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-8.038638333333333" lon="-34.877673333333334">
+        <ele>-5.5</ele>
+        <time>2024-05-14T20:16:33Z</time>
+        <extensions>
+          <speed>3.388416290283203</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-8.038626666666666" lon="-34.87764166666667">
+        <ele>-5.9</ele>
+        <time>2024-05-14T20:16:34Z</time>
+        <extensions>
+          <speed>3.41363787651062</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-8.038615" lon="-34.877613333333336">
+        <ele>-6.1</ele>
+        <time>2024-05-14T20:16:35Z</time>
+        <extensions>
+          <speed>3.434741497039795</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-8.038601666666667" lon="-34.877584999999996">
+        <ele>-6.1</ele>
+        <time>2024-05-14T20:16:36Z</time>
+        <extensions>
+          <speed>3.4810664653778076</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-8.038601666666667" lon="-34.877584999999996">
+        <ele>-6.1</ele>
+        <time>2024-05-14T20:16:36Z</time>
+        <extensions>
+          <speed>3.4810664653778076</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-8.038588333333333" lon="-34.87755833333333">
+        <ele>-6.3</ele>
+        <time>2024-05-14T20:16:37Z</time>
+        <extensions>
+          <speed>3.491875648498535</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-8.03858" lon="-34.87754333333333">
+        <ele>-8.0</ele>
+        <time>2024-05-14T20:16:38Z</time>
+        <extensions>
+          <speed>3.4676835536956787</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-8.038568333333334" lon="-34.877516666666665">
+        <ele>-8.7</ele>
+        <time>2024-05-14T20:16:39Z</time>
+        <extensions>
+          <speed>3.4496684074401855</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-8.038556666666667" lon="-34.87748833333333">
+        <ele>-8.9</ele>
+        <time>2024-05-14T20:16:40Z</time>
+        <extensions>
+          <speed>3.4455504417419434</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-8.038540000000001" lon="-34.87746166666667">
+        <ele>-9.2</ele>
+        <time>2024-05-14T20:16:41Z</time>
+        <extensions>
+          <speed>3.415181875228882</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-8.038525" lon="-34.877435">
+        <ele>-9.3</ele>
+        <time>2024-05-14T20:16:42Z</time>
+        <extensions>
+          <speed>3.399740219116211</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-8.03851" lon="-34.877404999999996">
+        <ele>-9.2</ele>
+        <time>2024-05-14T20:16:43Z</time>
+        <extensions>
+          <speed>3.386357545852661</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-8.038493333333333" lon="-34.87736833333334">
+        <ele>-8.1</ele>
+        <time>2024-05-14T20:16:44Z</time>
+        <extensions>
+          <speed>3.3559889793395996</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-8.03848" lon="-34.877338333333334">
+        <ele>-6.7</ele>
+        <time>2024-05-14T20:16:45Z</time>
+        <extensions>
+          <speed>3.3338558673858643</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-8.03847" lon="-34.877314999999996">
+        <ele>-7.1</ele>
+        <time>2024-05-14T20:16:46Z</time>
+        <extensions>
+          <speed>3.299884080886841</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-8.038458333333333" lon="-34.87728833333333">
+        <ele>-7.1</ele>
+        <time>2024-05-14T20:16:47Z</time>
+        <extensions>
+          <speed>3.269000768661499</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-8.038446666666665" lon="-34.87726166666666">
+        <ele>-7.1</ele>
+        <time>2024-05-14T20:16:48Z</time>
+        <extensions>
+          <speed>3.2643682956695557</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-8.038433333333334" lon="-34.877233333333336">
+        <ele>-7.1</ele>
+        <time>2024-05-14T20:16:49Z</time>
+        <extensions>
+          <speed>3.247382402420044</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-8.03842" lon="-34.877206666666666">
+        <ele>-7.2</ele>
+        <time>2024-05-14T20:16:50Z</time>
+        <extensions>
+          <speed>3.2087783813476562</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-8.03841" lon="-34.87717833333333">
+        <ele>-7.0</ele>
+        <time>2024-05-14T20:16:51Z</time>
+        <extensions>
+          <speed>3.1953954696655273</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-8.038398333333333" lon="-34.87715166666667">
+        <ele>-6.6</ele>
+        <time>2024-05-14T20:16:52Z</time>
+        <extensions>
+          <speed>3.1778950691223145</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-8.038383333333334" lon="-34.87712666666666">
+        <ele>-6.5</ele>
+        <time>2024-05-14T20:16:53Z</time>
+        <extensions>
+          <speed>3.1717183589935303</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-8.038373333333334" lon="-34.877105">
+        <ele>-7.1</ele>
+        <time>2024-05-14T20:16:54Z</time>
+        <extensions>
+          <speed>3.165026903152466</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-8.038368333333333" lon="-34.87708">
+        <ele>-7.9</ele>
+        <time>2024-05-14T20:16:55Z</time>
+        <extensions>
+          <speed>3.1881895065307617</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-8.038355" lon="-34.877044999999995">
+        <ele>-7.9</ele>
+        <time>2024-05-14T20:16:56Z</time>
+        <extensions>
+          <speed>3.266942024230957</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-8.038345" lon="-34.877010000000006">
+        <ele>-8.1</ele>
+        <time>2024-05-14T20:16:57Z</time>
+        <extensions>
+          <speed>3.366798162460327</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-8.038326666666668" lon="-34.876978333333334">
+        <ele>-8.9</ele>
+        <time>2024-05-14T20:16:58Z</time>
+        <extensions>
+          <speed>3.4944491386413574</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-8.038306666666667" lon="-34.87695">
+        <ele>-9.7</ele>
+        <time>2024-05-14T20:16:59Z</time>
+        <extensions>
+          <speed>3.605114459991455</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-8.038286666666666" lon="-34.876915000000004">
+        <ele>-9.6</ele>
+        <time>2024-05-14T20:17:00Z</time>
+        <extensions>
+          <speed>3.704970598220825</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-8.038273333333333" lon="-34.87688833333333">
+        <ele>-10.1</ele>
+        <time>2024-05-14T20:17:01Z</time>
+        <extensions>
+          <speed>3.7950470447540283</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-8.038255" lon="-34.87685166666667">
+        <ele>-10.4</ele>
+        <time>2024-05-14T20:17:02Z</time>
+        <extensions>
+          <speed>3.9263010025024414</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-8.038234999999998" lon="-34.87681">
+        <ele>-10.4</ele>
+        <time>2024-05-14T20:17:03Z</time>
+        <extensions>
+          <speed>4.042628288269043</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-8.038216666666667" lon="-34.87676666666667">
+        <ele>-10.1</ele>
+        <time>2024-05-14T20:17:04Z</time>
+        <extensions>
+          <speed>4.188809394836426</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-8.0382" lon="-34.876725">
+        <ele>-9.9</ele>
+        <time>2024-05-14T20:17:05Z</time>
+        <extensions>
+          <speed>4.30873966217041</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-8.03818" lon="-34.87667833333333">
+        <ele>-9.3</ele>
+        <time>2024-05-14T20:17:06Z</time>
+        <extensions>
+          <speed>4.357123374938965</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-8.038166666666665" lon="-34.87663666666666">
+        <ele>-9.4</ele>
+        <time>2024-05-14T20:17:07Z</time>
+        <extensions>
+          <speed>4.403448581695557</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-8.038155" lon="-34.876605000000005">
+        <ele>-9.2</ele>
+        <time>2024-05-14T20:17:08Z</time>
+        <extensions>
+          <speed>4.384403705596924</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-8.03814" lon="-34.87657166666667">
+        <ele>-9.4</ele>
+        <time>2024-05-14T20:17:09Z</time>
+        <extensions>
+          <speed>4.428155422210693</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-8.03812" lon="-34.87653">
+        <ele>-9.2</ele>
+        <time>2024-05-14T20:17:10Z</time>
+        <extensions>
+          <speed>4.501760482788086</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-8.038106666666666" lon="-34.876495">
+        <ele>-9.4</ele>
+        <time>2024-05-14T20:17:11Z</time>
+        <extensions>
+          <speed>4.576395511627197</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-8.038088333333333" lon="-34.87645666666666">
+        <ele>-9.5</ele>
+        <time>2024-05-14T20:17:12Z</time>
+        <extensions>
+          <speed>4.618602275848389</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-8.038053333333332" lon="-34.876401666666666">
+        <ele>-8.6</ele>
+        <time>2024-05-14T20:17:13Z</time>
+        <extensions>
+          <speed>4.6844868659973145</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-8.038033333333335" lon="-34.87635833333333">
+        <ele>-8.6</ele>
+        <time>2024-05-14T20:17:14Z</time>
+        <extensions>
+          <speed>4.719488143920898</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-8.038013333333334" lon="-34.87632">
+        <ele>-8.7</ele>
+        <time>2024-05-14T20:17:15Z</time>
+        <extensions>
+          <speed>4.738018035888672</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-8.037993333333333" lon="-34.876281666666664">
+        <ele>-8.8</ele>
+        <time>2024-05-14T20:17:16Z</time>
+        <extensions>
+          <speed>4.775077819824219</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-8.037971666666666" lon="-34.87624166666667">
+        <ele>-8.7</ele>
+        <time>2024-05-14T20:17:17Z</time>
+        <extensions>
+          <speed>4.809049606323242</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-8.037953333333332" lon="-34.87620833333334">
+        <ele>-8.6</ele>
+        <time>2024-05-14T20:17:18Z</time>
+        <extensions>
+          <speed>4.865669250488281</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-8.037931666666667" lon="-34.87616666666667">
+        <ele>-8.2</ele>
+        <time>2024-05-14T20:17:19Z</time>
+        <extensions>
+          <speed>4.892434597015381</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-8.0379" lon="-34.87612333333333">
+        <ele>-7.0</ele>
+        <time>2024-05-14T20:17:20Z</time>
+        <extensions>
+          <speed>4.901699542999268</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-8.037881666666667" lon="-34.876086666666666">
+        <ele>-7.1</ele>
+        <time>2024-05-14T20:17:21Z</time>
+        <extensions>
+          <speed>4.893979072570801</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-8.037865" lon="-34.876043333333335">
+        <ele>-6.8</ele>
+        <time>2024-05-14T20:17:22Z</time>
+        <extensions>
+          <speed>4.880596160888672</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-8.037851666666667" lon="-34.875996666666666">
+        <ele>-6.2</ele>
+        <time>2024-05-14T20:17:23Z</time>
+        <extensions>
+          <speed>4.853830337524414</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-8.037831666666667" lon="-34.875953333333335">
+        <ele>-6.4</ele>
+        <time>2024-05-14T20:17:24Z</time>
+        <extensions>
+          <speed>4.854859828948975</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-8.037811666666666" lon="-34.87591">
+        <ele>-6.3</ele>
+        <time>2024-05-14T20:17:25Z</time>
+        <extensions>
+          <speed>4.866698741912842</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-8.037791666666667" lon="-34.875865">
+        <ele>-6.3</ele>
+        <time>2024-05-14T20:17:26Z</time>
+        <extensions>
+          <speed>4.858463287353516</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-8.03778" lon="-34.87582666666666">
+        <ele>-7.0</ele>
+        <time>2024-05-14T20:17:27Z</time>
+        <extensions>
+          <speed>4.884199142456055</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-8.037763333333334" lon="-34.87578333333333">
+        <ele>-7.1</ele>
+        <time>2024-05-14T20:17:28Z</time>
+        <extensions>
+          <speed>4.904788017272949</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-8.037743333333333" lon="-34.875735">
+        <ele>-6.5</ele>
+        <time>2024-05-14T20:17:29Z</time>
+        <extensions>
+          <speed>4.923317909240723</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-8.037725" lon="-34.87569166666666">
+        <ele>-6.5</ele>
+        <time>2024-05-14T20:17:30Z</time>
+        <extensions>
+          <speed>4.901185035705566</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-8.037706666666667" lon="-34.87565">
+        <ele>-6.5</ele>
+        <time>2024-05-14T20:17:31Z</time>
+        <extensions>
+          <speed>4.941333293914795</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-8.037686666666668" lon="-34.875605">
+        <ele>-6.2</ele>
+        <time>2024-05-14T20:17:32Z</time>
+        <extensions>
+          <speed>4.968613624572754</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-8.037666666666667" lon="-34.87555833333333">
+        <ele>-6.1</ele>
+        <time>2024-05-14T20:17:33Z</time>
+        <extensions>
+          <speed>5.03295373916626</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-8.037645" lon="-34.87551666666666">
+        <ele>-5.6</ele>
+        <time>2024-05-14T20:17:34Z</time>
+        <extensions>
+          <speed>5.07619047164917</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-8.03763" lon="-34.87548833333334">
+        <ele>-6.7</ele>
+        <time>2024-05-14T20:17:35Z</time>
+        <extensions>
+          <speed>5.125089168548584</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-8.037613333333333" lon="-34.87545">
+        <ele>-6.8</ele>
+        <time>2024-05-14T20:17:36Z</time>
+        <extensions>
+          <speed>5.139501571655273</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-8.037591666666666" lon="-34.87540166666667">
+        <ele>-6.8</ele>
+        <time>2024-05-14T20:17:37Z</time>
+        <extensions>
+          <speed>5.095749855041504</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-8.037569999999999" lon="-34.87536">
+        <ele>-7.1</ele>
+        <time>2024-05-14T20:17:38Z</time>
+        <extensions>
+          <speed>5.0576605796813965</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-8.037553333333333" lon="-34.875315">
+        <ele>-6.5</ele>
+        <time>2024-05-14T20:17:39Z</time>
+        <extensions>
+          <speed>5.009276866912842</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-8.037535" lon="-34.87527166666666">
+        <ele>-5.9</ele>
+        <time>2024-05-14T20:17:40Z</time>
+        <extensions>
+          <speed>5.039130687713623</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-8.037511666666667" lon="-34.87522666666667">
+        <ele>-5.4</ele>
+        <time>2024-05-14T20:17:41Z</time>
+        <extensions>
+          <speed>5.0422186851501465</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-8.037491666666666" lon="-34.875186666666664">
+        <ele>-5.0</ele>
+        <time>2024-05-14T20:17:42Z</time>
+        <extensions>
+          <speed>5.043763160705566</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-8.037475" lon="-34.875146666666666">
+        <ele>-4.8</ele>
+        <time>2024-05-14T20:17:43Z</time>
+        <extensions>
+          <speed>5.00618839263916</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-8.037456666666666" lon="-34.875099999999996">
+        <ele>-4.9</ele>
+        <time>2024-05-14T20:17:44Z</time>
+        <extensions>
+          <speed>4.997952938079834</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-8.037438333333334" lon="-34.87506">
+        <ele>-5.1</ele>
+        <time>2024-05-14T20:17:45Z</time>
+        <extensions>
+          <speed>4.99074649810791</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-8.037421666666667" lon="-34.875015">
+        <ele>-5.8</ele>
+        <time>2024-05-14T20:17:46Z</time>
+        <extensions>
+          <speed>5.050969123840332</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-8.037401666666666" lon="-34.874975">
+        <ele>-6.0</ele>
+        <time>2024-05-14T20:17:47Z</time>
+        <extensions>
+          <speed>5.100382328033447</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-8.037378333333333" lon="-34.87493166666666">
+        <ele>-5.9</ele>
+        <time>2024-05-14T20:17:48Z</time>
+        <extensions>
+          <speed>5.170384883880615</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-8.037355" lon="-34.87488666666666">
+        <ele>-6.0</ele>
+        <time>2024-05-14T20:17:49Z</time>
+        <extensions>
+          <speed>5.253769874572754</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-8.037333333333333" lon="-34.87483666666667">
+        <ele>-5.7</ele>
+        <time>2024-05-14T20:17:50Z</time>
+        <extensions>
+          <speed>5.277446746826172</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-8.037313333333334" lon="-34.87479666666666">
+        <ele>-5.8</ele>
+        <time>2024-05-14T20:17:51Z</time>
+        <extensions>
+          <speed>5.2959771156311035</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-8.037298333333332" lon="-34.87476">
+        <ele>-5.9</ele>
+        <time>2024-05-14T20:17:52Z</time>
+        <extensions>
+          <speed>5.277961730957031</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-8.03729" lon="-34.87472">
+        <ele>-6.1</ele>
+        <time>2024-05-14T20:17:53Z</time>
+        <extensions>
+          <speed>5.245019435882568</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-8.037286666666667" lon="-34.874675">
+        <ele>-6.5</ele>
+        <time>2024-05-14T20:17:54Z</time>
+        <extensions>
+          <speed>5.169355392456055</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-8.037306666666666" lon="-34.874645">
+        <ele>-6.9</ele>
+        <time>2024-05-14T20:17:55Z</time>
+        <extensions>
+          <speed>5.035012722015381</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-8.037333333333333" lon="-34.87462166666667">
+        <ele>-7.3</ele>
+        <time>2024-05-14T20:17:56Z</time>
+        <extensions>
+          <speed>4.896037578582764</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-8.037361666666667" lon="-34.8746">
+        <ele>-7.7</ele>
+        <time>2024-05-14T20:17:57Z</time>
+        <extensions>
+          <speed>4.758092403411865</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-8.037389999999998" lon="-34.87459166666667">
+        <ele>-8.4</ele>
+        <time>2024-05-14T20:17:58Z</time>
+        <extensions>
+          <speed>4.585660457611084</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-8.03741" lon="-34.87456666666667">
+        <ele>-8.3</ele>
+        <time>2024-05-14T20:17:59Z</time>
+        <extensions>
+          <speed>4.371021270751953</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-8.03742" lon="-34.87454">
+        <ele>-7.8</ele>
+        <time>2024-05-14T20:18:00Z</time>
+        <extensions>
+          <speed>4.099247932434082</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-8.037421666666667" lon="-34.874514999999995">
+        <ele>-7.6</ele>
+        <time>2024-05-14T20:18:01Z</time>
+        <extensions>
+          <speed>3.767251968383789</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-8.037416666666667" lon="-34.87448333333334">
+        <ele>-7.2</ele>
+        <time>2024-05-14T20:18:02Z</time>
+        <extensions>
+          <speed>3.368342161178589</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-8.037413333333335" lon="-34.874475">
+        <ele>-6.5</ele>
+        <time>2024-05-14T20:18:03Z</time>
+        <extensions>
+          <speed>2.9179601669311523</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-8.037413333333335" lon="-34.874469999999995">
+        <ele>-6.2</ele>
+        <time>2024-05-14T20:18:04Z</time>
+        <extensions>
+          <speed>2.481475830078125</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-8.037415000000001" lon="-34.87446833333333">
+        <ele>-6.1</ele>
+        <time>2024-05-14T20:18:05Z</time>
+        <extensions>
+          <speed>2.1036696434020996</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-8.037413333333335" lon="-34.87446833333333">
+        <ele>-6.2</ele>
+        <time>2024-05-14T20:18:06Z</time>
+        <extensions>
+          <speed>1.7011569738388062</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-8.037413333333335" lon="-34.874469999999995">
+        <ele>-5.6</ele>
+        <time>2024-05-14T20:18:07Z</time>
+        <extensions>
+          <speed>1.3357042074203491</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-8.037413333333335" lon="-34.874471666666665">
+        <ele>-5.2</ele>
+        <time>2024-05-14T20:18:08Z</time>
+        <extensions>
+          <speed>0.9846636056900024</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-8.037413333333335" lon="-34.874469999999995">
+        <ele>-5.1</ele>
+        <time>2024-05-14T20:18:09Z</time>
+        <extensions>
+          <speed>0.651123583316803</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-8.037413333333335" lon="-34.87446833333333">
+        <ele>-4.9</ele>
+        <time>2024-05-14T20:18:10Z</time>
+        <extensions>
+          <speed>0.0</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-8.037416666666667" lon="-34.87446666666666">
+        <ele>-4.5</ele>
+        <time>2024-05-14T20:18:11Z</time>
+        <extensions>
+          <speed>0.0</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-8.037418333333333" lon="-34.874465">
+        <ele>-4.1</ele>
+        <time>2024-05-14T20:18:12Z</time>
+        <extensions>
+          <speed>0.0</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-8.037418333333333" lon="-34.874465">
+        <ele>-4.1</ele>
+        <time>2024-05-14T20:18:13Z</time>
+        <extensions>
+          <speed>0.0</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-8.037418333333333" lon="-34.874465">
+        <ele>-4.1</ele>
+        <time>2024-05-14T20:18:14Z</time>
+        <extensions>
+          <speed>0.0</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-8.037418333333333" lon="-34.874465">
+        <ele>-4.1</ele>
+        <time>2024-05-14T20:18:15Z</time>
+        <extensions>
+          <speed>0.0</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-8.037411666666666" lon="-34.87444666666667">
+        <ele>-3.5999999999999996</ele>
+        <time>2024-05-14T20:18:16Z</time>
+        <extensions>
+          <speed>0.30368611216545105</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-8.037408333333333" lon="-34.874431666666666">
+        <ele>-3.5</ele>
+        <time>2024-05-14T20:18:17Z</time>
+        <extensions>
+          <speed>0.4483230412006378</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-8.037401666666666" lon="-34.874415">
+        <ele>-3.2</ele>
+        <time>2024-05-14T20:18:18Z</time>
+        <extensions>
+          <speed>0.6583297252655029</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-8.037391666666668" lon="-34.87439666666667">
+        <ele>-2.9000000000000004</ele>
+        <time>2024-05-14T20:18:19Z</time>
+        <extensions>
+          <speed>0.9079700112342834</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-8.037385" lon="-34.87437333333333">
+        <ele>-2.7</ele>
+        <time>2024-05-14T20:18:20Z</time>
+        <extensions>
+          <speed>1.1735666990280151</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-8.037376666666667" lon="-34.87434833333334">
+        <ele>-2.5999999999999996</ele>
+        <time>2024-05-14T20:18:21Z</time>
+        <extensions>
+          <speed>1.4551197290420532</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-8.037366666666665" lon="-34.87432">
+        <ele>-2.5</ele>
+        <time>2024-05-14T20:18:22Z</time>
+        <extensions>
+          <speed>1.7562322616577148</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-8.037358333333334" lon="-34.874293333333334">
+        <ele>-2.1999999999999993</ele>
+        <time>2024-05-14T20:18:23Z</time>
+        <extensions>
+          <speed>2.0470502376556396</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-8.037348333333334" lon="-34.87426666666667">
+        <ele>-2.1999999999999993</ele>
+        <time>2024-05-14T20:18:24Z</time>
+        <extensions>
+          <speed>2.352280616760254</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-8.037333333333333" lon="-34.87423666666667">
+        <ele>-2.1999999999999993</ele>
+        <time>2024-05-14T20:18:25Z</time>
+        <extensions>
+          <speed>2.5622873306274414</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-8.037316666666667" lon="-34.87421">
+        <ele>-2.5999999999999996</ele>
+        <time>2024-05-14T20:18:26Z</time>
+        <extensions>
+          <speed>2.762514114379883</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-8.037306666666666" lon="-34.874185000000004">
+        <ele>-2.7</ele>
+        <time>2024-05-14T20:18:27Z</time>
+        <extensions>
+          <speed>2.9143571853637695</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-8.037293333333334" lon="-34.874156666666664">
+        <ele>-3.4000000000000004</ele>
+        <time>2024-05-14T20:18:28Z</time>
+        <extensions>
+          <speed>2.9864182472229004</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-8.037288333333333" lon="-34.874138333333335">
+        <ele>-3.9000000000000004</ele>
+        <time>2024-05-14T20:18:29Z</time>
+        <extensions>
+          <speed>2.9889919757843018</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-8.03728" lon="-34.87412166666666">
+        <ele>-4.5</ele>
+        <time>2024-05-14T20:18:30Z</time>
+        <extensions>
+          <speed>2.903548002243042</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-8.037271666666667" lon="-34.874113333333334">
+        <ele>-4.6</ele>
+        <time>2024-05-14T20:18:31Z</time>
+        <extensions>
+          <speed>2.6755261421203613</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-8.037268333333333" lon="-34.87410833333333">
+        <ele>-4.3</ele>
+        <time>2024-05-14T20:18:32Z</time>
+        <extensions>
+          <speed>2.3841934204101562</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-8.037268333333333" lon="-34.87411">
+        <ele>-4.0</ele>
+        <time>2024-05-14T20:18:33Z</time>
+        <extensions>
+          <speed>2.0954341888427734</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-8.037270000000001" lon="-34.87411">
+        <ele>-3.8</ele>
+        <time>2024-05-14T20:18:34Z</time>
+        <extensions>
+          <speed>1.773218035697937</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-8.037270000000001" lon="-34.87411">
+        <ele>-3.4000000000000004</ele>
+        <time>2024-05-14T20:18:35Z</time>
+        <extensions>
+          <speed>1.4587228298187256</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-8.037266666666666" lon="-34.874111666666664">
+        <ele>-3.0999999999999996</ele>
+        <time>2024-05-14T20:18:36Z</time>
+        <extensions>
+          <speed>1.1401097774505615</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-8.037265" lon="-34.874111666666664">
+        <ele>-2.9000000000000004</ele>
+        <time>2024-05-14T20:18:37Z</time>
+        <extensions>
+          <speed>0.8374530673027039</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-8.037261666666666" lon="-34.874113333333334">
+        <ele>-2.7</ele>
+        <time>2024-05-14T20:18:38Z</time>
+        <extensions>
+          <speed>0.5543558597564697</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-8.03726" lon="-34.874114999999996">
+        <ele>-2.3000000000000007</ele>
+        <time>2024-05-14T20:18:39Z</time>
+        <extensions>
+          <speed>0.0</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-8.037258333333334" lon="-34.874116666666666">
+        <ele>-2.0</ele>
+        <time>2024-05-14T20:18:40Z</time>
+        <extensions>
+          <speed>0.0</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-8.037258333333334" lon="-34.874116666666666">
+        <ele>-1.6999999999999993</ele>
+        <time>2024-05-14T20:18:41Z</time>
+        <extensions>
+          <speed>0.0</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-8.037258333333334" lon="-34.874116666666666">
+        <ele>-1.6999999999999993</ele>
+        <time>2024-05-14T20:18:42Z</time>
+        <extensions>
+          <speed>0.0</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-8.037258333333334" lon="-34.874116666666666">
+        <ele>-1.6999999999999993</ele>
+        <time>2024-05-14T20:18:43Z</time>
+        <extensions>
+          <speed>0.0</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-8.037258333333334" lon="-34.874116666666666">
+        <ele>-1.6999999999999993</ele>
+        <time>2024-05-14T20:18:44Z</time>
+        <extensions>
+          <speed>0.0</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-8.037258333333334" lon="-34.874116666666666">
+        <ele>-1.6999999999999993</ele>
+        <time>2024-05-14T20:18:45Z</time>
+        <extensions>
+          <speed>0.0</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-8.037258333333334" lon="-34.874116666666666">
+        <ele>-1.6999999999999993</ele>
+        <time>2024-05-14T20:18:46Z</time>
+        <extensions>
+          <speed>0.0</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-8.037258333333334" lon="-34.874116666666666">
+        <ele>-1.6999999999999993</ele>
+        <time>2024-05-14T20:18:47Z</time>
+        <extensions>
+          <speed>0.0</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-8.037258333333334" lon="-34.874116666666666">
+        <ele>-1.6999999999999993</ele>
+        <time>2024-05-14T20:18:48Z</time>
+        <extensions>
+          <speed>0.0</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-8.037258333333334" lon="-34.874116666666666">
+        <ele>-1.6999999999999993</ele>
+        <time>2024-05-14T20:18:49Z</time>
+        <extensions>
+          <speed>0.0</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-8.037258333333334" lon="-34.874116666666666">
+        <ele>-1.6999999999999993</ele>
+        <time>2024-05-14T20:18:50Z</time>
+        <extensions>
+          <speed>0.0</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-8.037258333333334" lon="-34.874116666666666">
+        <ele>-1.6999999999999993</ele>
+        <time>2024-05-14T20:18:51Z</time>
+        <extensions>
+          <speed>0.0</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-8.037258333333334" lon="-34.874116666666666">
+        <ele>-1.6999999999999993</ele>
+        <time>2024-05-14T20:18:52Z</time>
+        <extensions>
+          <speed>0.0</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-8.037258333333334" lon="-34.874116666666666">
+        <ele>-1.6999999999999993</ele>
+        <time>2024-05-14T20:18:53Z</time>
+        <extensions>
+          <speed>0.0</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-8.037258333333334" lon="-34.874116666666666">
+        <ele>-1.6999999999999993</ele>
+        <time>2024-05-14T20:18:54Z</time>
+        <extensions>
+          <speed>0.0</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-8.037258333333334" lon="-34.874116666666666">
+        <ele>-1.6999999999999993</ele>
+        <time>2024-05-14T20:18:55Z</time>
+        <extensions>
+          <speed>0.0</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-8.037258333333334" lon="-34.874116666666666">
+        <ele>-1.6999999999999993</ele>
+        <time>2024-05-14T20:18:56Z</time>
+        <extensions>
+          <speed>0.0</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-8.037258333333334" lon="-34.874116666666666">
+        <ele>-1.6999999999999993</ele>
+        <time>2024-05-14T20:18:57Z</time>
+        <extensions>
+          <speed>0.0</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-8.037258333333334" lon="-34.874116666666666">
+        <ele>-1.6999999999999993</ele>
+        <time>2024-05-14T20:18:58Z</time>
+        <extensions>
+          <speed>0.0</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-8.037258333333334" lon="-34.874116666666666">
+        <ele>-1.6999999999999993</ele>
+        <time>2024-05-14T20:18:59Z</time>
+        <extensions>
+          <speed>0.0</speed>
+        </extensions>
+      </trkpt>
+    </trkseg>
+  </trk>
 </gpx>

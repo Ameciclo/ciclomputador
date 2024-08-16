@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Visualização de Erros</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 20px;
+      }
+      table {
+        width: 100%;
+        border-collapse: collapse;
+        margin-bottom: 20px;
+      }
+      th,
+      td {
+        border: 1px solid #ddd;
+        padding: 8px;
+        text-align: left;
+      }
+      th {
+        background-color: #f2f2f2;
+      }
+      .error-table {
+        margin-bottom: 50px;
+      }
+      .error-table caption {
+        font-weight: bold;
+        font-size: 1.2em;
+        margin-bottom: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Visualização de Erros</h1>
+
+    <div id="error-tables"></div>
+
+    <script>
+      const jsonFilePath = "http://localhost:3000/data";
+
+      fetch(jsonFilePath)
+        .then((response) => response.json())
+        .then((data) => {
+          const errorTablesContainer = document.getElementById("error-tables");
+
+          data.forEach((element, index) => {
+            if (element.result && element.result.error) {
+              const errorTable = document.createElement("table");
+              errorTable.className = "error-table";
+
+              const caption = document.createElement("caption");
+              caption.innerText = `Elemento ID: ${element.id}`;
+              errorTable.appendChild(caption);
+
+              const headerRow = document.createElement("tr");
+              headerRow.innerHTML = `
+                    <th>Tipo</th>
+                    <th>Descrição</th>
+                `;
+              errorTable.appendChild(headerRow);
+
+              // Verifique se `emptyValues` existe e é um array
+              if (
+                Array.isArray(element.result.error.emptyValues) &&
+                element.result.error.emptyValues.length > 0
+              ) {
+                element.result.error.emptyValues.forEach((error) => {
+                  const row = document.createElement("tr");
+                  row.innerHTML = `
+                            <td>Campo Vazio</td>
+                            <td>${error}</td>
+                        `;
+                  errorTable.appendChild(row);
+                });
+              }
+
+              // Verifique se `warnings` existe e é um objeto
+              if (
+                element.result.error.warnings &&
+                Object.keys(element.result.error.warnings).length > 0
+              ) {
+                for (const [warningKey, warningValue] of Object.entries(
+                  element.result.error.warnings
+                )) {
+                  const row = document.createElement("tr");
+                  row.innerHTML = `
+                            <td>Aviso</td>
+                            <td>${warningKey}: ${warningValue}</td>
+                        `;
+                  errorTable.appendChild(row);
+                }
+              }
+
+              errorTablesContainer.appendChild(errorTable);
+            }
+          });
+        })
+        .catch((error) =>
+          console.error("Erro ao carregar o arquivo JSON:", error)
+        );
+    </script>
+  </body>
+</html>

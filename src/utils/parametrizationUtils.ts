@@ -172,6 +172,8 @@ export function parametrization(data: iGPXData, param: string, type: string) {
     const params: iDataForms = readJSONFileSync("./src/references/params.json")
     switch (type) {
         case "metadata":
+            const code = data.gpx.metadata[0].code;
+            const scode = data.gpx.metadata[0].scode;
             const codigo_da_area = data.gpx.metadata[0].desc ? data.gpx.metadata[0].desc[0].toLowerCase() : "codigo de area nao informado";
             const result = dadosAreaAvaliacao.find((elem: iDataFormsMetadata) => {
                 const codigo = elem.cod.toLowerCase();
@@ -180,8 +182,10 @@ export function parametrization(data: iGPXData, param: string, type: string) {
             if (result) {
                 result["cod"] = codigo_da_area;
                 result["gpx_name"] = param;
+                result["code"] = code;
+                result["scode"] = scode;
             } else {
-                return { "err": `No arquivo GPX '${param.replace(".gpx", "")}', o código da ciclo parece ter algo errado... cod: ${codigo_da_area}` }
+                return { "err": `No arquivo GPX '${code}'->'${param.replace(".gpx", "")}', o código da ciclo parece ter algo errado... cod: ${codigo_da_area}` }
             }
 
             function setDuoNames() {
