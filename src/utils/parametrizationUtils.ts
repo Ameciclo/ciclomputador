@@ -1,8 +1,8 @@
-import { iDataForms, iGPXData, iGPXNode, iDataFormsMetadata, iDataErrors } from '../interfaces';
+import { iDataForms, iGPXData, iGPXNode, iDataFormsMetadata, iDataErrors, iDataFormsMetadataCiclomap } from '../interfaces';
 import { readJSONFileSync } from './fileUtils';
 import { iDuo, iDuos } from '../interfaces/iDuos';
 
-export function applyParametrization(data: iDataForms, result: iGPXData, fileName: string) {
+export function applyParametrization(data: any, result: iGPXData, fileName: string) {
 
     function setDataConcatTrueValues(param: string) {
         return Object.keys(data[param]).filter(key => data[param][key] !== 0).join(', ')
@@ -74,21 +74,24 @@ export function applyParametrization(data: iDataForms, result: iGPXData, fileNam
     function setResultData() {
         if (!data.metadata.err) {
             data.result.cod = data.metadata["cod"];
-            data.result.gpx_name = data.metadata["gpx_name"];
             data.result.timestamp = data.metadata["Carimbo de data/hora"];
             data.result.evaluator_1 = data.metadata["Avaliador(a) 1"];
             data.result.evaluator_2 = data.metadata["Avaliador(a) 2"];
             data.result.date = data.metadata["Data"];
-            data.result.typology = data.metadata["tipologia"];
             data.result.start_time = data.metadata["Hora Início"];
             data.result.end_time = data.metadata["Hora Fim"];
-            data.result.street = data.metadata["via"];
             data.result.section_start = "";
             data.result.section_end = "";
             data.result.section_name = data.metadata["trecho"];
             data.result.seg_length = data.metadata["extensao_km"];
             data.result.crosses = data.metadata["cruzamentos"];
         }
+        data.result.gpx_name = data.metadata.ciclomapData["gpx_name"];
+        data.result.code = data.metadata.ciclomapData["code"];
+        data.result.scode = data.metadata.ciclomapData["scode"];
+        data.result.city = data.metadata.ciclomapData["city"];
+        data.result.street = data.metadata.ciclomapData["street"];
+        data.result.typology = data.metadata["tipologia"];
         data.result.typology_evaluated = setDataConcatTrueValues("tipo_da_via");
         data.result.flow_direction = setDataConcatTrueValues("fluxo-ciclo");
         data.result.traffic_flow = setDataConcatTrueValues("fluxo-via");
@@ -168,25 +171,24 @@ export function applyParametrization(data: iDataForms, result: iGPXData, fileNam
 
 export function parametrization(data: iGPXData, param: string, type: string) {
     const dadosAreaAvaliacao = readJSONFileSync("./src/references/area.json");
+    const dadosAreaAvaliacaoCiclomapa = readJSONFileSync("./src/references/files_and_codes.json")
     const duplas: iDuos = readJSONFileSync("./src/references/duos.json");
     const params: iDataForms = readJSONFileSync("./src/references/params.json")
     switch (type) {
         case "metadata":
-            const code = data.gpx.metadata[0].code;
-            const scode = data.gpx.metadata[0].scode;
             const codigo_da_area = data.gpx.metadata[0].desc ? data.gpx.metadata[0].desc[0].toLowerCase() : "codigo de area nao informado";
-            const result = dadosAreaAvaliacao.find((elem: iDataFormsMetadata) => {
+            let result: any = {};
+            const metadataRefElement = dadosAreaAvaliacao.find((elem: iDataFormsMetadata) => {
                 const codigo = elem.cod.toLowerCase();
                 return codigo.includes(codigo_da_area);
             });
-            if (result) {
-                result["cod"] = codigo_da_area;
-                result["gpx_name"] = param;
-                result["code"] = code;
-                result["scode"] = scode;
-            } else {
-                return { "err": `No arquivo GPX '${code}'->'${param.replace(".gpx", "")}', o código da ciclo parece ter algo errado... cod: ${codigo_da_area}` }
-            }
+            result = metadataRefElement ? metadataRefElement : result;
+            result["cod"] = codigo_da_area;
+            result["gpx_name"] = param; 
+
+            const ciclomapDataRef = dadosAreaAvaliacaoCiclomapa.find((elem: iDataFormsMetadataCiclomap) => elem.gpx_name.includes(param));
+            
+            result["ciclomapData"] = ciclomapDataRef;
 
             function setDuoNames() {
                 const foundDuo = duplas.find((dupla: iDuo) => dupla["cod"] === result["dupla"]);
@@ -221,7 +223,7 @@ export function parametrization(data: iGPXData, param: string, type: string) {
                 const matchTime = fileName.match(regexTime);
 
                 if (matchTime) result["Hora Início"] = matchTime[1].split("-").join(":");
-                
+
                 const lastPointCap = data.gpx.wpt.pop().time[0];
                 const lastTimePointCap = lastPointCap.substr(11, 8);
                 result["Hora Fim"] = lastTimePointCap;

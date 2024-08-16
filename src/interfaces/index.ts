@@ -4,6 +4,7 @@ import { iDuos, iDuo } from "./iDuos"
 import iGPXData from "./iGPXData"
 import iGPXNode from "./iGPXNode"
 import iDataErrors from "./iDataErrors"
+import iDataFormsMetadataCiclomap from "./iDataFormsMetadataCiclomap"
 
 export {
     iDataForms,
@@ -12,5 +13,6 @@ export {
     iDuo,
     iGPXData,
     iGPXNode,
-    iDataErrors
+    iDataErrors,
+    iDataFormsMetadataCiclomap,
 }
