@@ -172,6 +172,7 @@ export function applyParametrization(data: any, result: iGPXData, fileName: stri
 export function parametrization(data: iGPXData, param: string, type: string) {
     const dadosAreaAvaliacao = readJSONFileSync("./src/references/area.json");
     const dadosAreaAvaliacaoCiclomapa = readJSONFileSync("./src/references/files_and_codes.json")
+    const dadosAreaAvaliacaoCruzamentos = readJSONFileSync("./src/references/cruzamentos.json")
     const duplas: iDuos = readJSONFileSync("./src/references/duos.json");
     const params: iDataForms = readJSONFileSync("./src/references/params.json")
     switch (type) {
