@@ -51,7 +51,7 @@ details>
 1 - Substitua os arquivos GPX de avaliação na pasta `src/gpx-files` (ou rode com os arquivos gpx já presentes)
 
 2 - rode o comando de execução do script
-`npm run dev`
+  `npm start`
 
 3 - 💡 uma pasta em `src` chamada `result` vai conter um arquivo `data.json` com os dados de cada arquivo gpx processados. 
 
