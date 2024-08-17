@@ -30,6 +30,7 @@
       "section_start": "",
       "section_end": "",
       "geo_id": "",
+      "typology_mapped": "Ciclofaixa",
       "typology_evaluated": "Ciclofaixa",
       "flow_direction": "Bidirecional",
       "traffic_flow": "Mão Única",
@@ -351,6 +352,7 @@
       "error": {
         "emptyValues": [
           "crosses",
+          "typology",
           "no_visible_crossing_signs"
         ],
         "warnings": {
@@ -375,7 +377,7 @@
       "crosses": 0,
       "seg_length": "5,6",
       "geo_id": "",
-      "typology": "CICLOFAIXA, CICLORROTA",
+      "typology_mapped": "Ciclofaixa",
       "typology_evaluated": "Ciclofaixa, Ciclorrota",
       "flow_direction": "Bidirecional",
       "traffic_flow": "Mão Dupla",
@@ -770,6 +772,7 @@
       "error": {
         "emptyValues": [
           "crosses",
+          "typology",
           "buffer_width",
           "road_width",
           "no_visible_crossing_signs"
@@ -796,7 +799,7 @@
       "crosses": 0,
       "seg_length": "5,6",
       "geo_id": "",
-      "typology": "CICLOFAIXA, CICLORROTA",
+      "typology_mapped": "Ciclofaixa",
       "typology_evaluated": "Ciclofaixa",
       "flow_direction": "Bidirecional",
       "traffic_flow": "Mão Única",
@@ -1103,6 +1106,7 @@
       "error": {
         "emptyValues": [
           "crosses",
+          "typology",
           "pavement_condition_evaluation",
           "no_visible_crossing_signs"
         ],
@@ -1128,7 +1132,7 @@
       "crosses": 0,
       "seg_length": "5,6",
       "geo_id": "",
-      "typology": "CICLOFAIXA, CICLORROTA",
+      "typology_mapped": "Ciclofaixa",
       "typology_evaluated": "Ciclofaixa",
       "flow_direction": "Bidirecional",
       "traffic_flow": "Mão Dupla",
@@ -1471,6 +1475,7 @@
       "error": {
         "emptyValues": [
           "crosses",
+          "typology",
           "localization",
           "segregator_type",
           "protection_conditions_evaluation",
@@ -1504,7 +1509,7 @@
       "crosses": 0,
       "seg_length": "2,4",
       "geo_id": "",
-      "typology": "CICLOFAIXA, CICLORROTA",
+      "typology_mapped": "Ciclorrota",
       "typology_evaluated": "Ciclorrota",
       "flow_direction": "Bidirecional",
       "traffic_flow": "Mão Dupla",
@@ -1867,6 +1872,7 @@
       "error": {
         "emptyValues": [
           "crosses",
+          "typology",
           "pavement_condition_evaluation",
           "no_visible_crossing_signs"
         ],
@@ -1892,7 +1898,7 @@
       "crosses": 0,
       "seg_length": "2,4",
       "geo_id": "",
-      "typology": "CICLOFAIXA, CICLORROTA",
+      "typology_mapped": "Ciclofaixa",
       "typology_evaluated": "Ciclofaixa",
       "flow_direction": "Unidirecional no Fluxo",
       "traffic_flow": "Mão Única",
@@ -2221,6 +2227,7 @@
       "error": {
         "emptyValues": [
           "crosses",
+          "typology",
           "pavement_condition_evaluation",
           "no_visible_crossing_signs"
         ],
@@ -2246,7 +2253,7 @@
       "crosses": 0,
       "seg_length": "2,4",
       "geo_id": "",
-      "typology": "CICLOFAIXA, CICLORROTA",
+      "typology_mapped": "Ciclofaixa",
       "typology_evaluated": "Ciclofaixa",
       "flow_direction": "Unidirecional no Fluxo",
       "traffic_flow": "Mão Única",
@@ -2565,6 +2572,7 @@
       "error": {
         "emptyValues": [
           "crosses",
+          "typology",
           "localization",
           "road_width",
           "no_visible_crossing_signs"
@@ -2591,7 +2599,7 @@
       "crosses": 0,
       "seg_length": "2,4",
       "geo_id": "",
-      "typology": "CICLOFAIXA, CICLORROTA",
+      "typology_mapped": "Ciclofaixa",
       "typology_evaluated": "Ciclofaixa",
       "flow_direction": "Bidirecional",
       "traffic_flow": "Mão Única, Mão Dupla",
@@ -2936,6 +2944,7 @@
       "error": {
         "emptyValues": [
           "crosses",
+          "typology",
           "flow_direction",
           "localization",
           "segregator_type",
@@ -2969,7 +2978,7 @@
       "crosses": 0,
       "seg_length": "3,0",
       "geo_id": "",
-      "typology": "CICLORROTA",
+      "typology_mapped": "Ciclorrota",
       "typology_evaluated": "Ciclorrota",
       "flow_direction": "",
       "traffic_flow": "Mão Dupla",
@@ -3400,6 +3409,7 @@
       "section_start": "",
       "section_end": "",
       "geo_id": "",
+      "typology_mapped": "Ciclorrota",
       "typology_evaluated": "Ciclorrota",
       "flow_direction": "",
       "traffic_flow": "Mão Única",
@@ -3719,6 +3729,7 @@
       "error": {
         "emptyValues": [
           "crosses",
+          "typology",
           "flow_direction",
           "localization",
           "segregator_type",
@@ -3752,7 +3763,7 @@
       "crosses": 0,
       "seg_length": "0,65",
       "geo_id": "",
-      "typology": "CICLORROTA",
+      "typology_mapped": "Ciclorrota",
       "typology_evaluated": "Ciclorrota",
       "flow_direction": "",
       "traffic_flow": "Mão Dupla",
@@ -4085,6 +4096,7 @@
       "error": {
         "emptyValues": [
           "crosses",
+          "typology",
           "flow_direction",
           "localization",
           "segregator_type",
@@ -4119,7 +4131,7 @@
       "crosses": 0,
       "seg_length": "2,7",
       "geo_id": "",
-      "typology": "CICLOFAIXA, CICLORROTA",
+      "typology_mapped": "Ciclorrota",
       "typology_evaluated": "Ciclorrota",
       "flow_direction": "",
       "traffic_flow": "Mão Dupla",
@@ -4456,6 +4468,7 @@
       "error": {
         "emptyValues": [
           "crosses",
+          "typology",
           "no_visible_crossing_signs"
         ],
         "warnings": {
@@ -4480,7 +4493,7 @@
       "crosses": 0,
       "seg_length": "2,7",
       "geo_id": "",
-      "typology": "CICLOFAIXA, CICLORROTA",
+      "typology_mapped": "Ciclofaixa",
       "typology_evaluated": "Ciclofaixa",
       "flow_direction": "Bidirecional",
       "traffic_flow": "Mão Única",
@@ -4829,6 +4842,7 @@
       "error": {
         "emptyValues": [
           "crosses",
+          "typology",
           "no_visible_crossing_signs"
         ],
         "warnings": {
@@ -4853,7 +4867,7 @@
       "crosses": 0,
       "seg_length": "2,7",
       "geo_id": "",
-      "typology": "CICLOFAIXA, CICLORROTA",
+      "typology_mapped": "Ciclofaixa",
       "typology_evaluated": "Ciclofaixa",
       "flow_direction": "Bidirecional",
       "traffic_flow": "Mão Dupla",
@@ -5184,6 +5198,7 @@
       "error": {
         "emptyValues": [
           "crosses",
+          "typology",
           "no_visible_crossing_signs"
         ],
         "warnings": {
@@ -5208,7 +5223,7 @@
       "crosses": 0,
       "seg_length": "2,7",
       "geo_id": "",
-      "typology": "CICLOFAIXA, CICLORROTA",
+      "typology_mapped": "Ciclofaixa",
       "typology_evaluated": "Ciclofaixa",
       "flow_direction": "Bidirecional",
       "traffic_flow": "Mão Única",
@@ -5515,6 +5530,7 @@
       "error": {
         "emptyValues": [
           "crosses",
+          "typology",
           "no_visible_crossing_signs"
         ],
         "warnings": {
@@ -5539,7 +5555,7 @@
       "crosses": 0,
       "seg_length": "2,7",
       "geo_id": "",
-      "typology": "CICLOFAIXA, CICLORROTA",
+      "typology_mapped": "Ciclofaixa",
       "typology_evaluated": "Ciclofaixa",
       "flow_direction": "Bidirecional",
       "traffic_flow": "Mão Dupla",
@@ -5881,6 +5897,7 @@
       "section_start": "",
       "section_end": "",
       "geo_id": "",
+      "typology_mapped": "Ciclorrota",
       "typology_evaluated": "Ciclorrota",
       "flow_direction": "Unidirecional no Fluxo",
       "traffic_flow": "Mão Única",
@@ -6240,6 +6257,7 @@
       "section_start": "",
       "section_end": "",
       "geo_id": "",
+      "typology_mapped": "Ciclofaixa",
       "typology_evaluated": "Ciclofaixa",
       "flow_direction": "Bidirecional",
       "traffic_flow": "Mão Única",
@@ -6573,6 +6591,7 @@
       "error": {
         "emptyValues": [
           "crosses",
+          "typology",
           "flow_direction",
           "no_visible_crossing_signs"
         ],
@@ -6598,7 +6617,7 @@
       "crosses": 0,
       "seg_length": "2,3",
       "geo_id": "",
-      "typology": "CICLOFAIXA",
+      "typology_mapped": "Ciclofaixa",
       "typology_evaluated": "Ciclofaixa",
       "flow_direction": "",
       "traffic_flow": "Mão Única, Mão Dupla",
@@ -6937,6 +6956,7 @@
       "error": {
         "emptyValues": [
           "crosses",
+          "typology",
           "protection_conditions_evaluation",
           "pavement_condition_evaluation",
           "sinuosity_evaluation",
@@ -6966,7 +6986,7 @@
       "crosses": 0,
       "seg_length": "2,8",
       "geo_id": "",
-      "typology": "CICLOFAIXA, CICLORROTA",
+      "typology_mapped": "Ciclofaixa",
       "typology_evaluated": "Ciclofaixa",
       "flow_direction": "Bidirecional",
       "traffic_flow": "Mão Dupla",
@@ -7353,6 +7373,7 @@
       "error": {
         "emptyValues": [
           "crosses",
+          "typology",
           "flow_direction",
           "no_visible_crossing_signs"
         ],
@@ -7378,7 +7399,7 @@
       "crosses": 0,
       "seg_length": "2,0",
       "geo_id": "",
-      "typology": "CICLOFAIXA",
+      "typology_mapped": "Ciclofaixa",
       "typology_evaluated": "Ciclofaixa",
       "flow_direction": "",
       "traffic_flow": "Mão Dupla",
@@ -7695,6 +7716,7 @@
       "error": {
         "emptyValues": [
           "crosses",
+          "typology",
           "no_visible_crossing_signs"
         ],
         "warnings": {
@@ -7719,7 +7741,7 @@
       "crosses": 0,
       "seg_length": "2,8",
       "geo_id": "",
-      "typology": "CICLOFAIXA, CICLORROTA",
+      "typology_mapped": "Ciclofaixa",
       "typology_evaluated": "Ciclofaixa",
       "flow_direction": "Bidirecional",
       "traffic_flow": "Mão Única",
@@ -8060,6 +8082,7 @@
       "error": {
         "emptyValues": [
           "crosses",
+          "typology",
           "flow_direction",
           "no_visible_crossing_signs"
         ],
@@ -8085,7 +8108,7 @@
       "crosses": 0,
       "seg_length": "2,0",
       "geo_id": "",
-      "typology": "CICLOFAIXA",
+      "typology_mapped": "Ciclorrota",
       "typology_evaluated": "Ciclofaixa, Ciclorrota",
       "flow_direction": "",
       "traffic_flow": "Mão Dupla",
@@ -8404,6 +8427,7 @@
       "error": {
         "emptyValues": [
           "crosses",
+          "typology",
           "flow_direction",
           "segregator_type",
           "no_visible_crossing_signs"
@@ -8430,7 +8454,7 @@
       "crosses": 0,
       "seg_length": "2,0",
       "geo_id": "",
-      "typology": "CICLOFAIXA",
+      "typology_mapped": "Ciclofaixa",
       "typology_evaluated": "Ciclofaixa",
       "flow_direction": "",
       "traffic_flow": "Mão Dupla",
@@ -8750,6 +8774,7 @@
       "section_start": "",
       "section_end": "",
       "geo_id": "",
+      "typology_mapped": "Ciclofaixa",
       "typology_evaluated": "Ciclofaixa",
       "flow_direction": "Bidirecional",
       "traffic_flow": "Mão Única",
@@ -9041,6 +9066,7 @@
       "error": {
         "emptyValues": [
           "crosses",
+          "typology",
           "no_visible_crossing_signs"
         ],
         "warnings": {
@@ -9065,7 +9091,7 @@
       "crosses": 0,
       "seg_length": "2,8",
       "geo_id": "",
-      "typology": "CICLOFAIXA, CICLORROTA",
+      "typology_mapped": "Ciclofaixa",
       "typology_evaluated": "Ciclofaixa",
       "flow_direction": "Unidirecional no Fluxo",
       "traffic_flow": "Mão Única",
@@ -9436,6 +9462,7 @@
       "error": {
         "emptyValues": [
           "crosses",
+          "typology",
           "flow_direction",
           "localization",
           "segregator_type",
@@ -9471,7 +9498,7 @@
       "crosses": 0,
       "seg_length": "3,2",
       "geo_id": "",
-      "typology": "CICLOFAIXA, CICLORROTA, ÁREA COMPARTILHADA",
+      "typology_mapped": "Ciclorrota",
       "typology_evaluated": "Ciclorrota",
       "flow_direction": "",
       "traffic_flow": "Mão Dupla",
@@ -9776,6 +9803,7 @@
       "error": {
         "emptyValues": [
           "crosses",
+          "typology",
           "ridable_width",
           "buffer_width",
           "road_width",
@@ -9803,7 +9831,7 @@
       "crosses": 0,
       "seg_length": "2,8",
       "geo_id": "",
-      "typology": "CICLOFAIXA, CICLORROTA",
+      "typology_mapped": "Ciclofaixa",
       "typology_evaluated": "Ciclofaixa",
       "flow_direction": "Unidirecional no Contrafluxo",
       "traffic_flow": "Mão Única, Mão Dupla",
@@ -10128,6 +10156,7 @@
       "error": {
         "emptyValues": [
           "crosses",
+          "typology",
           "flow_direction",
           "no_visible_crossing_signs"
         ],
@@ -10153,7 +10182,7 @@
       "crosses": 0,
       "seg_length": "3,2",
       "geo_id": "",
-      "typology": "CICLOFAIXA, CICLORROTA, ÁREA COMPARTILHADA",
+      "typology_mapped": "Ciclofaixa",
       "typology_evaluated": "Ciclofaixa",
       "flow_direction": "",
       "traffic_flow": "Mão Única",
@@ -10482,6 +10511,7 @@
       "error": {
         "emptyValues": [
           "crosses",
+          "typology",
           "flow_direction",
           "localization",
           "segregator_type",
@@ -10515,7 +10545,7 @@
       "crosses": 0,
       "seg_length": "2,8",
       "geo_id": "",
-      "typology": "CICLOFAIXA, CICLORROTA",
+      "typology_mapped": "Ciclorrota",
       "typology_evaluated": "Ciclorrota",
       "flow_direction": "",
       "traffic_flow": "Mão Dupla",
@@ -10832,6 +10862,7 @@
       "error": {
         "emptyValues": [
           "crosses",
+          "typology",
           "flow_direction",
           "traffic_flow",
           "localization",
@@ -10870,7 +10901,7 @@
       "crosses": 0,
       "seg_length": "3,2",
       "geo_id": "",
-      "typology": "CICLOFAIXA, CICLORROTA, ÁREA COMPARTILHADA",
+      "typology_mapped": "Calçada compartilhada",
       "typology_evaluated": "Calçada compartilhada",
       "flow_direction": "",
       "traffic_flow": "",
@@ -11173,6 +11204,7 @@
       "error": {
         "emptyValues": [
           "crosses",
+          "typology",
           "flow_direction",
           "localization",
           "segregator_type",
@@ -11206,7 +11238,7 @@
       "crosses": 0,
       "seg_length": "3,2",
       "geo_id": "",
-      "typology": "CICLOFAIXA, CICLORROTA, ÁREA COMPARTILHADA",
+      "typology_mapped": "Ciclofaixa",
       "typology_evaluated": "Ciclorrota",
       "flow_direction": "",
       "traffic_flow": "Mão Dupla",
@@ -11513,6 +11545,7 @@
       "error": {
         "emptyValues": [
           "crosses",
+          "typology",
           "segregator_type",
           "no_visible_crossing_signs"
         ],
@@ -11538,7 +11571,7 @@
       "crosses": 0,
       "seg_length": "3,5",
       "geo_id": "",
-      "typology": "CICLOFAIXA, CICLORROTA",
+      "typology_mapped": "Ciclofaixa",
       "typology_evaluated": "Ciclofaixa",
       "flow_direction": "Bidirecional",
       "traffic_flow": "Mão Dupla",
@@ -11869,6 +11902,7 @@
       "error": {
         "emptyValues": [
           "crosses",
+          "typology",
           "flow_direction",
           "localization",
           "segregator_type",
@@ -11896,7 +11930,7 @@
       "crosses": 0,
       "seg_length": "3,2",
       "geo_id": "",
-      "typology": "CICLOFAIXA, CICLORROTA, ÁREA COMPARTILHADA",
+      "typology_mapped": "Ciclofaixa",
       "typology_evaluated": "Ciclofaixa",
       "flow_direction": "",
       "traffic_flow": "Mão Única",
@@ -12203,6 +12237,7 @@
       "error": {
         "emptyValues": [
           "crosses",
+          "typology",
           "flow_direction",
           "localization",
           "segregator_type",
@@ -12236,7 +12271,7 @@
       "crosses": 0,
       "seg_length": "3,5",
       "geo_id": "",
-      "typology": "CICLOFAIXA, CICLORROTA",
+      "typology_mapped": "Ciclorrota",
       "typology_evaluated": "Ciclorrota",
       "flow_direction": "",
       "traffic_flow": "Mão Dupla",
@@ -12571,6 +12606,7 @@
       "error": {
         "emptyValues": [
           "crosses",
+          "typology",
           "no_visible_crossing_signs"
         ],
         "warnings": {
@@ -12595,7 +12631,7 @@
       "crosses": 0,
       "seg_length": "1,7",
       "geo_id": "",
-      "typology": "CICLOFAIXA",
+      "typology_mapped": "Ciclofaixa",
       "typology_evaluated": "Ciclofaixa",
       "flow_direction": "Bidirecional",
       "traffic_flow": "Mão Única",
@@ -12940,6 +12976,7 @@
       "error": {
         "emptyValues": [
           "crosses",
+          "typology",
           "flow_direction",
           "localization",
           "segregator_type",
@@ -12973,7 +13010,7 @@
       "crosses": 0,
       "seg_length": "3,5",
       "geo_id": "",
-      "typology": "CICLOFAIXA, CICLORROTA",
+      "typology_mapped": "Ciclorrota",
       "typology_evaluated": "Ciclorrota",
       "flow_direction": "",
       "traffic_flow": "Mão Dupla",
@@ -13294,6 +13331,7 @@
       "error": {
         "emptyValues": [
           "crosses",
+          "typology",
           "no_visible_crossing_signs"
         ],
         "warnings": {
@@ -13318,7 +13356,7 @@
       "crosses": 0,
       "seg_length": "3,5",
       "geo_id": "",
-      "typology": "CICLOFAIXA, CICLORROTA",
+      "typology_mapped": "Ciclofaixa",
       "typology_evaluated": "Ciclofaixa",
       "flow_direction": "Bidirecional",
       "traffic_flow": "Mão Única",
@@ -13684,6 +13722,7 @@
       "section_start": "",
       "section_end": "",
       "geo_id": "",
+      "typology_mapped": "Ciclorrota",
       "typology_evaluated": "Ciclorrota",
       "flow_direction": "Unidirecional no Fluxo, Bidirecional",
       "traffic_flow": "Mão Única",
@@ -13981,6 +14020,7 @@
       "error": {
         "emptyValues": [
           "crosses",
+          "typology",
           "no_visible_crossing_signs"
         ],
         "warnings": {
@@ -14005,7 +14045,7 @@
       "crosses": 0,
       "seg_length": "3,5",
       "geo_id": "",
-      "typology": "CICLOFAIXA, CICLORROTA",
+      "typology_mapped": "Ciclofaixa",
       "typology_evaluated": "Ciclofaixa",
       "flow_direction": "Unidirecional no Contrafluxo",
       "traffic_flow": "Mão Única",
@@ -14324,6 +14364,7 @@
       "error": {
         "emptyValues": [
           "crosses",
+          "typology",
           "flow_direction",
           "localization",
           "segregator_type",
@@ -14357,7 +14398,7 @@
       "crosses": 0,
       "seg_length": "3,5",
       "geo_id": "",
-      "typology": "CICLOFAIXA, CICLORROTA",
+      "typology_mapped": "Ciclorrota",
       "typology_evaluated": "Ciclorrota",
       "flow_direction": "",
       "traffic_flow": "Mão Dupla",
@@ -14664,6 +14705,7 @@
       "error": {
         "emptyValues": [
           "crosses",
+          "typology",
           "no_visible_crossing_signs"
         ],
         "warnings": {
@@ -14688,7 +14730,7 @@
       "crosses": 0,
       "seg_length": "2,0",
       "geo_id": "",
-      "typology": "CICLOFAIXA",
+      "typology_mapped": "Ciclofaixa",
       "typology_evaluated": "Ciclofaixa",
       "flow_direction": "Unidirecional no Contrafluxo",
       "traffic_flow": "Mão Única",
@@ -15007,6 +15049,7 @@
       "error": {
         "emptyValues": [
           "crosses",
+          "typology",
           "pavement_type",
           "no_visible_crossing_signs"
         ],
@@ -15032,7 +15075,7 @@
       "crosses": 0,
       "seg_length": "2,0",
       "geo_id": "",
-      "typology": "CICLOFAIXA, CICLORROTA",
+      "typology_mapped": "Ciclorrota",
       "typology_evaluated": "Ciclofaixa",
       "flow_direction": "Bidirecional",
       "traffic_flow": "Mão Única",
@@ -15339,6 +15382,7 @@
       "error": {
         "emptyValues": [
           "crosses",
+          "typology",
           "buffer_width",
           "no_visible_crossing_signs"
         ],
@@ -15364,7 +15408,7 @@
       "crosses": 0,
       "seg_length": "3,5",
       "geo_id": "",
-      "typology": "CICLOFAIXA, CICLORROTA",
+      "typology_mapped": "Ciclofaixa",
       "typology_evaluated": "Ciclofaixa",
       "flow_direction": "Unidirecional no Fluxo, Bidirecional",
       "traffic_flow": "Mão Dupla",
@@ -15703,6 +15747,7 @@
       "error": {
         "emptyValues": [
           "crosses",
+          "typology",
           "flow_direction",
           "buffer_width",
           "road_width",
@@ -15730,7 +15775,7 @@
       "crosses": 0,
       "seg_length": "4,5",
       "geo_id": "",
-      "typology": "CICLOVIA",
+      "typology_mapped": "Ciclovia",
       "typology_evaluated": "Ciclovia",
       "flow_direction": "",
       "traffic_flow": "Mão Dupla",
@@ -16050,1140 +16095,6 @@
       "Audios": [
         "2024-04-18_14-48-24.3gpp",
         "2024-04-18_14-48-30.3gpp"
-      ]
-    }
-  },
-  {
-    "id": 46,
-    "result": {
-      "error": {
-        "emptyValues": [
-          "crosses",
-          "flow_direction",
-          "no_visible_crossing_signs"
-        ],
-        "warnings": {
-          "press_remove_button": 5
-        }
-      },
-      "cod": "cf061",
-      "gpx_name": "2024-04-18_17-53-33_2024-04-18_17-53-33.gpx",
-      "code": "050",
-      "scode": "000",
-      "city": "Recife",
-      "timestamp": "2024-04-18T20:53:33.000Z",
-      "evaluator_1": "Mayra",
-      "evaluator_2": "Ada",
-      "date": "2024/04/18",
-      "start_time": "17:53:33",
-      "end_time": "19:21:58",
-      "street": "Rua do Futuro",
-      "section_start": "",
-      "section_end": "",
-      "section_name": "Rua do Futuro e Rua João Ramos até a Rua Amélia.",
-      "crosses": 0,
-      "seg_length": "1,0",
-      "geo_id": "",
-      "typology": "CICLOFAIXA",
-      "typology_evaluated": "Ciclofaixa",
-      "flow_direction": "",
-      "traffic_flow": "Mão Única",
-      "localization": "No bordo esquerdo de Via de Mão Única",
-      "speed_limit": "30km/h",
-      "contiguos_lanes": "2 faixas",
-      "segregator_type": "Tachões",
-      "protection_conditions_evaluation": "SE CICLOFAIXA: para invadir a ciclo parte do automóvel passa obrigatoriamente por cima de segregadores",
-      "access_evaluation": "Segregadores NÃO DIFICULTAM o acesso de ciclistas",
-      "all_access_count": 0,
-      "way_with_access": 0,
-      "ways_without_access": 0,
-      "other_access": 0,
-      "pavement_type": "Asfalto",
-      "pavement_condition_evaluation": "Irregularidades que demandam desvio para circulação",
-      "sinuosity_evaluation": "A ciclo é completamente reta.",
-      "shading_evaluation": "Sombras em alguns trechos, SEM mudas novas",
-      "car_risk_situations": "Conversão perigosa. EXPLIQUE., Outro risco. EXPLIQUE.",
-      "bus_stops_along": 0,
-      "structure_side_change_without_speed_reducers_or_lights": 0,
-      "structure_abrupt_end_in_counterflow": 0,
-      "other_car_risk_situations": 1,
-      "all_risks_situations_count": 3,
-      "permanent_obstacles_asphalt_related": "Bueiro, Raíz, Buraco, Vala profunda, Outro obstáculo",
-      "manhole_covers": 5,
-      "roots": 1,
-      "potholes": 1,
-      "deep_gutters_along_structure": 1,
-      "unevenness_obstacles": 0,
-      "other_obstacles": 3,
-      "all_obstacles_count": 11,
-      "ridable_width": 177,
-      "buffer_width": 27,
-      "road_width": 439,
-      "parking": "Estacionamento de um lado, incluso na circulação",
-      "vertical_speed_signs_count": 2,
-      "horizontal_speed_sign_count": 0,
-      "pedestrian_crossings_count": 0,
-      "speed_bumps_count": 0,
-      "electronic_speed_control_count": 0,
-      "differentiated_floor": 0,
-      "other_control_elements_count": 0,
-      "start_indication": false,
-      "end_indication": false,
-      "on_way_vertical_signs_count": 6,
-      "crosses_with_vertical_sign_count": 1,
-      "crosses_without_vertical_sign_count": -1,
-      "horizontal_pattern_evaluation": "Pintada de vermelho com interrupções",
-      "painting_condition_evaluation": "A pintura está boa, mas FALHA em ALGUNS pontos",
-      "good_conditions_crossing_signs": 9,
-      "bad_conditions_crossing_signs": 1,
-      "no_visible_crossing_signs": -10,
-      "good_conditions_picto_signs": 32,
-      "bad_conditions_picto_signs": 8,
-      "good_conditions_arrow_signs": 32,
-      "bad_conditions_arrow_signs": 8,
-      "dedicated_ligthing": 0,
-      "same_side_ligthing": 0,
-      "both_side_ligthing": 0,
-      "other_side_ligthing": 0,
-      "structure_photos": "",
-      "comments": [
-        "bueiro com falha no asfalto",
-        "no trecho mais árvore da vida via a eliminação fica precária pois é do outro lado da ciclofaixa e ciclistas ficam diante de em trecho com muito obstáculos",
-        "estreitamento da ciclovia por conta da calçada",
-        "estreitamento da ciclofaixa por conta do avanço da calçada motivado pela arvore",
-        "conversões perigosas na rua do futuro talvez sinalização com semáforos ou outro artifícios sejam necessários "
-      ],
-      "photos": [
-        "2024-04-18_18-16-01.jpg",
-        "2024-04-18_18-18-42.jpg",
-        "2024-04-18_18-23-24.jpg",
-        "2024-04-18_18-24-25.jpg",
-        "2024-04-18_18-26-24.jpg",
-        "2024-04-18_18-26-50.jpg",
-        "2024-04-18_18-33-41.jpg",
-        "2024-04-18_18-34-26.jpg",
-        "2024-04-18_18-38-49.jpg",
-        "2024-04-22_15-38-40.jpg",
-        "2024-04-22_15-41-08.jpg",
-        "2024-04-22_15-53-12.jpg",
-        "2024-04-22_15-58-02.jpg",
-        "2024-04-22_15-58-16.jpg",
-        "2024-04-22_16-00-18.jpg"
-      ],
-      "audios": [
-        "2024-04-18_18-27-08.3gpp",
-        "2024-04-18_18-27-26.3gpp"
-      ]
-    },
-    "metadata": {
-      "dupla": "4",
-      "cod": "cf061",
-      "via": "Ciclofaixa Rua do Futuro",
-      "tipologia": "CICLOFAIXA",
-      "trecho": "Rua do Futuro e Rua João Ramos até a Rua Amélia.",
-      "bairro": "Jaqueira, Graças",
-      "extensao_km": "1,0",
-      "cruzamentos": 0,
-      "gpx_name": "2024-04-18_17-53-33_2024-04-18_17-53-33.gpx",
-      "ciclomapData": {
-        "code": "050",
-        "scode": "000",
-        "gpx_name": "2024-04-18_17-53-33_2024-04-18_17-53-33.gpx",
-        "city": "Recife",
-        "street": "Rua do Futuro",
-        "typelogy": "Ciclofaixa"
-      },
-      "Carimbo de data/hora": "2024-04-18T20:53:33.000Z",
-      "Data": "2024/04/18",
-      "Hora Início": "17:53:33",
-      "Hora Fim": "19:21:58",
-      "Avaliador(a) 1": "Mayra",
-      "Avaliador(a) 2": "Ada"
-    },
-    "tipo_da_via": {
-      "Ciclovia": 0,
-      "Ciclofaixa": 1,
-      "Ciclorrota": 0,
-      "Calçada compartilhada": 0
-    },
-    "localizacao_via": {
-      "No canteiro central": 0,
-      "Na via, junto ao canteiro": 0,
-      "No bordo direito de Via de Mão Única": 0,
-      "No bordo esquerdo de Via de Mão Única": 1,
-      "Em bordo de Via de Mão Dupla": 0,
-      "Sobre calçada": 0,
-      "Isolada": 0
-    },
-    "fluxo-via": {
-      "Mão Única": 1,
-      "Mão Dupla": 0,
-      "Mão Inglesa": 0,
-      "Pista dupla": 0
-    },
-    "fluxo-ciclo": {
-      "Unidirecional no Fluxo": 0,
-      "Bidirecional": 0,
-      "Unidirecional no Contrafluxo": 0,
-      "Bidirecional com Mão Inglesa": 0
-    },
-    "segregadores": {
-      "Canteiros": 0,
-      "Prismas": 0,
-      "Guias": 0,
-      "Gelo baiano": 0,
-      "Tachões": 1,
-      "Balizadores": 0,
-      "Pintura": 0,
-      "Vasos": 0
-    },
-    "faixas_via": {
-      "1 faixa": 0,
-      "2 faixas": 1,
-      "3 faixas": 0,
-      "4 faixas": 0,
-      "5 faixas": 0,
-      "6 faixas": 0,
-      "Mais faixas (especificar)": 0
-    },
-    "pavimento": {
-      "Concreto": 0,
-      "Asfalto": 1,
-      "Tijolo intertravado": 0,
-      "Paralelepípedo": 0,
-      "Terra": 0,
-      "Barro": 0,
-      "Outro pavimento": 0
-    },
-    "estacionamento_na_via": {
-      "Estacionamento proibido na via": 0,
-      "Estacionamento dedicado de um lado, segregado da circulação": 0,
-      "Estacionamento de um lado, incluso na circulação": 1,
-      "Estacionamento dos dois lados": 0
-    },
-    "protecao": {
-      "SE CICLOVIA: segregação impede completamente a invasão de automóvel e não há trechos desprotegidos": 0,
-      "SE CICLOFAIXA: para invadir a ciclo parte do automóvel passa obrigatoriamente por cima de segregadores": 1,
-      "AMBAS: Poucos trechos COM segregadores. Automóvel consegue passar POR ENTRE estes com facilidade.": 0,
-      "AMBAS: NENHUM ou QUASE NENHUM segregador.": 0
-    },
-    "segregadores_avaliacao": {
-      "Segregadores NÃO DIFICULTAM o acesso de ciclistas": 1,
-      "Segregadores DIFICULTAM o acesso parcialmente de ciclistas": 0,
-      "Segregadores IMPEDEM o acesso de ciclistas": 0
-    },
-    "sinuosidade": {
-      "A ciclo é completamente reta.": 1,
-      "A ciclo é sinuosa, exigindo atenção": 0,
-      "A ciclo é muito sinuosa, podendo causar colisões com obstáculos ou outros ciclistas em momentos de ultrapassagem": 0,
-      "A ciclo é muito sinuosa ou possui curvas com obstáculos que impedem visualização de entorno ou parte da estrutura": 0
-    },
-    "sombreamento": {
-      "Sombras em PRATICAMENTE TODA a extensão": 0,
-      "Sombras na MAIOR PARTE da extensão": 0,
-      "Sombras em alguns trechos, COM mudas plantadas": 0,
-      "Sombras em alguns trechos, SEM mudas novas": 1,
-      "Somente mudas novas": 0,
-      "Não há árvores nem mudas": 0
-    },
-    "pintura_vermelha_padrao": {
-      "Toda área de circulação pintada de vermelho": 0,
-      "Pintada de vermelho com interrupções": 1,
-      "Apenas faixas vermelhas nas bordas, com travessias pintadas nos cruzamentos": 0,
-      "Apenas faixas vermelhas nas bordas": 0
-    },
-    "pintura_vermelha_situacao": {
-      "A pintura está boa, COMPLETA e visível": 0,
-      "A pintura está boa, mas FALHA em ALGUNS pontos": 1,
-      "A pintura é falha em VÁRIOS pontos": 0,
-      "A pintura é MUITO falha, mostrando muito asfalto": 0,
-      "Pintura APAGADA ou somente rastros de tinta": 0
-    },
-    "padrao_de_pintura_vermelha": {
-      "Toda área de circulação pintada de vermelho": 0,
-      "Pintada de vermelho com interrupções": 1,
-      "Apenas faixas vermelhas nas bordas, com travessias pintadas nos cruzamentos": 0,
-      "Apenas faixas vermelhas nas bordas": 0
-    },
-    "pavimento_avaliacao": {
-      "Bom estado": 0,
-      "Pequenas imperfeições, como fissuras": 0,
-      "Irregularidades que demandam desvio para circulação": 1,
-      "Falhas que demandam redução de velocidade ou parada": 0,
-      "Buracos grandes que demandam saída da ciclo": 0,
-      "Totalmente destruído, impossível transitar": 0
-    },
-    "placas": {
-      "R-34": 6,
-      "A-30": 1,
-      "A-30 SEM": 0,
-      "Complementar": 3,
-      "Início": 0,
-      "Fim": 0,
-      "Semáforo exclusivo": 2,
-      "20km/h": 0,
-      "30km/h": 2,
-      "40km/h": 0,
-      "50km/h": 0,
-      "60km/h": 0,
-      "80km/h": 0
-    },
-    "sinalizacao_horizontal_qte": {
-      "Pictograma BOA condição": 32,
-      "Pictograma MÁ condição": 8,
-      "Seta BOA condição": 32,
-      "Seta MÁ condição": 8,
-      "Em cruzamento BOA condição": 9,
-      "Em cruzamento MÁ condição": 1,
-      "Em cruzamento FALTA": 0
-    },
-    "obstaculos_qte": {
-      "Bueiro": 5,
-      "Raíz": 1,
-      "Buraco": 1,
-      "Vala profunda": 1,
-      "Desnível": 0,
-      "Grade alinhada ao pneu": 0,
-      "Outro obstáculo": 3
-    },
-    "riscos": {
-      "Ponto de embarque de ônibus interrompe a ciclo": 0,
-      "Termina ciclo com ciclista na contramão": 0,
-      "A ciclo troca de lado na via, sem redutores de velocidade ou semáforos": 0,
-      "Conversão perigosa. EXPLIQUE.": 2,
-      "Cruzamento perigoso. EXPLIQUE.": 0,
-      "Outro risco. EXPLIQUE.": 1
-    },
-    "larguras_estrutura_qte": {
-      "Área transitável da ciclo (cm)": 177,
-      "Área de amortecimento da ciclo (cm)": 27,
-      "Faixa de carros logo ao lado da ciclo (cm)": 439,
-      "Total da via (incluindo a ciclo) (cm)": 0
-    },
-    "controle_de_velocidade_qte": {
-      "Pintura da velocidade no piso": 0,
-      "Travessia de pedestre em nível (lombofaixa)": 0,
-      "Lombadas físicas": 0,
-      "Radar/Lombada Eletrônica": 0,
-      "Piso diferenciado": 0,
-      "Nenhum elemento de controle de velocidade na via": 0,
-      "Outro controle": 0
-    },
-    "acesso_ciclovias": {
-      "Via transversal COM acesso à ciclovia": 0,
-      "Via transversal SEM acesso à ciclovia": 0,
-      "Acesso sem uma via transversal": 0
-    },
-    "iluminacao_estrutura_qte": {
-      "Iluminação dedicada para ciclistas": 0,
-      "Iluminação geral na via do mesmo lado da estrutura": 0,
-      "Iluminação geral na via do outro lado da infraestrutura": 0,
-      "Iluminação geral dos dois lados da via": 0
-    },
-    "bicicletarios": {
-      "U invertido": 0,
-      "Entorta roda": 0,
-      "Açougue": 0,
-      "Trave de balé": 0,
-      "Suspenso na parede": 0,
-      "Presilha na parede": 0,
-      "Outro paraciclo": 0,
-      "Tem cobertura": 0,
-      "É privado": 0,
-      "Quantidade de vagas": 0,
-      "Se tiver um nome, descreva": 0
-    },
-    "outros": {
-      "Remover": 5,
-      "Comentarios": [
-        "bueiro com falha no asfalto",
-        "no trecho mais árvore da vida via a eliminação fica precária pois é do outro lado da ciclofaixa e ciclistas ficam diante de em trecho com muito obstáculos",
-        "estreitamento da ciclovia por conta da calçada",
-        "estreitamento da ciclofaixa por conta do avanço da calçada motivado pela arvore",
-        "conversões perigosas na rua do futuro talvez sinalização com semáforos ou outro artifícios sejam necessários "
-      ],
-      "Fotos": [
-        "2024-04-18_18-16-01.jpg",
-        "2024-04-18_18-18-42.jpg",
-        "2024-04-18_18-23-24.jpg",
-        "2024-04-18_18-24-25.jpg",
-        "2024-04-18_18-26-24.jpg",
-        "2024-04-18_18-26-50.jpg",
-        "2024-04-18_18-33-41.jpg",
-        "2024-04-18_18-34-26.jpg",
-        "2024-04-18_18-38-49.jpg",
-        "2024-04-22_15-38-40.jpg",
-        "2024-04-22_15-41-08.jpg",
-        "2024-04-22_15-53-12.jpg",
-        "2024-04-22_15-58-02.jpg",
-        "2024-04-22_15-58-16.jpg",
-        "2024-04-22_16-00-18.jpg"
-      ],
-      "Audios": [
-        "2024-04-18_18-27-08.3gpp",
-        "2024-04-18_18-27-26.3gpp"
-      ]
-    }
-  },
-  {
-    "id": 47,
-    "result": {
-      "error": {
-        "emptyValues": [
-          "crosses",
-          "no_visible_crossing_signs"
-        ],
-        "warnings": {
-          "press_remove_button": 10
-        }
-      },
-      "cod": "cf025",
-      "gpx_name": "2024-04-20_15-19-26_2024-04-20_15-19-26.gpx",
-      "code": "051",
-      "scode": "000",
-      "city": "Recife",
-      "timestamp": "2024-04-20T18:19:26.000Z",
-      "evaluator_1": "Mariana",
-      "evaluator_2": "Mineiro",
-      "date": "2024/04/20",
-      "start_time": "15:19:26",
-      "end_time": "19:04:28",
-      "street": "Avenida Maurício de Nassau",
-      "section_start": "",
-      "section_end": "",
-      "section_name": "Rua Dr. João Lacerda, Av. Maurício de Nassau, Rua Nossa Senhora da Saúde e Av. Inácio Monteiro",
-      "crosses": 0,
-      "seg_length": "3,0",
-      "geo_id": "",
-      "typology": "CICLOFAIXA",
-      "typology_evaluated": "Ciclofaixa",
-      "flow_direction": "Bidirecional",
-      "traffic_flow": "Mão Única, Mão Dupla, Mão Inglesa, Pista dupla",
-      "localization": "Em bordo de Via de Mão Dupla",
-      "speed_limit": "20km/h, 40km/h, 50km/h",
-      "contiguos_lanes": "2 faixas",
-      "segregator_type": "Tachões",
-      "protection_conditions_evaluation": "AMBAS: Poucos trechos COM segregadores. Automóvel consegue passar POR ENTRE estes com facilidade.",
-      "access_evaluation": "",
-      "all_access_count": 0,
-      "way_with_access": 0,
-      "ways_without_access": 0,
-      "other_access": 0,
-      "pavement_type": "Asfalto",
-      "pavement_condition_evaluation": "Pequenas imperfeições, como fissuras",
-      "sinuosity_evaluation": "A ciclo é completamente reta.",
-      "shading_evaluation": "Sombras em alguns trechos, COM mudas plantadas",
-      "car_risk_situations": "Termina ciclo com ciclista na contramão",
-      "bus_stops_along": 0,
-      "structure_side_change_without_speed_reducers_or_lights": 0,
-      "structure_abrupt_end_in_counterflow": 1,
-      "other_car_risk_situations": 0,
-      "all_risks_situations_count": 1,
-      "permanent_obstacles_asphalt_related": "Raíz, Vala profunda, Desnível, Grade alinhada ao pneu, Outro obstáculo",
-      "manhole_covers": 0,
-      "roots": 3,
-      "potholes": 0,
-      "deep_gutters_along_structure": 3,
-      "unevenness_obstacles": 1,
-      "other_obstacles": 2,
-      "all_obstacles_count": 11,
-      "ridable_width": 200,
-      "buffer_width": 25,
-      "road_width": 380,
-      "parking": "Estacionamento proibido na via, Estacionamento de um lado, incluso na circulação",
-      "vertical_speed_signs_count": 5,
-      "horizontal_speed_sign_count": 0,
-      "pedestrian_crossings_count": 0,
-      "speed_bumps_count": 0,
-      "electronic_speed_control_count": 0,
-      "differentiated_floor": 0,
-      "other_control_elements_count": 0,
-      "start_indication": false,
-      "end_indication": false,
-      "on_way_vertical_signs_count": 0,
-      "crosses_with_vertical_sign_count": 1,
-      "crosses_without_vertical_sign_count": -1,
-      "horizontal_pattern_evaluation": "Apenas faixas vermelhas nas bordas, com travessias pintadas nos cruzamentos, Apenas faixas vermelhas nas bordas",
-      "painting_condition_evaluation": "A pintura é MUITO falha, mostrando muito asfalto",
-      "good_conditions_crossing_signs": 0,
-      "bad_conditions_crossing_signs": 2,
-      "no_visible_crossing_signs": -2,
-      "good_conditions_picto_signs": 0,
-      "bad_conditions_picto_signs": 2,
-      "good_conditions_arrow_signs": 0,
-      "bad_conditions_arrow_signs": 2,
-      "dedicated_ligthing": 0,
-      "same_side_ligthing": 0,
-      "both_side_ligthing": 0,
-      "other_side_ligthing": 0,
-      "structure_photos": "",
-      "comments": [
-        "pra seguir na ciclofaixa, na entrada da via os automóveis passam bem perto do ciclista. ",
-        "trecho sem tachões e pintura"
-      ],
-      "photos": [
-        "2024-04-20_15-21-17.jpg",
-        "2024-04-20_15-30-13.jpg",
-        "2024-04-20_15-30-47.jpg",
-        "2024-04-20_15-31-36.jpg",
-        "2024-04-20_15-32-53.jpg",
-        "2024-04-20_15-34-01.jpg",
-        "2024-04-20_15-35-02.jpg",
-        "2024-04-20_15-37-22.jpg",
-        "2024-04-20_15-38-29.jpg",
-        "2024-04-20_15-41-22.jpg",
-        "2024-04-20_15-43-01.jpg",
-        "2024-04-20_15-44-04.jpg",
-        "2024-04-20_15-44-33.jpg",
-        "2024-04-20_15-45-22.jpg",
-        "2024-04-20_15-49-42.jpg",
-        "2024-04-20_15-51-56.jpg",
-        "2024-04-20_15-52-58.jpg",
-        "2024-04-20_15-54-23.jpg",
-        "2024-04-20_15-55-10.jpg",
-        "2024-04-20_15-56-14.jpg"
-      ],
-      "audios": [
-        "2024-04-20_15-43-21.3gpp",
-        "2024-04-20_15-49-43.3gpp"
-      ]
-    },
-    "metadata": {
-      "dupla": "2",
-      "cod": "cf025",
-      "via": "Ciclofaixa Maurício de Nassau",
-      "tipologia": "CICLOFAIXA",
-      "trecho": "Rua Dr. João Lacerda, Av. Maurício de Nassau, Rua Nossa Senhora da Saúde e Av. Inácio Monteiro",
-      "bairro": "Cordeiro, Iputinga",
-      "extensao_km": "3,0",
-      "cruzamentos": 0,
-      "gpx_name": "2024-04-20_15-19-26_2024-04-20_15-19-26.gpx",
-      "ciclomapData": {
-        "code": "051",
-        "scode": "000",
-        "gpx_name": "2024-04-20_15-19-26_2024-04-20_15-19-26.gpx",
-        "city": "Recife",
-        "street": "Avenida Maurício de Nassau",
-        "typelogy": "Ciclofaixa"
-      },
-      "Carimbo de data/hora": "2024-04-20T18:19:26.000Z",
-      "Data": "2024/04/20",
-      "Hora Início": "15:19:26",
-      "Hora Fim": "19:04:28",
-      "Avaliador(a) 1": "Mariana",
-      "Avaliador(a) 2": "Mineiro"
-    },
-    "tipo_da_via": {
-      "Ciclovia": 0,
-      "Ciclofaixa": 1,
-      "Ciclorrota": 0,
-      "Calçada compartilhada": 0
-    },
-    "localizacao_via": {
-      "No canteiro central": 0,
-      "Na via, junto ao canteiro": 0,
-      "No bordo direito de Via de Mão Única": 0,
-      "No bordo esquerdo de Via de Mão Única": 0,
-      "Em bordo de Via de Mão Dupla": 1,
-      "Sobre calçada": 0,
-      "Isolada": 0
-    },
-    "fluxo-via": {
-      "Mão Única": 34,
-      "Mão Dupla": 27,
-      "Mão Inglesa": 16,
-      "Pista dupla": 6
-    },
-    "fluxo-ciclo": {
-      "Unidirecional no Fluxo": 0,
-      "Bidirecional": 1,
-      "Unidirecional no Contrafluxo": 0,
-      "Bidirecional com Mão Inglesa": 0
-    },
-    "segregadores": {
-      "Canteiros": 0,
-      "Prismas": 0,
-      "Guias": 0,
-      "Gelo baiano": 0,
-      "Tachões": 1,
-      "Balizadores": 0,
-      "Pintura": 0,
-      "Vasos": 0
-    },
-    "faixas_via": {
-      "1 faixa": 0,
-      "2 faixas": 1,
-      "3 faixas": 0,
-      "4 faixas": 0,
-      "5 faixas": 0,
-      "6 faixas": 0,
-      "Mais faixas (especificar)": 0
-    },
-    "pavimento": {
-      "Concreto": 0,
-      "Asfalto": 1,
-      "Tijolo intertravado": 0,
-      "Paralelepípedo": 0,
-      "Terra": 0,
-      "Barro": 0,
-      "Outro pavimento": 0
-    },
-    "estacionamento_na_via": {
-      "Estacionamento proibido na via": 1,
-      "Estacionamento dedicado de um lado, segregado da circulação": 0,
-      "Estacionamento de um lado, incluso na circulação": 2,
-      "Estacionamento dos dois lados": 0
-    },
-    "protecao": {
-      "SE CICLOVIA: segregação impede completamente a invasão de automóvel e não há trechos desprotegidos": 0,
-      "SE CICLOFAIXA: para invadir a ciclo parte do automóvel passa obrigatoriamente por cima de segregadores": 0,
-      "AMBAS: Poucos trechos COM segregadores. Automóvel consegue passar POR ENTRE estes com facilidade.": 1,
-      "AMBAS: NENHUM ou QUASE NENHUM segregador.": 0
-    },
-    "segregadores_avaliacao": {
-      "Segregadores NÃO DIFICULTAM o acesso de ciclistas": 0,
-      "Segregadores DIFICULTAM o acesso parcialmente de ciclistas": 0,
-      "Segregadores IMPEDEM o acesso de ciclistas": 0
-    },
-    "sinuosidade": {
-      "A ciclo é completamente reta.": 1,
-      "A ciclo é sinuosa, exigindo atenção": 0,
-      "A ciclo é muito sinuosa, podendo causar colisões com obstáculos ou outros ciclistas em momentos de ultrapassagem": 0,
-      "A ciclo é muito sinuosa ou possui curvas com obstáculos que impedem visualização de entorno ou parte da estrutura": 0
-    },
-    "sombreamento": {
-      "Sombras em PRATICAMENTE TODA a extensão": 0,
-      "Sombras na MAIOR PARTE da extensão": 0,
-      "Sombras em alguns trechos, COM mudas plantadas": 1,
-      "Sombras em alguns trechos, SEM mudas novas": 0,
-      "Somente mudas novas": 0,
-      "Não há árvores nem mudas": 0
-    },
-    "pintura_vermelha_padrao": {
-      "Toda área de circulação pintada de vermelho": 0,
-      "Pintada de vermelho com interrupções": 0,
-      "Apenas faixas vermelhas nas bordas, com travessias pintadas nos cruzamentos": 1,
-      "Apenas faixas vermelhas nas bordas": 1
-    },
-    "pintura_vermelha_situacao": {
-      "A pintura está boa, COMPLETA e visível": 0,
-      "A pintura está boa, mas FALHA em ALGUNS pontos": 0,
-      "A pintura é falha em VÁRIOS pontos": 0,
-      "A pintura é MUITO falha, mostrando muito asfalto": 1,
-      "Pintura APAGADA ou somente rastros de tinta": 0
-    },
-    "padrao_de_pintura_vermelha": {
-      "Toda área de circulação pintada de vermelho": 0,
-      "Pintada de vermelho com interrupções": 0,
-      "Apenas faixas vermelhas nas bordas, com travessias pintadas nos cruzamentos": 1,
-      "Apenas faixas vermelhas nas bordas": 1
-    },
-    "pavimento_avaliacao": {
-      "Bom estado": 0,
-      "Pequenas imperfeições, como fissuras": 1,
-      "Irregularidades que demandam desvio para circulação": 0,
-      "Falhas que demandam redução de velocidade ou parada": 0,
-      "Buracos grandes que demandam saída da ciclo": 0,
-      "Totalmente destruído, impossível transitar": 0
-    },
-    "placas": {
-      "R-34": 0,
-      "A-30": 1,
-      "A-30 SEM": 0,
-      "Complementar": 2,
-      "Início": 0,
-      "Fim": 0,
-      "Semáforo exclusivo": 0,
-      "20km/h": 2,
-      "30km/h": 0,
-      "40km/h": 2,
-      "50km/h": 1,
-      "60km/h": 0,
-      "80km/h": 0
-    },
-    "sinalizacao_horizontal_qte": {
-      "Pictograma BOA condição": 0,
-      "Pictograma MÁ condição": 2,
-      "Seta BOA condição": 0,
-      "Seta MÁ condição": 2,
-      "Em cruzamento BOA condição": 0,
-      "Em cruzamento MÁ condição": 2,
-      "Em cruzamento FALTA": 0
-    },
-    "obstaculos_qte": {
-      "Bueiro": 0,
-      "Raíz": 3,
-      "Buraco": 0,
-      "Vala profunda": 3,
-      "Desnível": 1,
-      "Grade alinhada ao pneu": 2,
-      "Outro obstáculo": 2
-    },
-    "riscos": {
-      "Ponto de embarque de ônibus interrompe a ciclo": 0,
-      "Termina ciclo com ciclista na contramão": 1,
-      "A ciclo troca de lado na via, sem redutores de velocidade ou semáforos": 0,
-      "Conversão perigosa. EXPLIQUE.": 0,
-      "Cruzamento perigoso. EXPLIQUE.": 0,
-      "Outro risco. EXPLIQUE.": 0
-    },
-    "larguras_estrutura_qte": {
-      "Área transitável da ciclo (cm)": 200,
-      "Área de amortecimento da ciclo (cm)": 25,
-      "Faixa de carros logo ao lado da ciclo (cm)": 380,
-      "Total da via (incluindo a ciclo) (cm)": 1157
-    },
-    "controle_de_velocidade_qte": {
-      "Pintura da velocidade no piso": 0,
-      "Travessia de pedestre em nível (lombofaixa)": 0,
-      "Lombadas físicas": 0,
-      "Radar/Lombada Eletrônica": 0,
-      "Piso diferenciado": 0,
-      "Nenhum elemento de controle de velocidade na via": 0,
-      "Outro controle": 0
-    },
-    "acesso_ciclovias": {
-      "Via transversal COM acesso à ciclovia": 0,
-      "Via transversal SEM acesso à ciclovia": 0,
-      "Acesso sem uma via transversal": 0
-    },
-    "iluminacao_estrutura_qte": {
-      "Iluminação dedicada para ciclistas": 0,
-      "Iluminação geral na via do mesmo lado da estrutura": 0,
-      "Iluminação geral na via do outro lado da infraestrutura": 0,
-      "Iluminação geral dos dois lados da via": 0
-    },
-    "bicicletarios": {
-      "U invertido": 0,
-      "Entorta roda": 0,
-      "Açougue": 0,
-      "Trave de balé": 0,
-      "Suspenso na parede": 0,
-      "Presilha na parede": 0,
-      "Outro paraciclo": 0,
-      "Tem cobertura": 0,
-      "É privado": 0,
-      "Quantidade de vagas": 0,
-      "Se tiver um nome, descreva": 0
-    },
-    "outros": {
-      "Remover": 10,
-      "Comentarios": [
-        "pra seguir na ciclofaixa, na entrada da via os automóveis passam bem perto do ciclista. ",
-        "trecho sem tachões e pintura"
-      ],
-      "Fotos": [
-        "2024-04-20_15-21-17.jpg",
-        "2024-04-20_15-30-13.jpg",
-        "2024-04-20_15-30-47.jpg",
-        "2024-04-20_15-31-36.jpg",
-        "2024-04-20_15-32-53.jpg",
-        "2024-04-20_15-34-01.jpg",
-        "2024-04-20_15-35-02.jpg",
-        "2024-04-20_15-37-22.jpg",
-        "2024-04-20_15-38-29.jpg",
-        "2024-04-20_15-41-22.jpg",
-        "2024-04-20_15-43-01.jpg",
-        "2024-04-20_15-44-04.jpg",
-        "2024-04-20_15-44-33.jpg",
-        "2024-04-20_15-45-22.jpg",
-        "2024-04-20_15-49-42.jpg",
-        "2024-04-20_15-51-56.jpg",
-        "2024-04-20_15-52-58.jpg",
-        "2024-04-20_15-54-23.jpg",
-        "2024-04-20_15-55-10.jpg",
-        "2024-04-20_15-56-14.jpg"
-      ],
-      "Audios": [
-        "2024-04-20_15-43-21.3gpp",
-        "2024-04-20_15-49-43.3gpp"
-      ]
-    }
-  },
-  {
-    "id": 48,
-    "result": {
-      "error": {
-        "emptyValues": [
-          "crosses",
-          "localization",
-          "segregator_type",
-          "protection_conditions_evaluation",
-          "ridable_width",
-          "buffer_width",
-          "road_width",
-          "horizontal_pattern_evaluation",
-          "painting_condition_evaluation",
-          "no_visible_crossing_signs"
-        ],
-        "warnings": {
-          "press_remove_button": 1
-        }
-      },
-      "cod": "cr044",
-      "gpx_name": "2024-04-20_16-08-37_2024-04-20_16-08-37.gpx",
-      "code": "052",
-      "scode": "000",
-      "city": "Recife",
-      "timestamp": "2024-04-20T19:08:37.000Z",
-      "evaluator_1": "Mariana",
-      "evaluator_2": "Mineiro",
-      "date": "2024/04/20",
-      "start_time": "16:08:37",
-      "end_time": "19:53:12",
-      "street": "Rua Leal de Barros",
-      "section_start": "",
-      "section_end": "",
-      "section_name": "Parque Caiara, Travessa Dr. José Anastácio da Silva Guimarães, Rua Dr. José Anastácio da Silva Guimarães, Rua Leal de Barros, Rua São Mateus, Rua Simonésia, Av.\nJornalista Possidônio Cavalcanti Bastos, Rua Maria de Fátima Soares e volta para Rua Leal de Barros. Rua Desembargador Oscar\nCoutinho.",
-      "crosses": 0,
-      "seg_length": "3,5",
-      "geo_id": "",
-      "typology": "CICLOFAIXA, CICLORROTA",
-      "typology_evaluated": "Ciclorrota",
-      "flow_direction": "Unidirecional no Contrafluxo",
-      "traffic_flow": "Mão Dupla",
-      "localization": "",
-      "speed_limit": "30km/h",
-      "contiguos_lanes": "2 faixas",
-      "segregator_type": "",
-      "protection_conditions_evaluation": "",
-      "access_evaluation": "",
-      "all_access_count": 0,
-      "way_with_access": 0,
-      "ways_without_access": 0,
-      "other_access": 0,
-      "pavement_type": "Asfalto",
-      "pavement_condition_evaluation": "Falhas que demandam redução de velocidade ou parada",
-      "sinuosity_evaluation": "A ciclo é sinuosa, exigindo atenção",
-      "shading_evaluation": "Sombras em alguns trechos, COM mudas plantadas",
-      "car_risk_situations": "Termina ciclo com ciclista na contramão, Outro risco. EXPLIQUE.",
-      "bus_stops_along": 0,
-      "structure_side_change_without_speed_reducers_or_lights": 0,
-      "structure_abrupt_end_in_counterflow": 2,
-      "other_car_risk_situations": 2,
-      "all_risks_situations_count": 4,
-      "permanent_obstacles_asphalt_related": "Buraco",
-      "manhole_covers": 0,
-      "roots": 0,
-      "potholes": 2,
-      "deep_gutters_along_structure": 0,
-      "unevenness_obstacles": 0,
-      "other_obstacles": 0,
-      "all_obstacles_count": 2,
-      "ridable_width": 0,
-      "buffer_width": 0,
-      "road_width": 0,
-      "parking": "Estacionamento de um lado, incluso na circulação, Estacionamento dos dois lados",
-      "vertical_speed_signs_count": 2,
-      "horizontal_speed_sign_count": 0,
-      "pedestrian_crossings_count": 0,
-      "speed_bumps_count": 7,
-      "electronic_speed_control_count": 0,
-      "differentiated_floor": 0,
-      "other_control_elements_count": 0,
-      "start_indication": false,
-      "end_indication": false,
-      "on_way_vertical_signs_count": 0,
-      "crosses_with_vertical_sign_count": 2,
-      "crosses_without_vertical_sign_count": -2,
-      "horizontal_pattern_evaluation": "",
-      "painting_condition_evaluation": "",
-      "good_conditions_crossing_signs": 0,
-      "bad_conditions_crossing_signs": 0,
-      "no_visible_crossing_signs": 0,
-      "good_conditions_picto_signs": 1,
-      "bad_conditions_picto_signs": 3,
-      "good_conditions_arrow_signs": 0,
-      "bad_conditions_arrow_signs": 5,
-      "dedicated_ligthing": 0,
-      "same_side_ligthing": 0,
-      "both_side_ligthing": 0,
-      "other_side_ligthing": 0,
-      "structure_photos": "",
-      "comments": [
-        "até agora nenhuma sinalização de Ciclorrota ",
-        "final de trecho da Ciclorrota que desemboca na obra da prefeitura da ponte Jaime Gusmão, que irá interligar a av.  dezessete de agosto. A ciclofaixa deste trecho está fragmentada. ",
-        "Final do trecho de Ciclorrota do caiara. Quase nenhuma indicação que indique esta rota. Além disso, grande parte com asfalto de péssima qualidade, com buracos e fissuras, e linhas de ônibus passando em trecho estreito. "
-      ],
-      "photos": [
-        "2024-04-20_16-11-56.jpg",
-        "2024-04-20_16-12-02.jpg",
-        "2024-04-20_16-12-43.jpg",
-        "2024-04-20_16-13-35.jpg",
-        "2024-04-20_16-14-14.jpg",
-        "2024-04-20_16-17-52.jpg",
-        "2024-04-20_16-20-35.jpg",
-        "2024-04-20_16-25-01.jpg",
-        "2024-04-20_16-25-12.jpg",
-        "2024-04-20_16-27-13.jpg",
-        "2024-04-20_16-28-45.jpg",
-        "2024-04-20_16-28-50.jpg",
-        "2024-04-20_16-29-44.jpg",
-        "2024-04-20_16-30-03.jpg",
-        "2024-04-20_16-30-37.jpg",
-        "2024-04-20_16-30-52.jpg",
-        "2024-04-20_16-31-00.jpg",
-        "2024-04-20_16-35-30.jpg",
-        "2024-04-20_16-47-42.jpg",
-        "2024-04-20_16-48-10.jpg",
-        "2024-04-20_16-49-34.jpg",
-        "2024-04-20_16-50-25.jpg"
-      ],
-      "audios": [
-        "2024-04-20_16-34-23.3gpp"
-      ]
-    },
-    "metadata": {
-      "dupla": "2",
-      "cod": "cr044",
-      "via": "Rota Parque Caiara",
-      "tipologia": "CICLOFAIXA, CICLORROTA",
-      "trecho": "Parque Caiara, Travessa Dr. José Anastácio da Silva Guimarães, Rua Dr. José Anastácio da Silva Guimarães, Rua Leal de Barros, Rua São Mateus, Rua Simonésia, Av.\nJornalista Possidônio Cavalcanti Bastos, Rua Maria de Fátima Soares e volta para Rua Leal de Barros. Rua Desembargador Oscar\nCoutinho.",
-      "bairro": "Iputinga",
-      "extensao_km": "3,5",
-      "cruzamentos": 0,
-      "gpx_name": "2024-04-20_16-08-37_2024-04-20_16-08-37.gpx",
-      "ciclomapData": {
-        "code": "052",
-        "scode": "000",
-        "gpx_name": "2024-04-20_16-08-37_2024-04-20_16-08-37.gpx",
-        "city": "Recife",
-        "street": "Rua Leal de Barros",
-        "typelogy": "Ciclorrota"
-      },
-      "Carimbo de data/hora": "2024-04-20T19:08:37.000Z",
-      "Data": "2024/04/20",
-      "Hora Início": "16:08:37",
-      "Hora Fim": "19:53:12",
-      "Avaliador(a) 1": "Mariana",
-      "Avaliador(a) 2": "Mineiro"
-    },
-    "tipo_da_via": {
-      "Ciclovia": 0,
-      "Ciclofaixa": 0,
-      "Ciclorrota": 3,
-      "Calçada compartilhada": 0
-    },
-    "localizacao_via": {
-      "No canteiro central": 0,
-      "Na via, junto ao canteiro": 0,
-      "No bordo direito de Via de Mão Única": 0,
-      "No bordo esquerdo de Via de Mão Única": 0,
-      "Em bordo de Via de Mão Dupla": 0,
-      "Sobre calçada": 0,
-      "Isolada": 0
-    },
-    "fluxo-via": {
-      "Mão Única": 0,
-      "Mão Dupla": 1,
-      "Mão Inglesa": 0,
-      "Pista dupla": 0
-    },
-    "fluxo-ciclo": {
-      "Unidirecional no Fluxo": 0,
-      "Bidirecional": 0,
-      "Unidirecional no Contrafluxo": 1,
-      "Bidirecional com Mão Inglesa": 0
-    },
-    "segregadores": {
-      "Canteiros": 0,
-      "Prismas": 0,
-      "Guias": 0,
-      "Gelo baiano": 0,
-      "Tachões": 0,
-      "Balizadores": 0,
-      "Pintura": 0,
-      "Vasos": 0
-    },
-    "faixas_via": {
-      "1 faixa": 0,
-      "2 faixas": 1,
-      "3 faixas": 0,
-      "4 faixas": 0,
-      "5 faixas": 0,
-      "6 faixas": 0,
-      "Mais faixas (especificar)": 0
-    },
-    "pavimento": {
-      "Concreto": 0,
-      "Asfalto": 1,
-      "Tijolo intertravado": 0,
-      "Paralelepípedo": 0,
-      "Terra": 0,
-      "Barro": 0,
-      "Outro pavimento": 0
-    },
-    "estacionamento_na_via": {
-      "Estacionamento proibido na via": 0,
-      "Estacionamento dedicado de um lado, segregado da circulação": 0,
-      "Estacionamento de um lado, incluso na circulação": 1,
-      "Estacionamento dos dois lados": 2
-    },
-    "protecao": {
-      "SE CICLOVIA: segregação impede completamente a invasão de automóvel e não há trechos desprotegidos": 0,
-      "SE CICLOFAIXA: para invadir a ciclo parte do automóvel passa obrigatoriamente por cima de segregadores": 0,
-      "AMBAS: Poucos trechos COM segregadores. Automóvel consegue passar POR ENTRE estes com facilidade.": 0,
-      "AMBAS: NENHUM ou QUASE NENHUM segregador.": 0
-    },
-    "segregadores_avaliacao": {
-      "Segregadores NÃO DIFICULTAM o acesso de ciclistas": 0,
-      "Segregadores DIFICULTAM o acesso parcialmente de ciclistas": 0,
-      "Segregadores IMPEDEM o acesso de ciclistas": 0
-    },
-    "sinuosidade": {
-      "A ciclo é completamente reta.": 0,
-      "A ciclo é sinuosa, exigindo atenção": 1,
-      "A ciclo é muito sinuosa, podendo causar colisões com obstáculos ou outros ciclistas em momentos de ultrapassagem": 0,
-      "A ciclo é muito sinuosa ou possui curvas com obstáculos que impedem visualização de entorno ou parte da estrutura": 0
-    },
-    "sombreamento": {
-      "Sombras em PRATICAMENTE TODA a extensão": 0,
-      "Sombras na MAIOR PARTE da extensão": 0,
-      "Sombras em alguns trechos, COM mudas plantadas": 1,
-      "Sombras em alguns trechos, SEM mudas novas": 0,
-      "Somente mudas novas": 0,
-      "Não há árvores nem mudas": 0
-    },
-    "pintura_vermelha_padrao": {
-      "Toda área de circulação pintada de vermelho": 0,
-      "Pintada de vermelho com interrupções": 0,
-      "Apenas faixas vermelhas nas bordas, com travessias pintadas nos cruzamentos": 0,
-      "Apenas faixas vermelhas nas bordas": 0
-    },
-    "pintura_vermelha_situacao": {
-      "A pintura está boa, COMPLETA e visível": 0,
-      "A pintura está boa, mas FALHA em ALGUNS pontos": 0,
-      "A pintura é falha em VÁRIOS pontos": 0,
-      "A pintura é MUITO falha, mostrando muito asfalto": 0,
-      "Pintura APAGADA ou somente rastros de tinta": 0
-    },
-    "padrao_de_pintura_vermelha": {
-      "Toda área de circulação pintada de vermelho": 0,
-      "Pintada de vermelho com interrupções": 0,
-      "Apenas faixas vermelhas nas bordas, com travessias pintadas nos cruzamentos": 0,
-      "Apenas faixas vermelhas nas bordas": 0
-    },
-    "pavimento_avaliacao": {
-      "Bom estado": 0,
-      "Pequenas imperfeições, como fissuras": 0,
-      "Irregularidades que demandam desvio para circulação": 0,
-      "Falhas que demandam redução de velocidade ou parada": 1,
-      "Buracos grandes que demandam saída da ciclo": 0,
-      "Totalmente destruído, impossível transitar": 0
-    },
-    "placas": {
-      "R-34": 0,
-      "A-30": 2,
-      "A-30 SEM": 0,
-      "Complementar": 0,
-      "Início": 0,
-      "Fim": 0,
-      "Semáforo exclusivo": 0,
-      "20km/h": 0,
-      "30km/h": 2,
-      "40km/h": 0,
-      "50km/h": 0,
-      "60km/h": 0,
-      "80km/h": 0
-    },
-    "sinalizacao_horizontal_qte": {
-      "Pictograma BOA condição": 1,
-      "Pictograma MÁ condição": 3,
-      "Seta BOA condição": 0,
-      "Seta MÁ condição": 5,
-      "Em cruzamento BOA condição": 0,
-      "Em cruzamento MÁ condição": 0,
-      "Em cruzamento FALTA": 0
-    },
-    "obstaculos_qte": {
-      "Bueiro": 0,
-      "Raíz": 0,
-      "Buraco": 2,
-      "Vala profunda": 0,
-      "Desnível": 0,
-      "Grade alinhada ao pneu": 0,
-      "Outro obstáculo": 0
-    },
-    "riscos": {
-      "Ponto de embarque de ônibus interrompe a ciclo": 0,
-      "Termina ciclo com ciclista na contramão": 2,
-      "A ciclo troca de lado na via, sem redutores de velocidade ou semáforos": 0,
-      "Conversão perigosa. EXPLIQUE.": 0,
-      "Cruzamento perigoso. EXPLIQUE.": 0,
-      "Outro risco. EXPLIQUE.": 2
-    },
-    "larguras_estrutura_qte": {
-      "Área transitável da ciclo (cm)": 0,
-      "Área de amortecimento da ciclo (cm)": 0,
-      "Faixa de carros logo ao lado da ciclo (cm)": 0,
-      "Total da via (incluindo a ciclo) (cm)": 0
-    },
-    "controle_de_velocidade_qte": {
-      "Pintura da velocidade no piso": 0,
-      "Travessia de pedestre em nível (lombofaixa)": 0,
-      "Lombadas físicas": 7,
-      "Radar/Lombada Eletrônica": 0,
-      "Piso diferenciado": 0,
-      "Nenhum elemento de controle de velocidade na via": 0,
-      "Outro controle": 0
-    },
-    "acesso_ciclovias": {
-      "Via transversal COM acesso à ciclovia": 0,
-      "Via transversal SEM acesso à ciclovia": 0,
-      "Acesso sem uma via transversal": 0
-    },
-    "iluminacao_estrutura_qte": {
-      "Iluminação dedicada para ciclistas": 0,
-      "Iluminação geral na via do mesmo lado da estrutura": 0,
-      "Iluminação geral na via do outro lado da infraestrutura": 0,
-      "Iluminação geral dos dois lados da via": 0
-    },
-    "bicicletarios": {
-      "U invertido": 0,
-      "Entorta roda": 0,
-      "Açougue": 0,
-      "Trave de balé": 0,
-      "Suspenso na parede": 0,
-      "Presilha na parede": 0,
-      "Outro paraciclo": 0,
-      "Tem cobertura": 0,
-      "É privado": 0,
-      "Quantidade de vagas": 0,
-      "Se tiver um nome, descreva": 0
-    },
-    "outros": {
-      "Remover": 1,
-      "Comentarios": [
-        "até agora nenhuma sinalização de Ciclorrota ",
-        "final de trecho da Ciclorrota que desemboca na obra da prefeitura da ponte Jaime Gusmão, que irá interligar a av.  dezessete de agosto. A ciclofaixa deste trecho está fragmentada. ",
-        "Final do trecho de Ciclorrota do caiara. Quase nenhuma indicação que indique esta rota. Além disso, grande parte com asfalto de péssima qualidade, com buracos e fissuras, e linhas de ônibus passando em trecho estreito. "
-      ],
-      "Fotos": [
-        "2024-04-20_16-11-56.jpg",
-        "2024-04-20_16-12-02.jpg",
-        "2024-04-20_16-12-43.jpg",
-        "2024-04-20_16-13-35.jpg",
-        "2024-04-20_16-14-14.jpg",
-        "2024-04-20_16-17-52.jpg",
-        "2024-04-20_16-20-35.jpg",
-        "2024-04-20_16-25-01.jpg",
-        "2024-04-20_16-25-12.jpg",
-        "2024-04-20_16-27-13.jpg",
-        "2024-04-20_16-28-45.jpg",
-        "2024-04-20_16-28-50.jpg",
-        "2024-04-20_16-29-44.jpg",
-        "2024-04-20_16-30-03.jpg",
-        "2024-04-20_16-30-37.jpg",
-        "2024-04-20_16-30-52.jpg",
-        "2024-04-20_16-31-00.jpg",
-        "2024-04-20_16-35-30.jpg",
-        "2024-04-20_16-47-42.jpg",
-        "2024-04-20_16-48-10.jpg",
-        "2024-04-20_16-49-34.jpg",
-        "2024-04-20_16-50-25.jpg"
-      ],
-      "Audios": [
-        "2024-04-20_16-34-23.3gpp"
       ]
     }
   }

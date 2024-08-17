@@ -91,9 +91,10 @@ export function applyParametrization(data: any, result: iGPXData, fileName: stri
         data.result.scode = data.metadata.ciclomapData["scode"];
         data.result.city = data.metadata.ciclomapData["city"];
         data.result.street = data.metadata.ciclomapData["street"];
-        data.result.typology = data.metadata["tipologia"];
-        data.result.typology_evaluated = setDataConcatTrueValues("tipo_da_via");
-        data.result.flow_direction = setDataConcatTrueValues("fluxo-ciclo");
+        data.result.typelogy_mapped = data.metadata.ciclomapData["typelogy"];
+        data.result.typelogy = data.metadata["tipologia"];
+        data.result.typelogy_evaluated = setDataConcatTrueValues("tipo_da_via");
+        data.result.flow_direction = setDataConcatTrueValues("fluxo-ciclo");        
         data.result.traffic_flow = setDataConcatTrueValues("fluxo-via");
         data.result.localization = setDataConcatTrueValues("localizacao_via");
         data.result.speed_limit = setDataConcatTrueValues("placas").split(", ").filter((placa) => placa.includes("km")).join(", ");
