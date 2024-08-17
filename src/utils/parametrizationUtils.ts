@@ -1,12 +1,13 @@
-import { iDataForms, iGPXData, iGPXNode, iDataFormsMetadata, iDataErrors } from '../interfaces';
+import { iDataForms, iGPXData, iGPXNode, iDataFormsMetadata, iDataErrors, iCrossData, iCross as iCross, iCiclomapData } from '../interfaces';
 import { readJSONFileSync } from './fileUtils';
 import { iDuo, iDuos } from '../interfaces/iDuos';
 
-export function applyParametrization(data: iDataForms, result: iGPXData, fileName: string) {
+export function applyParametrization(data: any, result: iGPXData, fileName: string) {
 
     function setDataConcatTrueValues(param: string) {
         return Object.keys(data[param]).filter(key => data[param][key] !== 0).join(', ')
     };
+
     function setErrors() {
         let error: iDataErrors = {} as iDataErrors;
 
@@ -20,7 +21,7 @@ export function applyParametrization(data: iDataForms, result: iGPXData, fileNam
             Object.keys(data.result).forEach((element) => {
                 const validKeys = [
                     "crosses",
-                    "typology",
+                    "typology_mapped",
                     "flow_direction",
                     "traffic_flow",
                     "localization",
@@ -71,25 +72,29 @@ export function applyParametrization(data: iDataForms, result: iGPXData, fileNam
             }
         }
     };
+
     function setResultData() {
         if (!data.metadata.err) {
             data.result.cod = data.metadata["cod"];
-            data.result.gpx_name = data.metadata["gpx_name"];
             data.result.timestamp = data.metadata["Carimbo de data/hora"];
             data.result.evaluator_1 = data.metadata["Avaliador(a) 1"];
             data.result.evaluator_2 = data.metadata["Avaliador(a) 2"];
             data.result.date = data.metadata["Data"];
-            data.result.typology = data.metadata["tipologia"];
             data.result.start_time = data.metadata["Hora Início"];
             data.result.end_time = data.metadata["Hora Fim"];
-            data.result.street = data.metadata["via"];
             data.result.section_start = "";
             data.result.section_end = "";
             data.result.section_name = data.metadata["trecho"];
             data.result.seg_length = data.metadata["extensao_km"];
-            data.result.crosses = data.metadata["cruzamentos"];
         }
+        data.result.gpx_name = data.metadata.ciclomapData["gpx_name"];
+        data.result.code = data.metadata.ciclomapData["code"];
+        data.result.scode = data.metadata.ciclomapData["scode"];
+        data.result.city = data.metadata.ciclomapData["city"];
+        data.result.street = data.metadata.ciclomapData["street"];
+        data.result.typology = data.metadata.ciclomapData["typology"];
         data.result.typology_evaluated = setDataConcatTrueValues("tipo_da_via");
+        data.result.crosses = data.metadata.ciclomapData["cruzamentos"];
         data.result.flow_direction = setDataConcatTrueValues("fluxo-ciclo");
         data.result.traffic_flow = setDataConcatTrueValues("fluxo-via");
         data.result.localization = setDataConcatTrueValues("localizacao_via");
@@ -140,12 +145,12 @@ export function applyParametrization(data: iDataForms, result: iGPXData, fileNam
         data.result.end_indication = Object.keys(data["placas"]).some((tipo) => tipo === "Fim" && data.placas[tipo] !== 0)
         data.result.on_way_vertical_signs_count = data.placas["R-34"];
         data.result.crosses_with_vertical_sign_count = data.placas["A-30"];
-        data.result.crosses_without_vertical_sign_count = Number(data.metadata["cruzamentos"]) - Number(data.placas["A-30"]);
+        data.result.crosses_without_vertical_sign_count = Number(data.result.crosses) - Number(data.placas["A-30"]);
         data.result.horizontal_pattern_evaluation = setDataConcatTrueValues("padrao_de_pintura_vermelha");
         data.result.painting_condition_evaluation = setDataConcatTrueValues("pintura_vermelha_situacao");
         data.result.good_conditions_crossing_signs = data.sinalizacao_horizontal_qte["Em cruzamento BOA condição"];
         data.result.bad_conditions_crossing_signs = data.sinalizacao_horizontal_qte["Em cruzamento MÁ condição"];
-        data.result.no_visible_crossing_signs = Number(data.metadata["cruzamentos"]) - Number(data.sinalizacao_horizontal_qte["Em cruzamento MÁ condição"]) - Number(data.sinalizacao_horizontal_qte["Em cruzamento BOA condição"]);
+        data.result.no_visible_crossing_signs = Number(data.result.crosses) - Number(data.sinalizacao_horizontal_qte["Em cruzamento MÁ condição"]) - Number(data.sinalizacao_horizontal_qte["Em cruzamento BOA condição"]);
         data.result.good_conditions_picto_signs = data.sinalizacao_horizontal_qte["Pictograma BOA condição"];
         data.result.bad_conditions_picto_signs = data.sinalizacao_horizontal_qte["Pictograma MÁ condição"];
         data.result.good_conditions_arrow_signs = data.sinalizacao_horizontal_qte["Seta BOA condição"];
@@ -168,21 +173,24 @@ export function applyParametrization(data: iDataForms, result: iGPXData, fileNam
 
 export function parametrization(data: iGPXData, param: string, type: string) {
     const dadosAreaAvaliacao = readJSONFileSync("./src/references/area.json");
+    const dadosAreaAvaliacaoCiclomapa = readJSONFileSync("./src/references/files_and_codes.json")
+    const dadosAreaAvaliacaoCruzamentos = readJSONFileSync("./src/references/cruzamentos.json")
     const duplas: iDuos = readJSONFileSync("./src/references/duos.json");
     const params: iDataForms = readJSONFileSync("./src/references/params.json")
+    const dadosCruzamentos: iCrossData[] = readJSONFileSync("./src/references/cruzamentos.json")
+
+
     switch (type) {
         case "metadata":
             const codigo_da_area = data.gpx.metadata[0].desc ? data.gpx.metadata[0].desc[0].toLowerCase() : "codigo de area nao informado";
-            const result = dadosAreaAvaliacao.find((elem: iDataFormsMetadata) => {
+            let result: any = {};
+            const metadataRefElement = dadosAreaAvaliacao.find((elem: iDataFormsMetadata) => {
                 const codigo = elem.cod.toLowerCase();
                 return codigo.includes(codigo_da_area);
             });
-            if (result) {
-                result["cod"] = codigo_da_area;
-                result["gpx_name"] = param;
-            } else {
-                return { "err": `No arquivo GPX '${param.replace(".gpx", "")}', o código da ciclo parece ter algo errado... cod: ${codigo_da_area}` }
-            }
+            result = metadataRefElement ? metadataRefElement : result;
+            result["cod"] = codigo_da_area;
+            result["gpx_name"] = param;
 
             function setDuoNames() {
                 const foundDuo = duplas.find((dupla: iDuo) => dupla["cod"] === result["dupla"]);
@@ -217,12 +225,54 @@ export function parametrization(data: iGPXData, param: string, type: string) {
                 const matchTime = fileName.match(regexTime);
 
                 if (matchTime) result["Hora Início"] = matchTime[1].split("-").join(":");
-                
+
                 const lastPointCap = data.gpx.wpt.pop().time[0];
                 const lastTimePointCap = lastPointCap.substr(11, 8);
                 result["Hora Fim"] = lastTimePointCap;
             }
 
+
+            function setCrosses(crossesData: iCrossData[], ciclomapData: iCiclomapData[]) {
+                function parseCrosses(dataCrossesArr: iCrossData[]): iCross[] {
+                    const result: { [key: string]: iCross } = {};
+
+                    dataCrossesArr.forEach((item) => {
+                        const codeStr = item.code.toString().replace(/^0+/, '');
+                        if (result[codeStr]) {
+                            result[codeStr].cruzamentos += 1;
+                        } else {
+                            result[codeStr] = { code: item.code, cruzamentos: 1 };
+                        }
+                    });
+
+                    return Object.values(result);
+                }
+
+                const mergeData = (codeCrossesArr: iCross[], ciclomapDataArr: iCiclomapData[]): iCiclomapData[] => {
+                    return ciclomapDataArr.map((item) => {
+                        const itemCodeStr = item.code.toString().replace(/^0+/, '');
+                        const crosses = codeCrossesArr.find((c) => {
+                            const crossCodeStr = c.code.toString().replace(/^0+/, '');
+                            return crossCodeStr === itemCodeStr;
+                        });
+                        return {
+                            ...item,
+                            cruzamentos: crosses ? crosses.cruzamentos : 0,
+                        };
+                    });
+                };
+
+                const crossesByCode = parseCrosses(crossesData);
+                const finalCiclomapMetadataObjOfArr = mergeData(crossesByCode, ciclomapData);
+
+                return finalCiclomapMetadataObjOfArr;
+            }
+
+            const finalCiclomapData = setCrosses(dadosCruzamentos, dadosAreaAvaliacaoCiclomapa)
+
+            const ciclomapDataRef = finalCiclomapData.find((elem: iCiclomapData) => elem.gpx_name.includes(param));
+
+            result["ciclomapData"] = ciclomapDataRef;
             setTimestamps();
             setDuoNames();
 
