@@ -76,25 +76,15 @@ export function applyParametrization(data: any, result: iGPXData, fileName: stri
     function setResultData() {
         if (!data.metadata.err) {
             data.result.cod = data.metadata["cod"];
-            data.result.timestamp = data.metadata["Carimbo de data/hora"];
             data.result.evaluator_1 = data.metadata["Avaliador(a) 1"];
             data.result.evaluator_2 = data.metadata["Avaliador(a) 2"];
             data.result.date = data.metadata["Data"];
-            data.result.start_time = data.metadata["Hora Início"];
-            data.result.end_time = data.metadata["Hora Fim"];
             data.result.section_start = "";
             data.result.section_end = "";
             data.result.section_name = data.metadata["trecho"];
             data.result.seg_length = data.metadata["extensao_km"];
         }
-        data.result.gpx_name = data.metadata.ciclomapData["gpx_name"];
-        data.result.code = data.metadata.ciclomapData["code"];
-        data.result.scode = data.metadata.ciclomapData["scode"];
-        data.result.city = data.metadata.ciclomapData["city"];
-        data.result.street = data.metadata.ciclomapData["street"];
-        data.result.typology = data.metadata.ciclomapData["typology"];
-        data.result.typology_evaluated = setDataConcatTrueValues("tipo_da_via");
-        data.result.crosses = data.metadata.ciclomapData["cruzamentos"];
+       
         data.result.flow_direction = setDataConcatTrueValues("fluxo-ciclo");
         data.result.traffic_flow = setDataConcatTrueValues("fluxo-via");
         data.result.localization = setDataConcatTrueValues("localizacao_via");
@@ -182,7 +172,7 @@ export function parametrization(data: iGPXData, param: string, type: string) {
 
     switch (type) {
         case "metadata":
-            const codigo_da_area = data.gpx.metadata[0].desc ? data.gpx.metadata[0].desc[0].toLowerCase() : "codigo de area nao informado";
+            const codigo_da_area = data.gpx?.metadata[0].desc ? data.gpx?.metadata[0].desc[0].toLowerCase() : "codigo de area nao informado";
             let result: any = {};
             const metadataRefElement = dadosAreaAvaliacao.find((elem: iDataFormsMetadata) => {
                 const codigo = elem.cod.toLowerCase();
@@ -225,10 +215,16 @@ export function parametrization(data: iGPXData, param: string, type: string) {
                 const matchTime = fileName.match(regexTime);
 
                 if (matchTime) result["Hora Início"] = matchTime[1].split("-").join(":");
+                if (matchTime) result["Hora Fim"] = matchTime[1].split("-").join(":") === result["Hora Início"] ? "hora fim nao informada" : matchTime[1].split("-").join(":");
 
-                const lastPointCap = data.gpx.wpt.pop().time[0];
-                const lastTimePointCap = lastPointCap.substr(11, 8);
-                result["Hora Fim"] = lastTimePointCap;
+                /*const lastPointCap = data.gpx.wpt.pop()?.time[0] ? data.gpx.wpt.pop()?.time[0] : false;
+                if (lastPointCap) {
+                    const lastTimePointCap = lastPointCap.substr(11, 8);
+                    result["Hora Fim"] = lastTimePointCap;
+                } else {
+                    result["Hora Fim"] = "nao informado"
+                };*/
+
             }
 
 

@@ -21,7 +21,7 @@ export function processGPXFile(filePath: string, fileName: string) {
             const resultFilePath = `${resultFolderPath}/data.json`;
 
             saveJSON(assessmentParams, resultFilePath);
-            console.log(`GPX ${result.gpx.metadata[0].name[0]} processado...`);
+            console.log(`GPX ${fileName} processado...`);
         });
     } catch (error) {
         console.error('Erro ao processar o arquivo GPX:', error);
@@ -30,6 +30,7 @@ export function processGPXFile(filePath: string, fileName: string) {
 
 export function processAllGPXFiles() {
     const fileNames = fs.readdirSync(gpxFolderPath);
+    console.log(fileNames)
     console.log(`Foram encontrados ${fileNames.length} arquivos`);
     console.log("Processando dados GPX");
     createDirectorySync('./src/result');
